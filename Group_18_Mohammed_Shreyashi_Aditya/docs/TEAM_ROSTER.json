@@ -28,5 +28,55 @@
       "assigned_branch": "feat/b118-spatial-voice-audio-",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Widestrom2000",
+      "title": "The collaborative cube puzzle: a manipulation task for collaborative virtual environments",
+      "authors": "J. Widestrom, A.-S. Axelsson, R. Schroeder, A. Nilsson, I. Heldal, A. Abelin",
+      "year": 2000,
+      "journal": "Proceedings of the third international conference on Collaborative virtual environments, pp. 149-158",
+      "doi": "10.1145/351006.351035"
+    },
+    {
+      "citation_key": "Ruddle2002",
+      "title": "Verbal communication during cooperative object manipulation",
+      "authors": "R. A. Ruddle, J. C. Savage, D. M. Jones",
+      "year": 2002,
+      "journal": "Proceedings of the 4th international conference on Collaborative virtual environments, pp. 120-127",
+      "doi": "10.1145/571878.571897"
+    },
+    {
+      "citation_key": "Pinho2002",
+      "title": "Cooperative object manipulation in immersive virtual environments: framework and techniques",
+      "authors": "M. S. Pinho, D. A. Bowman, C. M. Freitas",
+      "year": 2002,
+      "journal": "Proceedings of the ACM symposium on Virtual reality software and technology, pp. 171-178",
+      "doi": "10.1145/585740.585769"
+    },
+    {
+      "citation_key": "Baldis2001",
+      "title": "Effects of spatial audio on memory, comprehension, and preference during desktop conferences",
+      "authors": "J. J. Baldis",
+      "year": 2001,
+      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 166-173",
+      "doi": "10.1145/365024.365092"
+    },
+    {
+      "citation_key": "Ens2019",
+      "title": "Revisiting collaboration through mixed reality: The evolution of groupware",
+      "authors": "B. Ens, J. Lanir, A. Tang, S. Bateman, G. Lee, T. Piumsomboon, M. Billinghurst",
+      "year": 2019,
+      "journal": "International Journal of Human-Computer Studies, vol. 131, pp. 81-98",
+      "doi": "10.1016/j.ijhcs.2019.05.011"
+    },
+    {
+      "citation_key": "Wolff2004",
+      "title": "A Study of Event Traffic During the Shared Manipulation of Objects Within a Collaborative Virtual Environment",
+      "authors": "R. Wolff, D. J. Roberts, O. Otto",
+      "year": 2004,
+      "journal": "Presence: Teleoperators and Virtual Environments, vol. 13, no. 1, pp. 70-87",
+      "doi": "10.1162/1054746041422280"
+    }
   ]
 }
