@@ -28,5 +28,55 @@
       "assigned_branch": "feat/r054-gesture-recognition-",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Wang2009",
+      "title": "Real-time hand-tracking with a color glove",
+      "authors": "R. Y. Wang, J. Popovic",
+      "year": 2009,
+      "journal": "ACM Transactions on Graphics (SIGGRAPH 2009), vol. 28, no. 3, art. no. 63",
+      "doi": "10.1145/1531326.1531369"
+    },
+    {
+      "citation_key": "Sridhar2015",
+      "title": "Fast and robust hand tracking using detection-guided optimization",
+      "authors": "S. Sridhar, F. Mueller, A. Oulasvirta, C. Theobalt",
+      "year": 2015,
+      "journal": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3213-3221",
+      "doi": "10.1109/CVPR.2015.7298941"
+    },
+    {
+      "citation_key": "Rautaray2015",
+      "title": "Vision based hand gesture recognition for human computer interaction: a survey",
+      "authors": "S. S. Rautaray, A. Agrawal",
+      "year": 2015,
+      "journal": "Artificial Intelligence Review, vol. 43, no. 1, pp. 1-54",
+      "doi": "10.1007/s10462-012-9356-9"
+    },
+    {
+      "citation_key": "MacKenzie1993",
+      "title": "Lag as a determinant of human performance in interactive systems",
+      "authors": "I. S. MacKenzie, C. Ware",
+      "year": 1993,
+      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '93), pp. 488-493",
+      "doi": "10.1145/169059.169431"
+    },
+    {
+      "citation_key": "Lu2012",
+      "title": "Immersive manipulation of virtual objects through glove-based hand gesture interaction",
+      "authors": "G. Lu, L. K. Shark, G. Hall, U. Dengel",
+      "year": 2012,
+      "journal": "Virtual Reality, vol. 16, no. 3, pp. 243-252",
+      "doi": "10.1007/s10055-011-0195-9"
+    },
+    {
+      "citation_key": "Pavlovic1997",
+      "title": "Visual interpretation of hand gestures for human-computer interaction: a review",
+      "authors": "V. I. Pavlovic, R. Sharma, T. S. Huang",
+      "year": 1997,
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 19, no. 7, pp. 677-695",
+      "doi": "10.1109/34.598226"
+    }
   ]
 }
