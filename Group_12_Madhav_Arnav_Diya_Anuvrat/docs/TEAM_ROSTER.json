@@ -36,5 +36,55 @@
       "assigned_branch": "feat/i080-human-factors-retent",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Dhamija2006",
+      "title": "Why phishing works",
+      "authors": "R. Dhamija, J. D. Tygar, M. Hearst",
+      "year": 2006,
+      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '06), pp. 581-590",
+      "doi": "10.1145/1124772.1124861"
+    },
+    {
+      "citation_key": "Sheng2007",
+      "title": "Anti-Phishing Phil: The Design and Evaluation of an Interactive Game to Teach People Not to Fall for Phish",
+      "authors": "S. Sheng, B. Magnien, P. Kumaraguru, A. Acquisti, L. F. Cranor, J. Hong, E. Nunge",
+      "year": 2007,
+      "journal": "Proceedings of the 3rd Symposium on Usable Privacy and Security (SOUPS '07), pp. 88-99",
+      "doi": "10.1145/1280680.1280692"
+    },
+    {
+      "citation_key": "Kumaraguru2010",
+      "title": "Teaching Johnny not to fall for phish",
+      "authors": "P. Kumaraguru, S. Sheng, A. Acquisti, L. F. Cranor, J. Hong",
+      "year": 2010,
+      "journal": "ACM Transactions on Internet Technology, vol. 10, no. 2, art. no. 7",
+      "doi": "10.1145/1754393.1754396"
+    },
+    {
+      "citation_key": "Vishwanath2011",
+      "title": "Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model",
+      "authors": "A. Vishwanath, T. Herath, R. Chen, J. Wang, H. R. Rao",
+      "year": 2011,
+      "journal": "Decision Support Systems, vol. 51, no. 3, pp. 576-586",
+      "doi": "10.1016/j.dss.2011.03.002"
+    },
+    {
+      "citation_key": "Baltuttis2024",
+      "title": "Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment",
+      "authors": "D. Baltuttis, T. Teubner",
+      "year": 2024,
+      "journal": "Computers & Security, vol. 143, art. no. 103940",
+      "doi": "10.1016/j.cose.2024.103940"
+    },
+    {
+      "citation_key": "Buttussi2021",
+      "title": "A Comparison of Procedural Safety Training in Three Conditions: Virtual Reality Headset, Smartphone, and Printed Materials",
+      "authors": "F. Buttussi, L. Chittaro",
+      "year": 2021,
+      "journal": "IEEE Transactions on Learning Technologies, vol. 14, no. 1, pp. 1-15",
+      "doi": "10.1109/TLT.2020.3033766"
+    }
   ]
 }
