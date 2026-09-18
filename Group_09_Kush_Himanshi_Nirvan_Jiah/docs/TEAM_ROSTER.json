@@ -36,5 +36,55 @@
       "assigned_branch": "feat/r033-human-factors-securi",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Krombholz2015",
+      "title": "Advanced social engineering attacks",
+      "authors": "K. Krombholz, H. Hobel, M. Huber, E. Weippl",
+      "year": 2015,
+      "journal": "Journal of Information Security and Applications, vol. 22, pp. 113-122",
+      "doi": "10.1016/j.jisa.2014.09.005"
+    },
+    {
+      "citation_key": "Sheng2010",
+      "title": "Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions",
+      "authors": "S. Sheng, M. Holbrook, P. Kumaraguru, L. F. Cranor, J. Downs",
+      "year": 2010,
+      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10), pp. 373-382",
+      "doi": "10.1145/1753326.1753383"
+    },
+    {
+      "citation_key": "Vishwanath2018",
+      "title": "Suspicion, Cognition, and Automaticity Model of Phishing Susceptibility",
+      "authors": "A. Vishwanath, B. Harrison, Y. J. Ng",
+      "year": 2018,
+      "journal": "Communication Research, vol. 45, no. 8, pp. 1146-1166",
+      "doi": "10.1177/0093650215627483"
+    },
+    {
+      "citation_key": "Ferreira2015",
+      "title": "Principles of Persuasion in Social Engineering and Their Use in Phishing",
+      "authors": "A. Ferreira, L. Coventry, G. Lenzini",
+      "year": 2015,
+      "journal": "Lecture Notes in Computer Science (HCII / HAS 2015), vol. 9190, pp. 495-505",
+      "doi": "10.1007/978-3-319-20376-8_4"
+    },
+    {
+      "citation_key": "Sheng2007",
+      "title": "Anti-Phishing Phil: the design and evaluation of an interactive game to teach people not to fall for phish",
+      "authors": "S. Sheng, B. Magnien, P. Kumaraguru, A. Acquisti, L. F. Cranor, J. Hong, E. Nunge",
+      "year": 2007,
+      "journal": "Proceedings of the 3rd Symposium on Usable Privacy and Security (SOUPS '07), pp. 88-99",
+      "doi": "10.1145/1280680.1280692"
+    },
+    {
+      "citation_key": "Blascovich2002",
+      "title": "Immersive Virtual Environment Technology as a Methodological Tool for Social Psychology",
+      "authors": "J. Blascovich, J. Loomis, A. C. Beall, K. R. Swinth, C. L. Hoyt, J. N. Bailenson",
+      "year": 2002,
+      "journal": "Psychological Inquiry, vol. 13, no. 2, pp. 103-124",
+      "doi": "10.1207/S15327965PLI1302_01"
+    }
   ]
 }
