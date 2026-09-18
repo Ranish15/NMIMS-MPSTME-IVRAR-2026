@@ -36,5 +36,55 @@
       "assigned_branch": "feat/i069-human-factors-usabil",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Benson1996",
+      "title": "Disaster Triage: START, then SAVE-A New Method of Dynamic Triage for Victims of a Catastrophic Earthquake",
+      "authors": "M. Benson, K. L. Koenig, C. H. Schultz",
+      "year": 1996,
+      "journal": "Prehospital and Disaster Medicine, vol. 11, no. 2, pp. 117-124",
+      "doi": "10.1017/S1049023X0004276X"
+    },
+    {
+      "citation_key": "Wilkerson2008",
+      "title": "Using Virtual Reality Simulation for Mass-Casualty Incident Triage Training",
+      "authors": "W. Wilkerson, E. B. Avstrekh, N. E. Seymour",
+      "year": 2008,
+      "journal": "Academic Emergency Medicine, vol. 15, no. 11, pp. 1152-1159",
+      "doi": "10.1111/j.1553-2712.2008.00191.x"
+    },
+    {
+      "citation_key": "Ingrassia2015",
+      "title": "Virtual reality and live simulation: a comparative study in mass casualty incident triage training",
+      "authors": "P. L. Ingrassia, L. Ragazzoni, L. Carenzo, D. Colombo, F. L. Barra, F. Della Corte",
+      "year": 2015,
+      "journal": "European Journal of Emergency Medicine, vol. 22, no. 2, pp. 121-127",
+      "doi": "10.1097/MEJ.0000000000000132"
+    },
+    {
+      "citation_key": "Lerner2008",
+      "title": "Mass Casualty Triage: An Evaluation of the Data and Development of a Proposed National Guideline",
+      "authors": "E. B. Lerner, R. B. Schwartz, P. L. Coule, E. S. Weinstein, D. C. Cone, P. T. Armstrong",
+      "year": 2008,
+      "journal": "Disaster Medicine and Public Health Preparedness, vol. 2, suppl. 1, pp. S25-S34",
+      "doi": "10.1097/DMP.0b013e318182194e"
+    },
+    {
+      "citation_key": "Andreatta2010",
+      "title": "Virtual Reality Triage Training Provides a Viable Solution for Disaster Preparedness",
+      "authors": "P. B. Andreatta, E. Maslowski, S. Petty, A. Donegan, R. Huang",
+      "year": 2010,
+      "journal": "Academic Emergency Medicine, vol. 17, no. 8, pp. 870-876",
+      "doi": "10.1111/j.1553-2712.2010.00728.x"
+    },
+    {
+      "citation_key": "Farra2015",
+      "title": "Virtual reality disaster training: Translation to practice",
+      "authors": "S. Farra, E. T. Miller, E. Hodgson",
+      "year": 2015,
+      "journal": "Nurse Education in Practice, vol. 15, no. 3, pp. 175-179",
+      "doi": "10.1016/j.nepr.2013.08.017"
+    }
   ]
 }
