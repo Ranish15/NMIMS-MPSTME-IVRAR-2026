@@ -1,155 +1,123 @@
-# PBL Research & Implementation Guide — Group 01
-## VR Home Cinema Acoustics (RT60 CEDIA/CTA-RP22)
-### Introduction to VR & AR (IVRAR - 702TG0C003)
-**Academic Year:** 2026–2027 Odd Semester  
-**Program:** Open Elective (B.Tech Sem VII), SVKM's NMIMS MPSTME  
-**Governance Oversight:** Institutional Leadership & Academic Directorate  
+# Research and Implementation Guide: Unity VR Home Cinema Acoustics
+
+## Project: IVRAR Group 01
+## Target Venue: IEEE VR / ACM VRST / Audio Engineering Society (AES)
 
 ---
 
-## 🎯 Executive Problem Deconstruction & Scientific Interrogative
+## 1. Mathematical and Algorithmic Formulation
 
-### Authorized Aalborg Interrogative Research Title
-> **"To what extent can real-time acoustic raycasting and spatial audio simulation in Unity VR enable residential AV integrators to optimize reverberation time (RT60) and sightline clearance according to CEDIA/CTA-RP22 standards?"**
+### 1.1 Statistical Room Acoustics: Sabine and Eyring Formulations
+In an enclosure of volume $V$ ($m^3$) and total surface area $S$ ($m^2$), the classical Sabine formula calculates reverberation time $\text{RT}_{60}$ (time required for sound pressure level to decay by 60 dB):
 
-### 1. Scientific Hypotheses
-* **Null Hypothesis ($H_0$):** Real-time acoustic raycasting in Unity VR does not achieve RT60 reverberation time estimates within 5% of empirical Sabine/Eyring physical room measurements across standard octave bands (p >= 0.05).
-* **Alternative Hypothesis ($H_1$):** Real-time Monte Carlo acoustic raycasting (500 rays/source) in Unity VR calculates octave-band reverberation times (125 Hz to 4 kHz) with < 4.2% error against CEDIA/CTA-RP22 reference standards while sustaining >= 75 FPS on standalone VR hardware.
+$$\text{RT}_{60,\text{Sabine}} = \frac{0.161 \cdot V}{\sum_{i=1}^{M} S_i \alpha_i} = \frac{0.161 \cdot V}{A_{\text{total}}}$$
 
-### 2. Experimental Variable Decomposition
-* **Independent Variables:** Acoustic simulation algorithm (statistical Sabine/Eyring formula vs dynamic acoustic raycasting), ray count per impulse (100 to 1000 rays), and surface material absorption profiles (hard drywall vs acoustic fiberglass panels).
-* **Dependent Variables:** Reverberation time RT60 (s), render frame rate (FPS), audio spatial localization error (deg), and subjective listening clarity score.
-* **Governing Academic & Industrial Standards:** CEDIA/CTA-RP22 (Immersive Audio Design Recommended Practice), ISO 3382-2 (Measurement of room acoustic parameters), and ITU-R BS.1534 (MUSHRA audio quality evaluation).
+where $S_i$ is the area of surface $i$, $\alpha_i$ is its absorption coefficient at frequency $f$, and $A_{\text{total}}$ is the total absorption in metric Sabins.
 
----
+For dead or heavily treated rooms (such as CEDIA-certified home cinemas where average absorption $\bar{\alpha} > 0.25$), the Eyring-Norris equation provides superior accuracy by accounting for energy loss per reflection:
 
-## 👥 Student Engineering Matrix & Commit Attribution
+$$\text{RT}_{60,\text{Eyring}} = \frac{0.161 \cdot V}{-S_{\text{total}} \ln(1 - \bar{\alpha}) + 4 m V}$$
 
-| Roll No | SAP ID | Student Name | Assigned Engineering Role | Git Feature Branch |
-| :--- | :--- | :--- | :--- | :--- |
-| `I066` | `70412500015` | **Meahaan Sharma** | XR Systems Architect | `feat/i066-xr-systems-architect` |
-| `C034` | `70322200003` | **Amogh Gupta** | Spatial Acoustics & Audio Specialist | `feat/c034-spatial-acoustics-au` |
-| `N083` | `70472400056` | **Harshit Rai** | Human Factors & Usability Engineer | `feat/n083-human-factors-usabil` |
-| `N087` | `70472400098` | **Rannbir Sachdeva** | Technoeconomic Product Manager | `feat/n087-technoeconomic-produ` |
+where $\bar{\alpha} = \frac{1}{S_{\text{total}}} \sum_{i} S_i \alpha_i$ and $m$ is the atmospheric air attenuation coefficient.
 
+### 1.2 Geometrical Acoustic Raycasting & Energy Decay
+From each of the 7.1.4 loudspeaker sources, $N_{\text{rays}}$ (typically 500 to 2000) are emitted along randomized spherical vectors $\mathbf{v}_k \in S^2$. When a ray strikes surface $i$ with absorption $\alpha_i(f)$, the reflected ray direction $\mathbf{r}$ is computed via Snell's law:
 
----
+$$\mathbf{r} = \mathbf{d} - 2 (\mathbf{d} \cdot \mathbf{n}) \mathbf{n}$$
 
-## 📦 Minimum Viable Research & Simulation Deliverables (Scope Guard)
+where $\mathbf{d}$ is the incident ray unit vector and $\mathbf{n}$ is the surface normal. Ray energy $E_k$ decays according to:
 
-To ensure high scientific rigor without overburdening 4th-year undergraduate engineers, Group 01 must build and commit the following **4 core deliverables**:
+$$E_k(n+1) = E_k(n) \cdot (1 - \alpha_i(f)) \cdot e^{-m \cdot d_n}$$
 
-1. **Unity 2022.3 LTS Project (`Assets/Scenes/01_HomeCinema_Acoustics.unity`): Photorealistic home cinema interior (7.2m x 5.1m x 2.8m) with switchable acoustic wall treatments (absorption alpha from 0.05 to 0.85).**
-2. **C# Acoustic Raycasting Engine (`Assets/Scripts/AcousticRaycaster.cs`): Computes multi-bounce specular and diffuse sound reflection rays from 7.1.4 virtual speaker sites, calculating impulse response decay curves.**
-3. **RT60 Calculation & Telemetry Module (`Assets/Scripts/RT60TelemetryLogger.cs`): Schröder backward integration script computing T20/T30 and extrapolating RT60 across 125Hz, 500Hz, 1kHz, 2kHz, and 4kHz octaves, logging CSV results.**
-4. **Psychoacoustic Listening Test Protocol: A/B listening trial interface allowing users to rate perceived immersion, distance cues, and timbral coloration.**
+When a ray intersects a spherical listener detection volume around the primary listening position (radius $r_{\text{receiver}} = 0.50$ m), its arrival time $t_a = \sum d_n / c_{\text{sound}}$ and residual energy are accumulated into a discrete energy histogram $h(t)$.
 
+### 1.3 Schroeder Backward Integration
+Reverberation decay curves are extracted from the impulse response $h(t)$ using Schroeder backward integration:
 
----
+$$E_{\text{decay}}(t) = \int_{t}^{\infty} h^2(\tau) d\tau \approx \sum_{j = t/\Delta t}^{N_{\text{bins}}} h^2(j \Delta t) \Delta t$$
 
-## 🔬 Calibrated Evaluation Scale & Sample Size Framework
+The decay curve in decibels is:
+$$L(t) = 10 \log_{10} \left( \frac{E_{\text{decay}}(t)}{E_{\text{decay}}(0)} \right)$$
 
-* **Empirical Testing Scale:** N = 15 human participants with normal hearing undergoing within-subject MUSHRA listening evaluations (3 acoustic treatment conditions x 4 audio source types). Statistical analysis via repeated-measures ANOVA.
-* **Statistical Rigor Mandate:** Report both statistical significance ($p < 0.05$) and practical effect size (Cohen's $d > 0.8$ or $\eta^2$). Provide 95% confidence intervals on all primary spatial telemetry and timing metrics.
+Linear regression between $-5$ dB and $-25$ dB yields $T_{20}$, and between $-5$ dB and $-35$ dB yields $T_{30}$. The reverberation time is then extrapolated:
+$$\text{RT}_{60} = 3 \cdot T_{20} = 2 \cdot T_{30}$$
 
----
+### 1.4 CEDIA/CTA-RP22 Recommended Reverberation Target
+According to CEDIA/CTA-RP22 (Level 1 to Level 4 Home Theater Performance), recommended mid-frequency $\text{RT}_{60}$ ($500$ Hz to $2000$ Hz) scales with room volume $V$:
 
-## 📊 Publication-Ready Figures & Tables Blueprint
+$$\text{RT}_{60,\text{target}} = 0.30 \cdot \left( \frac{V}{100} \right)^{0.33} \pm 0.05 \text{ seconds}$$
 
-Every paper targeting IEEE/ACM conferences must incorporate these **3 figures** and **2 tables**:
+For a typical $102.8 \text{ m}^3$ room ($7.2 \times 5.1 \times 2.8$ m), the target range is $0.25$ s to $0.35$ s.
 
-### Figure Specifications
-1. **Figure 1 (System Block Architecture):** Acoustic Simulation Architecture: 3D cinema mesh geometry, Material absorption lookup table, Unity Physics multi-bounce raycasting, Schröder integration DSP, and binaural HRTF spatializer.
-2. **Figure 2 (Spatial Trajectory / Telemetry Timeseries):** Impulse Response Decay & RT60 Curve: Sound energy decay curve (dB vs time) showing linear regression fit for T20 and T30 across 500 Hz and 2 kHz octave bands.
-3. **Figure 3 (Comparative Performance Plot):** CEDIA Compliance Radar Chart: Measured RT60 values plotted against CEDIA/CTA-RP22 recommended tolerance envelopes (0.35s to 0.45s) across octave frequencies.
+### 1.5 SMPTE/THX Sightline Clearance Criteria
+Primary viewer seated at distance $D_{\text{screen}}$ from screen width $W_{\text{screen}}$ must satisfy:
+- Horizontal field of view: $\theta_H = 2 \arctan\left(\frac{W_{\text{screen}}}{2 D_{\text{screen}}}\right) \in [36^{\circ}, 40^{\circ}]$
+- Maximum vertical gaze angle to top of display: $\phi_V \le 15^{\circ}$
 
-### Table Specifications
-1. **Table 1 (Physics & XR Toolchain Calibration Parameters):** Acoustic Material Absorption Coefficients (alpha): Surface material parameters (drywall, acoustic fabric, leather seating, carpet underlay) from 125 Hz to 4 kHz.
-2. **Table 2 (Comparative Performance Benchmark):** Empirical Acoustic Accuracy Benchmark: Physical Measurement vs Sabine Formula vs Proposed Unity Raycaster reporting Mean RT60, Absolute Error (%), Frame Time (ms), and Subjective Immersion Score.
+### 1.6 Technoeconomic Operational Parity
+AV integrator business feasibility is formulated as dimensionless cost parity $\kappa$:
+
+$$\kappa = \frac{\text{OpEx}_{\text{vr\_simulation}}}{\text{OpEx}_{\text{physical\_rework}}} = \frac{C_{\text{software\_license}} + C_{\text{modeling\_time}}}{C_{\text{panel\_reinstallation}} + C_{\text{site\_revisit\_labor}}}$$
+
+The capital investment payback horizon in operating months is:
+$$\text{Payback Months} = \frac{K_{\text{capex}}}{1 - \kappa} \times 12$$
 
 ---
 
-## 📚 Curated Benchmark of 5 Authentic Published Papers (2021–2026)
+## 2. Individual Student Work Boundaries & Responsibilities
 
-Students must thoroughly read, cite, and benchmark their work against these **5 peer-reviewed publications**:
-
-### Paper 1: Overview of geometrical room acoustic modeling techniques
-* **Authors:** L. Savioja and U. P. Svensson
-* **Publication:** *The Journal of the Acoustical Society of America, vol. 138, no. 2, pp. 708-730* (2015)
-* **DOI:** [10.1121/1.4926438](https://doi.org/10.1121/1.4926438)
-* **Key Takeaway & Integration in Your Project:** The seminal foundation on acoustic raycasting, image source methods, and specular/diffuse sound reflection physics.
-
-### Paper 2: Acoustic classification and scene synchronization for interactive virtual environments
-* **Authors:** C. Schissler, A. Loftin, and D. Manocha
-* **Publication:** *IEEE Transactions on Visualization and Computer Graphics, vol. 24, no. 4, pp. 1600-1609* (2018)
-* **DOI:** [10.1109/TVCG.2018.2794056](https://doi.org/10.1109/TVCG.2018.2794056)
-* **Key Takeaway & Integration in Your Project:** Establishes real-time wave and ray acoustic synchronization inside interactive game engines.
-
-### Paper 3: Auralization: Fundamentals of acoustics, modelling, and virtual reality
-* **Authors:** M. Vorländer
-* **Publication:** *Springer Science & Business Media, 2nd Edition* (2020)
-* **DOI:** [10.1007/978-3-662-61508-9](https://doi.org/10.1007/978-3-662-61508-9)
-* **Key Takeaway & Integration in Your Project:** Provides the mathematical derivation for Schröder integration and reverberation time estimation.
-
-### Paper 4: RAVEN: A real-time framework for robust auralization in virtual environments
-* **Authors:** D. Schröder and M. Vorländer
-* **Publication:** *Forum Acusticum, pp. 1541-1546* (2011)
-* **DOI:** [10.1121/1.3655176](https://doi.org/10.1121/1.3655176)
-* **Key Takeaway & Integration in Your Project:** Benchmarks performance trade-offs between ray count and binaural rendering latency in interactive VR.
-
-### Paper 5: CEDIA/CTA-RP22: Immersive audio design recommended practice
-* **Authors:** CEDIA / Consumer Technology Association
-* **Publication:** *CTA Standards Publication* (2023)
-* **DOI:** [10.1109/CTA.RP22.2023](https://doi.org/10.1109/CTA.RP22.2023)
-* **Key Takeaway & Integration in Your Project:** The definitive professional standard defining acceptable RT60 target envelopes (0.3s-0.5s) for residential cinema spaces.
-
-
----
-
-## 📈 2024–2026 Review Trends & Conference Target Matrix
-
-### What Premier Peer-Reviewers Are Seeking
-* IEEE VR and AES reviewers prioritize (1) frame-rate stability (retaining >= 72 FPS without audio thread stalls), (2) valid Schröder integration rather than crude decay estimations, and (3) formal MUSHRA subjective evaluations.
-* **Human Factors & Reproducibility:** Ensure all experimental user studies follow institutional human research ethics protocols and document precise headset hardware specifications and frame rates (>= 72 FPS to prevent cybersickness).
-
-### Target Publication Venues
-* **Primary (National / Scopus):** Primary: Audio Engineering Society (AES) Convention / IEEE INDICON
-* **Aspirant (International / IEEE CORE):**  Aspirant: IEEE Conference on Virtual Reality and 3D User Interfaces (IEEE VR - CORE A*) / IEEE TVCG.
-
----
-
-## 🤖 Tailored AI Research & Development Prompt (Copy-Paste)
-
-Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, or **Claude** to generate and refine their specific Unity C# scripts, shader logic, and mathematical formulations without receiving hallucinated literature:
-
-```text
-Act as a Senior Spatial Audio and Unity C# Developer. Write a Unity 2022.3 LTS C# script that implements Monte Carlo acoustic raycasting from a virtual speaker source in a room. The script must cast 500 rays over a sphere, detect surface collisions, look up acoustic absorption coefficients (alpha) from hit materials across 5 frequency bands, compute bounce reflections up to 4 orders, and perform Schröder backward integration to calculate RT60 reverberation time. Output a CSV telemetry log. Ensure compliance with CEDIA/CTA-RP22 standards and exclude monetary figures.
+```
+===================================================================================================
+Student Roll & Name        Assigned Technical Module                       Primary Deliverable
+===================================================================================================
+I066 - Meahaan Sharma      XR Architecture, 7.1.4 Rig & Sightline Rays     Assets/Scripts/AcousticRaycaster.cs
+                                                                           (OpenXR Scene & Sightlines)
+C034 - Amogh Gupta         Acoustic Raycasting & Schroeder RT60 Engine     Assets/Scripts/RT60TelemetryLogger.cs
+                                                                           (Ray Bounces & Energy Decay)
+N083 - Harshit Rai         Human Factors, MUSHRA Protocol & Usability      telemetry/test_evaluation_tools.py
+                                                                           (ISO 3382-2 & Cybersickness)
+N087 - Rannbir Sachdeva    CEDIA Compliance, AV Rework & Business Economics telemetry/av_integration_economics.py
+                                                                           (RP22 Parity & Payback Model)
+===================================================================================================
 ```
 
+### 2.1 I066 - Meahaan Sharma (XR Systems Architect)
+- Construct the 3D home cinema scene in Unity OpenXR ($7.2 \times 5.1 \times 2.8$ m).
+- Implement 7.1.4 virtual loudspeaker placement and SMPTE/THX sightline raycast evaluation.
+- **Git Branch:** `feat/i066-xr-systems-architect`
+
+### 2.2 C034 - Amogh Gupta (Spatial Acoustics Specialist)
+- Implement multi-bounce Monte Carlo acoustic raycasting in C#.
+- Implement surface material absorption coefficients across octave bands (125 Hz to 4 kHz).
+- Implement Schroeder backward integration to calculate $T_{20}, T_{30}$, and $\text{RT}_{60}$.
+- **Git Branch:** `feat/c034-spatial-acoustics-au`
+
+### 2.3 N083 - Harshit Rai (Human Factors & Usability)
+- Formulate MUSHRA listening test protocol comparing untreated vs CEDIA-treated conditions.
+- Implement Kennedy SSQ and NASA-TLX evaluation scripts for user evaluation trials.
+- **Git Branch:** `feat/n083-human-factors-usabil`
+
+### 2.4 N087 - Rannbir Sachdeva (Technoeconomic Product Manager)
+- Implement CEDIA/CTA-RP22 compliance verification scorecards.
+- Formulate the on-site physical acoustic rework reduction model.
+- Execute statistical hypothesis tests and compute dimensionless capital payback horizons.
+- **Git Branch:** `feat/n087-technoeconomic-produ`
 
 ---
 
-## 🎓 Individual Oral Viva Defense & Technical Accountability
+## 3. Step-by-Step Implementation Roadmap
 
-During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
-
-### Meahaan Sharma (`I066` | SAP: `70412500015`)
-* **Assigned Specialty:** XR Systems Architect
-* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
-* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
-
-### Amogh Gupta (`C034` | SAP: `70322200003`)
-* **Assigned Specialty:** Spatial Acoustics & Audio Specialist
-* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
-* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
-
-### Harshit Rai (`N083` | SAP: `70472400056`)
-* **Assigned Specialty:** Human Factors & Usability Engineer
-* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
-* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
-
-### Rannbir Sachdeva (`N087` | SAP: `70472400098`)
-* **Assigned Specialty:** Technoeconomic Product Manager
-* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
-* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
-
+1. **Sprint 0: Setup & Toolchain Verification**
+   - Run `python telemetry/test_evaluation_tools.py` to confirm Python evaluation scripts.
+   - Verify OpenXR package and Unity 2022.3 LTS toolchain.
+2. **Sprint 1: Cinema Architecture & Sightlines**
+   - Build cinema geometry and verify viewer horizontal FOV ($36^{\circ}-40^{\circ}$) and vertical elevation ($< 15^{\circ}$).
+3. **Sprint 2: Acoustic Raycasting & Decay Extraction**
+   - Run C# raycaster across varying ray budgets ($N = 250, 500, 1000$ rays/source).
+   - Verify that Schroeder backward integration calculates RT60 within CEDIA bounds ($0.25-0.35$ s).
+4. **Sprint 3: Benchmarking and Economics Simulation**
+   - Run `python telemetry/generate_paper_figures.py` to produce benchmark CSV and 300 DPI figures.
+   - Run `python telemetry/av_integration_economics.py` to evaluate contractor ROI.
+5. **Sprint 4: Paper Preparation & Git Push**
+   - Draft manuscript sections using `docs/RESEARCH_PAPER_MANUSCRIPT_BLUEPRINT.md`.
+   - Run compliance audit script to guarantee zero emojis, zero currency, and strict compliance.
