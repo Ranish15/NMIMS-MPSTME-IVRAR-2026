@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Cybersecurity Pedagogy and Unity VR Specialist. Write a C# script for Unity 2022.3 LTS that simulates an office desktop environment presenting a sequence of 8 email scenarios (4 legitimate, 4 spear-phishing with spoofed domains and urgent payment requests). The script must track whether the user clicks on the email link, inspects the sender address via raycast gaze hover, or reports the email as suspicious. Export a CSV file logging scenario ID, inspection duration (s), final classification, and compute the user's score. Design the data structure to accept a follow-up test on Day 14 to calculate the Ebbinghaus retention decay rate. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Madhav Gaonkar (`D021` | SAP: `70062400100`)
+* **Assigned Specialty:** Phishing Threat Modeling Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Arnav Jain (`D030` | SAP: `70062400095`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Diya Shah (`D065` | SAP: `70062400048`)
+* **Assigned Specialty:** Eye-Gaze & Attention Tracking Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Anuvrat Tripathi (`I080` | SAP: `70412400113`)
+* **Assigned Specialty:** Human Factors & Retention Analyst
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

@@ -124,3 +124,26 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Computer Vision and Unity Systems Engineer. Write a C# script for Unity 2022.3 LTS that captures frames from a connected RGB webcam, runs an OpenCV image processing pipeline (converting to HSV, applying color thresholding to detect colored fingertip markers, finding contours, and computing center moments), and maps the resulting 2D coordinates into 3D Unity world space to manipulate a virtual object. Implement a 1€ (One Euro) smoothing filter to eliminate jitter and log per-frame latency (ms) and coordinates into a CSV file. Exclude monetary values.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Devraj Ghumare (`R014` | SAP: `70512400047`)
+* **Assigned Specialty:** Computer Vision Pipeline Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aaryesh Pathare (`R045` | SAP: `70512400057`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Jiya Saxena (`R054` | SAP: `70512400056`)
+* **Assigned Specialty:** Gesture Recognition Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

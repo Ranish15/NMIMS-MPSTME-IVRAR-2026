@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as an XR Biometrics and Security Specialist. Write a C# script for Unity 2022.3 LTS that performs continuous behavioral biometric verification. The script samples the 6-DoF transforms of the VR headset and two controllers at 90 Hz, extracts an 18-dimensional feature vector over a 3-second sliding window (mean velocity, angular acceleration variance, and hand-to-head distance), computes the Euclidean/Mahalanobis distance to an enrolled user profile, and triggers an avatar lockout screen if the anomaly score exceeds a tuned threshold. Output a CSV log of feature vectors, distances, and verification decisions. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Kartik Agrawal (`I001` | SAP: `70122400060`)
+* **Assigned Specialty:** Biometric Authentication Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Soha Chand (`I007` | SAP: `70122400036`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Atharv Dixit (`I013` | SAP: `70122400069`)
+* **Assigned Specialty:** Kinematic Telemetry Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Ojaswi Gondalia (`I019` | SAP: `70122400044`)
+* **Assigned Specialty:** Security QA & Threat Analyst
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

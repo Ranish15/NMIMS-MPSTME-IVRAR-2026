@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as an AI Conversational Agent and VR Systems Engineer. Write a Unity 2022.3 LTS C# script that manages a conversational social engineering interaction in VR. An animated virtual human approaches the user and asks for access to the server room, using Cialdini persuasion tactics (Authority: 'I am the external IT auditor'; Urgency: 'The main database will crash in 5 minutes'). Parse the user's voice input, transition the dialogue tree dynamically based on user compliance or resistance, and log the transcript, response latency, and outcome into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Kush Keswani (`I074` | SAP: `70122300047`)
+* **Assigned Specialty:** Conversational AI & Dialogue Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Himanshi Agarwal (`R002` | SAP: `70512400073`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Nirvan Chhajed (`R008` | SAP: `70512400002`)
+* **Assigned Specialty:** Eye-Gaze & Behavioral Telemetry Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Jiah Kothari (`R033` | SAP: `70512400066`)
+* **Assigned Specialty:** Human Factors & Security QA Engineer
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Corporate Physical Security Specialist and Unity VR Developer. Write a C# script for Unity 2022.3 LTS that simulates an office lobby tailgating scenario. The user approaches an RFID turnstile door and badges in. An animated non-player visitor carrying large cardboard boxes rushes toward the closing door asking, 'Could you hold that door for me please? My hands are full!' Provide interactive choices: hold door (breach), let door close (secure), or speak to direct them to the security desk. Log the response time, choice, and compliance status into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Samarth Pande (`B069` | SAP: `70022400006`)
+* **Assigned Specialty:** Physical Security Controls Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Ishan Choudhary (`B148` | SAP: `70022400844`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aarush Mishra (`B155` | SAP: `70022400840`)
+* **Assigned Specialty:** Breach Telemetry & Audit Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Sachi Kumar (`K031` | SAP: `70102400063`)
+* **Assigned Specialty:** Security QA & Compliance Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

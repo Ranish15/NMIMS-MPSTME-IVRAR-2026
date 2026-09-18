@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Mobile Augmented Reality and Computer Vision Engineer. Write a C# script for Unity using AR Foundation that integrates ArUco/QR fiducial marker tracking. When the mobile camera detects a marker at a corridor junction, the script must calculate its 6-DoF pose relative to the camera, reset the ARSession coordinate origin to eliminate accumulated VIO drift, and update a 3D spline pathway pointing toward a designated campus room across multiple floors. Log 60 Hz position, accumulated drift error (cm), and transit times into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Mishika Shah (`C136` | SAP: `70322200040`)
+* **Assigned Specialty:** Spatial Vision & AR Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Parva Gaglani (`C172` | SAP: `70322200086`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Vansh Panchal (`C139` | SAP: `70322200104`)
+* **Assigned Specialty:** Graph Algorithms & Navigation Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Triesha Shah (`C174` | SAP: `70322200143`)
+* **Assigned Specialty:** Human Factors & Usability Engineer
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

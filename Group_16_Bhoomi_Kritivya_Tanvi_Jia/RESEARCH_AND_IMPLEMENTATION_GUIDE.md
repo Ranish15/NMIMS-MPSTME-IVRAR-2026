@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as an Emergency Medicine and Virtual Reality Systems Specialist. Write a C# script for Unity 2022.3 LTS that manages a mass-casualty triage simulation based on the START algorithm. The script models 12 victim avatars with customizable vitals (respiratory rate, radial pulse refill time, ability to follow commands). When the user examines a victim, allow checking breath sounds and pulse, enable attaching a triage ribbon (Red, Yellow, Green, Black), and evaluate the decision against the true clinical category. Log assessment duration per victim (s), correct/incorrect classification, and under-triage flags into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Bhoomi Bhandari (`I004` | SAP: `70122400059`)
+* **Assigned Specialty:** Triage Clinical Protocol Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Kritivya Mishra (`I037` | SAP: `70122400043`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Tanvi Paithankar (`I044` | SAP: `70122400056`)
+* **Assigned Specialty:** Spatial Telemetry & Confusion Matrix Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Jia Jadhav (`I069` | SAP: `70122400084`)
+* **Assigned Specialty:** Human Factors & Usability Engineer
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

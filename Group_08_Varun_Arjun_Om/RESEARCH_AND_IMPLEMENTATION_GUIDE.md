@@ -124,3 +124,26 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Mobile AR Developer and Game Systems Engineer. Write a C# script for Unity using AR Foundation that drives an outdoor campus checkpoint scavenger game. The script must monitor GPS coordinates, detect when the user enters an 8-meter geofenced radius of a campus building, instantiate a floating 3D reward trophy and audio fanfare in AR space, and unlock the next checkpoint clue. Log total search time per checkpoint, user walking distance, and tracking quality into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Varun Iyer (`F050` | SAP: `70372200014`)
+* **Assigned Specialty:** Mobile AR Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Arjun Salunke (`F049` | SAP: `70372200015`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Om Kadam (`F014` | SAP: `70372200021`)
+* **Assigned Specialty:** Gamification & Telemetry Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

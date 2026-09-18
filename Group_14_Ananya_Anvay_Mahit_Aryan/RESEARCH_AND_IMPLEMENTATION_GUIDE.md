@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Space Telerobotics and Unity Simulation Engineer. Write a C# script for Unity 2022.3 LTS that simulates planetary rover teleoperation under 3.0 seconds of communication latency. The script maintains two rover models: a real physical rover whose commands are delayed through a 3.0-second FIFO queue, and a semi-transparent 'Ghost Avatar' that responds instantly to user joystick input using forward kinematics. Display both models in VR, track the path deviation (RMSE in cm) between them, log obstacle collisions, and output a 50 Hz CSV telemetry stream. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Ananya Baweja (`I003` | SAP: `70122400026`)
+* **Assigned Specialty:** Tele-Robotics & Digital Twin Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Anvay Borade (`I006` | SAP: `70122400050`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Mahit Naresh Daswani Chanchlani (`I010` | SAP: `70122400075`)
+* **Assigned Specialty:** Latency & Network Simulation Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aryan Oberoi (`I041` | SAP: `70122400039`)
+* **Assigned Specialty:** Human Factors & Teleoperation QA Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

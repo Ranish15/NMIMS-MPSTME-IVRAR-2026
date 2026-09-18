@@ -124,3 +124,26 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Forensic Science and Unity VR Simulation Developer. Write a Unity 2022.3 LTS C# script that implements a virtual 3D forensic measuring tool. The user uses an XR ray interactor to click two points in a photogrammetrically scanned crime scene. The script calculates the precise 3D Euclidean distance (in meters and centimeters), renders a dashed measurement line with a world-space text readout, and logs the measurement to a CSV file alongside evidence tag IDs and discovery timestamps. Include an accuracy validation check comparing against known ground truth coordinates. Exclude monetary values.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Shirin Sharma (`N094` | SAP: `70472400106`)
+* **Assigned Specialty:** Spatial Forensics & Photogrammetry Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Khushi Srivastava (`N101` | SAP: `70472400012`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Pranjal Thakur (`N106` | SAP: `70472400138`)
+* **Assigned Specialty:** Forensic Chain-of-Custody Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

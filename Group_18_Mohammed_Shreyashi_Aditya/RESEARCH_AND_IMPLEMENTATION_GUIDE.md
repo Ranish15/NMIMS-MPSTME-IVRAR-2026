@@ -124,3 +124,26 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Multiplayer VR and Networked Systems Engineer. Write a C# script for Unity 2022.3 LTS using Netcode for GameObjects and Unity Transport that synchronizes a collaborative 3D puzzle assembly between two networked VR players. The puzzle requires Player A to hold a stabilizing lock while Player B turns a key mechanism. Include a spatial audio listener attached to each avatar head that spatialize voice chat in 3D. Log network latency (ping), speech overlap duration (when both speak simultaneously), and puzzle completion time into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Mohammed Saquib Rakhangi (`B077` | SAP: `70022400201`)
+* **Assigned Specialty:** Multiplayer Networking Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Shreyashi Srivastava (`B112` | SAP: `70022400261`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aditya Verma (`B118` | SAP: `70022400249`)
+* **Assigned Specialty:** Spatial Voice & Audio Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

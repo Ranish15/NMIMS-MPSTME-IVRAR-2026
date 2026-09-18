@@ -123,3 +123,21 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as an XR Accessibility and Unity C# Specialist. Write a C# script for Unity 2022.3 LTS that enables completely hands-free 3D object manipulation. The script must cast a ray from the VR headset center to detect interactable objects, display a radial dwell loading progress circle (400ms), and listen for voice commands ('Grab', 'Release', 'Push', 'Pull') to manipulate the object's transform. Log 60 Hz telemetry tracking target acquisition time, distance, and success rate for a Fitts' Law analysis. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Sakshi Sharma (`A057` | SAP: `70012400052`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aryan Kanungo (`I077` | SAP: `70122500084`)
+* **Assigned Specialty:** Spatial NLP & Accessibility Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

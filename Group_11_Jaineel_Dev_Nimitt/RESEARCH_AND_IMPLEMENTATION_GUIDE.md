@@ -124,3 +124,26 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Cross-Device Interaction and AR Systems Specialist. Write a C# script for Unity 2022.3 LTS that manages a public information kiosk. When a user selects a destination classroom on the kiosk screen, generate a JSON payload containing the route coordinates, encode it into a dynamic QR code displayed on screen, and initialize a local WebSocket listener waiting for a smartphone handshake. When the smartphone scans the QR, transfer the route state, clear the kiosk display for the next person in line, and log the dwell time (s) and handoff latency (ms) into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Jaineel Shah (`R057` | SAP: `70512400041`)
+* **Assigned Specialty:** Smart Kiosk & WebXR Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Dev Garg (`S014` | SAP: `70522400103`)
+* **Assigned Specialty:** Mobile AR & Navigation Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Nimitt Jain (`S021` | SAP: `70522400099`)
+* **Assigned Specialty:** Sustainability & Usability Analyst
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+

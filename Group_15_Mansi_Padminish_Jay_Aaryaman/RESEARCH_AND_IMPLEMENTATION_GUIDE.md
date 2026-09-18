@@ -125,3 +125,31 @@ Students can copy and paste the prompt below into **Sci-Bot.ru**, **ChatGPT**, o
 ```text
 Act as a Clinical VR and Affective Computing Specialist. Write a C# script for Unity 2022.3 LTS that manages a bio-adaptive acrophobia exposure therapy session on a skyscraper rooftop. The script must sample headset pitch angle and calculate head micro-tremor variance (angular jitter in deg/s^2) at 90 Hz. Implement a 5-tier elevation state machine (from 3m to 100m). If the user maintains head jitter below a calibrated calm threshold for 30 consecutive seconds without looking away from the void, automatically advance the platform to the next height. Provide an emergency step-down button. Log telemetry and SUDS scores into a CSV file. Exclude monetary figures.
 ```
+
+
+---
+
+## 🎓 Individual Oral Viva Defense & Technical Accountability
+
+During the final oral examination before visiting academic and industry experts, each student will be examined individually on their declared specialty to verify genuine code authorship and spatial computing mastery:
+
+### Mansi Bansal (`B011` | SAP: `70022400003`)
+* **Assigned Specialty:** Bio-Adaptive State Machine Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Padminish Bakshi (`B122` | SAP: `70022400757`)
+* **Assigned Specialty:** XR Systems Architect
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Jay Gandhi (`B124` | SAP: `70022400773`)
+* **Assigned Specialty:** Gaze & Head Tremor Telemetry Specialist
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
+### Aaryaman Gehani (`B130` | SAP: `70022400799`)
+* **Assigned Specialty:** Human Factors & Clinical Usability Lead
+* **Defense Question 1:** How did you calibrate spatial tracking and motion-to-photon latency according to IEEE 2888 / ISO 9241-210 to ensure cybersickness score SSQ <= 15.0?
+* **Defense Question 2:** Explain the statistical significance (p-value and Cohen's d effect size) of your experimental usability findings across the N = 18 participant cohort.
+
