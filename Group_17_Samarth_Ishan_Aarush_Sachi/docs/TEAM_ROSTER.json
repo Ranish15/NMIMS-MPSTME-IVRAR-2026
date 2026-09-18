@@ -36,5 +36,55 @@
       "assigned_branch": "feat/k031-security-qa-complian",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Workman2007",
+      "title": "Gaining Access with Social Engineering: An Empirical Study of the Threat",
+      "authors": "M. Workman",
+      "year": 2007,
+      "journal": "Information Systems Security, vol. 16, no. 6, pp. 315-331",
+      "doi": "10.1080/10658980701788165"
+    },
+    {
+      "citation_key": "Saunders2019",
+      "title": "Validating Virtual Reality as an Effective Training Medium in the Security Domain",
+      "authors": "J. Saunders, S. Davey, P. S. Bayerl, P. Lohrmann",
+      "year": 2019,
+      "journal": "2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), pp. 1148-1149",
+      "doi": "10.1109/vr.2019.8798371"
+    },
+    {
+      "citation_key": "Tetri2013",
+      "title": "Dissecting social engineering",
+      "authors": "P. Tetri, J. Vuorinen",
+      "year": 2013,
+      "journal": "Behaviour & Information Technology, vol. 32, no. 10, pp. 1014-1023",
+      "doi": "10.1080/0144929x.2013.763860"
+    },
+    {
+      "citation_key": "Heartfield2015",
+      "title": "A Taxonomy of Attacks and a Survey of Defence Mechanisms for Semantic Social Engineering Attacks",
+      "authors": "R. Heartfield, G. Loukas",
+      "year": 2015,
+      "journal": "ACM Computing Surveys, vol. 48, no. 3, pp. 1-39",
+      "doi": "10.1145/2835375"
+    },
+    {
+      "citation_key": "Albrechtsen2010",
+      "title": "Improving information security awareness and behaviour through dialogue, participation and collective reflection. An intervention study",
+      "authors": "E. Albrechtsen, J. Hovden",
+      "year": 2010,
+      "journal": "Computers & Security, vol. 29, no. 4, pp. 432-445",
+      "doi": "10.1016/j.cose.2009.12.005"
+    },
+    {
+      "citation_key": "Cheh2019",
+      "title": "Leveraging Physical Access Logs to Identify Tailgating: Limitations and Solutions",
+      "authors": "C. Cheh, U. Thakore, B. Chen, W. G. Temple, W. H. Sanders",
+      "year": 2019,
+      "journal": "2019 15th European Dependable Computing Conference (EDCC), pp. 163-170",
+      "doi": "10.1109/edcc.2019.00032"
+    }
   ]
 }
