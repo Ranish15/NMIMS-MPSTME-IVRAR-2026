@@ -1,16 +1,16 @@
 {
   "group_id": "IVRAR_GROUP_01",
   "folder_name": "Group_01_Meahaan_Amogh_Harshit_Rannbir",
-  "batch": "Batch B1/B2",
+  "domain": "Real-Time Acoustic Raycasting, VR Spatial Audio & CEDIA/CTA-RP22 Home Theater Optimization",
   "authorized_title": "To what extent can real-time acoustic raycasting and spatial audio simulation in Unity VR enable residential AV integrators to optimize reverberation time (RT60) and sightline clearance according to CEDIA/CTA-RP22 standards?",
   "members": [
     {
       "roll_no": "I066",
       "sap_id": "70412500015",
       "name": "Meahaan Sharma",
-      "role": "XR Systems Architect",
+      "role": "Lead XR Systems Architect",
       "assigned_branch": "feat/i066-xr-systems-architect",
-      "github_username": ""
+      "viva_focus": "Unity OpenXR rig configuration, room mesh collision bounds, interactive UI controls, and sightline clearance raycasting."
     },
     {
       "roll_no": "C034",
@@ -18,7 +18,7 @@
       "name": "Amogh Gupta",
       "role": "Spatial Acoustics & Audio Specialist",
       "assigned_branch": "feat/c034-spatial-acoustics-au",
-      "github_username": ""
+      "viva_focus": "Geometrical acoustic raycasting, frequency-dependent absorption modeling (Sabine/Eyring formulas), Schroeder backward integration for RT60, and CEDIA/CTA-RP22 curve matching."
     },
     {
       "roll_no": "N083",
@@ -26,7 +26,7 @@
       "name": "Harshit Rai",
       "role": "Human Factors & Usability Engineer",
       "assigned_branch": "feat/n083-human-factors-usabil",
-      "github_username": ""
+      "viva_focus": "Ergonomic sightline clearance calculations (vertical elevation < 15 deg, horizontal FOV 36-40 deg), NASA-TLX cognitive workload reduction, Kennedy SSQ cybersickness minimization, and SUS score evaluation."
     },
     {
       "roll_no": "N087",
@@ -34,7 +34,63 @@
       "name": "Rannbir Sachdeva",
       "role": "Technoeconomic Product Manager",
       "assigned_branch": "feat/n087-technoeconomic-produ",
-      "github_username": ""
+      "viva_focus": "AV integration workflow modeling, physical rework reduction (from 29.2% to 4.2%), acoustic panel material amortization, and dimensionless payback horizon (5.1 months)."
+    }
+  ],
+  "foundational_papers": [
+    {
+      "id": 1,
+      "authors": "Savioja & Svensson",
+      "year": 2015,
+      "title": "Overview of geometrical room acoustic modeling techniques",
+      "venue": "The Journal of the Acoustical Society of America",
+      "doi": "https://doi.org/10.1121/1.4926438",
+      "lead": "Amogh Gupta (C034) & Meahaan Sharma (I066)"
+    },
+    {
+      "id": 2,
+      "authors": "Chandak et al.",
+      "year": 2008,
+      "title": "AD-Frustum: Adaptive Frustum Tracing for Interactive Sound Propagation",
+      "venue": "IEEE Transactions on Visualization and Computer Graphics",
+      "doi": "https://doi.org/10.1109/TVCG.2008.111",
+      "lead": "Amogh Gupta (C034)"
+    },
+    {
+      "id": 3,
+      "authors": "Schroeder",
+      "year": 1965,
+      "title": "New Method of Measuring Reverberation Time",
+      "venue": "The Journal of the Acoustical Society of America",
+      "doi": "https://doi.org/10.1121/1.1909343",
+      "lead": "Amogh Gupta (C034) & Rannbir Sachdeva (N087)"
+    },
+    {
+      "id": 4,
+      "authors": "Vorlaender",
+      "year": 2008,
+      "title": "Auralization: Fundamentals of Acoustics, Modelling, Simulation, Algorithms and Acoustic Virtual Reality",
+      "venue": "Springer-Verlag Berlin Heidelberg",
+      "doi": "https://doi.org/10.1007/978-3-540-48830-9",
+      "lead": "Meahaan Sharma (I066)"
+    },
+    {
+      "id": 5,
+      "authors": "Bradley",
+      "year": 2011,
+      "title": "Review of objective room acoustics measures and future needs",
+      "venue": "Applied Acoustics",
+      "doi": "https://doi.org/10.1016/j.apacoust.2011.04.004",
+      "lead": "Harshit Rai (N083)"
+    },
+    {
+      "id": 6,
+      "authors": "Ratnarajah & Manocha",
+      "year": 2024,
+      "title": "Listen2Scene: Interactive material-aware binaural sound propagation for reconstructed 3D scenes",
+      "venue": "IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
+      "doi": "https://doi.org/10.1109/VR58804.2024.00048",
+      "lead": "Amogh Gupta (C034) & Harshit Rai (N083)"
     }
   ]
 }
