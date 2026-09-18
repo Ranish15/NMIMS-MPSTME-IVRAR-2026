@@ -28,5 +28,55 @@
       "assigned_branch": "feat/s021-sustainability-usabi",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Qiao2019",
+      "title": "Web AR: A Promising Future for Mobile Augmented Reality-State of the Art, Challenges, and Insights",
+      "authors": "X. Qiao, P. Ren, S. Dustdar, L. Liu",
+      "year": 2019,
+      "journal": "Proceedings of the IEEE, vol. 107, no. 4, pp. 651-666",
+      "doi": "10.1109/JPROC.2019.2895105"
+    },
+    {
+      "citation_key": "Mulloni2011",
+      "title": "Handheld augmented reality indoor navigation with activity-based instructions",
+      "authors": "A. Mulloni, H. Seichter, D. Schmalstieg",
+      "year": 2011,
+      "journal": "Proceedings of the 13th International Conference on Human-Computer Interaction with Mobile Devices and Services (MobileHCI '11), pp. 211-220",
+      "doi": "10.1145/2037373.2037406"
+    },
+    {
+      "citation_key": "Isikdag2013",
+      "title": "A BIM-Oriented Model for supporting indoor navigation requirements",
+      "authors": "U. Isikdag, S. Zlatanova, J. Underwood",
+      "year": 2013,
+      "journal": "Computers, Environment and Urban Systems, vol. 41, pp. 112-123",
+      "doi": "10.1016/j.compenvurbsys.2013.05.001"
+    },
+    {
+      "citation_key": "Ballagas2006",
+      "title": "The Smart Phone: A Ubiquitous Input Device",
+      "authors": "R. Ballagas, J. Borchers, M. Rohs, J. G. Sheridan",
+      "year": 2006,
+      "journal": "IEEE Pervasive Computing, vol. 5, no. 1, pp. 70-77",
+      "doi": "10.1109/MPRV.2006.18"
+    },
+    {
+      "citation_key": "Davies2012",
+      "title": "Open Display Networks: A Communications Medium for the 21st Century",
+      "authors": "N. Davies, M. Langheinrich, R. Jose, A. Schmidt",
+      "year": 2012,
+      "journal": "Computer, vol. 45, no. 5, pp. 58-64",
+      "doi": "10.1109/MC.2012.114"
+    },
+    {
+      "citation_key": "Rekimoto2000",
+      "title": "CyberCode: designing augmented reality environments with visual tags",
+      "authors": "J. Rekimoto, Y. Ayatsuka",
+      "year": 2000,
+      "journal": "Proceedings of DARE 2000 on Designing Augmented Reality Environments, pp. 1-10",
+      "doi": "10.1145/354666.354667"
+    }
   ]
 }
