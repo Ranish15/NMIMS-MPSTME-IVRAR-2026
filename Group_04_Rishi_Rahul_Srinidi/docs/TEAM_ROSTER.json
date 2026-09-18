@@ -28,5 +28,55 @@
       "assigned_branch": "feat/k081-human-factors-securi",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Hake1998",
+      "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+      "authors": "R. R. Hake",
+      "year": 1998,
+      "journal": "American Journal of Physics, vol. 66, no. 1, pp. 64-74",
+      "doi": "10.1119/1.18809"
+    },
+    {
+      "citation_key": "Mouton2016",
+      "title": "Social engineering attack examples, templates and scenarios",
+      "authors": "F. Mouton, L. Leenen, H. S. Venter",
+      "year": 2016,
+      "journal": "Computers & Security, vol. 59, pp. 186-209",
+      "doi": "10.1016/j.cose.2016.03.004"
+    },
+    {
+      "citation_key": "Bosnjak2020",
+      "title": "Shoulder surfing experiments: A systematic literature review",
+      "authors": "L. Bosnjak, B. Brumen",
+      "year": 2020,
+      "journal": "Computers & Security, vol. 99, 102023",
+      "doi": "10.1016/j.cose.2020.102023"
+    },
+    {
+      "citation_key": "Workman2007",
+      "title": "Gaining Access with Social Engineering: An Empirical Study of the Threat",
+      "authors": "M. Workman",
+      "year": 2007,
+      "journal": "Information Systems Security, vol. 16, no. 6, pp. 315-331",
+      "doi": "10.1080/10658980701788165"
+    },
+    {
+      "citation_key": "Vykopal2023",
+      "title": "Smart Environment for Adaptive Learning of Cybersecurity Skills",
+      "authors": "J. Vykopal, P. Seda, V. Svabensky, P. Celeda",
+      "year": 2023,
+      "journal": "IEEE Transactions on Learning Technologies, vol. 16, no. 2, pp. 237-250",
+      "doi": "10.1109/TLT.2022.3216345"
+    },
+    {
+      "citation_key": "Williams2021",
+      "title": "Design of a Virtual Cybersecurity Escape Room",
+      "authors": "T. Williams, O. F. El-Gayar",
+      "year": 2021,
+      "journal": "Lecture Notes in Networks and Systems, vol. 310, pp. 67-82",
+      "doi": "10.1007/978-3-030-84614-5_6"
+    }
   ]
 }
