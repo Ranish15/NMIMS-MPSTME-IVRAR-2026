@@ -36,5 +36,55 @@
       "assigned_branch": "feat/c067-network-coordination",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Helbing1995",
+      "title": "Social force model for pedestrian dynamics",
+      "authors": "D. Helbing, P. Molnar",
+      "year": 1995,
+      "journal": "Physical Review E, vol. 51, no. 5, pp. 4282-4286",
+      "doi": "10.1103/PhysRevE.51.4282"
+    },
+    {
+      "citation_key": "Helbing2000",
+      "title": "Simulating dynamical features of escape panic",
+      "authors": "D. Helbing, I. Farkas, T. Vicsek",
+      "year": 2000,
+      "journal": "Nature, vol. 407, no. 6803, pp. 487-495",
+      "doi": "10.1038/35035023"
+    },
+    {
+      "citation_key": "Kobes2010",
+      "title": "Building safety and human behaviour in fire: A literature review for determine the influence of human behaviour on the risk to survive a fire",
+      "authors": "M. Kobes, I. Helsloot, B. de Vries, J. G. Post",
+      "year": 2010,
+      "journal": "Fire Safety Journal, vol. 45, no. 1, pp. 1-11",
+      "doi": "10.1016/j.firesaf.2009.08.005"
+    },
+    {
+      "citation_key": "Kinateder2014",
+      "title": "Virtual Reality for Fire Evacuation Research",
+      "authors": "M. Kinateder, E. Ronchi, D. Nilsson, M. Kobes, M. Muller, P. Pauli, A. Muhlberger",
+      "year": 2014,
+      "journal": "Annals of Computer Science and Information Systems, vol. 2, pp. 313-321",
+      "doi": "10.15439/2014F94"
+    },
+    {
+      "citation_key": "Feng2018",
+      "title": "Immersive virtual reality serious games for evacuation training and research: A systematic literature review",
+      "authors": "Z. Feng, V. A. Gonzalez, R. Amor, R. Lovreglio, G. Cabrera-Guerrero",
+      "year": 2018,
+      "journal": "Computers & Education, vol. 127, pp. 252-266",
+      "doi": "10.1016/j.compedu.2018.09.002"
+    },
+    {
+      "citation_key": "Sano2017",
+      "title": "A pedestrian merging flow model for stair evacuation",
+      "authors": "T. Sano, E. Ronchi, Y. Minegishi, D. Nilsson",
+      "year": 2017,
+      "journal": "Fire Safety Journal, vol. 89, pp. 77-89",
+      "doi": "10.1016/j.firesaf.2017.02.008"
+    }
   ]
 }
