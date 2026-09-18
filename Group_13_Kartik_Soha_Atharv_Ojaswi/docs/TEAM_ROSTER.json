@@ -36,5 +36,55 @@
       "assigned_branch": "feat/i019-security-qa-threat-a",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Pfeuffer2019",
+      "title": "Behavioural Biometrics in VR: Identifying People from How They Look, Point and Walk",
+      "authors": "K. Pfeuffer, M. J. Geiger, S. Prange, L. Meitner, F. Lindemann, F. Alt",
+      "year": 2019,
+      "journal": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI '19), art. no. 110",
+      "doi": "10.1145/3290605.3300340"
+    },
+    {
+      "citation_key": "Miller2020",
+      "title": "Personal identifiability of user tracking data during observation of 360-degree VR video",
+      "authors": "M. R. Miller, F. Herrera, H. Jun, J. A. Landay, J. N. Bailenson",
+      "year": 2020,
+      "journal": "Scientific Reports, vol. 10, no. 1, art. no. 17404",
+      "doi": "10.1038/s41598-020-74486-y"
+    },
+    {
+      "citation_key": "Miller2022",
+      "title": "Temporal Effects in Motion Behavior for Virtual Reality (VR) Biometrics",
+      "authors": "R. Miller, N. Banerjee, S. Banerjee",
+      "year": 2022,
+      "journal": "2022 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), pp. 585-594",
+      "doi": "10.1109/VR51125.2022.00076"
+    },
+    {
+      "citation_key": "Quintero2021",
+      "title": "Effective Classification of Head Motion Trajectories in Virtual Reality Using Time-Series Methods",
+      "authors": "M. Quintero, P. Papapetrou, J. Hollmen",
+      "year": 2021,
+      "journal": "2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), pp. 63-71",
+      "doi": "10.1109/AIVR52153.2021.00015"
+    },
+    {
+      "citation_key": "Chen2024",
+      "title": "SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges",
+      "authors": "L. Chen, Y. Xin, V. V. Phoha",
+      "year": 2024,
+      "journal": "IEEE Transactions on Biometrics, Behavior, and Identity Science, vol. 6, no. 2, pp. 248-261",
+      "doi": "10.1109/TBIOM.2024.3369590"
+    },
+    {
+      "citation_key": "Jain2004",
+      "title": "An Introduction to Biometric Recognition",
+      "authors": "A. K. Jain, A. Ross, S. Prabhakar",
+      "year": 2004,
+      "journal": "IEEE Transactions on Circuits and Systems for Video Technology, vol. 14, no. 1, pp. 4-20",
+      "doi": "10.1109/TCSVT.2003.818349"
+    }
   ]
 }
