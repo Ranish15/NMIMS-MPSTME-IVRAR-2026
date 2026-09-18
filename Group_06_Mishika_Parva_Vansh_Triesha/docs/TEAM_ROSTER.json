@@ -36,5 +36,55 @@
       "assigned_branch": "feat/c174-human-factors-usabil",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "GarridoJurado2014",
+      "title": "Automatic generation and detection of highly reliable fiducial markers under occlusion",
+      "authors": "S. Garrido-Jurado, R. Munoz-Salinas, F. J. Madrid-Cuevas, M. J. Marin-Jimenez",
+      "year": 2014,
+      "journal": "Pattern Recognition, vol. 47, no. 6, pp. 2280-2292",
+      "doi": "10.1016/j.patcog.2014.01.005"
+    },
+    {
+      "citation_key": "Olson2011",
+      "title": "AprilTag: A robust and flexible visual fiducial system",
+      "authors": "E. Olson",
+      "year": 2011,
+      "journal": "IEEE International Conference on Robotics and Automation (ICRA), pp. 3400-3407",
+      "doi": "10.1109/ICRA.2011.5979561"
+    },
+    {
+      "citation_key": "Qin2018",
+      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
+      "authors": "T. Qin, P. Li, S. Shen",
+      "year": 2018,
+      "journal": "IEEE Transactions on Robotics, vol. 34, no. 4, pp. 1004-1020",
+      "doi": "10.1109/TRO.2018.2853729"
+    },
+    {
+      "citation_key": "Mulloni2011",
+      "title": "Handheld augmented reality indoor navigation with activity-based instructions",
+      "authors": "A. Mulloni, H. Seichter, D. Schmalstieg",
+      "year": 2011,
+      "journal": "ACM MobileHCI 2011, pp. 211-220",
+      "doi": "10.1145/2037373.2037406"
+    },
+    {
+      "citation_key": "Kato1999",
+      "title": "Marker tracking and HMD calibration for a video-based augmented reality conferencing system",
+      "authors": "H. Kato, M. Billinghurst",
+      "year": 1999,
+      "journal": "IEEE and ACM International Workshop on Augmented Reality (IWAR), pp. 85-94",
+      "doi": "10.1109/IWAR.1999.803809"
+    },
+    {
+      "citation_key": "Isikdag2013",
+      "title": "A BIM-Oriented Model for supporting indoor navigation requirements",
+      "authors": "U. Isikdag, S. Zlatanova, J. Underwood",
+      "year": 2013,
+      "journal": "Computers, Environment and Urban Systems, vol. 41, pp. 112-123",
+      "doi": "10.1016/j.compenvurbsys.2013.05.001"
+    }
   ]
 }
