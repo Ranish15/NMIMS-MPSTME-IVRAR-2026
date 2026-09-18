@@ -36,5 +36,55 @@
       "assigned_branch": "feat/b130-human-factors-clinic",
       "github_username": ""
     }
+  ],
+  "foundational_papers": [
+    {
+      "citation_key": "Rothbaum1995",
+      "title": "Effectiveness of computer-generated (virtual reality) graded exposure in the treatment of acrophobia",
+      "authors": "B. O. Rothbaum, L. F. Hodges, R. Kooper, D. Opdyke, J. S. Williford, M. North",
+      "year": 1995,
+      "journal": "American Journal of Psychiatry, vol. 152, no. 4, pp. 626-628",
+      "doi": "10.1176/ajp.152.4.626"
+    },
+    {
+      "citation_key": "Freeman2018",
+      "title": "Automated psychological therapy using immersive virtual reality for treatment of fear of heights: a single-blind, parallel-group, randomised controlled trial",
+      "authors": "D. Freeman, P. Haselton, J. Freeman, B. Spanlang, S. Kishore, E. Albery, M. Denne, P. Brown, M. Slater, A. Nickless",
+      "year": 2018,
+      "journal": "The Lancet Psychiatry, vol. 5, no. 8, pp. 625-632",
+      "doi": "10.1016/S2215-0366(18)30226-8"
+    },
+    {
+      "citation_key": "Emmelkamp2002",
+      "title": "Virtual reality treatment versus exposure in vivo: a comparative evaluation in acrophobia",
+      "authors": "P. M. Emmelkamp, M. Krijn, A. M. Hulsbosch, S. de Vries, M. J. Schuemie, C. A. van der Mast",
+      "year": 2002,
+      "journal": "Behaviour Research and Therapy, vol. 40, no. 5, pp. 509-516",
+      "doi": "10.1016/S0005-7967(01)00023-7"
+    },
+    {
+      "citation_key": "Krijn2004",
+      "title": "Treatment of acrophobia in virtual reality: The role of immersion and presence",
+      "authors": "M. Krijn, P. M. Emmelkamp, R. Biemond, C. de Wilde de Ligny, M. J. Schuemie, C. A. van der Mast",
+      "year": 2004,
+      "journal": "Behaviour Research and Therapy, vol. 42, no. 2, pp. 229-239",
+      "doi": "10.1016/S0005-7967(03)00139-6"
+    },
+    {
+      "citation_key": "Tolin1999",
+      "title": "Visual avoidance in specific phobia",
+      "authors": "D. F. Tolin, J. M. Lohr, T. C. Lee, C. N. Sawchuk",
+      "year": 1999,
+      "journal": "Behaviour Research and Therapy, vol. 37, no. 1, pp. 63-70",
+      "doi": "10.1016/S0005-7967(98)00111-9"
+    },
+    {
+      "citation_key": "Brandt1980",
+      "title": "The Mechanism of Physiological Height Vertigo: I. Theoretical Approach and Psychophysics",
+      "authors": "T. Brandt, F. Arnold, W. Bles, T. S. Kapteyn",
+      "year": 1980,
+      "journal": "Acta Oto-Laryngologica, vol. 89, no. 3-6, pp. 513-523",
+      "doi": "10.3109/00016488009127169"
+    }
   ]
 }
