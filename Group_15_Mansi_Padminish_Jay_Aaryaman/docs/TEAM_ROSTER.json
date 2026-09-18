@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_15",
+  "folder_name": "Group_15_Mansi_Padminish_Jay_Aaryaman",
+  "batch": "Batch B1",
+  "authorized_title": "How can an automated bio-adaptive VR exposure therapy system dynamically modulate vertical environmental height based on real-time gaze avoidance and head tremor telemetry to facilitate gradual acrophobia desensitization?",
+  "members": [
+    {
+      "roll_no": "B011",
+      "sap_id": "70022400003",
+      "name": "Mansi Bansal",
+      "role": "Bio-Adaptive State Machine Lead",
+      "assigned_branch": "feat/b011-bio-adaptive-state-m",
+      "github_username": ""
+    },
+    {
+      "roll_no": "B122",
+      "sap_id": "70022400757",
+      "name": "Padminish Bakshi",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/b122-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "B124",
+      "sap_id": "70022400773",
+      "name": "Jay Gandhi",
+      "role": "Gaze & Head Tremor Telemetry Specialist",
+      "assigned_branch": "feat/b124-gaze-head-tremor-tel",
+      "github_username": ""
+    },
+    {
+      "roll_no": "B130",
+      "sap_id": "70022400799",
+      "name": "Aaryaman Gehani",
+      "role": "Human Factors & Clinical Usability Lead",
+      "assigned_branch": "feat/b130-human-factors-clinic",
+      "github_username": ""
+    }
+  ]
+}

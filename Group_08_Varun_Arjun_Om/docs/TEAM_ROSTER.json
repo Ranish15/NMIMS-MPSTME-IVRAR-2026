@@ -1,0 +1,32 @@
+{
+  "group_id": "IVRAR_GROUP_08",
+  "folder_name": "Group_08_Varun_Arjun_Om",
+  "batch": "Batch B2",
+  "authorized_title": "To what extent does a gamified mobile AR checkpoint discovery system enhance campus facility orientation and navigational self-efficacy among incoming university students?",
+  "members": [
+    {
+      "roll_no": "F050",
+      "sap_id": "70372200014",
+      "name": "Varun Iyer",
+      "role": "Mobile AR Lead",
+      "assigned_branch": "feat/f050-mobile-ar-lead",
+      "github_username": ""
+    },
+    {
+      "roll_no": "F049",
+      "sap_id": "70372200015",
+      "name": "Arjun Salunke",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/f049-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "F014",
+      "sap_id": "70372200021",
+      "name": "Om Kadam",
+      "role": "Gamification & Telemetry Specialist",
+      "assigned_branch": "feat/f014-gamification-telemet",
+      "github_username": ""
+    }
+  ]
+}

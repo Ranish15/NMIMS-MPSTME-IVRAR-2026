@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_06",
+  "folder_name": "Group_06_Mishika_Parva_Vansh_Triesha",
+  "batch": "Batch B2",
+  "authorized_title": "How can an AR visual-marker navigation system using ArUco and QR anchors optimize transit time and route-finding errors across multi-storey university buildings for first-year students?",
+  "members": [
+    {
+      "roll_no": "C136",
+      "sap_id": "70322200040",
+      "name": "Mishika Shah",
+      "role": "Spatial Vision & AR Lead",
+      "assigned_branch": "feat/c136-spatial-vision-ar-le",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C172",
+      "sap_id": "70322200086",
+      "name": "Parva Gaglani",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/c172-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C139",
+      "sap_id": "70322200104",
+      "name": "Vansh Panchal",
+      "role": "Graph Algorithms & Navigation Specialist",
+      "assigned_branch": "feat/c139-graph-algorithms-nav",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C174",
+      "sap_id": "70322200143",
+      "name": "Triesha Shah",
+      "role": "Human Factors & Usability Engineer",
+      "assigned_branch": "feat/c174-human-factors-usabil",
+      "github_username": ""
+    }
+  ]
+}

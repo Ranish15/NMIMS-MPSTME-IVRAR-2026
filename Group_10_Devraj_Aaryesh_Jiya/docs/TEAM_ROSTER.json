@@ -1,0 +1,32 @@
+{
+  "group_id": "IVRAR_GROUP_10",
+  "folder_name": "Group_10_Devraj_Aaryesh_Jiya",
+  "batch": "Batch B2",
+  "authorized_title": "How can an OpenCV-based color and fiducial hand-tracking pipeline integrated with Unity VR achieve sub-15ms latency and gesture recognition accuracy for architectural 3D model reviews without dedicated 6-DoF controllers?",
+  "members": [
+    {
+      "roll_no": "R014",
+      "sap_id": "70512400047",
+      "name": "Devraj Ghumare",
+      "role": "Computer Vision Pipeline Lead",
+      "assigned_branch": "feat/r014-computer-vision-pipe",
+      "github_username": ""
+    },
+    {
+      "roll_no": "R045",
+      "sap_id": "70512400057",
+      "name": "Aaryesh Pathare",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/r045-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "R054",
+      "sap_id": "70512400056",
+      "name": "Jiya Saxena",
+      "role": "Gesture Recognition Specialist",
+      "assigned_branch": "feat/r054-gesture-recognition-",
+      "github_username": ""
+    }
+  ]
+}

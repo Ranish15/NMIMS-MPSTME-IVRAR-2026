@@ -1,0 +1,24 @@
+{
+  "group_id": "IVRAR_GROUP_05",
+  "folder_name": "Group_05_Sakshi_Aryan",
+  "batch": "Batch B2",
+  "authorized_title": "How can voice-driven spatial NLP commands in Unity VR reduce task completion latency and interaction failure rates for motor-impaired users facing physical controller barriers?",
+  "members": [
+    {
+      "roll_no": "A057",
+      "sap_id": "70012400052",
+      "name": "Sakshi Sharma",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/a057-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I077",
+      "sap_id": "70122500084",
+      "name": "Aryan Kanungo",
+      "role": "Spatial NLP & Accessibility Lead",
+      "assigned_branch": "feat/i077-spatial-nlp-accessib",
+      "github_username": ""
+    }
+  ]
+}

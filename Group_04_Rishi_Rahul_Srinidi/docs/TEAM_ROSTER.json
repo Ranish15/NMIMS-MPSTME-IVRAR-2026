@@ -1,0 +1,32 @@
+{
+  "group_id": "IVRAR_GROUP_04",
+  "folder_name": "Group_04_Rishi_Rahul_Srinidi",
+  "batch": "Batch B1",
+  "authorized_title": "To what extent can a VR cybersecurity escape room reduce credential leakage and unauthorized physical access errors among university students exposed to simulated social-engineering attacks?",
+  "members": [
+    {
+      "roll_no": "K068",
+      "sap_id": "70102400070",
+      "name": "Rishi Vishwakarma",
+      "role": "Cyber Vulnerability Architect",
+      "assigned_branch": "feat/k068-cyber-vulnerability-",
+      "github_username": ""
+    },
+    {
+      "roll_no": "K075",
+      "sap_id": "70102400099",
+      "name": "Rahul Behera",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/k075-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "K081",
+      "sap_id": "70522400045",
+      "name": "Srinidi Subramaniam",
+      "role": "Human Factors & Security QA Lead",
+      "assigned_branch": "feat/k081-human-factors-securi",
+      "github_username": ""
+    }
+  ]
+}

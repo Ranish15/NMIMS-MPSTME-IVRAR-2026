@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_16",
+  "folder_name": "Group_16_Bhoomi_Kritivya_Tanvi_Jia",
+  "batch": "Batch B2",
+  "authorized_title": "How can an AI-driven VR mass-casualty triage simulation improve START protocol categorization accuracy and reduce assessment latency for emergency medical trainees under dynamic industrial hazard conditions?",
+  "members": [
+    {
+      "roll_no": "I004",
+      "sap_id": "70122400059",
+      "name": "Bhoomi Bhandari",
+      "role": "Triage Clinical Protocol Lead",
+      "assigned_branch": "feat/i004-triage-clinical-prot",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I037",
+      "sap_id": "70122400043",
+      "name": "Kritivya Mishra",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/i037-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I044",
+      "sap_id": "70122400056",
+      "name": "Tanvi Paithankar",
+      "role": "Spatial Telemetry & Confusion Matrix Specialist",
+      "assigned_branch": "feat/i044-spatial-telemetry-co",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I069",
+      "sap_id": "70122400084",
+      "name": "Jia Jadhav",
+      "role": "Human Factors & Usability Engineer",
+      "assigned_branch": "feat/i069-human-factors-usabil",
+      "github_username": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_09",
+  "folder_name": "Group_09_Kush_Himanshi_Nirvan_Jiah",
+  "batch": "Batch B2",
+  "authorized_title": "How can an AI-adaptive VR social-engineering simulation incorporating dynamic conversational branch trees improve phishing lure detection rates among corporate employees?",
+  "members": [
+    {
+      "roll_no": "I074",
+      "sap_id": "70122300047",
+      "name": "Kush Keswani",
+      "role": "Conversational AI & Dialogue Lead",
+      "assigned_branch": "feat/i074-conversational-ai-di",
+      "github_username": ""
+    },
+    {
+      "roll_no": "R002",
+      "sap_id": "70512400073",
+      "name": "Himanshi Agarwal",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/r002-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "R008",
+      "sap_id": "70512400002",
+      "name": "Nirvan Chhajed",
+      "role": "Eye-Gaze & Behavioral Telemetry Lead",
+      "assigned_branch": "feat/r008-eye-gaze-behavioral-",
+      "github_username": ""
+    },
+    {
+      "roll_no": "R033",
+      "sap_id": "70512400066",
+      "name": "Jiah Kothari",
+      "role": "Human Factors & Security QA Engineer",
+      "assigned_branch": "feat/r033-human-factors-securi",
+      "github_username": ""
+    }
+  ]
+}

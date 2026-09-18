@@ -1,0 +1,32 @@
+{
+  "group_id": "IVRAR_GROUP_11",
+  "folder_name": "Group_11_Jaineel_Dev_Nimitt",
+  "batch": "Batch B2",
+  "authorized_title": "How can a hybrid smart AR kiosk and mobile handoff system reduce transit time and paper map waste for campus visitors navigating complex university facilities?",
+  "members": [
+    {
+      "roll_no": "R057",
+      "sap_id": "70512400041",
+      "name": "Jaineel Shah",
+      "role": "Smart Kiosk & WebXR Lead",
+      "assigned_branch": "feat/r057-smart-kiosk-webxr-le",
+      "github_username": ""
+    },
+    {
+      "roll_no": "S014",
+      "sap_id": "70522400103",
+      "name": "Dev Garg",
+      "role": "Mobile AR & Navigation Specialist",
+      "assigned_branch": "feat/s014-mobile-ar-navigation",
+      "github_username": ""
+    },
+    {
+      "roll_no": "S021",
+      "sap_id": "70522400099",
+      "name": "Nimitt Jain",
+      "role": "Sustainability & Usability Analyst",
+      "assigned_branch": "feat/s021-sustainability-usabi",
+      "github_username": ""
+    }
+  ]
+}

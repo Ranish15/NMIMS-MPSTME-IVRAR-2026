@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_17",
+  "folder_name": "Group_17_Samarth_Ishan_Aarush_Sachi",
+  "batch": "Batch B1",
+  "authorized_title": "To what extent can an interactive VR physical security audit simulation reduce employee credential disclosure and unauthorized building entry rates during simulated corporate social-engineering attacks?",
+  "members": [
+    {
+      "roll_no": "B069",
+      "sap_id": "70022400006",
+      "name": "Samarth Pande",
+      "role": "Physical Security Controls Lead",
+      "assigned_branch": "feat/b069-physical-security-co",
+      "github_username": ""
+    },
+    {
+      "roll_no": "B148",
+      "sap_id": "70022400844",
+      "name": "Ishan Choudhary",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/b148-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "B155",
+      "sap_id": "70022400840",
+      "name": "Aarush Mishra",
+      "role": "Breach Telemetry & Audit Specialist",
+      "assigned_branch": "feat/b155-breach-telemetry-aud",
+      "github_username": ""
+    },
+    {
+      "roll_no": "K031",
+      "sap_id": "70102400063",
+      "name": "Sachi Kumar",
+      "role": "Security QA & Compliance Lead",
+      "assigned_branch": "feat/k031-security-qa-complian",
+      "github_username": ""
+    }
+  ]
+}

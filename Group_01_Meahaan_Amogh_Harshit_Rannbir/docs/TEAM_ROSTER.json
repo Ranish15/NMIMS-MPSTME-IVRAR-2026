@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_01",
+  "folder_name": "Group_01_Meahaan_Amogh_Harshit_Rannbir",
+  "batch": "Batch B1/B2",
+  "authorized_title": "To what extent can real-time acoustic raycasting and spatial audio simulation in Unity VR enable residential AV integrators to optimize reverberation time (RT60) and sightline clearance according to CEDIA/CTA-RP22 standards?",
+  "members": [
+    {
+      "roll_no": "I066",
+      "sap_id": "70412500015",
+      "name": "Meahaan Sharma",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/i066-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C034",
+      "sap_id": "70322200003",
+      "name": "Amogh Gupta",
+      "role": "Spatial Acoustics & Audio Specialist",
+      "assigned_branch": "feat/c034-spatial-acoustics-au",
+      "github_username": ""
+    },
+    {
+      "roll_no": "N083",
+      "sap_id": "70472400056",
+      "name": "Harshit Rai",
+      "role": "Human Factors & Usability Engineer",
+      "assigned_branch": "feat/n083-human-factors-usabil",
+      "github_username": ""
+    },
+    {
+      "roll_no": "N087",
+      "sap_id": "70472400098",
+      "name": "Rannbir Sachdeva",
+      "role": "Technoeconomic Product Manager",
+      "assigned_branch": "feat/n087-technoeconomic-produ",
+      "github_username": ""
+    }
+  ]
+}

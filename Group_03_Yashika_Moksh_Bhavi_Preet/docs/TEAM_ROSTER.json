@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_03",
+  "folder_name": "Group_03_Yashika_Moksh_Bhavi_Preet",
+  "batch": "Batch B2",
+  "authorized_title": "How can an interactive VR emergency evacuation simulator resolve egress bottlenecks and communication latency for university hostel wardens and student floor marshals during fire drills?",
+  "members": [
+    {
+      "roll_no": "C068",
+      "sap_id": "70322200006",
+      "name": "Yashika Patil",
+      "role": "Spatial AI & Crowd Navigation Lead",
+      "assigned_branch": "feat/c068-spatial-ai-crowd-nav",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C107",
+      "sap_id": "70322200015",
+      "name": "Moksh Shah",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/c107-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C078",
+      "sap_id": "70322200047",
+      "name": "Bhavi Doshi",
+      "role": "Human Factors & Usability Engineer",
+      "assigned_branch": "feat/c078-human-factors-usabil",
+      "github_username": ""
+    },
+    {
+      "roll_no": "C067",
+      "sap_id": "70322200211",
+      "name": "Preet Shah",
+      "role": "Network & Coordination Specialist",
+      "assigned_branch": "feat/c067-network-coordination",
+      "github_username": ""
+    }
+  ]
+}

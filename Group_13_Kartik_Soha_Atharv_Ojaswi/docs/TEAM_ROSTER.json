@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_13",
+  "folder_name": "Group_13_Kartik_Soha_Atharv_Ojaswi",
+  "batch": "Batch B2",
+  "authorized_title": "How can continuous behavioral biometric authentication leveraging head and hand kinematic telemetry achieve equal error rates (EER) below 5% against avatar identity-spoofing in collaborative VR enterprise environments?",
+  "members": [
+    {
+      "roll_no": "I001",
+      "sap_id": "70122400060",
+      "name": "Kartik Agrawal",
+      "role": "Biometric Authentication Lead",
+      "assigned_branch": "feat/i001-biometric-authentica",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I007",
+      "sap_id": "70122400036",
+      "name": "Soha Chand",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/i007-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I013",
+      "sap_id": "70122400069",
+      "name": "Atharv Dixit",
+      "role": "Kinematic Telemetry Specialist",
+      "assigned_branch": "feat/i013-kinematic-telemetry-",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I019",
+      "sap_id": "70122400044",
+      "name": "Ojaswi Gondalia",
+      "role": "Security QA & Threat Analyst",
+      "assigned_branch": "feat/i019-security-qa-threat-a",
+      "github_username": ""
+    }
+  ]
+}

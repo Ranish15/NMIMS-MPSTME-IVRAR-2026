@@ -1,0 +1,32 @@
+# Unity LTS Standard GitIgnore
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+Recordings/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.user
+*.userprefs
+*.pidb
+*.suo
+*.sln.docstates
+.vscode/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Heavy Builds & Archives
+*.apk
+*.aab
+*.exe
+*.zip
+*.tar.gz

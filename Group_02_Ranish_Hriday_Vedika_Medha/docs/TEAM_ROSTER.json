@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_02",
+  "folder_name": "Group_02_Ranish_Hriday_Vedika_Medha",
+  "batch": "Batch B1",
+  "authorized_title": "How can an immersive VR sensory-stress simulation improve target prioritization and reaction latency for defensive security trainees under simulated low-visibility nighttime conditions?",
+  "members": [
+    {
+      "roll_no": "N024",
+      "sap_id": "70472400145",
+      "name": "Ranish Devadiga",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/n024-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "N042",
+      "sap_id": "70472400224",
+      "name": "Hriday Jain",
+      "role": "Human Factors & Usability Engineer",
+      "assigned_branch": "feat/n042-human-factors-usabil",
+      "github_username": ""
+    },
+    {
+      "roll_no": "N047",
+      "sap_id": "70472400031",
+      "name": "Vedika Kaki",
+      "role": "Spatial Telemetry & Data Lead",
+      "assigned_branch": "feat/n047-spatial-telemetry-da",
+      "github_username": ""
+    },
+    {
+      "roll_no": "N062",
+      "sap_id": "70472400154",
+      "name": "Medha Mishra",
+      "role": "Technoeconomic Product Manager",
+      "assigned_branch": "feat/n062-technoeconomic-produ",
+      "github_username": ""
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "group_id": "IVRAR_GROUP_14",
+  "folder_name": "Group_14_Ananya_Anvay_Mahit_Aryan",
+  "batch": "Batch B2",
+  "authorized_title": "To what extent does a predictive ghost-avatar digital twin in Unity VR mitigate teleoperation path tracking error and collision frequency for planetary rover operators under simulated high-latency (1.5-second to 5-second) transmission delays?",
+  "members": [
+    {
+      "roll_no": "I003",
+      "sap_id": "70122400026",
+      "name": "Ananya Baweja",
+      "role": "Tele-Robotics & Digital Twin Lead",
+      "assigned_branch": "feat/i003-tele-robotics-digita",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I006",
+      "sap_id": "70122400050",
+      "name": "Anvay Borade",
+      "role": "XR Systems Architect",
+      "assigned_branch": "feat/i006-xr-systems-architect",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I010",
+      "sap_id": "70122400075",
+      "name": "Mahit Naresh Daswani Chanchlani",
+      "role": "Latency & Network Simulation Specialist",
+      "assigned_branch": "feat/i010-latency-network-simu",
+      "github_username": ""
+    },
+    {
+      "roll_no": "I041",
+      "sap_id": "70122400039",
+      "name": "Aryan Oberoi",
+      "role": "Human Factors & Teleoperation QA Lead",
+      "assigned_branch": "feat/i041-human-factors-teleop",
+      "github_username": ""
+    }
+  ]
+}
