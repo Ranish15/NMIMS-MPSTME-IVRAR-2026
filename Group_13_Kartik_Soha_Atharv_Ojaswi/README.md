@@ -1,4 +1,8 @@
 # IVRAR Group 13: Continuous Behavioral Biometric Authentication in Collaborative VR
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"How can continuous behavioral biometric authentication leveraging head and hand kinematic telemetry achieve equal error rates (EER) below 5% against avatar identity-spoofing in collaborative VR enterprise environments?"**
@@ -40,6 +44,18 @@ I019      Ojaswi Gondalia   Security QA & Threat Analyst               feat/i019
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Kartik Agrawal (I001), Soha Chand (I007), Atharv Dixit (I013), Ojaswi Gondalia (I019) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram illustrating Kinematic Ingestion, Classification Core, Security QA, and Lockout Orchestration.
 - `docs/figures/figure2_kinematic_telemetry.png`: Head/hand velocity telemetry during unauthorized headset handover and Detection Error Tradeoff (DET) curve showing $\text{EER} = 4.12\%$.
 - `docs/figures/figure3_comparative_performance.png`: Empirical results across 4 subplots (EER vs window duration, lockout latency, workflow hours reclaimed, and System Usability Scale).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Kartik Agrawal** (I001), **Soha Chand** (I007), **Atharv Dixit** (I013), **Ojaswi Gondalia** (I019)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

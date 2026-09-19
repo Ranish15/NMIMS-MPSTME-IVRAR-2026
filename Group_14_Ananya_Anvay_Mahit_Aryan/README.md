@@ -1,4 +1,8 @@
 # IVRAR Group 14: Predictive Ghost-Avatar Digital Twin in High-Latency Planetary Teleoperation
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"To what extent does a predictive ghost-avatar digital twin in Unity VR mitigate teleoperation path tracking error and collision frequency for planetary rover operators under simulated high-latency (1.5-second to 5-second) transmission delays?"**
@@ -40,6 +44,18 @@ I041      Aryan Oberoi                      Human Factors & Teleoperation QA Lea
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Ananya Baweja (I003), Anvay Borade (I006), Mahit Naresh Daswani Chanchlani (I010), Aryan Oberoi (I041) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Operator VR Rig, Kinematic Core, Deep-Space Delay Channel, and Hazard QA.
 - `docs/figures/figure2_kinematic_telemetry.png`: 2D spatial surface trajectory tracking on Martian terrain and Path RMSE vs Latency curves across 1.5s to 5.0s.
 - `docs/figures/figure3_comparative_performance.png`: Empirical results across 4 subplots (Path RMSE, Hazard Collisions, Traverse Velocity, and NASA-TLX Workload).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Ananya Baweja** (I003), **Anvay Borade** (I006), **Mahit Naresh Daswani Chanchlani** (I010), **Aryan Oberoi** (I041)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

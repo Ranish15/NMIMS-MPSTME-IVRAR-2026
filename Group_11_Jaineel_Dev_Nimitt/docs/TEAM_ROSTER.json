@@ -78,5 +78,14 @@
       "journal": "Applied Sciences, vol. 12, no. 6, art. 2969",
       "doi": "10.3390/app12062969"
     }
-  ]
+  ],
+  "domain": "Hybrid Smart AR Kiosk & Mobile Handoff for Complex Facility Wayfinding",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

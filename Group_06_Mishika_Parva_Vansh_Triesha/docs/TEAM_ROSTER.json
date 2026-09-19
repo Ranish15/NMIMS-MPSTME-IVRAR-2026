@@ -96,5 +96,14 @@
       "journal": "Proceedings of the 1st International Conference on Human-Centric Computing, pp. 1-8",
       "doi": "10.5220/0013886300004919"
     }
-  ]
+  ],
+  "domain": "AR Visual-Marker Navigation Using ArUco and QR Anchors for Multi-Storey Facilities",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

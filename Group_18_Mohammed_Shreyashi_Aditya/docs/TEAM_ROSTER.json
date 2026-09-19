@@ -78,5 +78,14 @@
       "journal": "2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 493-496",
       "doi": "10.1109/vrw58643.2023.00199"
     }
-  ]
+  ],
+  "domain": "Networked Multiplayer VR with Real-Time Spatial HRTF Voice & 3D Puzzle Manipulation",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

@@ -1,4 +1,8 @@
 # IVRAR Group 17: Interactive VR Physical Security Audit Simulation
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"To what extent can an interactive VR physical security audit simulation reduce employee credential disclosure and unauthorized building entry rates during simulated corporate social-engineering attacks?"**
@@ -40,6 +44,18 @@ K031      Sachi Kumar         Security QA & Compliance Lead              feat/k0
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Samarth Pande (B069), Ishan Choudhary (B148), Aarush Mishra (B155), Sachi Kumar (K031) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Pretext Engine, XR Facility, Telemetry Core, and Security Audit Analytics.
 - `docs/figures/figure2_kinematic_telemetry.png`: Trainee challenge decision latency trajectories across successive trials and correlation between credential gaze dwell and stand-off distance.
 - `docs/figures/figure3_comparative_performance.png`: Empirical results across 4 subplots (tailgating breach rate, badge challenge compliance rate, mean decision latency, and System Usability Scale).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Samarth Pande** (B069), **Ishan Choudhary** (B148), **Aarush Mishra** (B155), **Sachi Kumar** (K031)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

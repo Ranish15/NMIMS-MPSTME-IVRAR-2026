@@ -86,5 +86,14 @@
       "journal": "2024 IEEE 2nd International Conference on Electrical Engineering, Computer and Information Technology (ICEECIT), pp. 1-6",
       "doi": "10.1109/iceecit63698.2024.10860224"
     }
-  ]
+  ],
+  "domain": "Bio-Adaptive VR Exposure Therapy for Acrophobia Desensitization via Tremor Telemetry",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

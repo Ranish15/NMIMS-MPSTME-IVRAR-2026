@@ -87,5 +87,14 @@
       "journal": "2025 3rd International Conference on Computer, Communication, and Signal Processing (ICCCSP), pp. 1-6",
       "doi": "10.1109/iccsai64074.2025.11064653"
     }
-  ]
+  ],
+  "domain": "Gamified Mobile AR Checkpoint Discovery System for Campus Facility Orientation",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

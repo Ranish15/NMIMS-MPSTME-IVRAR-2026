@@ -1,4 +1,8 @@
 # IVRAR Group 04: VR Cybersecurity Escape Room for Social Engineering Defense
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"To what extent can a VR cybersecurity escape room reduce credential leakage and unauthorized physical access errors among university students exposed to simulated social-engineering attacks?"**
@@ -41,6 +45,18 @@ K081      Srinidi Subramaniam   Human Factors, Workload & Security QA Lead     f
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Rishi Vishwakarma (K068), Rahul Behera (K075), Srinidi Subramaniam (K081) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Security Telemetry
 
 The platform comprises four interconnected software modules:
@@ -53,6 +69,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: End-to-end multi-tier architectural layout.
 - `docs/figures/figure2_kinematic_telemetry.png`: Hake's gain distribution ($g$), vulnerability decay curves, and gaze fixation profiles.
 - `docs/figures/figure3_comparative_performance.png`: Comparative analysis across training modalities.
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Rishi Vishwakarma** (K068), **Rahul Behera** (K075), **Srinidi Subramaniam** (K081)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

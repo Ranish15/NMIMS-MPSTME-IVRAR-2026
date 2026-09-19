@@ -86,5 +86,14 @@
       "journal": "Computers, Materials & Continua, vol. 82, no. 2, pp. 1925-1944",
       "doi": "10.32604/cmc.2025.065059"
     }
-  ]
+  ],
+  "domain": "Immersive VR Phishing Simulation & Cognitive Bias Mitigation over 14-Day Retention",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

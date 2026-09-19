@@ -86,5 +86,14 @@
       "journal": "Symmetry, vol. 15, no. 12, art. no. 2175, pp. 1-24",
       "doi": "10.3390/sym15122175"
     }
-  ]
+  ],
+  "domain": "Interactive VR Physical Security Audit Simulation for Social-Engineering & Tailgating",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

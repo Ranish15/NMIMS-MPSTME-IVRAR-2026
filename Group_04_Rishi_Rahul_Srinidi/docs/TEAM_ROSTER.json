@@ -87,5 +87,14 @@
       "journal": "2024 Cyber Awareness and Research Symposium (CARS), pp. 1-7",
       "doi": "10.1109/cars61786.2024.10778838"
     }
-  ]
+  ],
+  "domain": "VR Cybersecurity Escape Room for Social-Engineering & Credential Leakage Mitigation",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

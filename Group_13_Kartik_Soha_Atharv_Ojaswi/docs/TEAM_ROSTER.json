@@ -86,5 +86,14 @@
       "journal": "Proceedings of the 2025 31st ACM Symposium on Virtual Reality Software and Technology (VRST '25)",
       "doi": "10.1145/3756884.3768408"
     }
-  ]
+  ],
+  "domain": "Continuous Kinematic Behavioral Biometric Authentication in Collaborative VR",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

@@ -1,4 +1,8 @@
 # IVRAR Group 09: AI-Adaptive VR Social-Engineering Simulation
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"How can an AI-adaptive VR social-engineering simulation incorporating dynamic conversational branch trees improve phishing lure detection rates among corporate employees?"**
@@ -40,6 +44,18 @@ R033      Jiah Kothari        Human Factors & Security QA Engineer       feat/r0
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Kush Keswani (I074), Himanshi Agarwal (R002), Nirvan Chhajed (R008), Jiah Kothari (R033) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture layout.
 - `docs/figures/figure2_kinematic_telemetry.png`: Eye-gaze fixation dwell times across artifacts and response deliberation latency distributions.
 - `docs/figures/figure3_comparative_performance.png`: Comparative trial results (lure detection rate, security breach vulnerability, NASA-TLX workload, SUS usability).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Kush Keswani** (I074), **Himanshi Agarwal** (R002), **Nirvan Chhajed** (R008), **Jiah Kothari** (R033)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

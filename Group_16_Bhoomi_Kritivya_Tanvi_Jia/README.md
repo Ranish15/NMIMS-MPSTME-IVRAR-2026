@@ -1,4 +1,8 @@
 # IVRAR Group 16: AI-Driven Immersive VR Simulation for Mass-Casualty Triage Under Dynamic Industrial Hazard Conditions
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"How can an AI-driven VR mass-casualty triage simulation improve START protocol categorization accuracy and reduce assessment latency for emergency medical trainees under dynamic industrial hazard conditions?"**
@@ -40,6 +44,18 @@ I069      Jia Jadhav          Human Factors & Usability Engineer         feat/i0
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Bhoomi Bhandari (I004), Kritivya Mishra (I037), Tanvi Paithankar (I044), Jia Jadhav (I069) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Clinical Protocol Manager, XR Environment, Telemetry Engine, and Psychometric Analytics.
 - `docs/figures/figure2_kinematic_telemetry.png`: Trainee decision latency curves across sequential casualties and correlation between gaze dwell time and diagnostic accuracy.
 - `docs/figures/figure3_comparative_performance.png`: Empirical results across 4 subplots (START categorization accuracy, triage assessment latency, critical undertriage reduction, and System Usability Scale).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Bhoomi Bhandari** (I004), **Kritivya Mishra** (I037), **Tanvi Paithankar** (I044), **Jia Jadhav** (I069)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

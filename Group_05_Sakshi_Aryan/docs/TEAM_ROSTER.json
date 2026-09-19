@@ -78,5 +78,14 @@
       "journal": "Computers & Graphics, vol. 128, p. 104318",
       "doi": "10.1016/j.cag.2025.104318"
     }
-  ]
+  ],
+  "domain": "Voice-Driven Spatial NLP Commands in Unity VR for Motor-Impaired Accessibility",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

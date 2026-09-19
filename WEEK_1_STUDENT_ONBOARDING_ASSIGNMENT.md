@@ -68,3 +68,37 @@ git push origin feat/<your-branch-name>
 * **Correct Branch Naming & Commit Message:** 2 Marks
 * **Valid JSON Formatting in `TEAM_ROSTER.json`:** 3 Marks
 * **Successful Test Run Output Verified:** 2 Marks
+
+---
+
+## Project Demonstration & LinkedIn Video Showcase Protocol
+
+As part of your research dissemination and Continuous Assessment (ICA), each student engineering team will record and publish a professional video walkthrough of their project:
+
+### 1. Video Production Specifications
+* **Duration:** 60 to 90 seconds (concise, high-impact demonstration).
+* **Core Elements to Include:**
+  1. **Team Introduction (10s):** Student researchers, roles, and authorized problem statement.
+  2. **Live VR/AR Simulation (40s):** Interactive Unity OpenXR environment or WebXR spatial visualization showcasing interactive mechanics, raycasting, or marker tracking.
+  3. **Sensor & Usability Telemetry (20s):** Real-time telemetry, RT60 decay curves, tracking precision graphs, or usability metrics (SUS, NASA-TLX).
+  4. **Techno-Managerial Impact (10s):** Dimensionless cost parity ratio ($\kappa$) and operational rework reduction payback horizon.
+
+### 2. LinkedIn Publication & Tagging Protocol
+* **Platform:** LinkedIn (video post from any team member or collaborative post).
+* **Mandatory Institutional Tags:**
+  * Institution: `@SVKM's NMIMS MPSTME`
+  * Academic Directorate & Dean, MPSTME
+  * Course Faculty & Mentors
+* **Hashtags:** `#NMIMS #MPSTME #VirtualReality #AugmentedReality #OpenXR #PBL #EngineeringResearch #Industry40`
+
+### 3. Submission & Automatic Portal Synchronization
+1. Once published on LinkedIn, copy the URL of your post.
+2. Open your group's `docs/TEAM_ROSTER.json` and paste the URL into `"linkedin_url"` under `"project_showcase"`.
+3. Commit and push on your feature branch:
+   ```bash
+   git add docs/TEAM_ROSTER.json
+   git commit -m "docs(showcase): submit LinkedIn demonstration video URL for Group XX"
+   git push origin feat/<your-branch-name>
+   ```
+4. Open a Pull Request. Once merged, the automated synchronization script updates your group's `README.md` and the cohort dashboard.
+

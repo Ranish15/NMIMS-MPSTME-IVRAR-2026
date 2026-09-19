@@ -87,5 +87,14 @@
       "journal": "WIREs Forensic Science, vol. 7, no. 1, art. no. e70006, pp. 1-16",
       "doi": "10.1002/wfs2.70006"
     }
-  ]
+  ],
+  "domain": "Interactive VR Spatial Crime Scene Reconstruction & Dynamic Evidence Tagging",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }

@@ -1,4 +1,8 @@
 # IVRAR Group 12: Immersive VR Phishing Simulation vs 2D Web-Based Cybersecurity Training
+**Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)  
+**Academic Term:** Academic Year 2026–2027 | Semester V  
+**Institution:** SVKM's NMIMS MPSTME, Mumbai  
+
 
 ## Authorized Research Title
 > **"To what extent does an immersive VR phishing simulation improve threat recognition and mitigate cognitive bias compared to standard 2D web-based cybersecurity training across a 14-day retention interval?"**
@@ -40,6 +44,18 @@ I080      Anuvrat Tripathi  Human Factors & Retention Analyst          feat/i080
 
 ---
 
+
+### Student Engineering Commendation & Acknowledgments
+SVKM's NMIMS MPSTME conveys sincere appreciation and heartfelt gratitude to Madhav Gaonkar (D021), Arnav Jain (D030), Diya Shah (D065), Anuvrat Tripathi (I080) for their disciplined commitment, late-night debugging, and technical craftsmanship throughout Semester V. Your rigorous engineering inquiry and dedication to immersive XR environments exemplify the highest standards of undergraduate technical research.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+---
+
 ## Core System Architecture & Egress Telemetry
 
 The platform comprises four interconnected software modules:
@@ -52,6 +68,19 @@ The platform comprises four interconnected software modules:
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Threat Scenario Engine, Immersive Office, Eye-Gaze Subsystem, and Retention Analytics.
 - `docs/figures/figure2_kinematic_telemetry.png`: Eye-gaze AOI dwell time distribution and 14-day longitudinal retention decay comparison curve.
 - `docs/figures/figure3_comparative_performance.png`: Empirical results across 4 subplots (Day 14 Accuracy, Malicious Click Rate, Bias Susceptibility, and System Usability Scale).
+
+---
+
+---
+
+## Project Demonstration & Academic Showcase (LinkedIn)
+
+[![Watch Video Demonstration on LinkedIn](docs/figures/video_poster.png)](https://www.linkedin.com/)
+
+* **Video Demonstration:** [Watch 60-Second Walkthrough on LinkedIn](https://www.linkedin.com/) *(Click thumbnail above to open LinkedIn post)*
+* **Student Presenters:** **Madhav Gaonkar** (D021), **Arnav Jain** (D030), **Diya Shah** (D065), **Anuvrat Tripathi** (I080)
+* **Academic Institutional Tags:** SVKM's NMIMS MPSTME | Academic Directorate | Immersive VR/AR Technologies
+* **Submission Protocol:** Record a 60–90 second demonstration of your VR/AR interactive environment and telemetry. Publish on LinkedIn tagging MPSTME, Dean, and Course Faculty. Insert your live post URL in `docs/TEAM_ROSTER.json` under `"linkedin_url"`, and submit a pull request to update this project dossier and the cohort dashboard.
 
 ---
 

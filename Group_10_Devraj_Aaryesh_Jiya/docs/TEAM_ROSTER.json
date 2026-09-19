@@ -78,5 +78,14 @@
       "journal": "Frontiers in Virtual Reality, vol. 6, art. 1574965",
       "doi": "10.3389/frvir.2025.1574965"
     }
-  ]
+  ],
+  "domain": "OpenCV-Based Color & Fiducial Hand-Tracking in Unity VR for Architectural Reviews",
+  "project_showcase": {
+    "platform": "LinkedIn Video",
+    "linkedin_url": "PENDING_SUBMISSION",
+    "video_poster_path": "docs/figures/video_poster.png",
+    "video_duration_target": "60-90 seconds",
+    "submission_status": "PENDING",
+    "submission_instructions": "Paste your published LinkedIn post URL into 'linkedin_url' and submit a Pull Request"
+  }
 }
