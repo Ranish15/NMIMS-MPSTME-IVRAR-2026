@@ -9,6 +9,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Engineering a camera-based fiducial hand-tracking pipeline to avoid buying 6-DoF controllers, forcing architects to wear brightly colored finger gloves and hold their hands stiffly within a 45-degree webcam cone like a mime trapped in an invisible box."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Collaborative review of complex architectural Building Information Modeling (BIM) assemblies within immersive virtual reality (VR) has traditionally required dedicated, battery-powered 6-DoF handheld motion controllers. While capable, physical controllers impose substantial ergonomics penalties during extended multi-hour design sessions, suffer from frequent drop damage when users manipulate virtual structural assemblies, and introduce severe capital replacement costs across multi-station enterprise architectural studios. Meanwhile, standalone headset optical hand tracking often suffers from computational latency exceeding $30\text{ ms}$, tracking jitter, and frequent finger occlusion failures.
 

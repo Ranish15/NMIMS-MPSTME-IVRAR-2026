@@ -11,6 +11,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Developing hands-free voice-driven spatial NLP for accessible VR, which functions with 98% accuracy until the user coughs, laughs, or has an Indian accent that your pre-trained English acoustic model interprets as 'Delete Scene'."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Standard commercial Virtual Reality (VR) platforms inherently assume that users possess unimpaired bimanual dexterity, stable motor control, and the physical ability to continuously grip, aim, and trigger 6-DoF handheld motion controllers. For individuals with upper-body motor impairments, spasticity, cerebral palsy, or severe intentional tremors (e.g., MDS-UPDRS tremor rating $\ge 2$), physical handheld controllers represent an impassable barrier: interaction failure rates exceed $48\%$, and continuous grip fatigue causes severe frustration. While eye-gaze tracking offers an alternative, gaze-dwell selection introduces the "Midas Touch" problem, where unintended fixations trigger erroneous commands.
 

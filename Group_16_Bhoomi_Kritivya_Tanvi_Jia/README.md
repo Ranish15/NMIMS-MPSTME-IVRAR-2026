@@ -9,6 +9,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Simulating chemical factory explosions in VR to teach the START triage protocol, where emergency trainees will accurately triage twelve virtual mannequins in ten minutes, but would faint if an actual papercut occurred in the lab."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Mass-casualty incidents (MCIs) in industrial chemical facilities present severe sensory overload, toxic smoke occlusion, and extreme time pressure. Prehospital triage accuracy under the Simple Triage and Rapid Treatment (START) algorithm is crucial for prioritizing critical casualties and minimizing preventable mortality. However, conventional training modalities—such as tabletop didactics and live-actor disaster drills—suffer from prohibitive staging costs, low training frequency, subjective evaluation, and an inability to safely replicate toxic chemical leaks, structural collapses, or spreading fires.
 

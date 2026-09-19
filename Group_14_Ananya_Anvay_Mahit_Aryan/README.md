@@ -9,6 +9,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Rendering a predictive ghost avatar in VR to overcome 3-second Mars teleoperation delay, giving the operator the comforting illusion of smooth real-time driving right up until the real rover rear-ends a boulder that the simulation forgot to render."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Unmanned robotic exploration of extraterrestrial planetary surfaces (e.g., Moon and Mars) is severely constrained by speed-of-light propagation delays and deep-space relay latency, typically introducing one-way transmission delays between 1.5 and 5.0 seconds. Under uncompensated communication latency, human teleoperation attempts trigger dangerous closed-loop operator oscillations ("hunting"), inducing high drift errors and catastrophic boulder collisions. To prevent hardware losses, space missions are forced to operate via conservative "move-and-wait" stop-and-go command execution, limiting rover advance to under $0.04\text{ m/s}$ and leaving human operators idle for over 70% of operational driving shifts.
 

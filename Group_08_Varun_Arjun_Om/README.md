@@ -11,6 +11,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Building a gamified AR campus discovery scavenger hunt to boost freshman orientation, ensuring new students stare fixedly into their smartphone screens while navigating staircases, successfully discovering virtual checkpoints while colliding with real professors."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Navigating complex, multi-building university campus grounds poses an acute orientation challenge for incoming first-year students, frequently precipitating spatial disorientation, missed instructional activities, and heightened cognitive friction. Traditional institutional orientation solutions—primarily static two-dimensional paper foldout maps and large docent-led walking tours—fail to impart durable spatial knowledge and demand heavy administrative coordination. The top-down perspective of 2D maps requires demanding cognitive coordinate transformation into physical 3D egocentric perspectives, resulting in erratic search patterns and repeated route backtracking.
 

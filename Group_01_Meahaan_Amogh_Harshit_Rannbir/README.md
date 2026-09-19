@@ -19,6 +19,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Calculating Schroeder acoustic impulse decay tails to within 0.04 seconds according to CEDIA RP22 standards, completely oblivious to the fact that the client will buy a giant faux-leather sectional, let their dog bark at 80 dBA, and still watch Christopher Nolan movies with the dialogue volume turned all the way down."*
+
+---
+
 ## 2. Student Engineering Team Matrix
 
 | Roll No | SAP ID | Student Name | Degree Programme | Technical Role | Assigned Git Branch | Core Viva Defense Area |

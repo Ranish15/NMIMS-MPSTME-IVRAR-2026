@@ -9,6 +9,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Crafting dynamic LLM-driven conversational branch trees in VR to train employees against deceptive spear-phishing, when real employees will enthusiastically hand over their two-factor authentication codes to anyone who claims to be from IT promising a free lunch voucher."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Social engineering remains the principal catalyst for enterprise cybersecurity breaches. Despite mandatory compliance protocols, corporate workforces remain persistently vulnerable to sophisticated social pretexting and credential harvesting. Traditional training methods—relying primarily on passive e-learning videos and multiple-choice quizzes—fail to reproduce the visceral psychological pressure, urgency triggers, and cognitive demands of real-world physical and conversational attacks. Under passive instruction, employees operate via heuristic automaticity rather than engaging in systematic suspicion elaboration.
 

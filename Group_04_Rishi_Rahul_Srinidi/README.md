@@ -11,6 +11,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Engineering an ultra-immersive 90 Hz OpenXR escape room to train staff against malicious USB drops and credential theft, while the administrative office down the hall is currently using 'Password123' written on a yellow sticky note attached directly to the monitor."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Despite advanced perimeter firewalls and endpoint detection, the human element remains the single most exploited attack vector in organizational security. According to **NIST SP 800-53** controls AT (Awareness & Training) and PE (Physical Protection), institutions must defend against non-technical intrusion vectors including badge tailgating, rogue USB baiting drops, and PIN shoulder surfing. Traditional slide-based awareness lectures suffer from negligible behavioral retention: post-training audits consistently demonstrate that over $60\%$ of personnel still hold open security doors for unbadged strangers or insert untrusted storage drives into networked computers.
 

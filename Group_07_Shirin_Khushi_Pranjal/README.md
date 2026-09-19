@@ -11,6 +11,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Creating a forensic VR crime scene simulator with millimeter-accurate spatial evidence tags, so student investigators can experience the authentic thrill of spending 45 minutes virtually tagging an empty coffee cup while completely walking past the murder weapon."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Digital documentation and forensic analysis of physical crime scenes have traditionally relied upon two-dimensional photographic binders and static paper logs. While standard, this conventional medium strips away critical volumetric relationships, occludes subtle physical evidence from varying perspective angles, and imposes high cognitive workload on student forensic investigators attempting to mentally reconstruct complex event chronologies. Physical mock crime scenes address this hands-on deficit but impose heavy logistical burdens: staging mannequins, spent casings, and simulated bio-fluids requires dozens of technician hours per cohort, while physical room reservations lock dedicated academic facilities for weeks.
 

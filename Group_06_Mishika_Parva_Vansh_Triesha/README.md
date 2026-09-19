@@ -11,6 +11,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Developing an AR visual-marker wayfinding app so freshmen don't get lost in MPSTME, because university students who can navigate massive open-world video games with zero tutorials somehow require four ArUco tags and computer vision SLAM to locate Classroom 302."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Navigating large, multi-storey university academic complexes represents a major cognitive challenge for incoming first-year students, resulting in chronic orientation delays, missed lectures, and severe corridor congestion. While global satellite positioning (GPS) is ubiquitous outdoors, RF attenuation completely prevents indoor satellite reception. Standard mobile Augmented Reality (AR) frameworks (ARCore/ARKit) utilize monocular Visual-Inertial Odometry (VIO); however, uncorrected dead-reckoning tracking suffers from cumulative drift errors of $1\%$ to $3\%$ of total trajectory distance ($1.0$ to $3.0$ m error per $100$ m traversed), leading to detached guidance arrows that point into walls. Active RF beacon grids (Bluetooth Low Energy / Wi-Fi fingerprinting) suffer from battery exhaustion, signal reflection, and intensive calibration costs.
 

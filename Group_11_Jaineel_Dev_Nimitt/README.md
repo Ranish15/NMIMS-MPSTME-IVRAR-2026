@@ -9,6 +9,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Building a complex QR-handoff system where visitors scan a high-tech lobby touchscreen to transfer 3D directions to their phone, rather than simply asking the security guard who has been pointing people to the elevator for twenty years."*
+
+---
+
 ## Executive Abstract & Problem Scope
 Navigating sprawling multi-storey university and institutional facilities presents severe wayfinding obstacles for first-time campus visitors, guest researchers, and incoming students. Historically, facilities management has addressed this through static printed brochures, foldable floor maps, and manned information desks. However, large institutions print between 10,000 and 25,000 multi-color paper maps annually, over 80% of which are discarded within 24 hours of distribution, generating extensive paper solid waste. Furthermore, paper maps lack dynamic spatial context, leading to disorientation, wrong turns, and lost pedestrian transit time. While standalone public touch kiosks offer digital directories, they suffer from acute queue bottlenecks during peak arrival periods: visitors must either memorize directions or photograph the screen, causing high cognitive load and disorientation en route.
 

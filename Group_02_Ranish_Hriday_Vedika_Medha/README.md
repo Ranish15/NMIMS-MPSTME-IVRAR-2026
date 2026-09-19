@@ -19,6 +19,12 @@
 
 ---
 
+> [!NOTE]
+> ### The Devil's Advocate: Reality Check & Theoretical Roast
+> *"Building a high-stress low-visibility VR shooting range to train guard vigilance, where trainees will spend 80% of their cognitive bandwidth fighting VR lens fog and headstrap slippage rather than identifying simulated peripheral threats."*
+
+---
+
 ## 2. Student Engineering Team Matrix
 
 | Roll No | SAP ID | Student Name | Degree Programme | Technical Role | Assigned Git Branch | Core Viva Defense Area |
