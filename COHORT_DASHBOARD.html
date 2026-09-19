@@ -79,21 +79,72 @@
       background: #eff6ff;
       border-left: 5px solid var(--primary-light);
       border-radius: 6px;
-      padding: 20px 24px;
+      padding: 22px 26px;
       margin-bottom: 28px;
     }
 
-    .commendation-banner h2 {
-      font-size: 1.15rem;
-      color: var(--primary);
-      margin-bottom: 8px;
-      font-weight: 600;
+    .commendation-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
     }
 
-    .commendation-banner p {
+    .commendation-banner h2 {
+      font-size: 1.2rem;
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .term-badge {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--primary-light);
+      background: #dbeafe;
+      border: 1px solid #bfdbfe;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      letter-spacing: 0.5px;
+    }
+
+    .commendation-text {
       font-size: 0.95rem;
       color: var(--text-muted);
-      line-height: 1.6;
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+
+    .quotes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+
+    .quote-card {
+      background: #ffffff;
+      border-left: 3px solid var(--accent);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 4px;
+      padding: 14px 16px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+
+    .quote-text {
+      font-size: 0.9rem;
+      font-style: italic;
+      color: var(--text-main);
+      line-height: 1.5;
+      margin-bottom: 6px;
+    }
+
+    .quote-author {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
     }
 
     .stats-grid {
@@ -107,12 +158,12 @@
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 6px;
-      padding: 16px 20px;
+      padding: 18px 20px;
       text-align: center;
     }
 
     .stat-value {
-      font-size: 1.8rem;
+      font-size: 1.85rem;
       font-weight: 700;
       color: var(--primary);
     }
@@ -123,6 +174,19 @@
       text-transform: uppercase;
       letter-spacing: 0.5px;
       margin-top: 4px;
+    }
+
+    .stat-sub {
+      font-size: 0.75rem;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+
+    .results-count {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      white-space: nowrap;
     }
 
     .control-panel {
@@ -315,7 +379,7 @@
 
   <header>
     <div class="header-container">
-      <div class="inst-title">SVKM's NMIMS MPSTME | Department of Information Technology & Computer Engineering</div>
+      <div class="inst-title">SVKM's NMIMS MPSTME</div>
       <h1>Introduction to Virtual Reality & Augmented Reality (IVRAR)</h1>
       <div class="sub-title">Problem-Based Learning Research Cohort | Academic Year 2026-2027 | Semester V</div>
     </div>
@@ -324,42 +388,62 @@
   <main class="main-container">
 
     <section class="commendation-banner">
-      <h2>Student Cohort Commendation & Acknowledgments</h2>
-      <p>
-        The Department expresses sincere appreciation and gratitude to all seventy student researchers across the eighteen specialized engineering project teams in Semester V (Academic Year 2026–2027). Your dedication to the Aalborg-UNESCO Problem-Based Learning methodology, empirical user-subject verification, OpenXR telemetry instrumentation, and peer-reviewed foundational literature synthesis represents an exemplary standard of undergraduate engineering research. Thank you for your hard work, persistence, and collaborative spirit.
+      <div class="commendation-header">
+        <h2>Student Cohort Commendation & Academic Acknowledgments</h2>
+        <span class="term-badge">Semester V | AY 2026–2027</span>
+      </div>
+      <p class="commendation-text">
+        The institution conveys its sincere appreciation, highest commendation, and heartfelt gratitude to all sixty-four (64) student researchers across the eighteen specialized engineering project teams in Semester V (Academic Year 2026–2027). Your disciplined commitment to Problem-Based Learning, continuous spatial telemetry logging, and peer-reviewed literature synthesis demonstrates exemplary engineering craftsmanship. Thank you for your tireless effort, late-night debugging, intellectual rigor, and collaborative spirit.
       </p>
+      <div class="quotes-grid">
+        <div class="quote-card">
+          <p class="quote-text">"Scientists discover the world that exists; engineers create the world that never was."</p>
+          <p class="quote-author">— Theodore von Kármán, Aerospace & Aeronautical Pioneer</p>
+        </div>
+        <div class="quote-card">
+          <p class="quote-text">"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."</p>
+          <p class="quote-author">— Thomas A. Edison, Inventor & Industrialist</p>
+        </div>
+      </div>
     </section>
 
     <section class="stats-grid">
       <div class="stat-card">
         <div class="stat-value">18</div>
         <div class="stat-label">Engineering Groups</div>
+        <div class="stat-sub">Semester V Cohort</div>
       </div>
       <div class="stat-card">
-        <div class="stat-value">70</div>
+        <div class="stat-value">64</div>
         <div class="stat-label">Student Researchers</div>
+        <div class="stat-sub">Verified Enrollment</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">108</div>
-        <div class="stat-label">Verified CrossRef DOIs (2:4 Ratio)</div>
+        <div class="stat-label">Verified CrossRef DOIs</div>
+        <div class="stat-sub">2 Seminal : 4 Recent Ratio</div>
       </div>
       <div class="stat-card">
         <div class="stat-value">100%</div>
         <div class="stat-label">Zero-Defect Quality Audit</div>
+        <div class="stat-sub">ABET / CDIO Standards</div>
       </div>
     </section>
 
     <section class="control-panel">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by student name, roll number, title, or group..." oninput="filterCards()">
-      <select id="clusterFilter" class="filter-select" onchange="filterCards()">
-        <option value="ALL">All Thematic Clusters</option>
-        <option value="Acoustics">Spatial Acoustics & Audio</option>
-        <option value="Clinical">Clinical & Healthcare VR</option>
-        <option value="Vision">Computer Vision & AR Navigation</option>
-        <option value="Cybersecurity">Cybersecurity & Biometrics</option>
-        <option value="Robotics">Teleoperation & Robotics</option>
-        <option value="Stress">Stress & Evacuation Simulation</option>
-      </select>
+      <div style="display: flex; flex: 1; gap: 12px; align-items: center; flex-wrap: wrap;">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by student name, roll number, title, or group..." oninput="filterCards()">
+        <select id="clusterFilter" class="filter-select" onchange="filterCards()">
+          <option value="ALL">All Thematic Clusters</option>
+          <option value="Acoustics">Spatial Acoustics & Audio</option>
+          <option value="Clinical">Clinical & Healthcare VR</option>
+          <option value="Vision">Computer Vision & AR Navigation</option>
+          <option value="Cybersecurity">Cybersecurity & Biometrics</option>
+          <option value="Robotics">Teleoperation & Robotics</option>
+          <option value="Stress">Stress & Evacuation Simulation</option>
+        </select>
+      </div>
+      <div id="resultsCount" class="results-count">Showing 18 of 18 Groups (Semester V)</div>
     </section>
 
     <section id="groupsGrid" class="group-grid">
@@ -370,7 +454,7 @@
 
   <footer>
     <p>Introduction to Virtual Reality & Augmented Reality (Course Code: 702COI002)</p>
-    <p>Academic Year 2026-2027 | Semester V | Department of Information Technology & Computer Engineering</p>
+    <p>SVKM's NMIMS MPSTME | Academic Year 2026-2027 | Semester V | Problem-Based Learning Research Cohort</p>
   </footer>
 
   <script>
@@ -698,6 +782,8 @@
       });
 
       renderCards(filtered);
+      document.getElementById("resultsCount").textContent =
+        `Showing ${filtered.length} of ${groupsData.length} Groups (Semester V)`;
     }
 
     // Initial Render

@@ -2,7 +2,6 @@
 **Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - 702COI002)  
 **Academic Year:** 2026–2027 | Semester V (Odd Semester)  
 **Institution:** SVKM's NMIMS MPSTME, Mumbai  
-**Department:** Department of Information Technology & Computer Engineering  
 **Framework:** ABET Criterion 3 Student Outcomes & CDIO Syllabus  
 
 ---

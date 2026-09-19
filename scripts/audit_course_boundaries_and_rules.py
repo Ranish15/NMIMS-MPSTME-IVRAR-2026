@@ -16,7 +16,10 @@ FORBIDDEN_WORDS = [
     r"\bSunny\b",
     r"\bNanade\b",
     r"\b702CO0E012\b",
-    r"\b702TG0C003\b"
+    r"\b702TG0C003\b",
+    r"Department of Information Technology",
+    r"Institutional Leadership & Academic Directorate",
+    r"\b70 Student\b"
 ]
 
 CURRENCY_PATTERNS = [

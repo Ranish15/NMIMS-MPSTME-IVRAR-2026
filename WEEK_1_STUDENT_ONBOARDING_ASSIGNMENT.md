@@ -2,7 +2,6 @@
 ## Practical First-Week Task for All Student Groups
 **Course:** Introduction to Virtual Reality & Augmented Reality (IVRAR - 702COI002)  
 **Academic Year:** 2026–2027 | Semester V (Odd Semester)  
-**Department:** Department of Information Technology & Computer Engineering  
 
 ---
 

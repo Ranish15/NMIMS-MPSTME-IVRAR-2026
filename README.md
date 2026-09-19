@@ -1,4 +1,4 @@
-# SVKM's NMIMS MPSTME | Department of Information Technology & Computer Engineering
+# SVKM's NMIMS MPSTME
 ## Introduction to Virtual Reality & Augmented Reality (IVRAR - Course Code: 702COI002)
 ### Problem-Based Learning (PBL) Research Cohort | Academic Year 2026–2027 (Semester V)
 
@@ -12,8 +12,7 @@
 | **Course Code** | 702COI002 |
 | **Academic Term** | Academic Year 2026–2027 | Semester V (Odd Semester) |
 | **Program & Level** | B.Tech & MBA Tech (Institute Open Elective) |
-| **Department** | Department of Information Technology & Computer Engineering |
-| **Cohort Size** | 70 Student Researchers across 18 Specialized Engineering Teams |
+| **Cohort Size** | 64 Student Researchers across 18 Specialized Engineering Teams |
 | **Pedagogical Model** | Aalborg-UNESCO Problem-Based Learning (PBL) & CDIO Framework |
 | **Literature Rigor** | Strict 2 Seminal : 4 Recent (2022–2026) verified CrossRef DOIs (100% Active HTTP 200) |
 | **Telemetry Standard** | OpenXR 20–30 Hz continuous kinematic, spatial, and psychometric logging ($N \ge 50$) |
@@ -23,9 +22,17 @@
 
 ## Student Cohort Commendation & Acknowledgments
 
-The Department expresses its highest commendation, sincere appreciation, and gratitude to all seventy student researchers across the eighteen project teams of Semester V (Academic Year 2026–2027). 
+SVKM's NMIMS MPSTME conveys its highest commendation, sincere appreciation, and heartfelt gratitude to all sixty-four (64) student researchers across the eighteen specialized engineering project teams of Semester V (Academic Year 2026–2027).
 
-Through disciplined commitment to the Aalborg-UNESCO Problem-Based Learning framework, each engineering team tackled genuine open challenges spanning spatial computing, biometric identity protection, planetary teleoperation, bio-adaptive clinical therapy, emergency triage, and collaborative physical puzzle synchronization. Your hard work in implementing coupled C# interface pipelines, configuring low-latency OpenXR interaction hooks, capturing authentic empirical telemetry datasets, and curating rigorous peer-reviewed literature sets a high benchmark for undergraduate research and engineering craftsmanship. Thank you for your intellectual rigor, resilience, and outstanding collaborative ownership throughout this semester.
+Through disciplined commitment to the Aalborg-UNESCO Problem-Based Learning framework, each engineering team tackled genuine open challenges spanning spatial computing, biometric identity protection, planetary teleoperation, bio-adaptive clinical therapy, emergency triage, and collaborative physical puzzle synchronization. Your hard work in implementing coupled C# interface pipelines, configuring low-latency OpenXR interaction hooks, capturing authentic empirical telemetry datasets, and curating rigorous peer-reviewed literature sets an exemplary benchmark for undergraduate research and engineering craftsmanship.
+
+> *"Scientists discover the world that exists; engineers create the world that never was."*  
+> — **Theodore von Kármán**
+
+> *"There is no substitute for hard work. Genius is one percent inspiration and ninety-nine percent perspiration."*  
+> — **Thomas A. Edison**
+
+> *"To all 64 student researchers across our 18 project groups: thank you for your relentless dedication, late-night debugging, intellectual curiosity, and collaborative excellence throughout Semester V. The engineering rigor demonstrated in your models, scripts, and manuscripts stands as a testament to your professional growth and perseverance."*
 
 ---
 
@@ -153,4 +160,3 @@ git push -u origin feat/<your-roll-no>-<task-name>
 ## Institutional Academic Policy
 * **Semester:** Semester V | Academic Year 2026–2027 (Odd Semester)
 * **Institution:** SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering (MPSTME)
-* **Department:** Department of Information Technology & Computer Engineering
