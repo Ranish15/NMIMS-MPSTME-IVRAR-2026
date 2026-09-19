@@ -14,7 +14,7 @@ CONSTRAINTS:
 
 import math
 
-class HandTrackingEconomics:
+class HandTrackingMlEval:
     def __init__(
         self,
         design_studio_workstations=12,
@@ -36,11 +36,8 @@ class HandTrackingEconomics:
         Calculates annual operational overhead for battery charging/replacement cycles,
         physical controller replacement due to drops, and pairing synchronization labor.
         """
-        # Annual maintenance and battery charging labor hours:
-        # 12 stations * 4 hours/week * 50 working weeks = 2400 hours
         annual_maintenance_labor_hours = self.workstations * self.battery_hours * 50.0
         
-        # Hardware replacement factor (normalized to baseline annual OpEx)
         hardware_drop_damage_factor = 0.52
         battery_wear_and_dock_maintenance_factor = 0.32
         firmware_pairing_troubleshooting_factor = 0.16
@@ -51,7 +48,6 @@ class HandTrackingEconomics:
             firmware_pairing_troubleshooting_factor
         )
         
-        # Controller breakages per year: 12 * 2 * 0.25 = 6 controllers replaced annually
         annual_controller_replacements = self.workstations * self.controllers_per_station * self.breakage_rate
         
         return {
@@ -75,7 +71,6 @@ class HandTrackingEconomics:
             software_pipeline_maintenance_factor
         )
         
-        # Negligible maintenance hours: standard plug-and-play USB cameras require only periodic lens cleaning
         annual_optical_maintenance_hours = self.workstations * 0.5 * 50.0 # 0.5 hr/week
         
         return {
@@ -98,7 +93,6 @@ class HandTrackingEconomics:
         
         # Dimensionless cost parity ratio kappa
         kappa = opt["normalized_optical_opex"] / ctrl["normalized_controller_opex"]
-        
         annual_operational_savings = ctrl["normalized_controller_opex"] - opt["normalized_optical_opex"]
         
         if annual_operational_savings > 0:
@@ -106,24 +100,20 @@ class HandTrackingEconomics:
         else:
             payback_months = float("inf")
             
-        # Studio workstation deployment capacity multiplier:
-        # High controller cost limits stations; low-cost optical tracking enables widespread multi-seat scaling
-        deployment_capacity_multiplier = 3.5
-        
         return {
             "kappa_ratio": round(kappa, 4),
-            "annual_maintenance_hours_reclaimed": round(annual_maintenance_hours_reclaimed, 1),
-            "annual_hardware_breakages_avoided": round(ctrl["annual_controller_replacements"], 1),
+            "annual_maintenance_labor_hours_reclaimed": round(annual_maintenance_hours_reclaimed, 1),
+            "annual_controller_replacements_avoided": round(ctrl["annual_controller_replacements"], 1),
             "payback_period_months": round(payback_months, 2),
-            "deployment_capacity_multiplier": round(deployment_capacity_multiplier, 2),
+            "workstation_scalability_multiplier": round(1.0 / kappa, 2),
             "normalized_opex_reduction_pct": round((1.0 - kappa) * 100.0, 1)
         }
 
 if __name__ == "__main__":
-    model = HandTrackingEconomics()
+    model = HandTrackingMlEval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
-    print("IVRAR GROUP 10: OPENCV OPTICAL HAND TRACKING TECHNOECONOMIC MODEL")
+    print("IVRAR GROUP 10: OPTICAL HAND-TRACKING ML & ROI EVALUATION MODEL")
     print("=" * 70)
     for k, v in results.items():
         print(f"  {k:45s}: {v}")

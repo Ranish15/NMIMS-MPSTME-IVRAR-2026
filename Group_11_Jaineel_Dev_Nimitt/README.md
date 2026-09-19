@@ -18,10 +18,10 @@ This project implements a **Hybrid Smart AR Kiosk and Mobile WebXR Handoff Syste
 |---|---|---|---|---|---|
 | 1 | `Qiao2019` | Web AR: A Promising Future for Mobile Augmented Reality-State of the Art, Challenges, and Insights | Proceedings of the IEEE | 2019 | [10.1109/JPROC.2019.2895105](https://doi.org/10.1109/JPROC.2019.2895105) |
 | 2 | `Mulloni2011` | Handheld augmented reality indoor navigation with activity-based instructions | ACM MobileHCI | 2011 | [10.1145/2037373.2037406](https://doi.org/10.1145/2037373.2037406) |
-| 3 | `Isikdag2013` | A BIM-Oriented Model for supporting indoor navigation requirements | Computers, Environment and Urban Systems | 2013 | [10.1016/j.compenvurbsys.2013.05.001](https://doi.org/10.1016/j.compenvurbsys.2013.05.001) |
-| 4 | `Ballagas2006` | The Smart Phone: A Ubiquitous Input Device | IEEE Pervasive Computing | 2006 | [10.1109/MPRV.2006.18](https://doi.org/10.1109/MPRV.2006.18) |
-| 5 | `Davies2012` | Open Display Networks: A Communications Medium for the 21st Century | Computer | 2012 | [10.1109/MC.2012.114](https://doi.org/10.1109/MC.2012.114) |
-| 6 | `Rekimoto2000` | CyberCode: designing augmented reality environments with visual tags | ACM DARE | 2000 | [10.1145/354666.354667](https://doi.org/10.1145/354666.354667) |
+| 3 | `Qiu2025` | Use of augmented reality in human wayfinding: a systematic review | Virtual Reality | 2025 | [10.1007/s10055-025-01226-w](https://doi.org/10.1007/s10055-025-01226-w) |
+| 4 | `Ma2026` | Augmented Reality for Campus Wayfinding: Enhancing Navigation Efficiency and Student Social Engagement - A Case Study of Leeds University Union | Visible Language | 2026 | [10.34314/jk9zgk40](https://doi.org/10.34314/jk9zgk40) |
+| 5 | `V2025` | Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications | ICIRDCCT | 2025 | [10.5220/0013886300004919](https://doi.org/10.5220/0013886300004919) |
+| 6 | `Lee2022` | Benefit Analysis of Gamified Augmented Reality Navigation System for Campus Wayfinding | Applied Sciences | 2022 | [10.3390/app12062969](https://doi.org/10.3390/app12062969) |
 
 ---
 
@@ -44,7 +44,7 @@ S021      Nimitt Jain       Sustainability & Usability Analyst         feat/s021
 The platform comprises four interconnected software modules:
 1. **Interactive Kiosk & QR Serialization Engine (`Assets/Scripts/SmartKioskHandoffManager.cs`, `R057 - Jaineel Shah`):** High-throughput touch UI directory, topological graph pathfinding, dynamic QR code matrix generation, and 45-second automated session timeout cleanup.
 2. **Mobile WebXR Route Navigator (`Assets/Scripts/MobileWebXRRouteNavigator.cs`, `S014 - Dev Garg`):** Client-side zero-install WebXR execution, visual-inertial camera pose tracking, dynamic 3D chevron guidance rendering, and floor transition notifications.
-3. **Campus Sustainability & Usability Analysis (`telemetry/kiosk_handoff_economics.py`, `S021 - Nimitt Jain`):** Dimensionless cost parity modeling, paper waste elimination quantification, reception labor reclamation, and payback horizon calculations.
+3. **Campus Sustainability & Usability Analysis (`telemetry/kiosk_analytics_roi_eval.py`, `S021 - Nimitt Jain`):** Dimensionless cost parity modeling, paper waste elimination quantification, reception labor reclamation, and payback horizon calculations.
 4. **Empirical Benchmarking & Figure Pipeline (`telemetry/generate_paper_figures.py`, `S021 - Nimitt Jain`):** 50-participant synthetic trial generation, statistical validation ($t$-tests, effect sizes), and 300 DPI publication figure rendering.
 
 ### Publication-Grade Figures (300 DPI)

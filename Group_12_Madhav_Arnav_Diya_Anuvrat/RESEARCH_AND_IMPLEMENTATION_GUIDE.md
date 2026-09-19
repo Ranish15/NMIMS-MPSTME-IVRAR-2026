@@ -84,7 +84,7 @@ I080      Anuvrat Tripathi  Human Factors & Retention Analyst          cybersecu
 
 ### 2.4 Anuvrat Tripathi (I080) - Human Factors & Retention Analyst
 - Lead responsibility for longitudinal Day 0 vs Day 14 experimental trial execution ($N = 50$).
-- Implementation of technoeconomic operational parity modeling in `telemetry/cybersecurity_training_economics.py`.
+- Implementation of technoeconomic operational parity modeling in `telemetry/telecom_latency_debias_eval.py`.
 - Statistical data synthesis and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/i080-human-factors-retent`
 

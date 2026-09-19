@@ -85,7 +85,7 @@ R033      Jiah Kothari        Human Factors & Security QA Engineer       Human F
 ### 2.4 Jiah Kothari (R033) - Human Factors & Security QA Engineer
 - Lead responsibility for cognitive workload profiling (NASA-TLX) and System Usability Scale (SUS) administration.
 - Execution of empirical benchmark evaluation across $N = 50$ enterprise employees and statistical significance testing.
-- Implementation of corporate workforce productivity and operational parity model in `telemetry/phishing_simulation_economics.py`.
+- Implementation of corporate workforce productivity and operational parity model in `telemetry/phishing_threat_roi_eval.py`.
 - Git Branch: `feat/r033-human-factors-securi`
 
 ---

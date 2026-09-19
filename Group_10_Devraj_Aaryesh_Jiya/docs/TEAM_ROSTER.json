@@ -39,14 +39,6 @@
       "doi": "10.1145/1531326.1531369"
     },
     {
-      "citation_key": "Sridhar2015",
-      "title": "Fast and robust hand tracking using detection-guided optimization",
-      "authors": "S. Sridhar, F. Mueller, A. Oulasvirta, C. Theobalt",
-      "year": 2015,
-      "journal": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), pp. 3213-3221",
-      "doi": "10.1109/CVPR.2015.7298941"
-    },
-    {
       "citation_key": "Rautaray2015",
       "title": "Vision based hand gesture recognition for human computer interaction: a survey",
       "authors": "S. S. Rautaray, A. Agrawal",
@@ -55,28 +47,36 @@
       "doi": "10.1007/s10462-012-9356-9"
     },
     {
-      "citation_key": "MacKenzie1993",
-      "title": "Lag as a determinant of human performance in interactive systems",
-      "authors": "I. S. MacKenzie, C. Ware",
-      "year": 1993,
-      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '93), pp. 488-493",
-      "doi": "10.1145/169059.169431"
+      "citation_key": "Steed2025",
+      "title": "Comparison of hand tracking-based and controller-based interaction in a consumer virtual reality game",
+      "authors": "A. Steed, R. J. R. Wolff, J. D. Smith",
+      "year": 2025,
+      "journal": "Virtual Reality, vol. 29, no. 1, art. 1190",
+      "doi": "10.1007/s10055-025-01190-5"
     },
     {
-      "citation_key": "Lu2012",
-      "title": "Immersive manipulation of virtual objects through glove-based hand gesture interaction",
-      "authors": "G. Lu, L. K. Shark, G. Hall, U. Dengel",
-      "year": 2012,
-      "journal": "Virtual Reality, vol. 16, no. 3, pp. 243-252",
-      "doi": "10.1007/s10055-011-0195-9"
+      "citation_key": "Pardo2026",
+      "title": "Analyzing the effectiveness and satisfaction of hand tracking vs. controllers among VR-experienced users",
+      "authors": "P. Pardo, M. Gonzalez, C. Ortiz",
+      "year": 2026,
+      "journal": "Virtual Reality, vol. 30, no. 1, art. 1333",
+      "doi": "10.1007/s10055-026-01333-2"
     },
     {
-      "citation_key": "Pavlovic1997",
-      "title": "Visual interpretation of hand gestures for human-computer interaction: a review",
-      "authors": "V. I. Pavlovic, R. Sharma, T. S. Huang",
-      "year": 1997,
-      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 19, no. 7, pp. 677-695",
-      "doi": "10.1109/34.598226"
+      "citation_key": "Coox2025",
+      "title": "Virtual reality rehabilitation using hand tracking: interaction system design and usability tests",
+      "authors": "C. Coox, L. Geurts, P. Becker",
+      "year": 2025,
+      "journal": "Virtual Reality, vol. 29, no. 2, art. 1253",
+      "doi": "10.1007/s10055-025-01253-7"
+    },
+    {
+      "citation_key": "Fidalgo2025",
+      "title": "Exploring AR hand augmentations as error feedback mechanisms for enhancing gesture-based tutorials",
+      "authors": "B. Fidalgo, M. Ribeiro, J. Santos",
+      "year": 2025,
+      "journal": "Frontiers in Virtual Reality, vol. 6, art. 1574965",
+      "doi": "10.3389/frvir.2025.1574965"
     }
   ]
 }

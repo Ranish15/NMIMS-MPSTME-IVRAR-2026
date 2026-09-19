@@ -21,7 +21,7 @@ Fingertip 2D centroids $\mathbf{c}_k = (\bar{u}_k, \bar{v}_k)$ are computed via 
 $$\bar{u}_k = \frac{m_{10}^{(k)}}{m_{00}^{(k)}} = \frac{\sum_{u,v} u \cdot \mathcal{M}_k(u, v)}{\sum_{u,v} \mathcal{M}_k(u, v)}, \quad \bar{v}_k = \frac{m_{01}^{(k)}}{m_{00}^{(k)}} = \frac{\sum_{u,v} v \cdot \mathcal{M}_k(u, v)}{\sum_{u,v} \mathcal{M}_k(u, v)}$$
 
 ### 1.2 Sub-15ms Latency Budget Formulation
-Human motor performance in 3D manipulation degrades sharply when interaction latency exceeds 15-20 ms (`MacKenzie1993`). The cumulative end-to-end pipeline latency $T_{\text{pipeline}}$ is decomposed across five stages:
+Human motor performance in 3D manipulation degrades sharply when interaction latency exceeds 15-20 ms (`Pardo2026`). The cumulative end-to-end pipeline latency $T_{\text{pipeline}}$ is decomposed across five stages:
 
 $$T_{\text{pipeline}} = t_{\text{capture}} + t_{\text{hsv}} + t_{\text{contour}} + t_{\text{udp}} + t_{\text{render}}$$
 
@@ -82,7 +82,7 @@ R054      Jiya Saxena       Gesture Recognition Specialist             Architect
 ### 2.3 Jiya Saxena (R054) - Gesture Recognition Specialist
 - Lead responsibility for multi-finger geometric gesture classification (Pinch, Fist Grab, Two-Hand Rotate, Palm Lock).
 - Implementation of architectural 3D BIM model manipulation kinetics in `Assets/Scripts/ArchitecturalModelGestureController.cs`.
-- Implementation of technoeconomic operational parity model in `telemetry/hand_tracking_economics.py`.
+- Implementation of technoeconomic operational parity model in `telemetry/hand_tracking_ml_eval.py`.
 - Git Branch: `feat/r054-gesture-recognition-`
 
 ---

@@ -16,12 +16,12 @@ This project implements an **AI-Adaptive VR Social-Engineering Simulation** deve
 
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
-| 1 | `Krombholz2015` | Advanced social engineering attacks | Journal of Information Security and Applications | 2015 | [10.1016/j.jisa.2014.09.005](https://doi.org/10.1016/j.jisa.2014.09.005) |
-| 2 | `Sheng2010` | Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions | ACM CHI | 2010 | [10.1145/1753326.1753383](https://doi.org/10.1145/1753326.1753383) |
-| 3 | `Vishwanath2018` | Suspicion, Cognition, and Automaticity Model of Phishing Susceptibility | Communication Research | 2018 | [10.1177/0093650215627483](https://doi.org/10.1177/0093650215627483) |
-| 4 | `Ferreira2015` | Principles of Persuasion in Social Engineering and Their Use in Phishing | Lecture Notes in Computer Science (HCII / HAS) | 2015 | [10.1007/978-3-319-20376-8_4](https://doi.org/10.1007/978-3-319-20376-8_4) |
-| 5 | `Sheng2007` | Anti-Phishing Phil: the design and evaluation of an interactive game to teach people not to fall for phish | ACM SOUPS | 2007 | [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692) |
-| 6 | `Blascovich2002` | Immersive Virtual Environment Technology as a Methodological Tool for Social Psychology | Psychological Inquiry | 2002 | [10.1207/S15327965PLI1302_01](https://doi.org/10.1207/S15327965PLI1302_01) |
+| 1 | `Sheng2010` | Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions | ACM CHI | 2010 | [10.1145/1753326.1753383](https://doi.org/10.1145/1753326.1753383) |
+| 2 | `Vishwanath2018` | Suspicion, Cognition, and Automaticity Model of Phishing Susceptibility | Communication Research | 2018 | [10.1177/0093650215627483](https://doi.org/10.1177/0093650215627483) |
+| 3 | `Rehman2026` | Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats | Virtual Reality | 2026 | [10.1007/s10055-025-01309-8](https://doi.org/10.1007/s10055-025-01309-8) |
+| 4 | `Abril2025` | Exploring a novel approach to cybersecurity: the role of ecological simulations on cybersecurity risk behaviors | Virtual Reality | 2025 | [10.1007/s10055-025-01228-8](https://doi.org/10.1007/s10055-025-01228-8) |
+| 5 | `Alnajim2023` | Exploring Cybersecurity Education and Training Techniques: A Comprehensive Review of Traditional, Virtual Reality, and Augmented Reality Approaches | Symmetry | 2023 | [10.3390/sym15122175](https://doi.org/10.3390/sym15122175) |
+| 6 | `Shin2025` | Simulating cyber defense: the impact of phishing training and system updates on mitigating damage from hybrid phishing and watering hole attacks | The Journal of Defense Modeling and Simulation | 2025 | [10.1177/15485129251365259](https://doi.org/10.1177/15485129251365259) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **Conversational AI & Dialogue Branch Core (`Assets/Scripts/SocialEngineeringDialogueTreeManager.cs`, `I074 - Kush Keswani`):** Non-linear dialogue attack trees, NLP intent matching, and Cialdini persuasion tactic sequencing (Authority, Urgency, Scarcity).
 2. **XR Corporate Simulation Environment (`R002 - Himanshi Agarwal`):** Immersive office twin, procedural avatar lip-syncing, non-verbal social presence, and environmental lure placement.
 3. **Eye-Gaze & Behavioral Telemetry Engine (`Assets/Scripts/PhishingGazeTelemetryLogger.cs`, `R008 - Nirvan Chhajed`):** 90 Hz eye-gaze raycast intersection, visual fixation dwell time tracking on deceptive artifacts, and response latency recording.
-4. **Human Factors & Technoeconomic Operational Parity (`telemetry/phishing_simulation_economics.py`, `R033 - Jiah Kothari`):** NASA-TLX cognitive workload assessment, SUS usability profiling, and workforce labor optimization modeling.
+4. **Human Factors & Technoeconomic Operational Parity (`telemetry/phishing_threat_roi_eval.py`, `R033 - Jiah Kothari`):** NASA-TLX cognitive workload assessment, SUS usability profiling, and workforce labor optimization modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture layout.

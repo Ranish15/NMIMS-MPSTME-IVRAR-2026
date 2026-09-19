@@ -39,14 +39,6 @@
   ],
   "foundational_papers": [
     {
-      "citation_key": "Krombholz2015",
-      "title": "Advanced social engineering attacks",
-      "authors": "K. Krombholz, H. Hobel, M. Huber, E. Weippl",
-      "year": 2015,
-      "journal": "Journal of Information Security and Applications, vol. 22, pp. 113-122",
-      "doi": "10.1016/j.jisa.2014.09.005"
-    },
-    {
       "citation_key": "Sheng2010",
       "title": "Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions",
       "authors": "S. Sheng, M. Holbrook, P. Kumaraguru, L. F. Cranor, J. Downs",
@@ -63,28 +55,36 @@
       "doi": "10.1177/0093650215627483"
     },
     {
-      "citation_key": "Ferreira2015",
-      "title": "Principles of Persuasion in Social Engineering and Their Use in Phishing",
-      "authors": "A. Ferreira, L. Coventry, G. Lenzini",
-      "year": 2015,
-      "journal": "Lecture Notes in Computer Science (HCII / HAS 2015), vol. 9190, pp. 495-505",
-      "doi": "10.1007/978-3-319-20376-8_4"
+      "citation_key": "Rehman2026",
+      "title": "Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats",
+      "authors": "A. U. Rehman, S. R. Zahid, H. A. Khattak, et al.",
+      "year": 2026,
+      "journal": "Virtual Reality, vol. 30, no. 1, art. 1309",
+      "doi": "10.1007/s10055-025-01309-8"
     },
     {
-      "citation_key": "Sheng2007",
-      "title": "Anti-Phishing Phil: the design and evaluation of an interactive game to teach people not to fall for phish",
-      "authors": "S. Sheng, B. Magnien, P. Kumaraguru, A. Acquisti, L. F. Cranor, J. Hong, E. Nunge",
-      "year": 2007,
-      "journal": "Proceedings of the 3rd Symposium on Usable Privacy and Security (SOUPS '07), pp. 88-99",
-      "doi": "10.1145/1280680.1280692"
+      "citation_key": "Abril2025",
+      "title": "Exploring a novel approach to cybersecurity: the role of ecological simulations on cybersecurity risk behaviors",
+      "authors": "R. Abril, J. C. Read, M. Horton",
+      "year": 2025,
+      "journal": "Virtual Reality, vol. 29, no. 2, art. 1228",
+      "doi": "10.1007/s10055-025-01228-8"
     },
     {
-      "citation_key": "Blascovich2002",
-      "title": "Immersive Virtual Environment Technology as a Methodological Tool for Social Psychology",
-      "authors": "J. Blascovich, J. Loomis, A. C. Beall, K. R. Swinth, C. L. Hoyt, J. N. Bailenson",
-      "year": 2002,
-      "journal": "Psychological Inquiry, vol. 13, no. 2, pp. 103-124",
-      "doi": "10.1207/S15327965PLI1302_01"
+      "citation_key": "Alnajim2023",
+      "title": "Exploring Cybersecurity Education and Training Techniques: A Comprehensive Review of Traditional, Virtual Reality, and Augmented Reality Approaches",
+      "authors": "A. Alnajim, M. Alahmadi, M. Aksoy",
+      "year": 2023,
+      "journal": "Symmetry, vol. 15, no. 12, art. 2175",
+      "doi": "10.3390/sym15122175"
+    },
+    {
+      "citation_key": "Shin2025",
+      "title": "Simulating cyber defense: the impact of phishing training and system updates on mitigating damage from hybrid phishing and watering hole attacks",
+      "authors": "J. Shin, J. Park, K. Lee",
+      "year": 2025,
+      "journal": "The Journal of Defense Modeling and Simulation, vol. 22, no. 3, pp. 315-329",
+      "doi": "10.1177/15485129251365259"
     }
   ]
 }

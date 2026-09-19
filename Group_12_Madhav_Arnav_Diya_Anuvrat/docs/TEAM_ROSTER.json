@@ -55,22 +55,6 @@
       "doi": "10.1145/1280680.1280692"
     },
     {
-      "citation_key": "Kumaraguru2010",
-      "title": "Teaching Johnny not to fall for phish",
-      "authors": "P. Kumaraguru, S. Sheng, A. Acquisti, L. F. Cranor, J. Hong",
-      "year": 2010,
-      "journal": "ACM Transactions on Internet Technology, vol. 10, no. 2, art. no. 7",
-      "doi": "10.1145/1754393.1754396"
-    },
-    {
-      "citation_key": "Vishwanath2011",
-      "title": "Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model",
-      "authors": "A. Vishwanath, T. Herath, R. Chen, J. Wang, H. R. Rao",
-      "year": 2011,
-      "journal": "Decision Support Systems, vol. 51, no. 3, pp. 576-586",
-      "doi": "10.1016/j.dss.2011.03.002"
-    },
-    {
       "citation_key": "Baltuttis2024",
       "title": "Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment",
       "authors": "D. Baltuttis, T. Teubner",
@@ -79,12 +63,28 @@
       "doi": "10.1016/j.cose.2024.103940"
     },
     {
-      "citation_key": "Buttussi2021",
-      "title": "A Comparison of Procedural Safety Training in Three Conditions: Virtual Reality Headset, Smartphone, and Printed Materials",
-      "authors": "F. Buttussi, L. Chittaro",
-      "year": 2021,
-      "journal": "IEEE Transactions on Learning Technologies, vol. 14, no. 1, pp. 1-15",
-      "doi": "10.1109/TLT.2020.3033766"
+      "citation_key": "Sarno2022",
+      "title": "Is the key to phishing training persistence?: Developing a nudge-based training model to facilitate long-term retention of phishing detection",
+      "authors": "D. M. Sarno, E. B. Lewis, B. D. Neider",
+      "year": 2022,
+      "journal": "Journal of Experimental Psychology: Applied, vol. 28, no. 4, pp. 815-831",
+      "doi": "10.1037/xap0000410"
+    },
+    {
+      "citation_key": "Zhong2026",
+      "title": "From virtual to reality: A systematic review of the impact of immersive virtual reality on cognitive learning and retention",
+      "authors": "H. Zhong, J. Li, Y. Chen",
+      "year": 2026,
+      "journal": "Educational Research Review, vol. 45, art. no. 100767",
+      "doi": "10.1016/j.edurev.2026.100767"
+    },
+    {
+      "citation_key": "Yao2025",
+      "title": "The Psychological Manipulation of Phishing Emails: A Cognitive Modeling Perspective",
+      "authors": "Y. Yao, W. Wang, H. Zhang",
+      "year": 2025,
+      "journal": "Computers, Materials & Continua, vol. 82, no. 2, pp. 1925-1944",
+      "doi": "10.32604/cmc.2025.065059"
     }
   ]
 }

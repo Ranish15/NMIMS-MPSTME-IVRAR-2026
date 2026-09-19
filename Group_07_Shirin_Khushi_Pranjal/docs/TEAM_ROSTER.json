@@ -8,15 +8,17 @@
       "roll_no": "N094",
       "sap_id": "70472400106",
       "name": "Shirin Sharma",
+      "program": "MBA Tech Computer Engineering",
       "role": "Spatial Forensics & Photogrammetry Lead",
-      "assigned_branch": "feat/n094-spatial-forensics-ph",
+      "assigned_branch": "feat/n094-spatial-forensics-photogrammetry",
       "github_username": ""
     },
     {
       "roll_no": "N101",
       "sap_id": "70472400012",
       "name": "Khushi Srivastava",
-      "role": "XR Systems Architect",
+      "program": "MBA Tech Computer Engineering",
+      "role": "XR Systems Architect & Evidence Interaction Lead",
       "assigned_branch": "feat/n101-xr-systems-architect",
       "github_username": ""
     },
@@ -24,21 +26,15 @@
       "roll_no": "N106",
       "sap_id": "70472400138",
       "name": "Pranjal Thakur",
-      "role": "Forensic Chain-of-Custody Specialist",
-      "assigned_branch": "feat/n106-forensic-chain-of-cu",
+      "program": "MBA Tech Computer Engineering",
+      "role": "Forensic Chain-of-Custody & Timeline Analytics Specialist",
+      "assigned_branch": "feat/n106-forensic-chain-of-custody",
       "github_username": ""
     }
   ],
   "foundational_papers": [
     {
-      "citation_key": "Wang2019",
-      "title": "Virtual reality and integrated crime scene scanning for immersive and heterogeneous crime scene reconstruction",
-      "authors": "Z. Wang, Z. Li, X. Hu, W. Zhou, L. Zhou, Q. Peng",
-      "year": 2019,
-      "journal": "Forensic Science International, vol. 303, art. no. 109943",
-      "doi": "10.1016/j.forsciint.2019.109943"
-    },
-    {
+      "id": "P1",
       "citation_key": "Buck2019",
       "title": "3D crime scene reconstruction",
       "authors": "U. Buck",
@@ -47,14 +43,7 @@
       "doi": "10.1016/j.forsciint.2019.109901"
     },
     {
-      "citation_key": "Krokos2019",
-      "title": "Virtual memory palaces: immersion aids recall",
-      "authors": "E. Krokos, C. Plaisant, A. Varshney",
-      "year": 2019,
-      "journal": "Virtual Reality, vol. 23, no. 1, pp. 1-15",
-      "doi": "10.1007/s10055-018-0346-3"
-    },
-    {
+      "id": "P2",
       "citation_key": "Mayne2020",
       "title": "Virtual reality for teaching and learning in crime scene investigation",
       "authors": "R. Mayne, H. Green",
@@ -63,20 +52,40 @@
       "doi": "10.1016/j.scijus.2020.07.006"
     },
     {
-      "citation_key": "Noond2002",
-      "title": "Visualising the scene: Computer graphics and evidence presentation",
-      "authors": "J. Noond, D. Schofield, J. March, M. Evison",
-      "year": 2002,
-      "journal": "Science & Justice, vol. 42, no. 2, pp. 89-95",
-      "doi": "10.1016/S1355-0306(02)71804-2"
+      "id": "P3",
+      "citation_key": "Albeedan2024",
+      "title": "Designing and evaluation of a mixed reality system for crime scene investigation training: a hybrid approach",
+      "authors": "H. Albeedan, H. Kolivand, H. Hammady",
+      "year": 2024,
+      "journal": "Virtual Reality, vol. 28, art. no. 142, pp. 1-19",
+      "doi": "10.1007/s10055-024-01018-8"
     },
     {
-      "citation_key": "Urbanova2015",
-      "title": "Testing photogrammetry-based techniques for three-dimensional surface documentation in forensic pathology",
-      "authors": "P. Urbanova, P. Hejna, M. Jurda",
-      "year": 2015,
-      "journal": "Forensic Science International, vol. 250, pp. 77-86",
-      "doi": "10.1016/j.forsciint.2015.03.005"
+      "id": "P4",
+      "citation_key": "Pringle2026",
+      "title": "Progressive scaffolding of forensic science students crime scene investigation skills through authentic simulated crime scene assessments",
+      "authors": "J. K. Pringle, R. Heaton, M. Jeffery, K. D. Wisniewski, H. Handley, M. Shemilt, C. Hobson",
+      "year": 2026,
+      "journal": "Science & Justice, vol. 66, no. 2, pp. 1-12",
+      "doi": "10.1016/j.scijus.2026.101428"
+    },
+    {
+      "id": "P5",
+      "citation_key": "Wickenheiser2023",
+      "title": "Proactive crime scene response optimizes crime investigation",
+      "authors": "R. A. Wickenheiser",
+      "year": 2023,
+      "journal": "Forensic Science International: Synergy, vol. 6, art. no. 100325, pp. 1-14",
+      "doi": "10.1016/j.fsisyn.2023.100325"
+    },
+    {
+      "id": "P6",
+      "citation_key": "Harrison2025",
+      "title": "Considerations of Space and Time: Fire Investigation and Forensic Archaeology in Crime Scene Reconstruction",
+      "authors": "K. Harrison",
+      "year": 2025,
+      "journal": "WIREs Forensic Science, vol. 7, no. 1, art. no. e70006, pp. 1-16",
+      "doi": "10.1002/wfs2.70006"
     }
   ]
 }

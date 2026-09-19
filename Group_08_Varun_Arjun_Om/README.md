@@ -3,6 +3,8 @@
 ## Authorized Research Title
 > **"To what extent does a gamified mobile AR checkpoint discovery system enhance campus facility orientation and navigational self-efficacy among incoming university students?"**
 
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality - Institute Open Elective)
+
 ---
 
 ## Executive Abstract & Problem Scope
@@ -17,11 +19,11 @@ This project implements an interactive **Gamified Mobile AR Checkpoint Discovery
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
 | 1 | `Hamari2014` | Does Gamification Work? -- A Literature Review of Empirical Studies on Gamification | 47th Hawaii International Conference on System Sciences | 2014 | [10.1109/HICSS.2014.377](https://doi.org/10.1109/HICSS.2014.377) |
-| 2 | `Sailer2017` | How gamification motivates: An experimental study of the effects of specific game design elements on psychological need satisfaction | Computers in Human Behavior | 2017 | [10.1016/j.chb.2016.12.033](https://doi.org/10.1016/j.chb.2016.12.033) |
-| 3 | `Hegarty2002` | Development of a self-report measure of environmental spatial ability | Intelligence | 2002 | [10.1016/S0160-2896(02)00116-2](https://doi.org/10.1016/S0160-2896(02)00116-2) |
-| 4 | `Dunleavy2009` | Affordances and Limitations of Immersive Participatory Augmented Reality Simulations for Teaching and Learning | Journal of Science Education and Technology | 2009 | [10.1007/s10956-008-9119-1](https://doi.org/10.1007/s10956-008-9119-1) |
-| 5 | `FitzWalter2011` | Orientation Passport: Using gamification to engage university students with orientation | Proceedings of the 23rd Australian Computer-Human Interaction Conference | 2011 | [10.1145/2071536.2071554](https://doi.org/10.1145/2071536.2071554) |
-| 6 | `Wu2012` | Re-exploring game-assisted learning research: The perspective of learning theoretical bases | Computers & Education | 2012 | [10.1016/j.compedu.2012.05.003](https://doi.org/10.1016/j.compedu.2012.05.003) |
+| 2 | `Hegarty2002` | Development of a self-report measure of environmental spatial ability | Intelligence | 2002 | [10.1016/S0160-2896(02)00116-2](https://doi.org/10.1016/S0160-2896(02)00116-2) |
+| 3 | `Lee2022` | Benefit Analysis of Gamified Augmented Reality Navigation System | Applied Sciences | 2022 | [10.3390/app12062969](https://doi.org/10.3390/app12062969) |
+| 4 | `Abdelghany2024` | Augmented Reality Indoor-Outdoor Navigation Through a Campus Digital Twin | 2024 34th Int. Conf. on Computer Science and Software Engineering | 2024 | [10.1109/cascon62161.2024.10838167](https://doi.org/10.1109/cascon62161.2024.10838167) |
+| 5 | `Sakthi2025` | Smart AR Navigation: Enhancing Campus Wayfinding with Augmented Reality | 2025 Int. Conf. on Communication, Computing and IoT | 2025 | [10.1109/iccct63501.2025.11019523](https://doi.org/10.1109/iccct63501.2025.11019523) |
+| 6 | `Patel2025` | Campus Navigation and Augmented Reality Guided Mobile Application | 2025 3rd Int. Conf. on Computer, Comm. and Signal Processing | 2025 | [10.1109/iccsai64074.2025.11064653](https://doi.org/10.1109/iccsai64074.2025.11064653) |
 
 ---
 
@@ -29,11 +31,11 @@ This project implements an interactive **Gamified Mobile AR Checkpoint Discovery
 
 ```
 ===================================================================================================
-Roll No   Student Name      Assigned Engineering Role                  Git Feature Branch
+Roll No   Student Name      Program                           Assigned Engineering Role             Git Feature Branch
 ===================================================================================================
-F050      Varun Iyer        Mobile AR Lead                             feat/f050-mobile-ar-lead
-F049      Arjun Salunke     XR Systems Architect                       feat/f049-xr-systems-architect
-F014      Om Kadam          Gamification & Telemetry Specialist        feat/f014-gamification-telemet
+F050      Varun Iyer        B.Tech IT (Integrated)            Mobile AR & Visual Tracking Lead      feat/f050-mobile-ar-lead
+F049      Arjun Salunke     B.Tech IT (Integrated)            XR Systems Architect & Geofencing     feat/f049-xr-systems-architect
+F014      Om Kadam          B.Tech IT (Integrated)            Gamification & Telemetry Specialist   feat/f014-gamification-telemetry
 ===================================================================================================
 ```
 

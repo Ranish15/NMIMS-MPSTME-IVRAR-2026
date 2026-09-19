@@ -3,6 +3,8 @@
 ## Authorized Research Title
 > **"To what extent does an interactive VR spatial crime scene reconstruction improve evidence tagging accuracy and timeline sequencing for student forensic investigators compared to traditional 2D photographic logs?"**
 
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality - Institute Open Elective)
+
 ---
 
 ## Executive Abstract & Problem Scope
@@ -16,12 +18,12 @@ This project develops an interactive **VR Spatial Crime Scene Reconstruction Fra
 
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
-| 1 | `Wang2019` | Virtual reality and integrated crime scene scanning for immersive and heterogeneous crime scene reconstruction | Forensic Science International | 2019 | [10.1016/j.forsciint.2019.109943](https://doi.org/10.1016/j.forsciint.2019.109943) |
-| 2 | `Buck2019` | 3D crime scene reconstruction | Forensic Science International | 2019 | [10.1016/j.forsciint.2019.109901](https://doi.org/10.1016/j.forsciint.2019.109901) |
-| 3 | `Krokos2019` | Virtual memory palaces: immersion aids recall | Virtual Reality | 2019 | [10.1007/s10055-018-0346-3](https://doi.org/10.1007/s10055-018-0346-3) |
-| 4 | `Mayne2020` | Virtual reality for teaching and learning in crime scene investigation | Science & Justice | 2020 | [10.1016/j.scijus.2020.07.006](https://doi.org/10.1016/j.scijus.2020.07.006) |
-| 5 | `Noond2002` | Visualising the scene: Computer graphics and evidence presentation | Science & Justice | 2002 | [10.1016/S1355-0306(02)71804-2](https://doi.org/10.1016/S1355-0306(02)71804-2) |
-| 6 | `Urbanova2015` | Testing photogrammetry-based techniques for three-dimensional surface documentation in forensic pathology | Forensic Science International | 2015 | [10.1016/j.forsciint.2015.03.005](https://doi.org/10.1016/j.forsciint.2015.03.005) |
+| 1 | `Buck2019` | 3D crime scene reconstruction | Forensic Science International | 2019 | [10.1016/j.forsciint.2019.109901](https://doi.org/10.1016/j.forsciint.2019.109901) |
+| 2 | `Mayne2020` | Virtual reality for teaching and learning in crime scene investigation | Science & Justice | 2020 | [10.1016/j.scijus.2020.07.006](https://doi.org/10.1016/j.scijus.2020.07.006) |
+| 3 | `Albeedan2024` | Designing and evaluation of a mixed reality system for crime scene investigation training: a hybrid approach | Virtual Reality | 2024 | [10.1007/s10055-024-01018-8](https://doi.org/10.1007/s10055-024-01018-8) |
+| 4 | `Pringle2026` | Progressive scaffolding of forensic science students crime scene investigation skills through authentic simulated crime scene assessments | Science & Justice | 2026 | [10.1016/j.scijus.2026.101428](https://doi.org/10.1016/j.scijus.2026.101428) |
+| 5 | `Wickenheiser2023` | Proactive crime scene response optimizes crime investigation | Forensic Science International: Synergy | 2023 | [10.1016/j.fsisyn.2023.100325](https://doi.org/10.1016/j.fsisyn.2023.100325) |
+| 6 | `Harrison2025` | Considerations of Space and Time: Fire Investigation and Forensic Archaeology in Crime Scene Reconstruction | WIREs Forensic Science | 2025 | [10.1002/wfs2.70006](https://doi.org/10.1002/wfs2.70006) |
 
 ---
 
@@ -29,11 +31,11 @@ This project develops an interactive **VR Spatial Crime Scene Reconstruction Fra
 
 ```
 ===================================================================================================
-Roll No   Student Name        Assigned Engineering Role                  Git Feature Branch
+Roll No   Student Name        Program               Assigned Engineering Role             Git Feature Branch
 ===================================================================================================
-N094      Shirin Sharma       Spatial Forensics & Photogrammetry Lead    feat/n094-spatial-forensics-ph
-N101      Khushi Srivastava   XR Systems Architect                       feat/n101-xr-systems-architect
-N106      Pranjal Thakur      Forensic Chain-of-Custody Specialist      feat/n106-forensic-chain-of-cu
+N094      Shirin Sharma       MBA Tech Computer     Spatial Forensics & Photogrammetry    feat/n094-spatial-forensics-photogrammetry
+N101      Khushi Srivastava   MBA Tech Computer     XR Systems Architect                  feat/n101-xr-systems-architect
+N106      Pranjal Thakur      MBA Tech Computer     Forensic Chain-of-Custody Specialist  feat/n106-forensic-chain-of-custody
 ===================================================================================================
 ```
 
@@ -45,7 +47,7 @@ The platform comprises four interconnected software modules:
 1. **Spatial Capture & Digital Twin Engine (`N094 - Shirin Sharma`):** Mesh decimation, LOD texture optimization, and physical raycast collider generation for imported terrestrial LiDAR and photogrammetric scans.
 2. **XR Evidence Tagging Core (`Assets/Scripts/CrimeSceneEvidenceManager.cs`, `N101 - Khushi Srivastava`):** 6-DoF raycast interaction, 3D evidence marker instancing, Euclidean residual calculation, and simulated SHA-256 chain-of-custody cryptographic hashing.
 3. **Forensic Timeline & Telemetry Engine (`Assets/Scripts/ForensicTimelineTelemetryLogger.cs`, `N106 - Pranjal Thakur`):** Chronological event sequence comparator computing Kendall-Tau rank correlation ($\tau$) against ground-truth timelines, plus continuous investigator trajectory logging.
-4. **Technoeconomic Operational Parity Model (`telemetry/forensic_training_economics.py`):** Dimensionless cost parity model evaluating mock staging labor hours reclaimed, prop replacement savings, and training capacity scaling.
+4. **Technoeconomic Operational Parity Model (`telemetry/forensic_investigation_roi.py`):** Dimensionless cost parity model evaluating mock staging labor hours reclaimed, prop replacement savings, and training capacity scaling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture layout.

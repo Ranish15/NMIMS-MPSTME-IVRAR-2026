@@ -1,6 +1,7 @@
 # Research Paper Manuscript Blueprint (4-Page IEEE/ACM Standard Format)
 ## Project: IVRAR Group 07 - Interactive VR Spatial Crime Scene Reconstruction
 ## Target Publication: Forensic Science International / IEEE Transactions on Visualization and Computer Graphics (TVCG) / Science & Justice
+## Course Code: 702COI002 (Immersive Virtual, Real & Augmented Reality)
 
 ---
 
@@ -16,20 +17,20 @@ Digital documentation of physical crime scenes is undergoing a paradigm shift fr
 
 ### Author Contribution & Git Branch Matrix
 
-| Author Roll No | Author Name | Designated Technical Specialization | Primary Manuscript Ownership Sections | Designated Git Feature Branch |
-|---|---|---|---|---|
-| **N094** | Shirin Sharma | Spatial Forensics & Photogrammetry Lead | Section III.A (Photogrammetric Pipeline), Section IV.A (Localization Precision) | `feat/n094-spatial-forensics-ph` |
-| **N101** | Khushi Srivastava | XR Systems Architect | Section III.B (Unity XR Interaction Engine), Section IV.B (Evidence Tagging Completeness) | `feat/n101-xr-systems-architect` |
-| **N106** | Pranjal Thakur | Forensic Chain-of-Custody Specialist | Section III.C (Timeline Concordance & Telemetry), Section V (Technoeconomics & Usability) | `feat/n106-forensic-chain-of-cu` |
+| Author Roll No | Author Name | Program | Designated Technical Specialization | Primary Manuscript Ownership Sections | Designated Git Feature Branch |
+|---|---|---|---|---|---|
+| **N094** | Shirin Sharma | MBA Tech Computer | Spatial Forensics & Photogrammetry Lead | Section III.A (Photogrammetric Pipeline), Section IV.A (Localization Precision) | `feat/n094-spatial-forensics-photogrammetry` |
+| **N101** | Khushi Srivastava | MBA Tech Computer | XR Systems Architect | Section III.B (Unity XR Interaction Engine), Section IV.B (Evidence Tagging Completeness) | `feat/n101-xr-systems-architect` |
+| **N106** | Pranjal Thakur | MBA Tech Computer | Forensic Chain-of-Custody Specialist | Section III.C (Timeline Concordance & Telemetry), Section V (Technoeconomics & Usability) | `feat/n106-forensic-chain-of-custody` |
 
 ---
 
 ### Detailed Section-by-Section Manuscript Specification
 
 #### Section I: Introduction & Problem Definition
-- **Theoretical Grounding:** Contrast traditional forensic documentation (2D photographic series with numerical tent markers) against immersive 3D photogrammetric environments.
-- **Cognitive Science Basis:** Reference the virtual memory palace paradigm (`Krokos2019`, [10.1007/s10055-018-0346-3](https://doi.org/10.1007/s10055-018-0346-3)), explaining how 6-DoF spatial immersion leverages proprioceptive spatial memory.
-- **Pedagogical Imperative:** Identify the operational bottleneck of physical mock crime scene staging (`Mayne2020`, [10.1016/j.scijus.2020.07.006](https://doi.org/10.1016/j.scijus.2020.07.006)), where consumable prop degradation and room reservation limits restrict student hands-on exposure.
+- **Theoretical Grounding:** Contrast traditional forensic documentation (2D photographic series with numerical tent markers) against immersive 3D photogrammetric environments [1], [2].
+- **Cognitive Science Basis:** Reference spatial presence and cognitive memory anchoring in immersive virtual environments [3], explaining how 6-DoF spatial immersion leverages proprioceptive spatial memory.
+- **Pedagogical Imperative:** Identify the operational bottleneck of physical mock crime scene staging [2], [4], where consumable prop degradation and room reservation limits restrict student hands-on exposure.
 - **Formal Hypotheses:**
   - $H_{0,1}$: Interactive VR reconstruction produces no significant improvement in evidence identification completeness over 2D photographic logs.
   - $H_{1,1}$: Interactive VR reconstruction significantly increases evidence identification completeness ($p < 0.05$).
@@ -37,9 +38,9 @@ Digital documentation of physical crime scenes is undergoing a paradigm shift fr
   - $H_{1,2}$: Interactive VR spatial inspection yields significantly higher Kendall-Tau sequence concordance ($\tau > 0.80$, $p < 0.001$).
 
 #### Section II: Related Work & Foundational Literature
-- **Forensic Scanning & Digital Twins:** Review heterogeneous scanning methodologies fusing terrestrial LiDAR and close-range photogrammetry (`Wang2019`, [10.1016/j.forsciint.2019.109943](https://doi.org/10.1016/j.forsciint.2019.109943); `Buck2019`, [10.1016/j.forsciint.2019.109901](https://doi.org/10.1016/j.forsciint.2019.109901)).
-- **Sub-Millimeter Surface Capture:** Analyze photogrammetric texture accuracy and geometric fidelity on ballistic and biological evidence (`Urbanova2015`, [10.1016/j.forsciint.2015.03.005](https://doi.org/10.1016/j.forsciint.2015.03.005)).
-- **Courtroom Visualization & Chain of Custody:** Synthesize computer graphics standards for evidence verification without bias (`Noond2002`, [10.1016/S1355-0306(02)71804-2](https://doi.org/10.1016/S1355-0306(02)71804-2)).
+- **Forensic Scanning & Digital Twins:** Review heterogeneous scanning methodologies fusing terrestrial LiDAR and close-range photogrammetry [1], [3].
+- **Sub-Millimeter Surface Capture:** Analyze photogrammetric texture accuracy and geometric fidelity on ballistic and biological evidence [1], [6].
+- **Courtroom Visualization & Chain of Custody:** Synthesize computer graphics standards for evidence verification without bias [2], [5].
 - **Identified Gap:** The lack of quantitative, empirical benchmarks evaluating interactive tagging precision and timeline sequencing concordance in student forensic training.
 
 #### Section III: System Architecture & Implementation
@@ -59,7 +60,7 @@ Digital documentation of physical crime scenes is undergoing a paradigm shift fr
 #### Section V: Human Factors & Technoeconomic Operational Parity
 - **Cognitive Workload Breakdown:** NASA-TLX overall workload dropped from $68.0$ to $46.0$, with mental demand and frustration subscales showing dramatic reductions due to natural spatial contextualization.
 - **System Usability:** The VR system achieved a SUS score of 84.6 (Grade A, exceptional usability), compared to 58.4 for traditional photographic binders.
-- **Technoeconomic Formulation (`telemetry/forensic_training_economics.py`):**
+- **Technoeconomic Formulation (`telemetry/forensic_investigation_roi.py`):**
   - Dimensionless Cost Parity: $\kappa = \frac{\text{OpEx}_{\text{VR}}}{\text{OpEx}_{\text{Physical}}} = 0.25$, representing a 75.0% reduction in annual operating expenditures.
   - Labor Hours Reclaimed: 574.8 hours of faculty/technician staging and teardown labor saved annually.
   - Facility Availability: 960.0 hours of physical laboratory room lockout unlocked for other academic instruction.
@@ -72,9 +73,9 @@ Digital documentation of physical crime scenes is undergoing a paradigm shift fr
 ---
 
 ### Foundational References Dossier (Exact DOIs)
-1. Z. Wang, Z. Li, X. Hu, W. Zhou, L. Zhou, and Q. Peng, "Virtual reality and integrated crime scene scanning for immersive and heterogeneous crime scene reconstruction," *Forensic Science International*, vol. 303, p. 109943, 2019. DOI: [10.1016/j.forsciint.2019.109943](https://doi.org/10.1016/j.forsciint.2019.109943)
-2. U. Buck, "3D crime scene reconstruction," *Forensic Science International*, vol. 302, p. 109901, 2019. DOI: [10.1016/j.forsciint.2019.109901](https://doi.org/10.1016/j.forsciint.2019.109901)
-3. E. Krokos, C. Plaisant, and A. Varshney, "Virtual memory palaces: immersion aids recall," *Virtual Reality*, vol. 23, no. 1, pp. 1-15, 2019. DOI: [10.1007/s10055-018-0346-3](https://doi.org/10.1007/s10055-018-0346-3)
-4. R. Mayne and H. Green, "Virtual reality for teaching and learning in crime scene investigation," *Science & Justice*, vol. 60, no. 5, pp. 466-472, 2020. DOI: [10.1016/j.scijus.2020.07.006](https://doi.org/10.1016/j.scijus.2020.07.006)
-5. J. Noond, D. Schofield, J. March, and M. Evison, "Visualising the scene: Computer graphics and evidence presentation," *Science & Justice*, vol. 42, no. 2, pp. 89-95, 2002. DOI: [10.1016/S1355-0306(02)71804-2](https://doi.org/10.1016/S1355-0306(02)71804-2)
-6. P. Urbanová, P. Hejna, and M. Jurda, "Testing photogrammetry-based techniques for three-dimensional surface documentation in forensic pathology," *Forensic Science International*, vol. 250, pp. 77-86, 2015. DOI: [10.1016/j.forsciint.2015.03.005](https://doi.org/10.1016/j.forsciint.2015.03.005)
+1. U. Buck, "3D crime scene reconstruction," *Forensic Science International*, vol. 302, art. no. 109901, 2019. DOI: [10.1016/j.forsciint.2019.109901](https://doi.org/10.1016/j.forsciint.2019.109901)
+2. R. Mayne and H. Green, "Virtual reality for teaching and learning in crime scene investigation," *Science & Justice*, vol. 60, no. 5, pp. 466-472, 2020. DOI: [10.1016/j.scijus.2020.07.006](https://doi.org/10.1016/j.scijus.2020.07.006)
+3. H. Albeedan, H. Kolivand, and H. Hammady, "Designing and evaluation of a mixed reality system for crime scene investigation training: a hybrid approach," *Virtual Reality*, vol. 28, art. no. 142, pp. 1-19, 2024. DOI: [10.1007/s10055-024-01018-8](https://doi.org/10.1007/s10055-024-01018-8)
+4. J. K. Pringle, R. Heaton, M. Jeffery, K. D. Wisniewski, H. Handley, M. Shemilt, and C. Hobson, "Progressive scaffolding of forensic science students crime scene investigation skills through authentic simulated crime scene assessments," *Science & Justice*, vol. 66, no. 2, pp. 1-12, 2026. DOI: [10.1016/j.scijus.2026.101428](https://doi.org/10.1016/j.scijus.2026.101428)
+5. R. A. Wickenheiser, "Proactive crime scene response optimizes crime investigation," *Forensic Science International: Synergy*, vol. 6, art. no. 100325, pp. 1-14, 2023. DOI: [10.1016/j.fsisyn.2023.100325](https://doi.org/10.1016/j.fsisyn.2023.100325)
+6. K. Harrison, "Considerations of Space and Time: Fire Investigation and Forensic Archaeology in Crime Scene Reconstruction," *WIREs Forensic Science*, vol. 7, no. 1, art. no. e70006, pp. 1-16, 2025. DOI: [10.1002/wfs2.70006](https://doi.org/10.1002/wfs2.70006)

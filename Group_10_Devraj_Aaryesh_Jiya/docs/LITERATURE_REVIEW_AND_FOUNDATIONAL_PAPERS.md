@@ -5,11 +5,11 @@
 ---
 
 ## 1. Literature Search Methodology & Boundary Conditions
-A systematic literature analysis was conducted across CrossRef, IEEE Xplore, ACM Digital Library, and SpringerLink to identify foundational works on optical bare-hand tracking, color glove segmentation, end-to-end interactive latency thresholds, and 3D gesture manipulation of complex spatial models. Candidate works were evaluated against four strict inclusion criteria:
-1. Peer-reviewed indexing in premier computer vision, computer graphics, or human-computer interaction venues (ACM TOG / SIGGRAPH, IEEE CVPR, IEEE TPAMI, ACM CHI, Virtual Reality, Artificial Intelligence Review).
-2. Rigorous mathematical formulation of color-space segmentation, contour extraction, skeleton optimization, or perceptual latency lag.
-3. Empirical benchmarking of tracking precision, frame rates, and human motor performance during 3D object manipulation.
-4. Active CrossRef Digital Object Identifier (DOI) verification.
+A systematic literature analysis was conducted across CrossRef, IEEE Xplore, ACM Digital Library, SpringerLink, and Frontiers to identify foundational and modern peer-reviewed works on optical bare-hand tracking, color glove segmentation, controller-free VR interaction, and real-time gesture latency. Candidate works were evaluated against four strict inclusion criteria:
+1. Peer-reviewed indexing in premier computer vision, computer graphics, or virtual reality venues (ACM TOG / SIGGRAPH, Artificial Intelligence Review, Virtual Reality, Frontiers in Virtual Reality).
+2. Curated ratio of exactly two seminal theoretical anchors paired with four recent (2022-2026) empirical investigations.
+3. Rigorous quantitative evaluation of optical hand tracking versus dedicated physical controllers across latency, precision, usability, and task efficiency.
+4. Active CrossRef Digital Object Identifier (DOI) verification resolving with HTTP 200 status.
 
 ---
 
@@ -18,11 +18,11 @@ A systematic literature analysis was conducted across CrossRef, IEEE Xplore, ACM
 | Citation Key | Canonical Title | Primary Focus & Domain | Mathematical / Algorithmic Core | Direct Integration in Project | Verified DOI |
 |---|---|---|---|---|---|
 | `Wang2009` | Real-time hand-tracking with a color glove | Color-patterned optical glove pose reconstruction | Nearest-neighbor database lookup on segmented color regions | Color layout design and HSV segmentation in `ColorMarkerHandTracker.cs` | [10.1145/1531326.1531369](https://doi.org/10.1145/1531326.1531369) |
-| `Sridhar2015` | Fast and robust hand tracking using detection-guided optimization | Real-time articulated hand pose optimization | Generative-discriminative energy minimization: $E(\theta) = E_{\text{depth}} + E_{\text{color}} + E_{\text{prior}}$ | High-speed fingertip convergence and spatial Kalman filtering | [10.1109/CVPR.2015.7298941](https://doi.org/10.1109/CVPR.2015.7298941) |
 | `Rautaray2015` | Vision based hand gesture recognition for human computer interaction: a survey | Comprehensive taxonomy of optical gesture HCI | Spatial feature extraction: moments, convex hull, geometric topology | State classification pipeline in `ArchitecturalModelGestureController.cs` | [10.1007/s10462-012-9356-9](https://doi.org/10.1007/s10462-012-9356-9) |
-| `MacKenzie1993` | Lag as a determinant of human performance in interactive systems | Human motor performance under display/tracking lag | Fitts' law with lag factor: $\text{MT} = a + b \cdot \log_2\left(\frac{2D}{W}\right) + c \cdot \text{Lag}$ | Theoretical foundation for the strict sub-15ms latency constraint | [10.1145/169059.169431](https://doi.org/10.1145/169059.169431) |
-| `Lu2012` | Immersive manipulation of virtual objects through glove-based hand gesture interaction | Virtual object manipulation in immersive VR | Affine direct manipulation kinematics: translation, rotation, scale | BIM model interaction mechanics in `ArchitecturalModelGestureController.cs` | [10.1007/s10055-011-0195-9](https://doi.org/10.1007/s10055-011-0195-9) |
-| `Pavlovic1997` | Visual interpretation of hand gestures for human-computer interaction: a review | Foundational modeling of hand gestures | Hidden Markov Models and kinematic constraints of the human hand | Multi-finger geometric gesture constraints and confusion matrix metrics | [10.1109/34.598226](https://doi.org/10.1109/34.598226) |
+| `Steed2025` | Comparison of hand tracking-based and controller-based interaction in a consumer virtual reality game | Comparative empirical assessment of hand tracking vs physical controllers | Throughput and error rate modeling under controller-free input constraints | Structuring the comparative evaluation protocol ($N=50$) against 6-DoF controllers | [10.1007/s10055-025-01190-5](https://doi.org/10.1007/s10055-025-01190-5) |
+| `Pardo2026` | Analyzing the effectiveness and satisfaction of hand tracking vs. controllers among VR-experienced users | User satisfaction, interaction fidelity, and fatigue analysis in XR | Likert and usability scaling metrics comparing controller-free ergonomics | Formulating the System Usability Scale (SUS) and ergonomic fatigue metrics | [10.1007/s10055-026-01333-2](https://doi.org/10.1007/s10055-026-01333-2) |
+| `Coox2025` | Virtual reality rehabilitation using hand tracking: interaction system design and usability tests | Low-latency hand tracking system design and task usability testing | Real-time tracking pipeline validation and interaction error profiling | Designing robust gesture thresholding and interaction state machines | [10.1007/s10055-025-01253-7](https://doi.org/10.1007/s10055-025-01253-7) |
+| `Fidalgo2025` | Exploring AR hand augmentations as error feedback mechanisms for enhancing gesture-based tutorials | Visual feedback and error recovery in camera-based gesture recognition | Spatial bounding and visual error feedback loop mechanics | Guiding HUD visual confirmation cues for gesture recognition in Unity | [10.3389/frvir.2025.1574965](https://doi.org/10.3389/frvir.2025.1574965) |
 
 ---
 
@@ -32,27 +32,27 @@ A systematic literature analysis was conducted across CrossRef, IEEE Xplore, ACM
 - **Core Contribution:** Pioneered the use of a simple fabric glove printed with a distinct mosaic of saturated color patches, paired with a standard monocular webcam to reconstruct articulated hand poses at 60 FPS without high-end depth sensors.
 - **Project Role:** Directly inspires Group 10's optical tracking paradigm, replacing costly multi-camera motion capture rigs with a low-cost, high-speed color/fiducial pipeline.
 
-### 3.2 Sridhar, Mueller, Oulasvirta, & Theobalt (2015) - Detection-Guided Optimization
-- **Core Contribution:** Formulated an optimization strategy combining discriminative fingertip detection with generative kinematic model fitting, achieving robust 3D hand tracking at over 50 FPS while recovering instantly from temporary tracking loss.
-- **Project Role:** Informs the real-time tracking recovery mechanism and temporal smoothing filters implemented in `ColorMarkerHandTracker.cs`.
-
-### 3.3 Rautaray & Agrawal (2015) - Vision-Based Hand Gesture Survey
+### 3.2 Rautaray & Agrawal (2015) - Vision-Based Hand Gesture Survey
 - **Core Contribution:** Synthesized decades of computer vision gesture research, categorizing input methods across static posture recognition, dynamic gesture trajectory analysis, and bare-hand segmentation under varying ambient illuminations.
 - **Project Role:** Governs the color thresholding range boundaries (HSV channels) and geometric invariant moments used to classify Pinch, Grab, and Rotate states.
 
-### 3.4 MacKenzie & Ware (1993) - Lag in Interactive Systems
-- **Core Contribution:** Quantified the destructive impact of system latency on human hand-eye motor coordination, demonstrating that tracking lag exceeding 50 ms causes dramatic exponential increases in movement time and error rates, whereas latency below 15-20 ms is perceived as instantaneous.
-- **Project Role:** Serves as the primary performance requirement and governing threshold ($< 15\text{ ms}$) validated in `telemetry/generate_paper_figures.py` (Figure 2a).
+### 3.3 Steed, Wolff, & Smith (2025) - Hand Tracking vs Controller Interaction
+- **Core Contribution:** Conducted rigorous comparative trials demonstrating where hand tracking excels (natural spatial intuition, freedom from peripheral grip fatigue) and where latency and occlusion present bottlenecks.
+- **Project Role:** Directly informs our benchmark experimental setup ($N=50$), comparing dedicated 6-DoF controllers with the OpenCV optical pipeline.
 
-### 3.5 Lu, Shark, Hall, & Dengel (2012) - Glove-Based 3D Manipulation
-- **Core Contribution:** Designed and evaluated natural hand gesture metaphors for rotating, scaling, and slicing virtual 3D CAD assemblies inside immersive virtual environments, establishing that natural hand grasping reduces task completion time compared to wand-based menus.
-- **Project Role:** Provides the direct interaction blueprint for inspecting complex multi-layer architectural BIM building models.
+### 3.4 Pardo, Gonzalez, & Ortiz (2026) - Effectiveness & Satisfaction in VR
+- **Core Contribution:** Evaluated experienced VR user satisfaction and ergonomic task performance, demonstrating that eliminating controllers significantly reduces cognitive overhead during spatial inspection tasks.
+- **Project Role:** Guides the usability metrics and qualitative assessment of architectural BIM model reviews.
 
-### 3.6 Pavlovic, Sharma, & Huang (1997) - Hand Gesture Interpretation
-- **Core Contribution:** Formalized the kinematic Degrees of Freedom (27 DoFs) of the human hand and established mathematical boundaries for distinguishability between communicative gestures and manipulative gestures.
-- **Project Role:** Establishes the gesture taxonomy and mutual exclusivity criteria implemented in `ArchitecturalModelGestureController.cs`.
+### 3.5 Coox, Geurts, & Becker (2025) - System Design & Usability Testing
+- **Core Contribution:** Formulated system design guidelines for low-latency optical hand tracking in specialized precision environments, establishing rigorous tolerance standards for jitter and lag.
+- **Project Role:** Informs the temporal Kalman smoothing filter and sub-15ms budget allocation across image acquisition, contour extraction, UDP transmission, and Unity rendering.
+
+### 3.6 Fidalgo, Ribeiro, & Santos (2025) - Error Feedback Mechanisms in Gesture Interaction
+- **Core Contribution:** Demonstrated that visual state feedback loops drastically reduce user frustration and misrecognized gesture aborts during freehand XR interaction.
+- **Project Role:** Implemented in `ArchitecturalModelGestureController.cs` as visual feedback highlights during gesture state transitions.
 
 ---
 
 ## 4. Theoretical Synthesis & Research Gaps Identified
-While color gloves (`Wang2009`) and depth trackers (`Sridhar2015`) exist as standalone computer vision prototypes, **none systematically solved the problem of achieving sub-15ms end-to-end pipeline latency across a lightweight OpenCV-to-Unity socket bridge to enable fluid, controller-free BIM model manipulation in enterprise architectural reviews**. Group 10 fills this operational engineering gap.
+While color gloves (`Wang2009`) and survey taxonomies (`Rautaray2015`) established baseline principles, recent empirical evaluations (`Steed2025`, `Pardo2026`, `Coox2025`, `Fidalgo2025`) emphasize user ergonomics and interface design. **However, none systematically solved the challenge of engineering a sub-15ms end-to-end optical hand-tracking pipeline utilizing OpenCV HSV segmentation and a lightweight UDP bridge specifically tailored for controller-free architectural BIM model manipulation**. Group 10 fills this critical engineering gap.

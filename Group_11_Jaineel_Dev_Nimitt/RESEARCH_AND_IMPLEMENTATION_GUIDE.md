@@ -74,7 +74,7 @@ S021      Nimitt Jain       Sustainability & Usability Analyst         kiosk_han
 - Git Branch: `feat/s014-mobile-ar-navigation`
 
 ### 2.3 Nimitt Jain (S021) - Sustainability & Usability Analyst
-- Lead responsibility for technoeconomic operational parity modeling in `telemetry/kiosk_handoff_economics.py`.
+- Lead responsibility for technoeconomic operational parity modeling in `telemetry/kiosk_analytics_roi_eval.py`.
 - Implementation of statistical benchmarking and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Execution of comparative trial evaluations ($N = 50$) analyzing paper sheets eliminated, reception hours reclaimed, and System Usability Scale (SUS) scores.
 - Git Branch: `feat/s021-sustainability-usabi`

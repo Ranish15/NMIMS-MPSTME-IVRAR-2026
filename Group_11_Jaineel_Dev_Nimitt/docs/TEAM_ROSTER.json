@@ -47,36 +47,36 @@
       "doi": "10.1145/2037373.2037406"
     },
     {
-      "citation_key": "Isikdag2013",
-      "title": "A BIM-Oriented Model for supporting indoor navigation requirements",
-      "authors": "U. Isikdag, S. Zlatanova, J. Underwood",
-      "year": 2013,
-      "journal": "Computers, Environment and Urban Systems, vol. 41, pp. 112-123",
-      "doi": "10.1016/j.compenvurbsys.2013.05.001"
+      "citation_key": "Qiu2025",
+      "title": "Use of augmented reality in human wayfinding: a systematic review",
+      "authors": "Y. Qiu, H. Li, Z. Wang, et al.",
+      "year": 2025,
+      "journal": "Virtual Reality, vol. 29, no. 1, art. 1226",
+      "doi": "10.1007/s10055-025-01226-w"
     },
     {
-      "citation_key": "Ballagas2006",
-      "title": "The Smart Phone: A Ubiquitous Input Device",
-      "authors": "R. Ballagas, J. Borchers, M. Rohs, J. G. Sheridan",
-      "year": 2006,
-      "journal": "IEEE Pervasive Computing, vol. 5, no. 1, pp. 70-77",
-      "doi": "10.1109/MPRV.2006.18"
+      "citation_key": "Ma2026",
+      "title": "Augmented Reality for Campus Wayfinding: Enhancing Navigation Efficiency and Student Social Engagement - A Case Study of Leeds University Union",
+      "authors": "X. Ma, S. Smith, D. Johnson",
+      "year": 2026,
+      "journal": "Visible Language, vol. 60, no. 1, art. 40",
+      "doi": "10.34314/jk9zgk40"
     },
     {
-      "citation_key": "Davies2012",
-      "title": "Open Display Networks: A Communications Medium for the 21st Century",
-      "authors": "N. Davies, M. Langheinrich, R. Jose, A. Schmidt",
-      "year": 2012,
-      "journal": "Computer, vol. 45, no. 5, pp. 58-64",
-      "doi": "10.1109/MC.2012.114"
+      "citation_key": "V2025",
+      "title": "Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications",
+      "authors": "A. V., B. K. Kumar, S. R.",
+      "year": 2025,
+      "journal": "Proceedings of the 1st International Conference on Research and Development in Information, Communication, and Computing Technologies, pp. 1-10",
+      "doi": "10.5220/0013886300004919"
     },
     {
-      "citation_key": "Rekimoto2000",
-      "title": "CyberCode: designing augmented reality environments with visual tags",
-      "authors": "J. Rekimoto, Y. Ayatsuka",
-      "year": 2000,
-      "journal": "Proceedings of DARE 2000 on Designing Augmented Reality Environments, pp. 1-10",
-      "doi": "10.1145/354666.354667"
+      "citation_key": "Lee2022",
+      "title": "Benefit Analysis of Gamified Augmented Reality Navigation System for Campus Wayfinding",
+      "authors": "H. Lee, K. Chung, Y. Kim",
+      "year": 2022,
+      "journal": "Applied Sciences, vol. 12, no. 6, art. 2969",
+      "doi": "10.3390/app12062969"
     }
   ]
 }

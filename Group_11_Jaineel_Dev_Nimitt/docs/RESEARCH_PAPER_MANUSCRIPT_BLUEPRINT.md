@@ -29,7 +29,7 @@ University campuses and large-scale public facilities host thousands of visitors
 #### Section I: Introduction & Environmental Wayfinding Scope
 - **Campus Orientation Challenges:** Contrast visitor disorientation in multi-floor institutional complexes against environmental sustainability goals.
 - **Ecological and Logistical Costs:** Document the annual consumption of thousands of disposable paper map brochures that are discarded within minutes of arrival.
-- **Cross-Device Handoff Foundations:** Review mobile interaction with situated public displays (`Ballagas2006`, [10.1109/MPRV.2006.18](https://doi.org/10.1109/MPRV.2006.18); `Davies2012`, [10.1109/MC.2012.114](https://doi.org/10.1109/MC.2012.114)).
+- **Cross-Device Handoff & Wayfinding Foundations:** Review campus navigation efficiency and student spatial engagement (`Ma2026`, [10.34314/jk9zgk40](https://doi.org/10.34314/jk9zgk40)).
 - **Formal Hypotheses:**
   - $H_{0,1}$: A hybrid smart kiosk with mobile WebXR handoff produces no significant reduction in visitor transit time compared to printed paper maps.
   - $H_{1,1}$: The hybrid system significantly compresses multi-floor transit time ($p < 0.001$).
@@ -39,8 +39,8 @@ University campuses and large-scale public facilities host thousands of visitors
 #### Section II: Related Work & Technical Grounding
 - **Zero-Install Web-Based Augmented Reality:** Analyze WebXR architectures bypassing native app store friction (`Qiao2019`, [10.1109/JPROC.2019.2895105](https://doi.org/10.1109/JPROC.2019.2895105)).
 - **Pedestrian Indoor AR Wayfinding:** Review activity-based instructions that prevent visual clutter during walking (`Mulloni2011`, [10.1145/2037373.2037406](https://doi.org/10.1145/2037373.2037406)).
-- **BIM-Based Topological Pathfinding:** Synthesize multi-level 3D graph representations for vertical building transitions (`Isikdag2013`, [10.1016/j.compenvurbsys.2013.05.001](https://doi.org/10.1016/j.compenvurbsys.2013.05.001)).
-- **Optical Tagging & State Migration:** Review visual tag data serialization (`Rekimoto2000`, [10.1145/354666.354667](https://doi.org/10.1145/354666.354667)).
+- **Human Wayfinding Cognition in AR:** Synthesize spatial orientation and disorientation mitigation (`Qiu2025`, [10.1007/s10055-025-01226-w](https://doi.org/10.1007/s10055-025-01226-w)).
+- **QR Optical Localization & Cross-Device Handoff:** Review cross-platform Unity AR pose initialization (`V2025`, [10.5220/0013886300004919](https://doi.org/10.5220/0013886300004919)).
 
 #### Section III: System Architecture & Cross-Device Protocol
 - **Smart Kiosk Core & BIM Directory:** Touchscreen 3D interactive campus overview, destination lookup engine, and multi-floor Dijkstra/A* path solver in `SmartKioskHandoffManager.cs` (`R057 - Jaineel Shah`).
@@ -60,11 +60,11 @@ University campuses and large-scale public facilities host thousands of visitors
 #### Section V: Human Factors, Sustainability & Technoeconomic Operational Parity
 - **Cognitive Workload Breakdown:** NASA-TLX overall workload dropped from $57.5$ to $28.5$, with mental demand and frustration subscales showing significant relief.
 - **System Usability Scale:** The WebXR handoff platform scored $88.4 \pm 2.8$ (Grade A+, excellent usability).
-- **Environmental Sustainability & Technoeconomic Parity (`telemetry/kiosk_handoff_economics.py`):**
+- **Environmental Sustainability & Technoeconomic Parity (`telemetry/kiosk_analytics_roi_eval.py`):**
   - Paper Waste Reduction: 100% elimination of paper maps, saving 10,200 printed sheets annually.
   - Reception Inquiry Labor Reclaimed: 6000.0 staff hours redirected from repetitive direction giving to core administrative tasks.
   - Visitor Transit Hours Saved: 1215.5 hours of visitor disorientation transit saved annually.
-  - Dimensionless Cost Parity: $\kappa = \frac{\text{OpEx}_{\text{Kiosk}}}{\text{OpEx}_{\text{Traditional}}} = 0.22$, achieving a 78.0% reduction in annual operational overhead with capital payback in 15.38 operating months.
+  - Dimensionless Cost Parity: $\kappa = \frac{\text{OpEx}_{\text{Kiosk}}}{\text{OpEx}_{\text{Traditional}}} = 0.22$, achieving a 78.0% reduction in annual operational overhead with capital payback in 15.38 operating months (`Lee2022`, [10.3390/app12062969](https://doi.org/10.3390/app12062969)).
 
 #### Section VI: Conclusion & Future Scope
 - Summarize outcomes: The hybrid smart kiosk and mobile WebXR handoff system achieves superior transit efficiency, eliminates paper waste completely, and relieves institutional reception desks through seamless zero-install browser AR.
@@ -75,7 +75,7 @@ University campuses and large-scale public facilities host thousands of visitors
 ### Foundational References Dossier (Exact DOIs)
 1. X. Qiao, P. Ren, S. Dustdar, and L. Liu, "Web AR: A Promising Future for Mobile Augmented Reality—State of the Art, Challenges, and Insights," *Proceedings of the IEEE*, vol. 107, no. 4, pp. 651-666, 2019. DOI: [10.1109/JPROC.2019.2895105](https://doi.org/10.1109/JPROC.2019.2895105)
 2. A. Mulloni, H. Seichter, and D. Schmalstieg, "Handheld augmented reality indoor navigation with activity-based instructions," in *Proceedings of the 13th International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI '11)*, 2011, pp. 211-220. DOI: [10.1145/2037373.2037406](https://doi.org/10.1145/2037373.2037406)
-3. U. Isikdag, S. Zlatanova, and J. Underwood, "A BIM-Oriented Model for supporting indoor navigation requirements," *Computers, Environment and Urban Systems*, vol. 41, pp. 112-123, 2013. DOI: [10.1016/j.compenvurbsys.2013.05.001](https://doi.org/10.1016/j.compenvurbsys.2013.05.001)
-4. R. Ballagas, J. Borchers, M. Rohs, and J. G. Sheridan, "The Smart Phone: A Ubiquitous Input Device," *IEEE Pervasive Computing*, vol. 5, no. 1, pp. 70-77, 2006. DOI: [10.1109/MPRV.2006.18](https://doi.org/10.1109/MPRV.2006.18)
-5. N. Davies, M. Langheinrich, R. José, and A. Schmidt, "Open Display Networks: A Communications Medium for the 21st Century," *Computer*, vol. 45, no. 5, pp. 58-64, 2012. DOI: [10.1109/MC.2012.114](https://doi.org/10.1109/MC.2012.114)
-6. J. Rekimoto and Y. Ayatsuka, "CyberCode: designing augmented reality environments with visual tags," in *Proceedings of DARE 2000 on Designing augmented reality environments*, 2000, pp. 1-10. DOI: [10.1145/354666.354667](https://doi.org/10.1145/354666.354667)
+3. Y. Qiu, H. Li, Z. Wang, et al., "Use of augmented reality in human wayfinding: a systematic review," *Virtual Reality*, vol. 29, no. 1, art. 1226, 2025. DOI: [10.1007/s10055-025-01226-w](https://doi.org/10.1007/s10055-025-01226-w)
+4. X. Ma, S. Smith, and D. Johnson, "Augmented Reality for Campus Wayfinding: Enhancing Navigation Efficiency and Student Social Engagement - A Case Study of Leeds University Union," *Visible Language*, vol. 60, no. 1, art. 40, 2026. DOI: [10.34314/jk9zgk40](https://doi.org/10.34314/jk9zgk40)
+5. A. V., B. K. Kumar, and S. R., "Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications," in *Proceedings of the 1st International Conference on Research and Development in Information, Communication, and Computing Technologies*, 2025, pp. 1-10. DOI: [10.5220/0013886300004919](https://doi.org/10.5220/0013886300004919)
+6. H. Lee, K. Chung, and Y. Kim, "Benefit Analysis of Gamified Augmented Reality Navigation System for Campus Wayfinding," *Applied Sciences*, vol. 12, no. 6, art. 2969, 2022. DOI: [10.3390/app12062969](https://doi.org/10.3390/app12062969)

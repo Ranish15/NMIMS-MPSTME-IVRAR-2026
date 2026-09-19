@@ -17,11 +17,11 @@ This project implements an ultra-low-latency **OpenCV-Based Optical Color and Fi
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
 | 1 | `Wang2009` | Real-time hand-tracking with a color glove | ACM TOG (SIGGRAPH) | 2009 | [10.1145/1531326.1531369](https://doi.org/10.1145/1531326.1531369) |
-| 2 | `Sridhar2015` | Fast and robust hand tracking using detection-guided optimization | IEEE CVPR | 2015 | [10.1109/CVPR.2015.7298941](https://doi.org/10.1109/CVPR.2015.7298941) |
-| 3 | `Rautaray2015` | Vision based hand gesture recognition for human computer interaction: a survey | Artificial Intelligence Review | 2015 | [10.1007/s10462-012-9356-9](https://doi.org/10.1007/s10462-012-9356-9) |
-| 4 | `MacKenzie1993` | Lag as a determinant of human performance in interactive systems | ACM CHI | 1993 | [10.1145/169059.169431](https://doi.org/10.1145/169059.169431) |
-| 5 | `Lu2012` | Immersive manipulation of virtual objects through glove-based hand gesture interaction | Virtual Reality | 2012 | [10.1007/s10055-011-0195-9](https://doi.org/10.1007/s10055-011-0195-9) |
-| 6 | `Pavlovic1997` | Visual interpretation of hand gestures for human-computer interaction: a review | IEEE Trans. Pattern Anal. Mach. Intell. | 1997 | [10.1109/34.598226](https://doi.org/10.1109/34.598226) |
+| 2 | `Rautaray2015` | Vision based hand gesture recognition for human computer interaction: a survey | Artificial Intelligence Review | 2015 | [10.1007/s10462-012-9356-9](https://doi.org/10.1007/s10462-012-9356-9) |
+| 3 | `Steed2025` | Comparison of hand tracking-based and controller-based interaction in a consumer virtual reality game | Virtual Reality | 2025 | [10.1007/s10055-025-01190-5](https://doi.org/10.1007/s10055-025-01190-5) |
+| 4 | `Pardo2026` | Analyzing the effectiveness and satisfaction of hand tracking vs. controllers among VR-experienced users | Virtual Reality | 2026 | [10.1007/s10055-026-01333-2](https://doi.org/10.1007/s10055-026-01333-2) |
+| 5 | `Coox2025` | Virtual reality rehabilitation using hand tracking: interaction system design and usability tests | Virtual Reality | 2025 | [10.1007/s10055-025-01253-7](https://doi.org/10.1007/s10055-025-01253-7) |
+| 6 | `Fidalgo2025` | Exploring AR hand augmentations as error feedback mechanisms for enhancing gesture-based tutorials | Frontiers in Virtual Reality | 2025 | [10.3389/frvir.2025.1574965](https://doi.org/10.3389/frvir.2025.1574965) |
 
 ---
 
@@ -45,7 +45,7 @@ The platform comprises four interconnected software modules:
 1. **OpenCV Video Ingestion & Segmentation Core (`R014 - Devraj Ghumare`):** 120 FPS USB camera stream ingestion, multi-channel HSV thresholding, subpixel contour extraction, and spatial Kalman filtering.
 2. **Sub-15ms UDP Pose Bridge (`Assets/Scripts/ColorMarkerHandTracker.cs`, `R045 - Aaryesh Pathare`):** Non-blocking binary struct serialization and low-jitter IPC connecting Python vision output to Unity VR camera space.
 3. **Architectural Gesture State Machine (`Assets/Scripts/ArchitecturalModelGestureController.cs`, `R054 - Jiya Saxena`):** Bare-hand gesture classification (Pinch, Fist Grab, Two-Hand Rotate, Palm Lock) driving 3D BIM model translation, scaling, and explosion.
-4. **Technoeconomic Hardware Parity Model (`telemetry/hand_tracking_economics.py`):** Dimensionless cost parity model quantifying controller charging labor saved, breakage elimination, and studio scaling capacity.
+4. **Technoeconomic Hardware Parity Model (`telemetry/hand_tracking_ml_eval.py`):** Dimensionless cost parity model quantifying controller charging labor saved, breakage elimination, and studio scaling capacity.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture layout.

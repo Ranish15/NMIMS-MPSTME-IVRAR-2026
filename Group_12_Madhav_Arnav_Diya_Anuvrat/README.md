@@ -18,10 +18,10 @@ This project delivers an **Immersive Virtual Reality Cybersecurity Training Simu
 |---|---|---|---|---|---|
 | 1 | `Dhamija2006` | Why phishing works | ACM CHI | 2006 | [10.1145/1124772.1124861](https://doi.org/10.1145/1124772.1124861) |
 | 2 | `Sheng2007` | Anti-Phishing Phil: The Design and Evaluation of an Interactive Game to Teach People Not to Fall for Phish | ACM SOUPS | 2007 | [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692) |
-| 3 | `Kumaraguru2010` | Teaching Johnny not to fall for phish | ACM TOIT | 2010 | [10.1145/1754393.1754396](https://doi.org/10.1145/1754393.1754396) |
-| 4 | `Vishwanath2011` | Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model | Decision Support Systems | 2011 | [10.1016/j.dss.2011.03.002](https://doi.org/10.1016/j.dss.2011.03.002) |
-| 5 | `Baltuttis2024` | Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment | Computers & Security | 2024 | [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940) |
-| 6 | `Buttussi2021` | A Comparison of Procedural Safety Training in Three Conditions: Virtual Reality Headset, Smartphone, and Printed Materials | IEEE TLT | 2021 | [10.1109/TLT.2020.3033766](https://doi.org/10.1109/TLT.2020.3033766) |
+| 3 | `Baltuttis2024` | Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment | Computers & Security | 2024 | [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940) |
+| 4 | `Sarno2022` | Is the key to phishing training persistence?: Developing a nudge-based training model to facilitate long-term retention of phishing detection | Journal of Experimental Psychology: Applied | 2022 | [10.1037/xap0000410](https://doi.org/10.1037/xap0000410) |
+| 5 | `Zhong2026` | From virtual to reality: A systematic review of the impact of immersive virtual reality on cognitive learning and retention | Educational Research Review | 2026 | [10.1016/j.edurev.2026.100767](https://doi.org/10.1016/j.edurev.2026.100767) |
+| 6 | `Yao2025` | The Psychological Manipulation of Phishing Emails: A Cognitive Modeling Perspective | Computers, Materials & Continua | 2025 | [10.32604/cmc.2025.065059](https://doi.org/10.32604/cmc.2025.065059) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **Threat Scenario Engine (`Assets/Scripts/PhishingThreatSimulationManager.cs`, `D021 - Madhav Gaonkar`):** Procedural generation of randomized attack vectors, cognitive bias cues (Authority, Urgency, Scarcity, Familiarity), and domain homograph spoofs.
 2. **Immersive Workstation & Spatial Interaction (`D030 - Arnav Jain`):** 3D virtual office workstation, floating curved display canvas, interactive email client, and physical alarm reporting levers.
 3. **Eye-Gaze & Attention Tracking Subsystem (`Assets/Scripts/EyeGazeAttentionTracker.cs`, `D065 - Diya Shah`):** Real-time pupil raycast tracking, AOI collider dwell time calculations, saccade suppression, and fixation logging.
-4. **Human Factors & Retention Econometrics (`telemetry/cybersecurity_training_economics.py`, `I080 - Anuvrat Tripathi`):** Threat Inspection Ratio computation, 14-day forgetting curve statistical analysis, and enterprise SOC labor reclamation modeling.
+4. **Human Factors & Retention Econometrics (`telemetry/telecom_latency_debias_eval.py`, `I080 - Anuvrat Tripathi`):** Threat Inspection Ratio computation, 14-day forgetting curve statistical analysis, and enterprise SOC labor reclamation modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Threat Scenario Engine, Immersive Office, Eye-Gaze Subsystem, and Retention Analytics.

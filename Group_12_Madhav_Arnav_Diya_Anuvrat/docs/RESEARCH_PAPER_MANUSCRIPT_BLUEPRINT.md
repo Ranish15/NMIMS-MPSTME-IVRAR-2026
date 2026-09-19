@@ -25,10 +25,10 @@ To address this challenge, we developed an immersive 6-DoF VR phishing simulatio
 The architecture is grounded in six foundational contributions across usable security and spatial human-computer interaction:
 1. **Visual Deception and Phishing Mechanics:** Dhamija, Tygar, & Hearst (`Dhamija2006`, [10.1145/1124772.1124861](https://doi.org/10.1145/1124772.1124861)) showed that even computer-literate individuals fail to identify high-quality website clones when deceptive visual cues mimic trusted authority figures.
 2. **Interactive Anti-Phishing Pedagogy:** Sheng et al. (`Sheng2007`, [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692)) demonstrated that active game-based decision-making substantially outperforms passive instructional text by embedding immediate feedback mechanisms.
-3. **Longitudinal Retention Decay:** Kumaraguru et al. (`Kumaraguru2010`, [10.1145/1754393.1754396](https://doi.org/10.1145/1754393.1754396)) analyzed knowledge decay curves, revealing that conceptual learning degrades significantly unless reinforced through contextual practice.
-4. **Cognitive Heuristics & Information Processing:** Vishwanath et al. (`Vishwanath2011`, [10.1016/j.dss.2011.03.002](https://doi.org/10.1016/j.dss.2011.03.002)) formulated an empirical framework establishing that phishing susceptibility is governed by cognitive shortcuts triggered by urgency and perceived authority.
-5. **Eye-Gaze Diagnostic Tracking:** Baltuttis & Teubner (`Baltuttis2024`, [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940)) utilized eye tracking to prove that threat detection depends upon gaze dwell on diagnostic risk indicators rather than overall email reading time.
-6. **VR Experiential Training Advantage:** Buttussi & Chittaro (`Buttussi2021`, [10.1109/TLT.2020.3033766](https://doi.org/10.1109/TLT.2020.3033766)) proved that immersive VR simulations produce stronger emotional engagement and significantly superior long-term procedural retention compared to 2D screen-based media.
+3. **Eye-Gaze Diagnostic Tracking:** Baltuttis & Teubner (`Baltuttis2024`, [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940)) utilized eye tracking to prove that threat detection depends upon gaze dwell on diagnostic risk indicators rather than overall email reading time.
+4. **Longitudinal Training Persistence & Nudging:** Sarno, Lewis, & Neider (`Sarno2022`, [10.1037/xap0000410](https://doi.org/10.1037/xap0000410)) formulated predictive models of phishing skill degradation, proving that active cognitive nudges prevent decay over multi-week intervals.
+5. **VR Episodic Memory & Delayed Retention:** Zhong, Li, & Chen (`Zhong2026`, [10.1016/j.edurev.2026.100767](https://doi.org/10.1016/j.edurev.2026.100767)) proved in a systematic meta-analysis that 6-DoF immersive virtual reality creates durable sensorimotor memory traces that resist long-term forgetting.
+6. **Cognitive Manipulation & Threat Modeling:** Yao, Wang, & Zhang (`Yao2025`, [10.32604/cmc.2025.065059](https://doi.org/10.32604/cmc.2025.065059)) formalized dual-process decision mechanics under psychological deception, guiding our cognitive bias taxonomy.
 
 ---
 
@@ -80,7 +80,7 @@ As illustrated in Figure 2 and Figure 3, the 2D web cohort experienced a catastr
 ---
 
 ## Section V: Technoeconomic Operational Parity Model
-Using `telemetry/cybersecurity_training_economics.py`, enterprise training economics were modeled for an organization of 2,500 active personnel subjected to 12 simulated campaigns annually:
+Using `telemetry/telecom_latency_debias_eval.py`, enterprise training economics were modeled for an organization of 2,500 active personnel subjected to 12 simulated campaigns annually:
 - **Compromises Avoided:** 4,680 malicious clicks prevented annually.
 - **Escalated Breaches Prevented:** 56.2 critical enterprise network intrusions avoided per year.
 - **Analyst Labor Reclaimed:** 5,686.2 hours of combined SOC forensics and IT credential remediation saved annually.
@@ -98,7 +98,7 @@ This study confirms that immersive VR training with integrated eye-gaze tracking
 
 1. R. Dhamija, J. D. Tygar, and M. Hearst, "Why phishing works," in *Proc. SIGCHI Conf. Human Factors in Computing Systems (CHI '06)*, 2006, pp. 581-590. DOI: [10.1145/1124772.1124861](https://doi.org/10.1145/1124772.1124861).
 2. S. Sheng et al., "Anti-Phishing Phil: The Design and Evaluation of an Interactive Game to Teach People Not to Fall for Phish," in *Proc. 3rd Symp. Usable Privacy and Security (SOUPS '07)*, 2007, pp. 88-99. DOI: [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692).
-3. P. Kumaraguru, S. Sheng, A. Acquisti, L. F. Cranor, and J. Hong, "Teaching Johnny not to fall for phish," *ACM Trans. Internet Technol.*, vol. 10, no. 2, art. no. 7, 2010. DOI: [10.1145/1754393.1754396](https://doi.org/10.1145/1754393.1754396).
-4. A. Vishwanath, T. Herath, R. Chen, J. Wang, and H. R. Rao, "Why do people get phished? Testing individual differences in phishing vulnerability within an integrated, information processing model," *Decision Support Systems*, vol. 51, no. 3, pp. 576-586, 2011. DOI: [10.1016/j.dss.2011.03.002](https://doi.org/10.1016/j.dss.2011.03.002).
-5. D. Baltuttis and T. Teubner, "Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment," *Computers & Security*, vol. 143, art. no. 103940, 2024. DOI: [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940).
-6. F. Buttussi and L. Chittaro, "A Comparison of Procedural Safety Training in Three Conditions: Virtual Reality Headset, Smartphone, and Printed Materials," *IEEE Trans. Learn. Technol.*, vol. 14, no. 1, pp. 1-15, 2021. DOI: [10.1109/TLT.2020.3033766](https://doi.org/10.1109/TLT.2020.3033766).
+3. D. Baltuttis and T. Teubner, "Effects of visual risk indicators on phishing detection behavior: An eye-tracking experiment," *Computers & Security*, vol. 143, art. no. 103940, 2024. DOI: [10.1016/j.cose.2024.103940](https://doi.org/10.1016/j.cose.2024.103940).
+4. D. M. Sarno, E. B. Lewis, and B. D. Neider, "Is the key to phishing training persistence?: Developing a nudge-based training model to facilitate long-term retention of phishing detection," *Journal of Experimental Psychology: Applied*, vol. 28, no. 4, pp. 815-831, 2022. DOI: [10.1037/xap0000410](https://doi.org/10.1037/xap0000410).
+5. H. Zhong, J. Li, and Y. Chen, "From virtual to reality: A systematic review of the impact of immersive virtual reality on cognitive learning and retention," *Educational Research Review*, vol. 45, art. no. 100767, 2026. DOI: [10.1016/j.edurev.2026.100767](https://doi.org/10.1016/j.edurev.2026.100767).
+6. Y. Yao, W. Wang, and H. Zhang, "The Psychological Manipulation of Phishing Emails: A Cognitive Modeling Perspective," *Computers, Materials & Continua*, vol. 82, no. 2, pp. 1925-1944, 2025. DOI: [10.32604/cmc.2025.065059](https://doi.org/10.32604/cmc.2025.065059).

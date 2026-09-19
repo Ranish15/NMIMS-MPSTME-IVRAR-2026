@@ -14,7 +14,7 @@ CONSTRAINTS:
 
 import math
 
-class PhishingSimulationEconomics:
+class PhishingThreatRoiEval:
     def __init__(
         self,
         corporate_workforce_size=1200,
@@ -38,8 +38,6 @@ class PhishingSimulationEconomics:
         Calculates annual labor hours and organizational overhead for traditional
         passive video lectures, LMS licensing, and residual security incident response.
         """
-        # Annual employee productive hours absorbed by passive slide decks:
-        # 1200 employees * 4 sessions * 1.5 hours = 7200 hours
         annual_employee_training_hours = self.workforce * self.frequency * self.trad_hours
         
         # Security incident triage labor factor (IT team investigating frequent simulated/real phishing clicks)
@@ -74,8 +72,6 @@ class PhishingSimulationEconomics:
             scenario_asset_refresh_factor
         )
         
-        # VR training is accelerated and experiential (30 min vs 90 min):
-        # 1200 employees * 4 sessions * 0.5 hours = 2400 hours
         annual_vr_training_hours = self.workforce * self.frequency * self.vr_hours
         
         return {
@@ -99,7 +95,6 @@ class PhishingSimulationEconomics:
         
         # Dimensionless cost parity ratio kappa
         kappa = vr["normalized_vr_opex"] / trad["normalized_traditional_opex"]
-        
         annual_operational_savings = trad["normalized_traditional_opex"] - vr["normalized_vr_opex"]
         
         if annual_operational_savings > 0:
@@ -123,10 +118,10 @@ class PhishingSimulationEconomics:
         }
 
 if __name__ == "__main__":
-    model = PhishingSimulationEconomics()
+    model = PhishingThreatRoiEval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
-    print("IVRAR GROUP 09: VR SOCIAL ENGINEERING TECHNOECONOMIC MODEL")
+    print("IVRAR GROUP 09: VR SOCIAL ENGINEERING ROI & EVALUATION MODEL")
     print("=" * 70)
     for k, v in results.items():
         print(f"  {k:45s}: {v}")

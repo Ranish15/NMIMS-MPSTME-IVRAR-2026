@@ -28,9 +28,9 @@ Social engineering pretexting and credential harvesting attacks remain the predo
 ### Detailed Section-by-Section Manuscript Specification
 
 #### Section I: Introduction & Security Problem Scope
-- **The Human Attack Surface:** Document that over 80% of enterprise breaches involve human exploitation through social engineering pretexting (`Krombholz2015`, [10.1016/j.jisa.2014.09.005](https://doi.org/10.1016/j.jisa.2014.09.005)).
+- **The Human Attack Surface:** Document that enterprise cybersecurity vulnerability predominantly hinges on psychological deception and pretexting (`Shin2025`, [10.1177/15485129251365259](https://doi.org/10.1177/15485129251365259)).
 - **Shortcomings of Passive Training:** Detail how conventional slide-based compliance e-learning induces passive heuristic processing, leaving employees vulnerable when confronted with real-time persuasion (`Sheng2010`, [10.1145/1753326.1753383](https://doi.org/10.1145/1753326.1753383)).
-- **Psychological Foundations of VR Social Presence:** Explain how 6-DoF immersive virtual reality triggers genuine social compliance and stress reflexes via embodied conversational agents (`Blascovich2002`, [10.1207/S15327965PLI1302_01](https://doi.org/10.1207/S15327965PLI1302_01)).
+- **Immersive Threat Empowerment:** Explain how 6-DoF immersive virtual reality provides experiential inoculation against evolving social engineering vectors (`Rehman2026`, [10.1007/s10055-025-01309-8](https://doi.org/10.1007/s10055-025-01309-8)).
 - **Formal Hypotheses:**
   - $H_{0,1}$: Adaptive VR conversational training produces no significant improvement in phishing lure detection rates compared to standard video training.
   - $H_{1,1}$: Adaptive VR conversational training significantly increases lure detection rates ($p < 0.05$).
@@ -38,12 +38,12 @@ Social engineering pretexting and credential harvesting attacks remain the predo
   - $H_{1,2}$: Adaptive VR conversational training significantly suppresses compromise rates ($p < 0.001$).
 
 #### Section II: Related Work & Theoretical Grounding
-- **Persuasion Taxonomy in Social Engineering:** Analyze how Cialdini's weapons of influence are exploited in spear phishing and physical pretexting (`Ferreira2015`, [10.1007/978-3-319-20376-8_4](https://doi.org/10.1007/978-3-319-20376-8_4)).
+- **Ecological Threat Simulations:** Analyze how contextually rich environments modulate employee risk behaviors and break automatic compliance (`Abril2025`, [10.1007/s10055-025-01228-8](https://doi.org/10.1007/s10055-025-01228-8)).
 - **Cognitive Models of Deception Detection:** Synthesize the Suspicion, Cognition, and Automaticity Model (SCAM) (`Vishwanath2018`, [10.1177/0093650215627483](https://doi.org/10.1177/0093650215627483)).
-- **Serious Games in Cybersecurity:** Review formative feedback loops in anti-phishing games (`Sheng2007`, [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692)), demonstrating the pedagogical need for 3D multi-modal immersive encounters.
+- **XR Training Paradigms:** Review multi-modal VR and AR educational modalities in cybersecurity (`Alnajim2023`, [10.3390/sym15122175](https://doi.org/10.3390/sym15122175)), demonstrating the pedagogical need for 3D multi-modal immersive encounters.
 
 #### Section III: System Architecture & Dialogue Engine
-- **Conversational Attack State Machine:** Implementation of non-linear dialogue trees incorporating dynamic Cialdini persuasion tactics in `Assets/Scripts/SocialEngineeringDialogueTreeManager.cs` (`I074 - Kush Keswani`).
+- **Conversational Attack State Machine:** Implementation of non-linear dialogue trees incorporating dynamic persuasion tactics in `Assets/Scripts/SocialEngineeringDialogueTreeManager.cs` (`I074 - Kush Keswani`).
 - **XR Virtual Environment & Avatar Gesturing:** Integration of realistic office setting, real-time procedural lip-syncing, and behavioral body language in Unity 2022.3 LTS (`R002 - Himanshi Agarwal`).
 - **Eye-Gaze Raycast Telemetry Engine:** Implementation of 90 Hz gaze intersection raycasts against deceptive artifacts (spoofed badges, malicious USBs, phishing email screens) in `Assets/Scripts/PhishingGazeTelemetryLogger.cs` (`R008 - Nirvan Chhajed`).
 - **Figure 1:** `docs/figures/figure1_system_architecture.png` (Multi-tier system architecture layout).
@@ -59,7 +59,7 @@ Social engineering pretexting and credential harvesting attacks remain the predo
 #### Section V: Human Factors & Technoeconomic Operational Parity
 - **Cognitive Workload Breakdown:** NASA-TLX overall workload dropped from $55.5$ to $34.3$, with frustration falling sharply due to engaging active roleplay.
 - **System Usability Scale:** The VR application achieved an exceptional score of $85.2 \pm 3.4$ (Grade A).
-- **Technoeconomic Parity Model (`telemetry/phishing_simulation_economics.py`):**
+- **Technoeconomic Parity Model (`telemetry/phishing_threat_roi_eval.py`):**
   - Dimensionless Cost Parity: $\kappa = \frac{\text{OpEx}_{\text{VR}}}{\text{OpEx}_{\text{Traditional}}} = 0.26$, reflecting a 74.0% reduction in annual operational training and incident response overhead.
   - Productive Labor Hours Reclaimed: 4800.0 workforce hours saved through 30-minute immersive modules versus 90-minute slide marathons.
   - Breach Exposure Reduction: Slashes baseline simulated phishing compromise probability by 78.6%.
@@ -72,9 +72,9 @@ Social engineering pretexting and credential harvesting attacks remain the predo
 ---
 
 ### Foundational References Dossier (Exact DOIs)
-1. K. Krombholz, H. Hobel, M. Huber, and E. Weippl, "Advanced social engineering attacks," *Journal of Information Security and Applications*, vol. 22, pp. 113-122, 2015. DOI: [10.1016/j.jisa.2014.09.005](https://doi.org/10.1016/j.jisa.2014.09.005)
-2. S. Sheng, M. Holbrook, P. Kumaraguru, L. F. Cranor, and J. Downs, "Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions," in *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10)*, 2010, pp. 373-382. DOI: [10.1145/1753326.1753383](https://doi.org/10.1145/1753326.1753383)
-3. A. Vishwanath, B. Harrison, and Y. J. Ng, "Suspicion, Cognition, and Automaticity Model of Phishing Susceptibility," *Communication Research*, vol. 45, no. 8, pp. 1146-1166, 2018. DOI: [10.1177/0093650215627483](https://doi.org/10.1177/0093650215627483)
-4. A. Ferreira, L. Coventry, and G. Lenzini, "Principles of Persuasion in Social Engineering and Their Use in Phishing," in *Lecture Notes in Computer Science (HCII / HAS 2015)*, vol. 9190, pp. 495-505, 2015. DOI: [10.1007/978-3-319-20376-8_4](https://doi.org/10.1007/978-3-319-20376-8_4)
-5. S. Sheng, B. Magnien, P. Kumaraguru, A. Acquisti, L. F. Cranor, J. Hong, and E. Nunge, "Anti-Phishing Phil: the design and evaluation of an interactive game to teach people not to fall for phish," in *Proceedings of the 3rd Symposium on Usable Privacy and Security (SOUPS '07)*, 2007, pp. 88-99. DOI: [10.1145/1280680.1280692](https://doi.org/10.1145/1280680.1280692)
-6. J. Blascovich, J. Loomis, A. C. Beall, K. R. Swinth, C. L. Hoyt, and J. N. Bailenson, "Immersive Virtual Environment Technology as a Methodological Tool for Social Psychology," *Psychological Inquiry*, vol. 13, no. 2, pp. 103-124, 2002. DOI: [10.1207/S15327965PLI1302_01](https://doi.org/10.1207/S15327965PLI1302_01)
+1. S. Sheng, M. Holbrook, P. Kumaraguru, L. F. Cranor, and J. Downs, "Who falls for phish? A demographic analysis of phishing susceptibility and effectiveness of interventions," in *Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10)*, 2010, pp. 373-382. DOI: [10.1145/1753326.1753383](https://doi.org/10.1145/1753326.1753383)
+2. A. Vishwanath, B. Harrison, and Y. J. Ng, "Suspicion, Cognition, and Automaticity Model of Phishing Susceptibility," *Communication Research*, vol. 45, no. 8, pp. 1146-1166, 2018. DOI: [10.1177/0093650215627483](https://doi.org/10.1177/0093650215627483)
+3. A. U. Rehman, S. R. Zahid, H. A. Khattak, et al., "Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats," *Virtual Reality*, vol. 30, no. 1, art. 1309, 2026. DOI: [10.1007/s10055-025-01309-8](https://doi.org/10.1007/s10055-025-01309-8)
+4. R. Abril, J. C. Read, and M. Horton, "Exploring a novel approach to cybersecurity: the role of ecological simulations on cybersecurity risk behaviors," *Virtual Reality*, vol. 29, no. 2, art. 1228, 2025. DOI: [10.1007/s10055-025-01228-8](https://doi.org/10.1007/s10055-025-01228-8)
+5. A. Alnajim, M. Alahmadi, and M. Aksoy, "Exploring Cybersecurity Education and Training Techniques: A Comprehensive Review of Traditional, Virtual Reality, and Augmented Reality Approaches," *Symmetry*, vol. 15, no. 12, art. 2175, 2023. DOI: [10.3390/sym15122175](https://doi.org/10.3390/sym15122175)
+6. J. Shin, J. Park, and K. Lee, "Simulating cyber defense: the impact of phishing training and system updates on mitigating damage from hybrid phishing and watering hole attacks," *The Journal of Defense Modeling and Simulation*, vol. 22, no. 3, pp. 315-329, 2025. DOI: [10.1177/15485129251365259](https://doi.org/10.1177/15485129251365259)
