@@ -1,5 +1,5 @@
 # SVKM's NMIMS MPSTME | Department of Information Technology & Computer Engineering
-## Introduction to Virtual Reality & Augmented Reality (IVRAR - 702TG0C003)
+## Introduction to Virtual Reality & Augmented Reality (IVRAR - 702COI002)
 ### Problem-Based Learning (PBL) Research Cohort — Academic Year 2026–2027
 
 **Institutional Leadership & Academic Directorate | MPSTME**  
@@ -8,14 +8,14 @@
 
 ---
 
-## 📌 Master Cohort Repository Overview
+## Master Cohort Repository Overview
 This repository serves as the centralized version-controlled monorepo for all **18 authorized student research groups** in the IVRAR course.
 
 Every student group maintains an isolated workspace folder containing their Unity/WebXR assets, spatial telemetry loggers, research manuscripts, and empirical evaluation data.
 
 ---
 
-## 📂 Group Directory & Research Project Index
+## Group Directory & Research Project Index
 
 | Group # | Group Workspace Folder | Student Researchers | Authorized Research Title |
 | :---: | :--- | :--- | :--- |
@@ -40,7 +40,7 @@ Every student group maintains an isolated workspace folder containing their Unit
 
 ---
 
-## 🚀 Student Git Submission & Branching Workflow
+## Student Git Submission & Branching Workflow
 
 ### 1. Zero Direct Commits to `main`
 The `main` branch is locked and protected. It represents faculty-audited, milestone-verified releases.
@@ -49,7 +49,7 @@ The `main` branch is locked and protected. It represents faculty-audited, milest
 Every student must work exclusively on their assigned personal feature branch:
 ```bash
 # 1. Clone this repository
-git clone https://github.com/sunny-nanade/NMIMS-MPSTME-IVRAR-2026.git
+git clone https://github.com/MPSTME-Labs/NMIMS-MPSTME-IVRAR-2026.git
 cd NMIMS-MPSTME-IVRAR-2026
 
 # 2. Switch to your personal feature branch
@@ -70,7 +70,7 @@ git push -u origin feat/<your-roll-no>-<task-name>
 
 ---
 
-## 📅 PBL Sprint Milestones & Deliverables
+## PBL Sprint Milestones & Deliverables
 * **Sprint 0 (Week 1 - Onboarding):** Repository clone, `docs/TEAM_ROSTER.json` verification, toolchain setup confirmation.
 * **Sprint 1 (Weeks 2-4 - Proof of Concept):** Basic Unity XR scene, 6-DoF controller tracking, core spatial interaction.
 * **Sprint 2 (Weeks 5-7 - Telemetry & Data Logging):** CSV user trial logging (task completion time, head tremor, gaze vectors, collision counts).
@@ -79,7 +79,7 @@ git push -u origin feat/<your-roll-no>-<task-name>
 
 ---
 
-## ⚖️ Academic Integrity & Anti-Free-Riding Enforcement
+## Academic Integrity & Anti-Free-Riding Enforcement
 * Commits must be distributed longitudinal across at least **6 distinct calendar weeks**.
 * Bulk code dumps immediately preceding deadlines will be rejected by the automated audit engine.
 * Individual grading directly correlates with verified Git commit authorship in `docs/TEAM_ROSTER.json`.

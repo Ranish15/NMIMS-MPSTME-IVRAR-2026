@@ -15,7 +15,7 @@ CONSTRAINTS:
 
 import math
 
-class RoverTeleoperationEconomics:
+class RoverTeleoperationEval:
     def __init__(
         self,
         annual_operational_sols=300,
@@ -147,8 +147,11 @@ class RoverTeleoperationEconomics:
             "normalized_opex_reduction_pct": round((1.0 - kappa) * 100.0, 1)
         }
 
+# Alias for backwards compatibility
+RoverTeleoperationEconomics = RoverTeleoperationEval
+
 if __name__ == "__main__":
-    model = RoverTeleoperationEconomics()
+    model = RoverTeleoperationEval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
     print("IVRAR GROUP 14: PREDICTIVE ROVER TELEOPERATION TECHNOECONOMIC MODEL")

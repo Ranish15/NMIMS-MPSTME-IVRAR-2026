@@ -1,5 +1,5 @@
 """
-CSBS Technoeconomic Operational Parity Model: Networked Multiplayer VR Collaborative Lab
+Technoeconomic Operational Parity Model: Networked Multiplayer VR Collaborative Lab
 Evaluates engineering education labor reclamation, task efficiency gains, and dimensionless cost parity.
 Strictly non-monetary: uses labor hours, normalized ratios, and dimensionless payback periods.
 """
@@ -73,8 +73,8 @@ def compute_collaboration_economics():
 if __name__ == "__main__":
     res = compute_collaboration_economics()
     print("=" * 70)
-    print("CSBS TECHNOECONOMIC RESULTS: GROUP 18 MULTIPLAYER COLLABORATION")
+    print("IVRAR GROUP 18: NETWORKED MULTIPLAYER VR TECHNOECONOMIC MODEL")
     print("=" * 70)
     for k, v in res.items():
-        print(f"{k}: {v}")
+        print(f"  {k:<35}: {v}")
     print("=" * 70)

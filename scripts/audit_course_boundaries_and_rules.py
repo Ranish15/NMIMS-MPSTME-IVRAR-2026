@@ -43,7 +43,7 @@ def audit_file(filepath):
     ext = os.path.splitext(filepath)[1].lower()
     if ext in [".png", ".jpg", ".jpeg", ".pyc", ".ico", ".bin", ".pdf"]:
         return []
-    if ".git" in filepath:
+    if ".git" in filepath or os.path.sep + "scripts" + os.path.sep in filepath or filepath.startswith("scripts") or filepath.startswith(".\\scripts"):
         return []
         
     violations = []

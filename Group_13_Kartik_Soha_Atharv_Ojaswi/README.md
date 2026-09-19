@@ -19,9 +19,9 @@ This project implements a **Continuous Behavioral Biometric Authentication Syste
 | 1 | `Pfeuffer2019` | Behavioural Biometrics in VR: Identifying People from How They Look, Point and Walk | ACM CHI | 2019 | [10.1145/3290605.3300340](https://doi.org/10.1145/3290605.3300340) |
 | 2 | `Miller2020` | Personal identifiability of user tracking data during observation of 360-degree VR video | Scientific Reports | 2020 | [10.1038/s41598-020-74486-y](https://doi.org/10.1038/s41598-020-74486-y) |
 | 3 | `Miller2022` | Temporal Effects in Motion Behavior for Virtual Reality (VR) Biometrics | IEEE VR | 2022 | [10.1109/VR51125.2022.00076](https://doi.org/10.1109/VR51125.2022.00076) |
-| 4 | `Quintero2021` | Effective Classification of Head Motion Trajectories in Virtual Reality Using Time-Series Methods | IEEE AIVR | 2021 | [10.1109/AIVR52153.2021.00015](https://doi.org/10.1109/AIVR52153.2021.00015) |
-| 5 | `Chen2024` | SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges | IEEE TBIOM | 2024 | [10.1109/TBIOM.2024.3369590](https://doi.org/10.1109/TBIOM.2024.3369590) |
-| 6 | `Jain2004` | An Introduction to Biometric Recognition | IEEE TCSVT | 2004 | [10.1109/TCSVT.2003.818349](https://doi.org/10.1109/TCSVT.2003.818349) |
+| 4 | `Chen2024` | SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges | IEEE TBIOM | 2024 | [10.1109/TBIOM.2024.3369590](https://doi.org/10.1109/TBIOM.2024.3369590) |
+| 5 | `Li2026` | Real or fake motion: protecting virtual reality (VR) behavioral authentication systems against motion forecasting attacks | Frontiers in Virtual Reality | 2026 | [10.3389/frvir.2026.1766672](https://doi.org/10.3389/frvir.2026.1766672) |
+| 6 | `Gyreyiri2025` | Head Movement Biometrics for Continuous Authentication in Virtual Reality | ACM VRST | 2025 | [10.1145/3756884.3768408](https://doi.org/10.1145/3756884.3768408) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **90 Hz Kinematic Stream Engine (`Assets/Scripts/KinematicTelemetryCollector.cs`, `I013 - Atharv Dixit`):** High-frequency 6-DoF rigid pose ingestion, coordinate normalization, and 4th-order low-pass Butterworth sensor jitter suppression.
 2. **Biometric Classification Core (`Assets/Scripts/ContinuousBiometricAuthManager.cs`, `I001 - Kartik Agrawal`):** 3.0-second sliding temporal window, 16-dimensional kinematic feature extraction (velocity, angular acceleration, jerk), and EER-calibrated distance scoring.
 3. **Avatar Lockout & Telemetry Orchestration (`I007 - Soha Chand`):** Real-time avatar inverse kinematics freeze, voice stream muting, red perimeter warning shader, and enterprise security telemetry logging.
-4. **Security QA & Adversarial Replay Generator (`telemetry/biometric_security_economics.py`, `I019 - Ojaswi Gondalia`):** Adversarial synthetic trajectory injection, DET/ROC curve benchmark validation, and enterprise labor savings modeling.
+4. **Security QA & Adversarial Replay Generator (`telemetry/biometric_eer_eval.py`, `I019 - Ojaswi Gondalia`):** Adversarial synthetic trajectory injection, DET/ROC curve benchmark validation, and enterprise labor savings modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram illustrating Kinematic Ingestion, Classification Core, Security QA, and Lockout Orchestration.

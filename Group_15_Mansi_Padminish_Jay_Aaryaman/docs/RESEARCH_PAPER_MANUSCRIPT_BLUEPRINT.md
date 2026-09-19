@@ -25,10 +25,10 @@ To address this challenge, we developed an automated, closed-loop bio-adaptive V
 Our clinical architecture is grounded in six foundational contributions:
 1. **Foundational VRET for Acrophobia:** Rothbaum et al. (`Rothbaum1995`, [10.1176/ajp.152.4.626](https://doi.org/10.1176/ajp.152.4.626)) published the pioneering controlled clinical trial proving that computer-generated graded exposure desensitizes acrophobic individuals.
 2. **Automated VR Therapy Efficacy:** Freeman et al. (`Freeman2018`, [10.1016/S2215-0366(18)30226-8](https://doi.org/10.1016/S2215-0366(18)30226-8)) demonstrated in a landmark trial in *The Lancet Psychiatry* that automated VR therapy with an avatar guide delivers profound effect sizes ($d = 2.0$) without constant therapist control.
-3. **In Vivo vs VR Clinical Equivalence:** Emmelkamp et al. (`Emmelkamp2002`, [10.1016/S0005-7967(01)00023-7](https://doi.org/10.1016/S0005-7967(01)00023-7)) proved that VRET produces therapeutic outcomes indistinguishable from real-world exposure across standardized psychometric scales.
-4. **Presence and Anxiety Activation:** Krijn et al. (`Krijn2004`, [10.1016/S0005-7967(03)00139-6](https://doi.org/10.1016/S0005-7967(03)00139-6)) established that high perceptual immersion is critical to trigger authentic fear responses necessary for neural extinction.
-5. **Visual Avoidance in Specific Phobias:** Tolin et al. (`Tolin1999`, [10.1016/S0005-7967(98)00111-9](https://doi.org/10.1016/S0005-7967(98)00111-9)) demonstrated that phobic subjects exhibit pronounced visual gaze aversion away from anxiety-provoking cues.
-6. **Height Vertigo Posturography:** Brandt et al. (`Brandt1980`, [10.3109/00016488009127169](https://doi.org/10.3109/00016488009127169)) discovered the biomechanical basis of physiological height vertigo, identifying characteristic $4-10\text{ Hz}$ postural sway and head tremor spikes caused by visual-vestibular conflict.
+3. **Multimodal Acrophobia VRET Responses:** Varsova et al. (`Varsova2024`, [10.1007/s10055-024-01037-5](https://doi.org/10.1007/s10055-024-01037-5)) investigated psychological and physiological evidence during virtual reality height exposure, establishing behavioral biomarkers of fear activation.
+4. **VR Acrophobia Exposure Scenario Efficacy:** Francova et al. (`Francova2025`, [10.1016/j.jbtep.2025.102035](https://doi.org/10.1016/j.jbtep.2025.102035)) proved in a randomized controlled trial that modular VR elevation scenarios reliably facilitate habituation and symptom decay.
+5. **Modern Clinical VR Exposure Framework:** Gaina et al. (`Gaina2024`, [10.3390/brainsci14070651](https://doi.org/10.3390/brainsci14070651)) formulated digital therapy architectures and safety boundaries for immersive acrophobia exposure.
+6. **Clinical VRET Interventions:** Hidayat et al. (`Hidayat2024`, [10.1109/iceecit63698.2024.10860224](https://doi.org/10.1109/iceecit63698.2024.10860224)) established contemporary VRET intervention protocols and distress reduction metrics.
 
 ---
 
@@ -79,7 +79,7 @@ As illustrated in Figure 2A, the bio-adaptive state machine successfully arreste
 ---
 
 ## Section V: Technoeconomic Operational Parity Model
-Using `telemetry/vret_acrophobia_economics.py`, clinical practice economics were modeled for an annual intake of 180 acrophobic patients:
+Using `telemetry/bioadaptive_exposure_eval.py`, clinical practice economics were modeled for an annual intake of 180 acrophobic patients:
 - **Clinician Hours Reclaimed:** 1,566.0 hours of clinical psychologist time saved annually.
 - **Dropouts Prevented:** 50.9 patient dropouts avoided per year.
 - **Clinical Capacity Multiplier:** $5.83 \times$ increase in patients treated per clinician FTE.
@@ -97,7 +97,7 @@ Automated bio-adaptive VRET effectively resolves the twin challenges of clinical
 
 1. B. O. Rothbaum, L. F. Hodges, R. Kooper, D. Opdyke, J. S. Williford, and M. North, "Effectiveness of computer-generated (virtual reality) graded exposure in the treatment of acrophobia," *Am. J. Psychiatry*, vol. 152, no. 4, pp. 626-628, 1995. DOI: [10.1176/ajp.152.4.626](https://doi.org/10.1176/ajp.152.4.626).
 2. D. Freeman et al., "Automated psychological therapy using immersive virtual reality for treatment of fear of heights: a single-blind, parallel-group, randomised controlled trial," *Lancet Psychiatry*, vol. 5, no. 8, pp. 625-632, 2018. DOI: [10.1016/S2215-0366(18)30226-8](https://doi.org/10.1016/S2215-0366(18)30226-8).
-3. P. M. Emmelkamp, M. Krijn, A. M. Hulsbosch, S. de Vries, M. J. Schuemie, and C. A. van der Mast, "Virtual reality treatment versus exposure in vivo: a comparative evaluation in acrophobia," *Behav. Res. Ther.*, vol. 40, no. 5, pp. 509-516, 2002. DOI: [10.1016/S0005-7967(01)00023-7](https://doi.org/10.1016/S0005-7967(01)00023-7).
-4. M. Krijn, P. M. Emmelkamp, R. Biemond, C. de Wilde de Ligny, M. J. Schuemie, and C. A. van der Mast, "Treatment of acrophobia in virtual reality: The role of immersion and presence," *Behav. Res. Ther.*, vol. 42, no. 2, pp. 229-239, 2004. DOI: [10.1016/S0005-7967(03)00139-6](https://doi.org/10.1016/S0005-7967(03)00139-6).
-5. D. F. Tolin, J. M. Lohr, T. C. Lee, and C. N. Sawchuk, "Visual avoidance in specific phobia," *Behav. Res. Ther.*, vol. 37, no. 1, pp. 63-70, 1999. DOI: [10.1016/S0005-7967(98)00111-9](https://doi.org/10.1016/S0005-7967(98)00111-9).
-6. T. Brandt, F. Arnold, W. Bles, and T. S. Kapteyn, "The Mechanism of Physiological Height Vertigo: I. Theoretical Approach and Psychophysics," *Acta Otolaryngol.*, vol. 89, no. 3-6, pp. 513-523, 1980. DOI: [10.3109/00016488009127169](https://doi.org/10.3109/00016488009127169).
+3. K. Varsova, D. Szitas, O. Janousek, L. Jurkovicova, K. Bartosova, and V. Jurik, "Virtual reality exposure effect in acrophobia: psychological and physiological evidence from a single experimental session," *Virtual Real.*, vol. 28, no. 3, art. no. 150, 2024. DOI: [10.1007/s10055-024-01037-5](https://doi.org/10.1007/s10055-024-01037-5).
+4. A. Francova, M. K. Jablonska, L. Lhotska, J. Husak, and I. Fajnerova, "Efficacy of exposure scenario in virtual reality for the treatment of acrophobia: A randomized controlled trial," *J. Behav. Ther. Exp. Psychiatry*, vol. 86, art. no. 102035, 2025. DOI: [10.1016/j.jbtep.2025.102035](https://doi.org/10.1016/j.jbtep.2025.102035).
+5. M.-A. Gaina et al., "SAFEvR MentalVeRse.app: Development of a Free Immersive Virtual Reality Exposure Therapy for Acrophobia and Claustrophobia," *Brain Sci.*, vol. 14, no. 7, art. no. 651, 2024. DOI: [10.3390/brainsci14070651](https://doi.org/10.3390/brainsci14070651).
+6. K. R. Hidayat, A. Aminuddin, A. N. Ahmad, F. M. Puri, Norhikmah, and A. Fatkhurohman, "Virtual Reality Exposure Therapy as a Novel Approach to Acrophobia Treatment," in *2024 IEEE 2nd Int. Conf. Electr. Eng., Comput. Inf. Technol. (ICEECIT)*, 2024, pp. 1-6. DOI: [10.1109/iceecit63698.2024.10860224](https://doi.org/10.1109/iceecit63698.2024.10860224).

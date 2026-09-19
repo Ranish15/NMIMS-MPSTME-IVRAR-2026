@@ -1,38 +1,33 @@
 # Week 1 / Sprint 0: Student Onboarding & GitHub Diagnostics
 ## Practical First-Week Task for All Student Groups
 **Academic Year:** 2026–2027 Odd Semester  
-**Course Coordination:** Dr. Sunny Nanade  
+**Course Coordination:** Department Course Coordination Team  
 **Governance Oversight:** Institutional Leadership & Academic Directorate  
 
 ---
 
-## 🎯 Purpose of This Week's Task
+## Purpose of This Week's Task
 Welcome to the Problem-Based Learning (PBL) cohort! To ensure that every student is comfortable with professional engineering version control, collaborative development, and our course repository, this week is dedicated to **Sprint 0: The Onboarding Diagnostic**.
 
 By completing this exercise by the end of Week 1, your team will secure its first continuous assessment marks and verify that your local development environment is ready.
 
 ---
 
-## 📋 Step-by-Step Student Instructions
+## Step-by-Step Student Instructions
 
 ### Step 1: Clone the Course Monorepo
 Open your terminal (PowerShell, Bash, or Command Prompt) and clone your course repository:
 ```bash
-# For IVRAR Students:
-git clone https://github.com/sunny-nanade/NMIMS-MPSTME-IVRAR-2026.git
+git clone https://github.com/MPSTME-Labs/NMIMS-MPSTME-IVRAR-2026.git
 cd NMIMS-MPSTME-IVRAR-2026
-
-# For MDRIIA Students:
-git clone https://github.com/sunny-nanade/NMIMS-MPSTME-MDRIIA-2026.git
-cd NMIMS-MPSTME-MDRIIA-2026
 ```
 
 ### Step 2: Create Your Assigned Git Feature Branch
 Every student has been assigned an official feature branch in your group's `RESEARCH_AND_IMPLEMENTATION_GUIDE.md`.  
 Switch to your feature branch immediately:
 ```bash
-# Example for student E006:
-git checkout -b feat/e006-amr-chassis
+# Example for student B069:
+git checkout -b feat/b069-physical-security-co
 ```
 
 ### Step 3: Locate Your Group Folder
@@ -41,17 +36,12 @@ Navigate directly to your designated group folder (e.g., `Group_01_...`).
 
 ### Step 4: Update `docs/TEAM_ROSTER.json`
 Open `docs/TEAM_ROSTER.json` inside your group folder. Find your student record and update:
-1. `"github_handle"`: Replace with your actual GitHub username.
-2. `"institutional_email"`: Ensure your `@nmims.edu.in` or official student email is present.
-3. Save the file.
+1. `"github_username"`: Replace with your actual GitHub username.
+2. Save the file.
 
 ### Step 5: Test Your Local Starter Toolchain
 Run the verification script provided in your group folder to ensure your computer has the necessary runtime:
 ```bash
-# For MDRIIA:
-python src/test_env.py
-
-# For IVRAR:
 python telemetry/test_evaluation_tools.py
 ```
 Verify that the output displays all green checkmarks.
@@ -74,7 +64,7 @@ git push origin feat/<your-branch-name>
 
 ---
 
-## 🏆 Assessment & Grading Criteria (10 Marks Total)
+## Assessment & Grading Criteria (10 Marks Total)
 * **Timely Submission (by Sunday 11:59 PM):** 3 Marks
 * **Correct Branch Naming & Commit Message:** 2 Marks
 * **Valid JSON Formatting in `TEAM_ROSTER.json`:** 3 Marks

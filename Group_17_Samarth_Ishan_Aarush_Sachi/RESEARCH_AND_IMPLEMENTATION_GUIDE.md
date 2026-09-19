@@ -48,7 +48,7 @@ Roll No   Student Name        Assigned Technical Role                    Assigne
 B069      Samarth Pande       Physical Security Controls Lead            TailgatingBreachManager.cs
 B148      Ishan Choudhary     XR Systems Architect                       Corporate Lobby & Turnstiles
 B155      Aarush Mishra       Breach Telemetry & Audit Specialist        PhysicalSecurityTelemetryLogger.cs
-K031      Sachi Kumar         Security QA & Compliance Lead              security_audit_economics.py
+K031      Sachi Kumar         Security QA & Compliance Lead              security_audit_eval.py
 ===================================================================================================
 ```
 
@@ -74,7 +74,7 @@ K031      Sachi Kumar         Security QA & Compliance Lead              securit
 ### 2.4 Sachi Kumar (K031) - Security QA & Compliance Lead
 - Lead responsibility for ISO/IEC 27001 Control A.7 physical security compliance scoring.
 - Execution of multi-class confusion matrix analysis (compliances, breaches, false challenges).
-- Implementation of technoeconomic operational parity model in `telemetry/security_audit_economics.py`.
+- Implementation of technoeconomic operational parity model in `telemetry/security_audit_eval.py`.
 - Benchmark evaluation and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/k031-security-qa-complian`
 

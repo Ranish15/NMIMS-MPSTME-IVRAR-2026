@@ -47,22 +47,6 @@
       "doi": "10.1080/10658980701788165"
     },
     {
-      "citation_key": "Saunders2019",
-      "title": "Validating Virtual Reality as an Effective Training Medium in the Security Domain",
-      "authors": "J. Saunders, S. Davey, P. S. Bayerl, P. Lohrmann",
-      "year": 2019,
-      "journal": "2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR), pp. 1148-1149",
-      "doi": "10.1109/vr.2019.8798371"
-    },
-    {
-      "citation_key": "Tetri2013",
-      "title": "Dissecting social engineering",
-      "authors": "P. Tetri, J. Vuorinen",
-      "year": 2013,
-      "journal": "Behaviour & Information Technology, vol. 32, no. 10, pp. 1014-1023",
-      "doi": "10.1080/0144929x.2013.763860"
-    },
-    {
       "citation_key": "Heartfield2015",
       "title": "A Taxonomy of Attacks and a Survey of Defence Mechanisms for Semantic Social Engineering Attacks",
       "authors": "R. Heartfield, G. Loukas",
@@ -71,20 +55,36 @@
       "doi": "10.1145/2835375"
     },
     {
-      "citation_key": "Albrechtsen2010",
-      "title": "Improving information security awareness and behaviour through dialogue, participation and collective reflection. An intervention study",
-      "authors": "E. Albrechtsen, J. Hovden",
-      "year": 2010,
-      "journal": "Computers & Security, vol. 29, no. 4, pp. 432-445",
-      "doi": "10.1016/j.cose.2009.12.005"
+      "citation_key": "Rehman2026",
+      "title": "Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats",
+      "authors": "I. U. Rehman, D. Vanecek, J. Chakareski, D. Guralnick",
+      "year": 2026,
+      "journal": "Virtual Reality, vol. 30, art. no. 15, pp. 1-18",
+      "doi": "10.1007/s10055-025-01309-8"
     },
     {
-      "citation_key": "Cheh2019",
-      "title": "Leveraging Physical Access Logs to Identify Tailgating: Limitations and Solutions",
-      "authors": "C. Cheh, U. Thakore, B. Chen, W. G. Temple, W. H. Sanders",
-      "year": 2019,
-      "journal": "2019 15th European Dependable Computing Conference (EDCC), pp. 163-170",
-      "doi": "10.1109/edcc.2019.00032"
+      "citation_key": "Abril2025",
+      "title": "Exploring a novel approach to cybersecurity: the role of ecological simulations on cybersecurity risk behaviors",
+      "authors": "T. Abril, P. Gamito, C. da Motta, J. Oliveira, F. Dias, F. Pinto, M. Oliveira",
+      "year": 2025,
+      "journal": "Virtual Reality, vol. 29, art. no. 12, pp. 1-16",
+      "doi": "10.1007/s10055-025-01228-8"
+    },
+    {
+      "citation_key": "RamaseriChandra2024",
+      "title": "Cybersecurity threats in Virtual Reality Environments: A Literature Review",
+      "authors": "A. N. Ramaseri-Chandra, P. Pothana",
+      "year": 2024,
+      "journal": "2024 Cyber Awareness and Research Symposium (CARS), pp. 1-7",
+      "doi": "10.1109/CARS61786.2024.10778838"
+    },
+    {
+      "citation_key": "Alnajim2023",
+      "title": "Exploring Cybersecurity Education and Training Techniques: A Comprehensive Review of Traditional, Virtual Reality, and Augmented Reality Approaches",
+      "authors": "A. M. Alnajim, S. Habib, M. Islam, H. S. AlRawashdeh, M. Wasim",
+      "year": 2023,
+      "journal": "Symmetry, vol. 15, no. 12, art. no. 2175, pp. 1-24",
+      "doi": "10.3390/sym15122175"
     }
   ]
 }

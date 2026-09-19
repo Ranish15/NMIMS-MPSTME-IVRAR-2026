@@ -1,5 +1,5 @@
 # Academic & Industrial Engineering Standards Manual
-## Introduction to Virtual Reality & Augmented Reality (IVRAR - 702TG0C003)
+## Introduction to Virtual Reality & Augmented Reality (IVRAR - 702COI002)
 **Course:** Open Elective, B.Tech Semester VII  
 **Governance Oversight:** Institutional Leadership & Academic Directorate  
 **Pedagogical Framework:** Aalborg-UNESCO Problem-Based Learning (PBL) & CDIO  

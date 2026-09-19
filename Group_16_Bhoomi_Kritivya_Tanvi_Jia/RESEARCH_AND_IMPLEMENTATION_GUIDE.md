@@ -52,7 +52,7 @@ Roll No   Student Name        Assigned Technical Role                    Assigne
 I004      Bhoomi Bhandari     Triage Clinical Protocol Lead              STARTTriageSimulationManager.cs
 I037      Kritivya Mishra     XR Systems Architect                       Chemical Refinery & Dynamic Hazards
 I044      Tanvi Paithankar    Spatial Telemetry & Confusion Matrix Spec  TriageTelemetryLogger.cs
-I069      Jia Jadhav          Human Factors & Usability Engineer         triage_training_economics.py
+I069      Jia Jadhav          Human Factors & Usability Engineer         mci_triage_eval.py
 ===================================================================================================
 ```
 
@@ -78,7 +78,7 @@ I069      Jia Jadhav          Human Factors & Usability Engineer         triage_
 ### 2.4 Jia Jadhav (I069) - Human Factors & Usability Engineer
 - Lead responsibility for VR controller ergonomic mapping (virtual triage ribbons, penlight, radial pulse sensor).
 - Implementation of System Usability Scale (SUS) assessment and NASA-TLX cognitive workload instrumentation.
-- Execution of technoeconomic operational parity modeling in `telemetry/triage_training_economics.py`.
+- Execution of technoeconomic operational parity modeling in `telemetry/mci_triage_eval.py`.
 - Benchmark evaluation and publication figure rendering in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/i069-human-factors-usabil`
 

@@ -19,10 +19,10 @@ A systematic literature review was executed across PubMed, CrossRef, Web of Scie
 |---|---|---|---|---|---|
 | `Benson1996` | Disaster Triage: START, then SAVE-A New Method of Dynamic Triage for Victims of a Catastrophic Earthquake | Clinical triage protocol foundation | START triage decision tree: $\text{Category} = f(\text{Mobility}, \text{Respiration}, \text{Perfusion}, \text{Mental Status})$ | Core state machine logic in `STARTTriageSimulationManager.cs` | [10.1017/S1049023X0004276X](https://doi.org/10.1017/S1049023X0004276X) |
 | `Wilkerson2008` | Using Virtual Reality Simulation for Mass-Casualty Incident Triage Training | VR triage simulation validation | Categorization accuracy vs drill costs; triage time per victim measurement | Immersive VR scenario design with chemical release and industrial fires | [10.1111/j.1553-2712.2008.00191.x](https://doi.org/10.1111/j.1553-2712.2008.00191.x) |
-| `Ingrassia2015` | Virtual reality and live simulation: a comparative study in mass casualty incident triage training | Equivalence of VR vs live-actor drill training | Equivalence testing: Cohen's $d$, triage categorization kappa ($\kappa$), time per casualty | Experimental benchmark protocol and confusion matrix validation | [10.1097/MEJ.0000000000000132](https://doi.org/10.1097/MEJ.0000000000000132) |
-| `Lerner2008` | Mass Casualty Triage: An Evaluation of the Data and Development of a Proposed National Guideline | Evidence-based triage performance & undertriage risk | Critical undertriage rate $R_{\text{under}} = \frac{FN_{\text{Red}}}{Total_{\text{Red}}}$; overtriage rate $R_{\text{over}}$ | Clinical error scoring and penalty matrix in telemetry logger | [10.1097/DMP.0b013e318182194e](https://doi.org/10.1097/DMP.0b013e318182194e) |
-| `Andreatta2010` | Virtual Reality Triage Training Provides a Viable Solution for Disaster Preparedness | Trainee retention and stress inoculation in VR | Skill decay modeling over time: $S(t) = S_0 e^{-\lambda t}$; VR retention curve | Longitudinal competency tracking and stress simulation | [10.1111/j.1553-2712.2010.00728.x](https://doi.org/10.1111/j.1553-2712.2010.00728.x) |
-| `Farra2015` | Virtual reality disaster training: Translation to practice | Nursing and EMS clinical translation into practice | Competency transfer metric: $\Delta C = C_{\text{post}} - C_{\text{pre}}$; procedural adherence | Trainee assessment interface and multi-user telemetry reporting | [10.1016/j.nepr.2013.08.017](https://doi.org/10.1016/j.nepr.2013.08.017) |
+| `Baxter2026` | Mixed reality feature priorities for mass casualty incident triage simulation: a descriptive pre-post study | Mixed reality simulation features and ecological validity | Multi-sensory environmental cues and procedural immersion ratings | Environmental hazard stressors and dynamic industrial hazards | [10.1007/s10055-026-01341-2](https://doi.org/10.1007/s10055-026-01341-2) |
+| `Eide2025` | Immersive Virtual Reality Simulation for Tactical Mass-Casualty Triage: An Observational Study of Usability, Realism, and Decision-Making in RAMP Training | Tactical triage decision-making under high-stress VR immersion | Stress-induced cognitive degradation and decision latency metrics | Stress inoculation and decision delay tracking in `TriageTelemetryLogger.cs` | [10.1017/dmp.2025.10289](https://doi.org/10.1017/dmp.2025.10289) |
+| `Chumvanichaya2025` | A comparison of SIEVE, SORT, and START triage training effectiveness between immersive interactive 3D learning materials using virtual reality (VR-SSST) and traditional methods in mass casualty incidents | Direct comparison of VR-based START training vs traditional drills | Pre/post triage protocol accuracy, time-to-tag latency, and error distribution | Direct empirical benchmark validation for START accuracy and latency gains | [10.1186/s12245-025-00850-2](https://doi.org/10.1186/s12245-025-00850-2) |
+| `Chen2025` | Bridging Simulation and Reality: Augmented Virtuality for Mass Casualty Triage Training - From Landscape Analysis to Empirical Insights | Augmented reality and virtuality for physical tactile triage | Physical-virtual spatial coordination and avatar fidelity modeling | Trainee spatial navigation and interaction design in `Assets/Scripts/` | [10.1145/3706598.3713794](https://doi.org/10.1145/3706598.3713794) |
 
 ---
 
@@ -36,21 +36,21 @@ A systematic literature review was executed across PubMed, CrossRef, Web of Scie
 - **Core Contribution:** Established empirical evidence that immersive desktop/HMD virtual reality simulation reliably trains emergency medicine residents to apply disaster triage algorithms, demonstrating equivalent diagnostic accuracy to expensive real-world mock drills while eliminating physical consumable waste and actor coordination overhead.
 - **Project Role:** Establishes the VR system design requirements and industrial disaster environment implemented in Unity by `I037 - Kritivya Mishra`.
 
-### 3.3 Ingrassia, Ragazzoni, Carenzo, Colombo, Barra, & Della Corte (2015) - Comparative Study: VR vs Live Simulation
-- **Core Contribution:** Conducted a landmark prospective comparative trial ($N = 60$) demonstrating that virtual reality simulation achieves triage categorization accuracy ($84.6\%$) and time-to-tag performance statistically indistinguishable from resource-intensive live-actor simulation exercises, validating VR as an ecologically valid clinical training modality.
-- **Project Role:** Directly provides the comparative baseline values for triage latency, categorization accuracy, and Cohen's kappa coefficients tracked in `telemetry/mci_triage_benchmark.csv`.
+### 3.3 Baxter, Pusa, Puthenkalam, Sjoberg, Schrom-Feiertag, & Gyllencreutz (2026) - Mixed Reality Triage Priorities
+- **Core Contribution:** Identified feature priorities for disaster triage simulations in extended reality, proving that dynamic environmental stressors (smoke, ambient noise, physical debris) are essential to prevent unrealistic complacency during casualty evaluation.
+- **Project Role:** Directly dictates the hazard environmental layers (smoke shaders, chemical hazard markers) implemented by `I037 - Kritivya Mishra` and `I069 - Jia Jadhav`.
 
-### 3.4 Lerner, Schwartz, Coule, Weinstein, Cone, & Armstrong (2008) - Mass Casualty Triage Evidence & National Guidelines
-- **Core Contribution:** Synthesized decades of triage performance data to analyze undertriage (allocating a critical patient to a delayed category, resulting in preventable mortality) and overtriage (flooding tertiary trauma bays with walking wounded), setting rigorous performance thresholds ($< 5\%$ undertriage rate target).
-- **Project Role:** Governs the confusion matrix metrics and risk penalty equations implemented in `TriageTelemetryLogger.cs` by `I044 - Tanvi Paithankar`.
+### 3.4 Eide et al. (2025) - Immersive VR for Tactical MCI Triage
+- **Core Contribution:** Evaluated paramedic triage performance under immersive VR simulation, establishing that immersive visual and auditory stressors elevate heart rate and induce authentic tactical decision latency.
+- **Project Role:** Informs the decision latency and stress penalty metrics logged in `TriageTelemetryLogger.cs` by `I044 - Tanvi Paithankar`.
 
-### 3.5 Andreatta, Maslowski, Petty, Donegan, & Huang (2010) - VR Triage Training for Disaster Preparedness
-- **Core Contribution:** Demonstrated that emergency medical personnel trained via immersive interactive VR maintain superior procedural retention and triage speed at 6-month longitudinal follow-up compared to traditional didactic tabletop trainees, attributing retention gains to embodied procedural memory and sensory immersion.
-- **Project Role:** Motivates the stress inoculation features (sirens, smoke occlusion, hazardous chemical spills) designed into the XR environment by `I069 - Jia Jadhav`.
+### 3.5 Chumvanichaya, Yuksen, Nuanprom, & Aramvanitch (2025) - VR-SSST START Triage Training
+- **Core Contribution:** Directly compared interactive 3D VR materials against traditional didactic instruction for START triage, demonstrating that VR training yields statistically significant gains in categorization accuracy and slashes time-to-tag latency across mass casualty scenarios.
+- **Project Role:** Serves as the primary modern empirical benchmark validating Group 16's target metrics (categorization accuracy $> 90\%$, triage latency $< 30\text{ s}$).
 
-### 3.6 Farra, Miller, & Hodgson (2015) - VR Disaster Training: Translation to Practice
-- **Core Contribution:** Demonstrated the translation of virtual disaster training into physical clinical practice among healthcare personnel, showing that trainees exposed to high-stress VR triage scenarios demonstrate superior spatial awareness and communication efficiency during subsequent live triage drills.
-- **Project Role:** Informs the CSBS technoeconomic model in `triage_training_economics.py`, quantifying institutional training hour savings and disaster preparedness readiness gains.
+### 3.6 Chen et al. (2025) - Augmented Virtuality for Mass Casualty Triage
+- **Core Contribution:** Investigated spatial interaction and user experience during mass casualty simulation, providing empirical guidelines for controller-based physical tag attachment and tactile feedback.
+- **Project Role:** Governs the user interaction design, virtual triage tag dispatching, and usability scale evaluations administered by `I069 - Jia Jadhav`.
 
 ---
 

@@ -17,7 +17,7 @@ A sliding temporal window of duration $W = 3.0\text{ seconds}$ accumulates $N_w 
 $$\mathbf{X}_W = [\mathbf{x}_{t - N_w + 1}, \dots, \mathbf{x}_t]^T \in \mathbb{R}^{270 \times 14}$$
 
 ### 1.2 Kinematic Feature Space & Higher-Order Derivatives
-Individual motor behavior is characterized by velocity, acceleration, and jerk profiles (`Quintero2021`, `Pfeuffer2019`). Numerical differentiation yields:
+Individual motor behavior is characterized by velocity, acceleration, and jerk profiles (`Gyreyiri2025`, `Pfeuffer2019`). Numerical differentiation yields:
 
 $$\mathbf{v}(t) = \frac{\mathbf{p}(t) - \mathbf{p}(t - \Delta t)}{\Delta t}, \quad \mathbf{a}(t) = \frac{\mathbf{v}(t) - \mathbf{v}(t - \Delta t)}{\Delta t}, \quad \mathbf{j}(t) = \frac{\mathbf{a}(t) - \mathbf{a}(t - \Delta t)}{\Delta t}$$
 
@@ -28,7 +28,7 @@ $$\mathbf{f}_W = \left[ \bar{v}_h, \sigma(v_h), \bar{v}_r, \sigma(v_r), \bar{\om
 where $\bar{d}_{hr}$ represents the mean anatomical Euclidean distance between the user's headset and hand controller.
 
 ### 1.3 Detection Error Tradeoff (DET) & Equal Error Rate (EER) Calibration
-The decision score $S(\mathbf{f}_W)$ measures similarity between the runtime feature vector $\mathbf{f}_W$ and the enrolled user template $\mathbf{f}_{\text{template}}$ (`Jain2004`):
+The decision score $S(\mathbf{f}_W)$ measures similarity between the runtime feature vector $\mathbf{f}_W$ and the enrolled user template $\mathbf{f}_{\text{template}}$:
 
 $$S(\mathbf{f}_W) = \exp\left( -\frac{1}{2} (\mathbf{f}_W - \mathbf{f}_{\text{template}})^T \boldsymbol{\Sigma}^{-1} (\mathbf{f}_W - \mathbf{f}_{\text{template}}) \right)$$
 
@@ -60,7 +60,7 @@ Roll No   Student Name      Assigned Technical Role                    Assigned 
 I001      Kartik Agrawal    Biometric Authentication Lead              ContinuousBiometricAuthManager.cs
 I007      Soha Chand        XR Systems Architect                       Avatar Lockout & Telemetry UI
 I013      Atharv Dixit      Kinematic Telemetry Specialist             KinematicTelemetryCollector.cs
-I019      Ojaswi Gondalia   Security QA & Threat Analyst               biometric_security_economics.py
+I019      Ojaswi Gondalia   Security QA & Threat Analyst               biometric_eer_eval.py
 ===================================================================================================
 ```
 
@@ -84,7 +84,7 @@ I019      Ojaswi Gondalia   Security QA & Threat Analyst               biometric
 
 ### 2.4 Ojaswi Gondalia (I019) - Security QA & Threat Analyst
 - Lead responsibility for adversarial impostor trajectory replay and synthetic mimicry injection.
-- Implementation of technoeconomic enterprise friction modeling in `telemetry/biometric_security_economics.py`.
+- Implementation of technoeconomic enterprise friction modeling in `telemetry/biometric_eer_eval.py`.
 - Benchmark evaluation and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/i019-security-qa-threat-a`
 

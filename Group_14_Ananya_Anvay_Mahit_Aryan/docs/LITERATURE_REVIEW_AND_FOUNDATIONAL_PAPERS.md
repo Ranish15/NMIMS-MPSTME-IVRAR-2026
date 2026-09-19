@@ -19,10 +19,10 @@ A systematic literature search was conducted across CrossRef, IEEE Xplore, the A
 |---|---|---|---|---|---|
 | `Sheridan1993` | Space teleoperation through time delay: review and prognosis | Foundations of supervisory control and delay compensation | Move-and-wait vs supervisory control: $T_{\text{task}} = N_{\text{steps}} \cdot (\tau_{\text{move}} + 2\tau_{\text{delay}})$ | Mathematical formulation of mission idle time and task completion delay | [10.1109/70.258052](https://doi.org/10.1109/70.258052) |
 | `Bejczy1990` | The phantom robot: predictive displays for teleoperation with time delay | Predictive phantom graphics for delayed telerobotic control | Forward kinematic projection: $\hat{\mathbf{x}}(t + \tau) = \mathbf{x}(t) + \int_t^{t+\tau} f(\mathbf{x}, \mathbf{u}) dt$ | Core concept of the holographic ghost avatar in `PredictiveGhostRoverManager.cs` | [10.1109/ROBOT.1990.126037](https://doi.org/10.1109/ROBOT.1990.126037) |
-| `Fong2005` | Interaction challenges in human-robot space exploration | Human-robot interfaces and latency mitigation for space rovers | Peer-to-peer telemetry handoff and situational awareness degradation | Operator cognitive ergonomics and NASA-TLX evaluation | [10.1145/1052438.1052462](https://doi.org/10.1145/1052438.1052462) |
-| `Walker2019` | Robot Teleoperation with Augmented Reality Virtual Surrogates | Virtual surrogates and visual prediction for robot teleoperation | Trajectory ribbon unprojection: $\mathbf{p}_{\text{screen}} = \mathbf{K} [\mathbf{R} \mid \mathbf{t}] \mathbf{p}_{\text{pred}}$ | 3D predictive trajectory ribbon implementation | [10.1109/HRI.2019.8673306](https://doi.org/10.1109/HRI.2019.8673306) |
-| `Whitney2018` | ROS Reality: A Virtual Reality Framework Using Consumer-Grade Hardware for ROS-Enabled Robots | VR framework connecting real-time robotics telemetry with Unity | WebSocket binary serialization connecting ROS telemetry to Unity XR space | Architecture bridging kinematic data to Unity VR displays | [10.1109/IROS.2018.8593513](https://doi.org/10.1109/IROS.2018.8593513) |
-| `Balaram2000` | Kinematic state estimation for a Mars rover | Planetary rover rocker-bogie kinematics and regolith slip | Differential-drive rover state estimation: $\dot{x} = v \cos\theta, \dot{y} = v \sin\theta, \dot{\theta} = \omega$ | Forward kinematic wheel-slip equations in `PredictiveGhostRoverManager.cs` | [10.1017/S0263574799002234](https://doi.org/10.1017/S0263574799002234) |
+| `Zhu2023` | Intention-reflected predictive display for operability improvement of time-delayed teleoperation system | Intention-aware forward trajectory prediction under time delay | Operator control intention estimation and future state extrapolation | Dynamic trajectory ribbon modeling in `PredictiveGhostRoverManager.cs` | [10.1186/s40648-023-00258-8](https://doi.org/10.1186/s40648-023-00258-8) |
+| `Jin2024` | Mitigating Latency Effects on Subjective Experience in Robot Teleoperation Using a VR-Enabled Virtual Spring | VR visual spring decoupling and latency subjective damping | Virtual compliance dynamics and latency damping formulation | Virtual spring smoothing across delay buffers | [10.1109/ismar62088.2024.00144](https://doi.org/10.1109/ismar62088.2024.00144) |
+| `Prakash2023` | Predictive Display With Perspective Projection of Surroundings in Vehicle Teleoperation to Account Time-Delays | Predictive terrain projection and delayed visual immersion | Perspective warping and projected terrain occupancy mapping | Forward hazard projection and collision boundary checking | [10.1109/tits.2023.3268756](https://doi.org/10.1109/tits.2023.3268756) |
+| `Pant2026` | Low-Cost VR Teleoperation of a 5-Dof Robotic Arm with a Synchronized Digital Twin and Ultrasonic Safety Loop | Synchronized digital twin and proximity safety loop | Real-time state synchronization and obstacle safety envelope | Ghost-avatar telemetry sync and safety collision verification | [10.1109/vrw70859.2026.00167](https://doi.org/10.1109/vrw70859.2026.00167) |
 
 ---
 
@@ -36,23 +36,23 @@ A systematic literature search was conducted across CrossRef, IEEE Xplore, the A
 - **Core Contribution:** Pioneered the concept of rendering a zero-delay graphical "phantom" wireframe robot overlaid on delayed video feeds, proving that predictive visual feedback restores operator hand-eye coordination and suppresses control instability.
 - **Project Role:** Governs the core technical implementation in `Assets/Scripts/PredictiveGhostRoverManager.cs` by `I003 - Ananya Baweja` and `I006 - Anvay Borade`.
 
-### 3.3 Fong & Nourbakhsh (2005) - Interaction Challenges in Human-Robot Space Exploration
-- **Core Contribution:** Identified that deep-space teleoperation suffers from cognitive disembodiment, where operators lose situational awareness due to asynchronous telemetry, resulting in costly rover rock strikes and wheel entrapments.
-- **Project Role:** Guides the human factors experimental design, NASA-TLX workload evaluations, and hazard proximity sensing implemented by `I041 - Aryan Oberoi`.
+### 3.3 Zhu, Fusano, Aoyama, & Hasegawa (2023) - Intention-Reflected Predictive Display
+- **Core Contribution:** Developed intention-aware forward predictive display models that predict operator control vectors under communication latency, significantly improving trajectory smoothness and tracking precision.
+- **Project Role:** Directly directs the predictive path ribbon extrapolation and forward kinematic projection algorithms in `PredictiveGhostRoverManager.cs`.
 
-### 3.4 Walker, Hedayati, & Szafir (2019) - AR Virtual Surrogates
-- **Core Contribution:** Demonstrated that rendering anticipatory virtual surrogates and prospective motion ribbons directly within the operator's spatial viewport reduces cognitive load by over 40% and drastically lowers collision rates during complex obstacle navigation.
-- **Project Role:** Directly implemented in the 3D predictive path ribbon and holographic avatar shader in Unity VR.
+### 3.4 Jin, Zhang, Li, Ban, & Warisawa (2024) - Mitigating Latency in VR Robot Teleoperation
+- **Core Contribution:** Formulated a VR-enabled virtual spring damping mechanism that decouples real-time controller inputs from delayed telemetry, reducing perceived latency and operator disorientation.
+- **Project Role:** Guides the high-latency smoothing filters and FIFO delay buffer interpolation implemented in `Assets/Scripts/HighLatencyNetworkSimulator.cs` by `I010 - Mahit Naresh Daswani Chanchlani`.
 
-### 3.5 Whitney, Rosen, Ullman, Phillips, & Tellex (2018) - ROS Reality
-- **Core Contribution:** Established high-throughput, low-jitter network bridges between robot operating system (ROS) telemetry streams and consumer Unity VR headsets, proving that immersive spatial displays provide superior spatial depth perception over 2D monitors.
-- **Project Role:** Provides the architectural design for the telemetry exchange and network simulation in `Assets/Scripts/HighLatencyNetworkSimulator.cs`.
+### 3.5 Prakash, Vignati, Vignarca, Sabbioni, & Cheli (2023) - Predictive Display with Perspective Projection
+- **Core Contribution:** Demonstrated that projecting predictive prospective trajectories onto 3D reconstructed terrain meshes enables drivers to anticipate vehicle-ground contact points under transmission latencies up to 5.0 seconds.
+- **Project Role:** Dictates the 3D terrain hazard projection and rock collision detection algorithms implemented by `I041 - Aryan Oberoi`.
 
-### 3.6 Balaram (2000) - Kinematic State Estimation for a Mars Rover
-- **Core Contribution:** Formulated the non-holonomic kinematic state equations and wheel-slip friction dynamics for planetary rovers traversing loose regolith terrains.
-- **Project Role:** Directly implemented in the forward kinematic extrapolation solver in `PredictiveGhostRoverManager.cs`.
+### 3.6 Pant, Saini, & Gaurav (2026) - Synchronized Digital Twin and Safety Loops
+- **Core Contribution:** Established real-time bidirectional synchronization protocols between physical robotic hardware and immersive Unity XR digital twins, integrating reactive collision safety buffers.
+- **Project Role:** Validates the software architecture bridging Unity VR kinematic transforms with delayed physical rover state telemetry.
 
 ---
 
 ## 4. Theoretical Synthesis & Research Gaps Identified
-While predictive displays were explored in 2D overlays (`Bejczy1990`) and modern AR surrogates (`Walker2019`), **no prior investigation has integrated an immersive 6-DoF VR digital twin with real-time forward kinematic extrapolation to mitigate planetary rover path error and collision risk across high transmission latencies (1.5s to 5.0s) while measuring mission science throughput**. Group 14 resolves this challenge.
+While early predictive displays relied on 2D wireframe overlays (`Bejczy1990`) and modern teleoperation studies focused on isolated robotic arms (`Pant2026`), **no prior work has deployed an immersive 6-DoF VR digital twin integrating forward kinematic prediction (`Zhu2023`) and terrain projection (`Prakash2023`) to actively eliminate move-and-wait idle latency and rock collision hazards under 1.5s to 5.0s planetary transmission delays**. Group 14 solves this problem.

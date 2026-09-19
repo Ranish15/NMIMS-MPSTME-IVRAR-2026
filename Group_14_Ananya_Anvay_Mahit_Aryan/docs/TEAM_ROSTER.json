@@ -55,36 +55,36 @@
       "doi": "10.1109/ROBOT.1990.126037"
     },
     {
-      "citation_key": "Fong2005",
-      "title": "Interaction challenges in human-robot space exploration",
-      "authors": "T. Fong, I. Nourbakhsh",
-      "year": 2005,
-      "journal": "Interactions, vol. 12, no. 2, pp. 42-45",
-      "doi": "10.1145/1052438.1052462"
+      "citation_key": "Zhu2023",
+      "title": "Intention-reflected predictive display for operability improvement of time-delayed teleoperation system",
+      "authors": "H. Zhu, R. Fusano, T. Aoyama, Y. Hasegawa",
+      "year": 2023,
+      "journal": "ROBOMECH Journal, vol. 10, art. no. 21",
+      "doi": "10.1186/s40648-023-00258-8"
     },
     {
-      "citation_key": "Walker2019",
-      "title": "Robot Teleoperation with Augmented Reality Virtual Surrogates",
-      "authors": "M. E. Walker, H. Hedayati, D. Szafir",
-      "year": 2019,
-      "journal": "Proceedings of the 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI), pp. 202-210",
-      "doi": "10.1109/HRI.2019.8673306"
+      "citation_key": "Jin2024",
+      "title": "Mitigating Latency Effects on Subjective Experience in Robot Teleoperation Using a VR-Enabled Virtual Spring",
+      "authors": "Z. Jin, Z. Zhang, Y. Li, Y. Ban, S. Warisawa",
+      "year": 2024,
+      "journal": "2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR), pp. 883-892",
+      "doi": "10.1109/ismar62088.2024.00144"
     },
     {
-      "citation_key": "Whitney2018",
-      "title": "ROS Reality: A Virtual Reality Framework Using Consumer-Grade Hardware for ROS-Enabled Robots",
-      "authors": "D. Whitney, E. Rosen, D. Ullman, E. Phillips, S. Tellex",
-      "year": 2018,
-      "journal": "2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), pp. 1-9",
-      "doi": "10.1109/IROS.2018.8593513"
+      "citation_key": "Prakash2023",
+      "title": "Predictive Display With Perspective Projection of Surroundings in Vehicle Teleoperation to Account Time-Delays",
+      "authors": "O. Prakash, M. Vignati, A. Vignarca, E. Sabbioni, F. Cheli",
+      "year": 2023,
+      "journal": "IEEE Transactions on Intelligent Transportation Systems, vol. 24, no. 9, pp. 9811-9822",
+      "doi": "10.1109/tits.2023.3268756"
     },
     {
-      "citation_key": "Balaram2000",
-      "title": "Kinematic state estimation for a Mars rover",
-      "authors": "J. Balaram",
-      "year": 2000,
-      "journal": "Robotica, vol. 18, no. 3, pp. 251-262",
-      "doi": "10.1017/S0263574799002234"
+      "citation_key": "Pant2026",
+      "title": "Low-Cost VR Teleoperation of a 5-Dof Robotic Arm with a Synchronized Digital Twin and Ultrasonic Safety Loop",
+      "authors": "P. Pant, S. Saini, A. Gaurav",
+      "year": 2026,
+      "journal": "2026 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 845-846",
+      "doi": "10.1109/vrw70859.2026.00167"
     }
   ]
 }

@@ -18,10 +18,10 @@ This project implements an **Immersive Virtual Reality Teleoperation Platform wi
 |---|---|---|---|---|---|
 | 1 | `Sheridan1993` | Space teleoperation through time delay: review and prognosis | IEEE Transactions on Robotics and Automation | 1993 | [10.1109/70.258052](https://doi.org/10.1109/70.258052) |
 | 2 | `Bejczy1990` | The phantom robot: predictive displays for teleoperation with time delay | IEEE ICRA | 1990 | [10.1109/ROBOT.1990.126037](https://doi.org/10.1109/ROBOT.1990.126037) |
-| 3 | `Fong2005` | Interaction challenges in human-robot space exploration | ACM Interactions | 2005 | [10.1145/1052438.1052462](https://doi.org/10.1145/1052438.1052462) |
-| 4 | `Walker2019` | Robot Teleoperation with Augmented Reality Virtual Surrogates | ACM/IEEE HRI | 2019 | [10.1109/HRI.2019.8673306](https://doi.org/10.1109/HRI.2019.8673306) |
-| 5 | `Whitney2018` | ROS Reality: A Virtual Reality Framework Using Consumer-Grade Hardware for ROS-Enabled Robots | IEEE/RSJ IROS | 2018 | [10.1109/IROS.2018.8593513](https://doi.org/10.1109/IROS.2018.8593513) |
-| 6 | `Balaram2000` | Kinematic state estimation for a Mars rover | Robotica | 2000 | [10.1017/S0263574799002234](https://doi.org/10.1017/S0263574799002234) |
+| 3 | `Zhu2023` | Intention-reflected predictive display for operability improvement of time-delayed teleoperation system | ROBOMECH Journal | 2023 | [10.1186/s40648-023-00258-8](https://doi.org/10.1186/s40648-023-00258-8) |
+| 4 | `Jin2024` | Mitigating Latency Effects on Subjective Experience in Robot Teleoperation Using a VR-Enabled Virtual Spring | IEEE ISMAR | 2024 | [10.1109/ismar62088.2024.00144](https://doi.org/10.1109/ismar62088.2024.00144) |
+| 5 | `Prakash2023` | Predictive Display With Perspective Projection of Surroundings in Vehicle Teleoperation to Account Time-Delays | IEEE T-ITS | 2023 | [10.1109/tits.2023.3268756](https://doi.org/10.1109/tits.2023.3268756) |
+| 6 | `Pant2026` | Low-Cost VR Teleoperation of a 5-Dof Robotic Arm with a Synchronized Digital Twin and Ultrasonic Safety Loop | IEEE VRW | 2026 | [10.1109/vrw70859.2026.00167](https://doi.org/10.1109/vrw70859.2026.00167) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **Digital Twin Kinematic Core (`Assets/Scripts/PredictiveGhostRoverManager.cs`, `I003 - Ananya Baweja`):** Instantaneous forward differential-drive kinematic integration, regolith wheel-slip modeling, and forward state extrapolation.
 2. **VR Operator Rig & Holographic Display (`I006 - Anvay Borade`):** 6-DoF XR cockpit view, dual-joystick teleoperation bindings, semi-transparent ghost shader rendering, and 3D projected trajectory ribbon.
 3. **Deep-Space Delay Channel (`Assets/Scripts/HighLatencyNetworkSimulator.cs`, `I010 - Mahit Daswani`):** Asynchronous FIFO transmission queue with variable $1.5\text{s} - 5.0\text{s}$ latency, Gaussian packet jitter, and deep-space link drop simulation.
-4. **Martian Surface Hazard QA & Telemetry (`telemetry/rover_teleoperation_economics.py`, `I041 - Aryan Oberoi`):** Real-time boulder collider proximity checking, cross-track path RMSE computation, NASA-TLX workload evaluations, and mission science throughput modeling.
+4. **Martian Surface Hazard QA & Telemetry (`telemetry/rover_teleoperation_eval.py`, `I041 - Aryan Oberoi`):** Real-time boulder collider proximity checking, cross-track path RMSE computation, NASA-TLX workload evaluations, and mission science throughput modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Operator VR Rig, Kinematic Core, Deep-Space Delay Channel, and Hazard QA.

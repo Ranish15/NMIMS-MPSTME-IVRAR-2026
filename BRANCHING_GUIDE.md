@@ -10,7 +10,7 @@ feat/i066-spatial-telemetry (Individual Student Working Branch)
 
 ### Step 1: Clone the Monorepo
 ```bash
-git clone https://github.com/sunny-nanade/NMIMS-MPSTME-IVRAR-2026.git
+git clone https://github.com/MPSTME-Labs/NMIMS-MPSTME-IVRAR-2026.git
 cd NMIMS-MPSTME-IVRAR-2026
 ```
 
@@ -35,4 +35,4 @@ git push -u origin feat/<your-roll-no>-onboarding
 ```
 
 ### Step 6: Open a Pull Request
-Visit `https://github.com/sunny-nanade/NMIMS-MPSTME-IVRAR-2026` on your browser, click **Compare & pull request**, set the base to `main`, and submit!
+Visit `https://github.com/MPSTME-Labs/NMIMS-MPSTME-IVRAR-2026` on your browser, click **Compare & pull request**, set the base to `main`, and submit!

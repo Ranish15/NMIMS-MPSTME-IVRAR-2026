@@ -33,7 +33,7 @@
 ### Milestone 3: Quantitative Experimentation & System Integration (20 Marks)
 * **Experimental Execution (8 Marks):** Rigorous testing protocol completed ($N \ge 50$ Monte Carlo physics runs OR $N \ge 12$ human usability trials).
 * **Statistical Analysis (6 Marks):** Formal hypothesis testing ($t$-test, $p < 0.05$, Cohen's $d$, 95% confidence intervals).
-* **CSBS Economics / Psychometric Impact (6 Marks):** Dimensionless cost parity model $\kappa$ / NASA-TLX, SUS, and SSQ psychometric validation.
+* **Technoeconomic / Psychometric Impact (6 Marks):** Dimensionless cost parity model $\kappa$ / NASA-TLX, SUS, and SSQ psychometric validation.
 
 ### Milestone 4: Final Deliverables, Expert Panel Demo & Individual Viva (50 Marks)
 * **IEEE/ACM 4-Page Conference Paper (15 Marks):** Formatted in standard 2-column IEEEtran style with 3 required figures, 2 required tables, and 5 genuine literature citations with DOIs.

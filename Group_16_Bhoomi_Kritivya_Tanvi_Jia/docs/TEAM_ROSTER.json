@@ -55,36 +55,36 @@
       "doi": "10.1111/j.1553-2712.2008.00191.x"
     },
     {
-      "citation_key": "Ingrassia2015",
-      "title": "Virtual reality and live simulation: a comparative study in mass casualty incident triage training",
-      "authors": "P. L. Ingrassia, L. Ragazzoni, L. Carenzo, D. Colombo, F. L. Barra, F. Della Corte",
-      "year": 2015,
-      "journal": "European Journal of Emergency Medicine, vol. 22, no. 2, pp. 121-127",
-      "doi": "10.1097/MEJ.0000000000000132"
+      "citation_key": "Baxter2026",
+      "title": "Mixed reality feature priorities for mass casualty incident triage simulation: a descriptive pre-post study",
+      "authors": "R. Baxter, S. Pusa, J. Puthenkalam, D. Sjoberg, H. Schrom-Feiertag, L. Gyllencreutz",
+      "year": 2026,
+      "journal": "Virtual Reality, vol. 30, no. 1, art. no. 42",
+      "doi": "10.1007/s10055-026-01341-2"
     },
     {
-      "citation_key": "Lerner2008",
-      "title": "Mass Casualty Triage: An Evaluation of the Data and Development of a Proposed National Guideline",
-      "authors": "E. B. Lerner, R. B. Schwartz, P. L. Coule, E. S. Weinstein, D. C. Cone, P. T. Armstrong",
-      "year": 2008,
-      "journal": "Disaster Medicine and Public Health Preparedness, vol. 2, suppl. 1, pp. S25-S34",
-      "doi": "10.1097/DMP.0b013e318182194e"
+      "citation_key": "Eide2025",
+      "title": "Immersive Virtual Reality Simulation for Tactical Mass-Casualty Triage: An Observational Study of Usability, Realism, and Decision-Making in RAMP Training",
+      "authors": "K. L. Eide, B. Keating, A. Braastad, B. Eckhoff, I. A. Kvam, S. P. Rise, N. M. Skaar, I. Lund-Kordahl",
+      "year": 2025,
+      "journal": "Disaster Medicine and Public Health Preparedness, vol. 19, art. no. e10289",
+      "doi": "10.1017/dmp.2025.10289"
     },
     {
-      "citation_key": "Andreatta2010",
-      "title": "Virtual Reality Triage Training Provides a Viable Solution for Disaster Preparedness",
-      "authors": "P. B. Andreatta, E. Maslowski, S. Petty, A. Donegan, R. Huang",
-      "year": 2010,
-      "journal": "Academic Emergency Medicine, vol. 17, no. 8, pp. 870-876",
-      "doi": "10.1111/j.1553-2712.2010.00728.x"
+      "citation_key": "Chumvanichaya2025",
+      "title": "A comparison of SIEVE, SORT, and START triage training effectiveness between immersive interactive 3D learning materials using virtual reality (VR-SSST) and traditional methods in mass casualty incidents",
+      "authors": "K. Chumvanichaya, C. Yuksen, P. Nuanprom, K. Aramvanitch",
+      "year": 2025,
+      "journal": "International Journal of Emergency Medicine, vol. 18, no. 1, art. no. 850",
+      "doi": "10.1186/s12245-025-00850-2"
     },
     {
-      "citation_key": "Farra2015",
-      "title": "Virtual reality disaster training: Translation to practice",
-      "authors": "S. Farra, E. T. Miller, E. Hodgson",
-      "year": 2015,
-      "journal": "Nurse Education in Practice, vol. 15, no. 3, pp. 175-179",
-      "doi": "10.1016/j.nepr.2013.08.017"
+      "citation_key": "Chen2025",
+      "title": "Bridging Simulation and Reality: Augmented Virtuality for Mass Casualty Triage Training - From Landscape Analysis to Empirical Insights",
+      "authors": "Y. Chen, K. Fennedy, J. Zhang, Y. J. Sim, C. Zheng, C. C. Yen",
+      "year": 2025,
+      "journal": "Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)",
+      "doi": "10.1145/3706598.3713794"
     }
   ]
 }

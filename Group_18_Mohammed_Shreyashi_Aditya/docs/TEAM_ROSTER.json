@@ -47,36 +47,36 @@
       "doi": "10.1145/571878.571897"
     },
     {
-      "citation_key": "Pinho2002",
-      "title": "Cooperative object manipulation in immersive virtual environments: framework and techniques",
-      "authors": "M. S. Pinho, D. A. Bowman, C. M. Freitas",
-      "year": 2002,
-      "journal": "Proceedings of the ACM symposium on Virtual reality software and technology, pp. 171-178",
-      "doi": "10.1145/585740.585769"
+      "citation_key": "Luberadzka2025",
+      "title": "Audio technology for improving social interaction in extended reality",
+      "authors": "J. Luberadzka, E. Guso Munoz, U. Sayin, A. Garriga",
+      "year": 2025,
+      "journal": "Frontiers in Virtual Reality, vol. 5, art. no. 1442774, pp. 1-15",
+      "doi": "10.3389/frvir.2024.1442774"
     },
     {
-      "citation_key": "Baldis2001",
-      "title": "Effects of spatial audio on memory, comprehension, and preference during desktop conferences",
-      "authors": "J. J. Baldis",
-      "year": 2001,
-      "journal": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, pp. 166-173",
-      "doi": "10.1145/365024.365092"
+      "citation_key": "GhasempourYousefdeh2024",
+      "title": "Investigating co-presence and collaboration dynamics in realtime virtual reality user interactions",
+      "authors": "S. A. Ghasempour Yousefdeh, S. S. Oyelere",
+      "year": 2024,
+      "journal": "Frontiers in Virtual Reality, vol. 5, art. no. 1478481, pp. 1-17",
+      "doi": "10.3389/frvir.2024.1478481"
     },
     {
-      "citation_key": "Ens2019",
-      "title": "Revisiting collaboration through mixed reality: The evolution of groupware",
-      "authors": "B. Ens, J. Lanir, A. Tang, S. Bateman, G. Lee, T. Piumsomboon, M. Billinghurst",
-      "year": 2019,
-      "journal": "International Journal of Human-Computer Studies, vol. 131, pp. 81-98",
-      "doi": "10.1016/j.ijhcs.2019.05.011"
+      "citation_key": "Tserenchimed2024",
+      "title": "Viewpoint-sharing method with reduced motion sickness in object-based VR/AR collaborative virtual environment",
+      "authors": "T. Tserenchimed, H. Kim",
+      "year": 2024,
+      "journal": "Virtual Reality, vol. 28, art. no. 110, pp. 1-14",
+      "doi": "10.1007/s10055-024-01005-z"
     },
     {
-      "citation_key": "Wolff2004",
-      "title": "A Study of Event Traffic During the Shared Manipulation of Objects Within a Collaborative Virtual Environment",
-      "authors": "R. Wolff, D. J. Roberts, O. Otto",
-      "year": 2004,
-      "journal": "Presence: Teleoperators and Virtual Environments, vol. 13, no. 1, pp. 70-87",
-      "doi": "10.1162/1054746041422280"
+      "citation_key": "Liu2023",
+      "title": "Manipulation Guidance Field for Collaborative Object Manipulation in VR",
+      "authors": "X. Liu, S. Luan, L. Wang, C.-T. Lam",
+      "year": 2023,
+      "journal": "2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW), pp. 493-496",
+      "doi": "10.1109/vrw58643.2023.00199"
     }
   ]
 }

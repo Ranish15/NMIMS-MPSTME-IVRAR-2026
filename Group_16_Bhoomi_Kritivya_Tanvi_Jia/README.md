@@ -18,10 +18,10 @@ This project delivers an **AI-Driven Immersive Virtual Reality Mass-Casualty Tri
 |---|---|---|---|---|---|
 | 1 | `Benson1996` | Disaster Triage: START, then SAVE-A New Method of Dynamic Triage for Victims of a Catastrophic Earthquake | Prehospital and Disaster Medicine | 1996 | [10.1017/S1049023X0004276X](https://doi.org/10.1017/S1049023X0004276X) |
 | 2 | `Wilkerson2008` | Using Virtual Reality Simulation for Mass-Casualty Incident Triage Training | Academic Emergency Medicine | 2008 | [10.1111/j.1553-2712.2008.00191.x](https://doi.org/10.1111/j.1553-2712.2008.00191.x) |
-| 3 | `Ingrassia2015` | Virtual reality and live simulation: a comparative study in mass casualty incident triage training | European Journal of Emergency Medicine | 2015 | [10.1097/MEJ.0000000000000132](https://doi.org/10.1097/MEJ.0000000000000132) |
-| 4 | `Lerner2008` | Mass Casualty Triage: An Evaluation of the Data and Development of a Proposed National Guideline | Disaster Medicine and Public Health Preparedness | 2008 | [10.1097/DMP.0b013e318182194e](https://doi.org/10.1097/DMP.0b013e318182194e) |
-| 5 | `Andreatta2010` | Virtual Reality Triage Training Provides a Viable Solution for Disaster Preparedness | Academic Emergency Medicine | 2010 | [10.1111/j.1553-2712.2010.00728.x](https://doi.org/10.1111/j.1553-2712.2010.00728.x) |
-| 6 | `Farra2015` | Virtual reality disaster training: Translation to practice | Nurse Education in Practice | 2015 | [10.1016/j.nepr.2013.08.017](https://doi.org/10.1016/j.nepr.2013.08.017) |
+| 3 | `Baxter2026` | Mixed reality feature priorities for mass casualty incident triage simulation: a descriptive pre-post study | Virtual Reality | 2026 | [10.1007/s10055-026-01341-2](https://doi.org/10.1007/s10055-026-01341-2) |
+| 4 | `Eide2025` | Immersive Virtual Reality Simulation for Tactical Mass-Casualty Triage: An Observational Study of Usability, Realism, and Decision-Making in RAMP Training | Disaster Medicine and Public Health Preparedness | 2025 | [10.1017/dmp.2025.10289](https://doi.org/10.1017/dmp.2025.10289) |
+| 5 | `Chumvanichaya2025` | A comparison of SIEVE, SORT, and START triage training effectiveness between immersive interactive 3D learning materials using virtual reality (VR-SSST) and traditional methods in mass casualty incidents | International Journal of Emergency Medicine | 2025 | [10.1186/s12245-025-00850-2](https://doi.org/10.1186/s12245-025-00850-2) |
+| 6 | `Chen2025` | Bridging Simulation and Reality: Augmented Virtuality for Mass Casualty Triage Training - From Landscape Analysis to Empirical Insights | ACM CHI | 2025 | [10.1145/3706598.3713794](https://doi.org/10.1145/3706598.3713794) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **START Triage Simulation Manager (`Assets/Scripts/STARTTriageSimulationManager.cs`, `I004 - Bhoomi Bhandari`):** Clinical finite state machine implementing walking command verification, respiratory rate measurement, radial pulse / capillary refill evaluation, and mental command adherence.
 2. **Immersive XR Environment & Dynamic Hazards (`I037 - Kritivya Mishra`):** Photorealistic chemical refinery plant, volumetric smoke plumes, dynamic fire particle systems, and 85 dBA spatialized siren acoustics.
 3. **Spatial Telemetry & Confusion Matrix Core (`Assets/Scripts/TriageTelemetryLogger.cs`, `I044 - Tanvi Paithankar`):** Continuous logging of trainee 3D coordinates, gaze dwell vectors, time-to-tag latency, undertriage / overtriage error matrix, and automated CSV telemetry egress.
-4. **Human Factors & Technoeconomic Modeling (`telemetry/triage_training_economics.py`, `I069 - Jia Jadhav`):** System Usability Scale (SUS) instrumentation, trainee self-efficacy profiling, and institutional labor reallocation modeling.
+4. **Human Factors & Technoeconomic Modeling (`telemetry/mci_triage_eval.py`, `I069 - Jia Jadhav`):** System Usability Scale (SUS) instrumentation, trainee self-efficacy profiling, and institutional labor reallocation modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Clinical Protocol Manager, XR Environment, Telemetry Engine, and Psychometric Analytics.

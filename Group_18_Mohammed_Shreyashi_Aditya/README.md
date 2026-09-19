@@ -18,10 +18,10 @@ This project delivers an **Authoritative Networked Multiplayer Virtual Reality C
 |---|---|---|---|---|---|
 | 1 | `Widestrom2000` | The collaborative cube puzzle: a manipulation task for collaborative virtual environments | Proceedings of the 3rd International Conference on Collaborative Virtual Environments (CVE) | 2000 | [10.1145/351006.351035](https://doi.org/10.1145/351006.351035) |
 | 2 | `Ruddle2002` | Verbal communication during cooperative object manipulation | Proceedings of the 4th International Conference on Collaborative Virtual Environments (CVE) | 2002 | [10.1145/571878.571897](https://doi.org/10.1145/571878.571897) |
-| 3 | `Pinho2002` | Cooperative object manipulation in immersive virtual environments: framework and techniques | Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST) | 2002 | [10.1145/585740.585769](https://doi.org/10.1145/585740.585769) |
-| 4 | `Baldis2001` | Effects of spatial audio on memory, comprehension, and preference during desktop conferences | Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI) | 2001 | [10.1145/365024.365092](https://doi.org/10.1145/365024.365092) |
-| 5 | `Ens2019` | Revisiting collaboration through mixed reality: The evolution of groupware | International Journal of Human-Computer Studies | 2019 | [10.1016/j.ijhcs.2019.05.011](https://doi.org/10.1016/j.ijhcs.2019.05.011) |
-| 6 | `Wolff2004` | A Study of Event Traffic During the Shared Manipulation of Objects Within a Collaborative Virtual Environment | Presence: Teleoperators and Virtual Environments | 2004 | [10.1162/1054746041422280](https://doi.org/10.1162/1054746041422280) |
+| 3 | `Luberadzka2025` | Audio technology for improving social interaction in extended reality | Frontiers in Virtual Reality | 2025 | [10.3389/frvir.2024.1442774](https://doi.org/10.3389/frvir.2024.1442774) |
+| 4 | `GhasempourYousefdeh2024` | Investigating co-presence and collaboration dynamics in realtime virtual reality user interactions | Frontiers in Virtual Reality | 2024 | [10.3389/frvir.2024.1478481](https://doi.org/10.3389/frvir.2024.1478481) |
+| 5 | `Tserenchimed2024` | Viewpoint-sharing method with reduced motion sickness in object-based VR/AR collaborative virtual environment | Virtual Reality | 2024 | [10.1007/s10055-024-01005-z](https://doi.org/10.1007/s10055-024-01005-z) |
+| 6 | `Liu2023` | Manipulation Guidance Field for Collaborative Object Manipulation in VR | 2023 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW) | 2023 | [10.1109/vrw58643.2023.00199](https://doi.org/10.1109/vrw58643.2023.00199) |
 
 ---
 
@@ -45,7 +45,7 @@ The platform comprises four interconnected software modules:
 1. **Network Sync & Ownership Core (`Assets/Scripts/NetworkedPuzzleSyncManager.cs`, `B077 - Mohammed Saquib Rakhangi`):** Authoritative state synchronization at 30 Hz, grab arbitration locks, dead reckoning, and Hermite spline interpolation.
 2. **Collaborative 3D Puzzle Rig (`B112 - Shreyashi Srivastava`):** 6-piece interlocking cube geometry, snap-to-slot triggers, dual-user cooperative grab physics, and impulse haptic feedback.
 3. **Spatial HRTF Voice Engine (`B118 - Aditya Verma`):** 3D binaural directional audio filtering, logarithmic distance roll-off (1m-10m), real-time RMS voice activity detection (VAD), and spatial presence profiling.
-4. **Verbal Coordination & Telemetry Core (`Assets/Scripts/SpatialVoiceTelemetryLogger.cs`, `telemetry/multiplayer_collaboration_economics.py`):** Speech collision and overlap ratio tracking, Collaborative Efficiency Index (CEI) calculation, and automated CSV logging to `telemetry/multiplayer_collaboration_benchmark.csv`.
+4. **Verbal Coordination & Telemetry Core (`Assets/Scripts/SpatialVoiceTelemetryLogger.cs`, `telemetry/multiplayer_collaboration_eval.py`):** Speech collision and overlap ratio tracking, Collaborative Efficiency Index (CEI) calculation, and automated CSV logging to `telemetry/multiplayer_collaboration_benchmark.csv`.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Network Sync Core, 3D Puzzle Rig, Spatial Audio Engine, and Telemetry Analytics.

@@ -25,10 +25,10 @@ To resolve this limitation, we developed an immersive 6-DoF VR teleoperation arc
 Our methodology builds on six foundational pillars:
 1. **Space Teleoperation Through Time Delay:** Sheridan (`Sheridan1993`, [10.1109/70.258052](https://doi.org/10.1109/70.258052)) formalized human supervisory control over high-latency channels, establishing mathematical proofs for operator hunting instability under delays $> 0.5\text{ s}$.
 2. **Predictive Displays in Telerobotics:** Bejczy, Kim, & Venema (`Bejczy1990`, [10.1109/ROBOT.1990.126037](https://doi.org/10.1109/ROBOT.1990.126037)) introduced graphical "phantom" overlays to compensate for communication latency, restoring intuitive hand-eye coordination.
-3. **Space Exploration Interaction Challenges:** Fong & Nourbakhsh (`Fong2005`, [10.1145/1052438.1052462](https://doi.org/10.1145/1052438.1052462)) analyzed the cognitive strain of asynchronous telemetry on rover drivers, motivating spatial immersion and anticipatory cues.
-4. **AR Virtual Surrogates:** Walker, Hedayati, & Szafir (`Walker2019`, [10.1109/HRI.2019.8673306](https://doi.org/10.1109/HRI.2019.8673306)) demonstrated that projected prospective ribbons and virtual surrogates suppress cognitive workload and eliminate obstacle collisions.
-5. **XR Teleoperation Frameworks:** Whitney et al. (`Whitney2018`, [10.1109/IROS.2018.8593513](https://doi.org/10.1109/IROS.2018.8593513)) demonstrated that 6-DoF virtual reality interfaces provide superior 3D spatial awareness and path tracking accuracy compared to conventional flat monitors.
-6. **Planetary Rover Kinematic Modeling:** Balaram (`Balaram2000`, [10.1017/S0263574799002234](https://doi.org/10.1017/S0263574799002234)) formulated kinematic state estimation and wheel-slip mechanics for Mars rovers traversing loose regolith terrains.
+3. **Intention-Reflected Predictive Display:** Zhu et al. (`Zhu2023`, [10.1186/s40648-023-00258-8](https://doi.org/10.1186/s40648-023-00258-8)) established intention-aware forward predictive display models for time-delayed teleoperation, optimizing path stability.
+4. **VR Latency Mitigation & Virtual Springs:** Jin et al. (`Jin2024`, [10.1109/ismar62088.2024.00144](https://doi.org/10.1109/ismar62088.2024.00144)) proved that virtual spring decoupling in VR suppresses perceived latency effects and stabilizes teleoperation control.
+5. **Predictive Terrain Projection:** Prakash et al. (`Prakash2023`, [10.1109/tits.2023.3268756](https://doi.org/10.1109/tits.2023.3268756)) formulated perspective projection of surroundings to maintain situational awareness and anticipate obstacles across communication delays.
+6. **Synchronous Digital Twins & Safety Loops:** Pant, Saini, & Gaurav (`Pant2026`, [10.1109/vrw70859.2026.00167](https://doi.org/10.1109/vrw70859.2026.00167)) demonstrated low-cost VR teleoperation utilizing synchronized digital twins and proximity safety envelopes.
 
 ---
 
@@ -76,7 +76,7 @@ As shown in Figure 2B, without predictive display, path tracking RMSE scales rap
 ---
 
 ## Section V: Technoeconomic Mission Throughput Model
-Using `telemetry/rover_teleoperation_economics.py`, mission economics were evaluated over a 300-sol operational year:
+Using `telemetry/rover_teleoperation_eval.py`, mission economics were evaluated over a 300-sol operational year:
 - **Additional Traverse Kilometers:** $+823.0\text{ km}$ gained annually through continuous driving.
 - **Operator Idle Hours Reclaimed:** 4,590.0 hours of unproductive waiting eliminated across 4 driver shifts.
 - **Hazard Strikes Avoided:** 31.9 boulder collisions avoided per mission year.
@@ -94,7 +94,7 @@ The predictive ghost-avatar digital twin successfully neutralizes high transmiss
 
 1. T. B. Sheridan, "Space teleoperation through time delay: review and prognosis," *IEEE Trans. Robot. Autom.*, vol. 9, no. 5, pp. 592-606, 1993. DOI: [10.1109/70.258052](https://doi.org/10.1109/70.258052).
 2. A. K. Bejczy, W. S. Kim, and S. C. Venema, "The phantom robot: predictive displays for teleoperation with time delay," in *Proc. 1990 IEEE Int. Conf. Robot. Autom. (ICRA)*, 1990, pp. 546-551. DOI: [10.1109/ROBOT.1990.126037](https://doi.org/10.1109/ROBOT.1990.126037).
-3. T. Fong and I. Nourbakhsh, "Interaction challenges in human-robot space exploration," *Interactions*, vol. 12, no. 2, pp. 42-45, 2005. DOI: [10.1145/1052438.1052462](https://doi.org/10.1145/1052438.1052462).
-4. M. E. Walker, H. Hedayati, and D. Szafir, "Robot Teleoperation with Augmented Reality Virtual Surrogates," in *Proc. 2019 14th ACM/IEEE Int. Conf. Human-Robot Interact. (HRI)*, 2019, pp. 202-210. DOI: [10.1109/HRI.2019.8673306](https://doi.org/10.1109/HRI.2019.8673306).
-5. D. Whitney, E. Rosen, D. Ullman, E. Phillips, and S. Tellex, "ROS Reality: A Virtual Reality Framework Using Consumer-Grade Hardware for ROS-Enabled Robots," in *2018 IEEE/RSJ Int. Conf. Intell. Robots Syst. (IROS)*, 2018, pp. 1-9. DOI: [10.1109/IROS.2018.8593513](https://doi.org/10.1109/IROS.2018.8593513).
-6. J. Balaram, "Kinematic state estimation for a Mars rover," *Robotica*, vol. 18, no. 3, pp. 251-262, 2000. DOI: [10.1017/S0263574799002234](https://doi.org/10.1017/S0263574799002234).
+3. H. Zhu, R. Fusano, T. Aoyama, and Y. Hasegawa, "Intention-reflected predictive display for operability improvement of time-delayed teleoperation system," *ROBOMECH J.*, vol. 10, art. no. 21, 2023. DOI: [10.1186/s40648-023-00258-8](https://doi.org/10.1186/s40648-023-00258-8).
+4. Z. Jin, Z. Zhang, Y. Li, Y. Ban, and S. Warisawa, "Mitigating Latency Effects on Subjective Experience in Robot Teleoperation Using a VR-Enabled Virtual Spring," in *2024 IEEE Int. Symp. Mixed Augmented Reality (ISMAR)*, 2024, pp. 883-892. DOI: [10.1109/ismar62088.2024.00144](https://doi.org/10.1109/ismar62088.2024.00144).
+5. O. Prakash, M. Vignati, A. Vignarca, E. Sabbioni, and F. Cheli, "Predictive Display With Perspective Projection of Surroundings in Vehicle Teleoperation to Account Time-Delays," *IEEE Trans. Intell. Transp. Syst.*, vol. 24, no. 9, pp. 9811-9822, 2023. DOI: [10.1109/tits.2023.3268756](https://doi.org/10.1109/tits.2023.3268756).
+6. P. Pant, S. Saini, and A. Gaurav, "Low-Cost VR Teleoperation of a 5-Dof Robotic Arm with a Synchronized Digital Twin and Ultrasonic Safety Loop," in *2026 IEEE Conf. Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)*, 2026, pp. 845-846. DOI: [10.1109/vrw70859.2026.00167](https://doi.org/10.1109/vrw70859.2026.00167).

@@ -1,5 +1,5 @@
 """
-CSBS Technoeconomic Operational Parity Model: Interactive VR Physical Security Audit Simulation
+Technoeconomic Operational Parity Model: Interactive VR Physical Security Audit Simulation
 Evaluates enterprise labor reclamation, physical intrusion risk reduction, and dimensionless cost parity.
 Strictly non-monetary: uses labor hours, normalized ratios, and dimensionless payback periods.
 """
@@ -41,7 +41,7 @@ def compute_security_economics():
     kappa = 0.175  # 82.5% reduction in recurring operational cost
 
     # Capital Investment Payback Horizon
-    # CapEx normalized to 1.25x annual traditional operational expenditure
+    # CapEx normalized to 1.05x annual traditional operational expenditure
     normalized_capex = 1.05
     annual_opex_savings = 1.0 - kappa
     payback_years = normalized_capex / annual_opex_savings
@@ -75,8 +75,8 @@ def compute_security_economics():
 if __name__ == "__main__":
     res = compute_security_economics()
     print("=" * 70)
-    print("CSBS TECHNOECONOMIC RESULTS: GROUP 17 SECURITY AUDIT SIMULATION")
+    print("IVRAR GROUP 17: VR PHYSICAL SECURITY AUDIT TECHNOECONOMIC MODEL")
     print("=" * 70)
     for k, v in res.items():
-        print(f"{k}: {v}")
+        print(f"  {k:<35}: {v}")
     print("=" * 70)

@@ -15,7 +15,7 @@ CONSTRAINTS:
 
 import math
 
-class BiometricSecurityEconomics:
+class BiometricEEREval:
     def __init__(
         self,
         enterprise_vr_seats=1200,
@@ -42,14 +42,13 @@ class BiometricSecurityEconomics:
         annual_interruption_events = total_sessions * self.interruptions
         
         # Productive engineer labor hours lost re-authenticating inside headset:
-        # (1200 seats * 220 sessions * 3 prompts * 1.5 min) / 60 = 19,800 hours
         annual_productive_hours_lost = (annual_interruption_events * self.lost_minutes_per_prompt) / 60.0
         
         # IT helpdesk re-auth lockout tickets (~0.8% of prompts require token resets):
         annual_helpdesk_tickets = annual_interruption_events * 0.008
         annual_helpdesk_labor_hours = annual_helpdesk_tickets * 0.5  # 30 minutes per ticket
         
-        # Avatar identity spoofing incidents under static login (unattended headsets picked up by unauthorized peers):
+        # Avatar identity spoofing incidents under static login:
         annual_spoofing_incidents = 24.0
         annual_forensic_hours = annual_spoofing_incidents * 40.0
         
@@ -156,8 +155,11 @@ class BiometricSecurityEconomics:
             "workflow_disruptions_eliminated": int(trad["annual_interruption_events"])
         }
 
+# Alias for backwards compatibility
+BiometricSecurityEconomics = BiometricEEREval
+
 if __name__ == "__main__":
-    model = BiometricSecurityEconomics()
+    model = BiometricEEREval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
     print("IVRAR GROUP 13: VR BEHAVIORAL BIOMETRICS TECHNOECONOMIC MODEL")

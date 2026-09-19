@@ -17,11 +17,11 @@ This project delivers an **Interactive Virtual Reality Physical Security Audit S
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
 | 1 | `Workman2007` | Gaining Access with Social Engineering: An Empirical Study of the Threat | Information Systems Security | 2007 | [10.1080/10658980701788165](https://doi.org/10.1080/10658980701788165) |
-| 2 | `Saunders2019` | Validating Virtual Reality as an Effective Training Medium in the Security Domain | 2019 IEEE Conference on Virtual Reality and 3D User Interfaces (VR) | 2019 | [10.1109/vr.2019.8798371](https://doi.org/10.1109/vr.2019.8798371) |
-| 3 | `Tetri2013` | Dissecting social engineering | Behaviour & Information Technology | 2013 | [10.1080/0144929x.2013.763860](https://doi.org/10.1080/0144929x.2013.763860) |
-| 4 | `Heartfield2015` | A Taxonomy of Attacks and a Survey of Defence Mechanisms for Semantic Social Engineering Attacks | ACM Computing Surveys | 2015 | [10.1145/2835375](https://doi.org/10.1145/2835375) |
-| 5 | `Albrechtsen2010` | Improving information security awareness and behaviour through dialogue, participation and collective reflection. An intervention study | Computers & Security | 2010 | [10.1016/j.cose.2009.12.005](https://doi.org/10.1016/j.cose.2009.12.005) |
-| 6 | `Cheh2019` | Leveraging Physical Access Logs to Identify Tailgating: Limitations and Solutions | 2019 15th European Dependable Computing Conference (EDCC) | 2019 | [10.1109/edcc.2019.00032](https://doi.org/10.1109/edcc.2019.00032) |
+| 2 | `Heartfield2015` | A Taxonomy of Attacks and a Survey of Defence Mechanisms for Semantic Social Engineering Attacks | ACM Computing Surveys | 2015 | [10.1145/2835375](https://doi.org/10.1145/2835375) |
+| 3 | `Rehman2026` | Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats | Virtual Reality | 2026 | [10.1007/s10055-025-01309-8](https://doi.org/10.1007/s10055-025-01309-8) |
+| 4 | `Abril2025` | Exploring a novel approach to cybersecurity: the role of ecological simulations on cybersecurity risk behaviors | Virtual Reality | 2025 | [10.1007/s10055-025-01228-8](https://doi.org/10.1007/s10055-025-01228-8) |
+| 5 | `RamaseriChandra2024` | Cybersecurity threats in Virtual Reality Environments: A Literature Review | 2024 Cyber Awareness and Research Symposium (CARS) | 2024 | [10.1109/CARS61786.2024.10778838](https://doi.org/10.1109/CARS61786.2024.10778838) |
+| 6 | `Alnajim2023` | Exploring Cybersecurity Education and Training Techniques: A Comprehensive Review of Traditional, Virtual Reality, and Augmented Reality Approaches | Symmetry | 2023 | [10.3390/sym15122175](https://doi.org/10.3390/sym15122175) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **Pretext Engine & Scenario State Machine (`Assets/Scripts/TailgatingBreachManager.cs`, `B069 - Samarth Pande`):** Coordinates penetration pretexts (courier, executive, technician), dialogue selection trees, turnstile lock/unlock relays, and timed decision gates.
 2. **Immersive XR Corporate Facility (`B148 - Ishan Choudhary`):** High-fidelity lobby environment in Unity 2022.3 LTS featuring glass security turnstiles, RFID card scanners, autonomous NPC avatars with Mecanim animation blend trees, and 3D spatialized voice audio prompts.
 3. **Spatial Telemetry & Gaze Core (`Assets/Scripts/PhysicalSecurityTelemetryLogger.cs`, `B155 - Aarush Mishra`):** 20 Hz continuous head orientation tracking, raycast credential inspection dwell time, interpersonal proximity measurement, and automated CSV logging to `telemetry/security_audit_benchmark.csv`.
-4. **Security QA, Compliance Scoring & Technoeconomics (`telemetry/security_audit_economics.py`, `K031 - Sachi Kumar`):** Multi-class confusion matrix formulation, ISO/IEC 27001 Control A.7 scoring, System Usability Scale (SUS) assessment, and enterprise labor reallocation modeling.
+4. **Security QA, Compliance Scoring & Technoeconomics (`telemetry/security_audit_eval.py`, `K031 - Sachi Kumar`):** Multi-class confusion matrix formulation, ISO/IEC 27001 Control A.7 scoring, System Usability Scale (SUS) assessment, and enterprise labor reallocation modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Pretext Engine, XR Facility, Telemetry Core, and Security Audit Analytics.

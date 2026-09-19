@@ -82,7 +82,7 @@ B118      Aditya Verma                 Spatial Voice & Audio Specialist      Spa
 - Lead responsibility for real-time 3D spatialized HRTF voice audio in `Assets/Scripts/SpatialVoiceTelemetryLogger.cs`.
 - Implementation of directional binaural filtering, logarithmic distance roll-off (1m-10m), and RMS microphone voice activity detection.
 - Calculation of conversational overlap ratios ($R_{\text{overlap}}$) and automated CSV logging to `telemetry/multiplayer_collaboration_benchmark.csv`.
-- Technoeconomic modeling in `telemetry/multiplayer_collaboration_economics.py` and figure rendering in `telemetry/generate_paper_figures.py`.
+- Technoeconomic modeling in `telemetry/multiplayer_collaboration_eval.py` and figure rendering in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/b118-spatial-voice-audio-`
 
 ---

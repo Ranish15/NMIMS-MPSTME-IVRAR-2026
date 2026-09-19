@@ -54,7 +54,7 @@ Roll No   Student Name        Assigned Technical Role                    Assigne
 B011      Mansi Bansal        Bio-Adaptive State Machine Lead            BioAdaptiveExposureController.cs
 B122      Padminish Bakshi    XR Systems Architect                       VR Skyscraper & Transparent Glass Platform
 B124      Jay Gandhi          Gaze & Head Tremor Telemetry Specialist    GazeTremorTelemetryExtractor.cs
-B130      Aaryaman Gehani     Human Factors & Clinical Usability Lead    vret_acrophobia_economics.py
+B130      Aaryaman Gehani     Human Factors & Clinical Usability Lead    bioadaptive_exposure_eval.py
 ===================================================================================================
 ```
 
@@ -72,13 +72,13 @@ B130      Aaryaman Gehani     Human Factors & Clinical Usability Lead    vret_ac
 
 ### 2.3 Jay Gandhi (B124) - Gaze & Head Tremor Telemetry Specialist
 - Lead responsibility for real-time gaze pitch angle decomposition and visual avoidance ratio tracking in `Assets/Scripts/GazeTremorTelemetryExtractor.cs`.
-- Implementation of digital bandpass filtering and FFT running power calculations for $4-10\text{ Hz}$ head tremors (`Brandt1980`).
+- Implementation of digital bandpass filtering and FFT running power calculations for $4-10\text{ Hz}$ head tremors.
 - Extraction of normalized composite stress indices.
 - Git Branch: `feat/b124-gaze-head-tremor-tel`
 
 ### 2.4 Aaryaman Gehani (B130) - Human Factors & Clinical Usability Lead
 - Lead responsibility for clinical psychometric telemetry tracking (SUDS anxiety scale and Acrophobia Questionnaire).
-- Implementation of technoeconomic clinical practice capacity modeling in `telemetry/vret_acrophobia_economics.py`.
+- Implementation of technoeconomic clinical practice capacity modeling in `telemetry/bioadaptive_exposure_eval.py`.
 - Benchmark evaluation and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/b130-human-factors-clinic`
 

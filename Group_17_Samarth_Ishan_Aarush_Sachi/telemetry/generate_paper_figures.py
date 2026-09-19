@@ -159,7 +159,7 @@ def render_figure1_architecture():
     for idx, it in enumerate(m3_items):
         ax.text(54, 71 - idx * 11, it, ha='left', va='top', fontsize=8.5, color='#333333')
 
-    # Module 4: Audit Analytics & CSBS Economics
+    # Module 4: Audit Analytics & Technoeconomics
     r4 = patches.FancyBboxPatch((76, 20), 20, 66, boxstyle="round,pad=1.5", fc=c_card, ec=c_accent4, lw=2)
     ax.add_patch(r4)
     ax.text(86, 82, "Module 4: Audit Analytics\n(Economics & Psychometrics)", ha='center', va='center', fontweight='bold', color=c_accent4, fontsize=10)

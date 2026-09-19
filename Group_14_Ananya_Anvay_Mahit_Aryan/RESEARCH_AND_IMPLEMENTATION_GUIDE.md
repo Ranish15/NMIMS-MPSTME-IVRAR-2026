@@ -64,7 +64,7 @@ Roll No   Student Name                      Assigned Technical Role             
 I003      Ananya Baweja                     Tele-Robotics & Digital Twin Lead          PredictiveGhostRoverManager.cs
 I006      Anvay Borade                      XR Systems Architect                       Holographic Ghost & Trajectory Ribbon
 I010      Mahit Naresh Daswani Chanchlani   Latency & Network Simulation Specialist    HighLatencyNetworkSimulator.cs
-I041      Aryan Oberoi                      Human Factors & Teleoperation QA Lead      rover_teleoperation_economics.py
+I041      Aryan Oberoi                      Human Factors & Teleoperation QA Lead      rover_teleoperation_eval.py
 ===================================================================================================
 ```
 
@@ -88,7 +88,7 @@ I041      Aryan Oberoi                      Human Factors & Teleoperation QA Lea
 
 ### 2.4 Aryan Oberoi (I041) - Human Factors & Teleoperation QA Lead
 - Lead responsibility for boulder collider overlap detection, cross-track path RMSE tracking, and operator workload evaluations.
-- Implementation of technoeconomic mission science throughput modeling in `telemetry/rover_teleoperation_economics.py`.
+- Implementation of technoeconomic mission science throughput modeling in `telemetry/rover_teleoperation_eval.py`.
 - Benchmark evaluation and publication figure generation in `telemetry/generate_paper_figures.py`.
 - Git Branch: `feat/i041-human-factors-teleop`
 

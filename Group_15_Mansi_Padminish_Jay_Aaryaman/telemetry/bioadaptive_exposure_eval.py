@@ -15,7 +15,7 @@ CONSTRAINTS:
 
 import math
 
-class VRETAcrophobiaEconomics:
+class BioadaptiveExposureEval:
     def __init__(
         self,
         annual_acrophobia_patient_intake=180,
@@ -124,8 +124,11 @@ class VRETAcrophobiaEconomics:
             "normalized_opex_reduction_pct": round((1.0 - kappa) * 100.0, 1)
         }
 
+# Alias for backwards compatibility
+VRETAcrophobiaEconomics = BioadaptiveExposureEval
+
 if __name__ == "__main__":
-    model = VRETAcrophobiaEconomics()
+    model = BioadaptiveExposureEval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
     print("IVRAR GROUP 15: BIO-ADAPTIVE VRET ACROPHOBIA TECHNOECONOMIC MODEL")

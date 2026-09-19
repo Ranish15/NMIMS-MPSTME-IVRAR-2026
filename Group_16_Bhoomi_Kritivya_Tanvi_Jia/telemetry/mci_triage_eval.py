@@ -14,7 +14,7 @@ CONSTRAINTS:
 
 import math
 
-class TriageTrainingEconomics:
+class MCITriageEval:
     def __init__(
         self,
         annual_ems_trainees=450,
@@ -39,11 +39,9 @@ class TriageTrainingEconomics:
         high logistics labor, actor compensation, site permits, and limited trainee repetitions.
         """
         # Field coordination and instructor supervision labor hours:
-        # 2 drills * 140 prep hours + 450 trainees * 6 drill hours = 2980 hours
         annual_instructor_and_prep_hours = (self.live_drills * self.prep_hours) + (self.trainees * 6.0)
         
         # High under-triage diagnostic errors during real MCI deployment:
-        # Assuming an average of 12 critical casualties encountered per active EMS paramedic annually
         annual_critical_casualty_assessments = self.trainees * 12
         annual_preventable_undertriage_errors = annual_critical_casualty_assessments * self.under_live
         
@@ -127,8 +125,11 @@ class TriageTrainingEconomics:
             "normalized_opex_reduction_pct": round((1.0 - kappa) * 100.0, 1)
         }
 
+# Alias for backwards compatibility
+TriageTrainingEconomics = MCITriageEval
+
 if __name__ == "__main__":
-    model = TriageTrainingEconomics()
+    model = MCITriageEval()
     results = model.compute_operational_parity_and_payback()
     print("=" * 70)
     print("IVRAR GROUP 16: VR MASS CASUALTY TRIAGE TECHNOECONOMIC MODEL")

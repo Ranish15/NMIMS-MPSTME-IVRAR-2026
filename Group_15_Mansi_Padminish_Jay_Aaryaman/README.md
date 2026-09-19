@@ -18,10 +18,10 @@ This project delivers an **Automated Closed-Loop Bio-Adaptive VR Exposure Therap
 |---|---|---|---|---|---|
 | 1 | `Rothbaum1995` | Effectiveness of computer-generated (virtual reality) graded exposure in the treatment of acrophobia | American Journal of Psychiatry | 1995 | [10.1176/ajp.152.4.626](https://doi.org/10.1176/ajp.152.4.626) |
 | 2 | `Freeman2018` | Automated psychological therapy using immersive virtual reality for treatment of fear of heights: a single-blind, parallel-group, randomised controlled trial | The Lancet Psychiatry | 2018 | [10.1016/S2215-0366(18)30226-8](https://doi.org/10.1016/S2215-0366(18)30226-8) |
-| 3 | `Emmelkamp2002` | Virtual reality treatment versus exposure in vivo: a comparative evaluation in acrophobia | Behaviour Research and Therapy | 2002 | [10.1016/S0005-7967(01)00023-7](https://doi.org/10.1016/S0005-7967(01)00023-7) |
-| 4 | `Krijn2004` | Treatment of acrophobia in virtual reality: The role of immersion and presence | Behaviour Research and Therapy | 2004 | [10.1016/S0005-7967(03)00139-6](https://doi.org/10.1016/S0005-7967(03)00139-6) |
-| 5 | `Tolin1999` | Visual avoidance in specific phobia | Behaviour Research and Therapy | 1999 | [10.1016/S0005-7967(98)00111-9](https://doi.org/10.1016/S0005-7967(98)00111-9) |
-| 6 | `Brandt1980` | The Mechanism of Physiological Height Vertigo: I. Theoretical Approach and Psychophysics | Acta Oto-Laryngologica | 1980 | [10.3109/00016488009127169](https://doi.org/10.3109/00016488009127169) |
+| 3 | `Varsova2024` | Virtual reality exposure effect in acrophobia: psychological and physiological evidence from a single experimental session | Virtual Reality | 2024 | [10.1007/s10055-024-01037-5](https://doi.org/10.1007/s10055-024-01037-5) |
+| 4 | `Francova2025` | Efficacy of exposure scenario in virtual reality for the treatment of acrophobia: A randomized controlled trial | Journal of Behavior Therapy and Experimental Psychiatry | 2025 | [10.1016/j.jbtep.2025.102035](https://doi.org/10.1016/j.jbtep.2025.102035) |
+| 5 | `Gaina2024` | SAFEvR MentalVeRse.app: Development of a Free Immersive Virtual Reality Exposure Therapy for Acrophobia and Claustrophobia | Brain Sciences | 2024 | [10.3390/brainsci14070651](https://doi.org/10.3390/brainsci14070651) |
+| 6 | `Hidayat2024` | Virtual Reality Exposure Therapy as a Novel Approach to Acrophobia Treatment | IEEE ICEECIT | 2024 | [10.1109/iceecit63698.2024.10860224](https://doi.org/10.1109/iceecit63698.2024.10860224) |
 
 ---
 
@@ -46,7 +46,7 @@ The platform comprises four interconnected software modules:
 1. **Gaze & Head Tremor Telemetry Core (`Assets/Scripts/GazeTremorTelemetryExtractor.cs`, `B124 - Jay Gandhi`):** Headset pitch angle decomposition, downward floor gaze avoidance tracking, and $4-10\text{ Hz}$ head tremor power spectral density (PSD) calculation.
 2. **Bio-Adaptive Elevation State Machine (`Assets/Scripts/BioAdaptiveExposureController.cs`, `B011 - Mansi Bansal`):** Dynamic closed-loop ascent rate modulation, automated habituation plateau detection, and acute panic descent protection.
 3. **XR Elevation Environment & Glass Floor Rig (`B122 - Padminish Bakshi`):** $0\text{ m} - 60\text{ m}$ skyscraper observation deck, transparent glass skybridge shader rendering, and altitude-scaled spatial wind audio.
-4. **Clinical Analytics & Psychometric Modeling (`telemetry/vret_acrophobia_economics.py`, `B130 - Aaryaman Gehani`):** SUDS anxiety scoring, Acrophobia Questionnaire (AQ) pre/post evaluation, and clinical capacity multiplication modeling.
+4. **Clinical Analytics & Psychometric Modeling (`telemetry/bioadaptive_exposure_eval.py`, `B130 - Aaryaman Gehani`):** SUDS anxiety scoring, Acrophobia Questionnaire (AQ) pre/post evaluation, and clinical capacity multiplication modeling.
 
 ### Publication-Grade Figures (300 DPI)
 - `docs/figures/figure1_system_architecture.png`: Multi-tier system architecture diagram showing Telemetry Core, Bio-Adaptive Engine, XR Environment, and Clinical Analytics.

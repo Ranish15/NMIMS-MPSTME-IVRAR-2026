@@ -63,14 +63,6 @@
       "doi": "10.1109/VR51125.2022.00076"
     },
     {
-      "citation_key": "Quintero2021",
-      "title": "Effective Classification of Head Motion Trajectories in Virtual Reality Using Time-Series Methods",
-      "authors": "M. Quintero, P. Papapetrou, J. Hollmen",
-      "year": 2021,
-      "journal": "2021 IEEE International Conference on Artificial Intelligence and Virtual Reality (AIVR), pp. 63-71",
-      "doi": "10.1109/AIVR52153.2021.00015"
-    },
-    {
       "citation_key": "Chen2024",
       "title": "SSPRA: A Robust Approach to Continuous Authentication Amidst Real-World Adversarial Challenges",
       "authors": "L. Chen, Y. Xin, V. V. Phoha",
@@ -79,12 +71,20 @@
       "doi": "10.1109/TBIOM.2024.3369590"
     },
     {
-      "citation_key": "Jain2004",
-      "title": "An Introduction to Biometric Recognition",
-      "authors": "A. K. Jain, A. Ross, S. Prabhakar",
-      "year": 2004,
-      "journal": "IEEE Transactions on Circuits and Systems for Video Technology, vol. 14, no. 1, pp. 4-20",
-      "doi": "10.1109/TCSVT.2003.818349"
+      "citation_key": "Li2026",
+      "title": "Real or Fake Motion: Protecting Virtual Reality (VR) Behavioral Authentication Systems Against Motion Forecasting Attacks",
+      "authors": "Z. Li, N. Banerjee, S. Banerjee",
+      "year": 2026,
+      "journal": "Frontiers in Virtual Reality, vol. 7, art. no. 1766672",
+      "doi": "10.3389/frvir.2026.1766672"
+    },
+    {
+      "citation_key": "Gyreyiri2025",
+      "title": "Head Movement Biometrics for Continuous Authentication in Virtual Reality",
+      "authors": "K. Gyreyiri, S. Shukla",
+      "year": 2025,
+      "journal": "Proceedings of the 2025 31st ACM Symposium on Virtual Reality Software and Technology (VRST '25)",
+      "doi": "10.1145/3756884.3768408"
     }
   ]
 }

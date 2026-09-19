@@ -19,10 +19,10 @@ A systematic literature search was conducted across CrossRef, PubMed, Elsevier S
 |---|---|---|---|---|---|
 | `Rothbaum1995` | Effectiveness of computer-generated (virtual reality) graded exposure in the treatment of acrophobia | Foundational demonstration of VRET efficacy | Graded hierarchy desensitization: $\Delta \text{Anxiety} \propto -k \cdot T_{\text{exposure}}$ | Graded elevator elevation design (0m to 60m) | [10.1176/ajp.152.4.626](https://doi.org/10.1176/ajp.152.4.626) |
 | `Freeman2018` | Automated psychological therapy using immersive virtual reality for treatment of fear of heights: a single-blind, parallel-group, randomised controlled trial | Automated standalone VR clinical therapy | Large-scale randomized clinical trial ($N = 100$), automated virtual coach | Automation of exposure progression without constant therapist steering | [10.1016/S2215-0366(18)30226-8](https://doi.org/10.1016/S2215-0366(18)30226-8) |
-| `Emmelkamp2002` | Virtual reality treatment versus exposure in vivo: a comparative evaluation in acrophobia | Equivalence between VRET and real-world in vivo exposure | Equivalence testing: $\text{EffectSize}_{\text{VR}} \approx \text{EffectSize}_{\text{InVivo}}$ across AQ scores | Validation of VR efficacy against real-world exposure | [10.1016/S0005-7967(01)00023-7](https://doi.org/10.1016/S0005-7967(01)00023-7) |
-| `Krijn2004` | Treatment of acrophobia in virtual reality: The role of immersion and presence | Role of presence and visual realism in evoking phobic anxiety | Presence score correlation with physiological arousal: $r(\text{Presence}, \text{Arousal}) > 0.60$ | High-fidelity glass floor and spatial audio engineering | [10.1016/S0005-7967(03)00139-6](https://doi.org/10.1016/S0005-7967(03)00139-6) |
-| `Tolin1999` | Visual avoidance in specific phobia | Gaze avoidance behavior and threat scanning in phobias | Gaze fixation duration ratio: $R_{\text{avoid}} = \frac{T_{\text{averted}}}{T_{\text{total}}}$ | Downward gaze avoidance tracking in `GazeTremorTelemetryExtractor.cs` | [10.1016/S0005-7967(98)00111-9](https://doi.org/10.1016/S0005-7967(98)00111-9) |
-| `Brandt1980` | The Mechanism of Physiological Height Vertigo: I. Theoretical Approach and Psychophysics | Biomechanics and posturography of height vertigo | Visual-vestibular conflict and postural tremor power peak ($4-10\text{ Hz}$) | Head tremor spectral power extraction in `GazeTremorTelemetryExtractor.cs` | [10.3109/00016488009127169](https://doi.org/10.3109/00016488009127169) |
+| `Varsova2024` | Virtual reality exposure effect in acrophobia: psychological and physiological evidence from a single experimental session | Psychological and physiological responses during VR height exposure | Autonomic arousal correlations and height-dependent stress biomarkers | Real-time stress index calibration in `BioAdaptiveExposureController.cs` | [10.1007/s10055-024-01037-5](https://doi.org/10.1007/s10055-024-01037-5) |
+| `Francova2025` | Efficacy of exposure scenario in virtual reality for the treatment of acrophobia: A randomized controlled trial | Randomized controlled evaluation of virtual height scenarios | Graded exposure habituation modeling and clinical symptom decay | Exposure scenario staging and habituation plateau verification | [10.1016/j.jbtep.2025.102035](https://doi.org/10.1016/j.jbtep.2025.102035) |
+| `Gaina2024` | SAFEvR MentalVeRse.app: Development of a Free Immersive Virtual Reality Exposure Therapy for Acrophobia and Claustrophobia | Modern open clinical VR architecture for phobia exposure | Spatial depth rendering and user state telemetry logging | Software architecture and patient safety envelope design | [10.3390/brainsci14070651](https://doi.org/10.3390/brainsci14070651) |
+| `Hidayat2024` | Virtual Reality Exposure Therapy as a Novel Approach to Acrophobia Treatment | Immersive VR intervention protocols and fear score tracking | Pre/post subjective units of distress (SUDS) decay analytics | Clinical outcome verification and SUDS reporting framework | [10.1109/iceecit63698.2024.10860224](https://doi.org/10.1109/iceecit63698.2024.10860224) |
 
 ---
 
@@ -36,23 +36,23 @@ A systematic literature search was conducted across CrossRef, PubMed, Elsevier S
 - **Core Contribution:** Proved in a landmark randomized controlled trial ($N = 100$) that psychological therapy for acrophobia can be successfully automated using an avatar therapist inside consumer VR headsets, achieving massive clinical symptom reductions (mean Cohen's $d = 2.0$) without requiring full-time clinician attendance.
 - **Project Role:** Provides clinical validation and trial protocol guidelines for Group 15's automated bio-adaptive platform.
 
-### 3.3 Emmelkamp, Krijn, Hulsbosch, de Vries, Schuemie, & van der Mast (2002) - VRET vs In Vivo
-- **Core Contribution:** Conducted a rigorous comparative evaluation demonstrating that virtual reality exposure is as clinically effective as traditional in vivo exposure (climbing real fire escapes and tall buildings) and sustained gains at 6-month follow-up.
-- **Project Role:** Justifies substituting hazardous real-world building exposure with software-controlled VR environments.
+### 3.3 Varsova, Szitas, Janousek, Jurkovicova, Bartosova, & Jurik (2024) - Multimodal Acrophobia VRET Responses
+- **Core Contribution:** Documented psychological and physiological responses in single-session VR height exposure, proving that autonomic indicators reliably index acute fear responses across elevation tiers.
+- **Project Role:** Guides the multi-modal stress metric blending gaze avoidance and micro-tremors in `BioAdaptiveExposureController.cs`.
 
-### 3.4 Krijn, Emmelkamp, Biemond, de Wilde de Ligny, Schuemie, & van der Mast (2004) - Immersion & Presence
-- **Core Contribution:** Demonstrated that emotional fear activation is mediated by perceptual presence; visual depth cues, motion parallax, and environmental fidelity are critical to activating fear structures necessary for therapeutic extinction.
-- **Project Role:** Governs the visual design implemented by `B122 - Padminish Bakshi`, including transparent glass floor shaders and spatial wind audio acoustics.
+### 3.4 Francova, Kolman Jablonska, Lhotska, Husak, & Fajnerova (2025) - VR Acrophobia Scenario Trial
+- **Core Contribution:** Demonstrated in a randomized controlled trial that modular VR elevation scenarios produce statistically significant habituation curves without adverse simulator sickness events.
+- **Project Role:** Informs the state machine height tiers ($0\text{m}, 15\text{m}, 30\text{m}, 45\text{m}, 60\text{m}$) and habituation dwell time logic implemented by `B011 - Mansi Bansal`.
 
-### 3.5 Tolin, Lohr, Lee, & Sawchuk (1999) - Visual Avoidance in Specific Phobia
-- **Core Contribution:** Proved that phobic individuals exhibit persistent gaze avoidance and visual scanning aversion when confronting feared stimuli, using visual avoidance as an objective behavioral measure of acute distress.
-- **Project Role:** Directly implemented in `GazeTremorTelemetryExtractor.cs` by `B124 - Jay Gandhi` to measure pitch angle aversion when looking over vertical edges.
+### 3.5 Gaina et al. (2024) - SAFEvR Immersive Architecture
+- **Core Contribution:** Formulated clinical UI paradigms and patient safety mechanisms in consumer VR exposure therapy, demonstrating high patient acceptability and adherence.
+- **Project Role:** Governs the clinical usability design, emergency descent abort mechanism, and comfort vignetting implemented by `B122 - Padminish Bakshi`.
 
-### 3.6 Brandt, Arnold, Bles, & Kapteyn (1980) - Mechanisms of Physiological Height Vertigo
-- **Core Contribution:** Formulated the definitive psychophysical theory of physiological height vertigo, proving that as distance to ground increases, visual motion cues become inadequate to stabilize posture, inducing high-frequency bodily and head tremors in the $4-10\text{ Hz}$ frequency spectrum.
-- **Project Role:** Governs the digital signal processing algorithm implemented in `GazeTremorTelemetryExtractor.cs` extracting head tremor power spectral density (PSD).
+### 3.6 Hidayat, Aminuddin, Ahmad, Puri, Norhikmah, & Fatkhurohman (2024) - Novel VRET Acrophobia Approach
+- **Core Contribution:** Validated modern digital exposure protocols for acrophobia, establishing that automated virtual scenarios achieve substantial fear reduction while maintaining low operator overhead.
+- **Project Role:** Validates the subjective distress (SUDS) logging pipeline and clinical evaluation tools implemented by `B130 - Aaryaman Gehani`.
 
 ---
 
 ## 4. Theoretical Synthesis & Research Gaps Identified
-While static automated VRET (`Freeman2018`) and height vertigo biomechanics (`Brandt1980`) have been documented, **no prior research has developed an automated closed-loop bio-adaptive VRET system that continuously samples real-time gaze avoidance and head tremor telemetry to dynamically modulate vertical elevation and automatically establish habituation plateaus**. Group 15 resolves this challenge.
+While static automated VRET (`Freeman2018`, `Francova2025`) and physiological response evaluations (`Varsova2024`) have been documented, **no prior research has developed an automated closed-loop bio-adaptive VRET system that continuously samples real-time gaze avoidance and head tremor telemetry to dynamically modulate vertical elevation and automatically establish habituation plateaus**. Group 15 resolves this challenge.
