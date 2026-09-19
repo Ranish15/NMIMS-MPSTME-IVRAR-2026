@@ -8,6 +8,7 @@
       "roll_no": "I066",
       "sap_id": "70412500015",
       "name": "Meahaan Sharma",
+      "degree_programme": "MBA (Tech) (Info. Tech)",
       "role": "Lead XR Systems Architect",
       "assigned_branch": "feat/i066-xr-systems-architect",
       "viva_focus": "Unity OpenXR rig configuration, room mesh collision bounds, interactive UI controls, and sightline clearance raycasting."
@@ -16,6 +17,7 @@
       "roll_no": "C034",
       "sap_id": "70322200003",
       "name": "Amogh Gupta",
+      "degree_programme": "B.Tech (Comp. Engg.) (Integrated)",
       "role": "Spatial Acoustics & Audio Specialist",
       "assigned_branch": "feat/c034-spatial-acoustics-au",
       "viva_focus": "Geometrical acoustic raycasting, frequency-dependent absorption modeling (Sabine/Eyring formulas), Schroeder backward integration for RT60, and CEDIA/CTA-RP22 curve matching."
@@ -24,6 +26,7 @@
       "roll_no": "N083",
       "sap_id": "70472400056",
       "name": "Harshit Rai",
+      "degree_programme": "MBA (Tech) (Computer)",
       "role": "Human Factors & Usability Engineer",
       "assigned_branch": "feat/n083-human-factors-usabil",
       "viva_focus": "Ergonomic sightline clearance calculations (vertical elevation < 15 deg, horizontal FOV 36-40 deg), NASA-TLX cognitive workload reduction, Kennedy SSQ cybersickness minimization, and SUS score evaluation."
@@ -32,7 +35,8 @@
       "roll_no": "N087",
       "sap_id": "70472400098",
       "name": "Rannbir Sachdeva",
-      "role": "Technoeconomic Product Manager",
+      "degree_programme": "MBA (Tech) (Computer)",
+      "role": "Techno-Managerial Product Manager",
       "assigned_branch": "feat/n087-technoeconomic-produ",
       "viva_focus": "AV integration workflow modeling, physical rework reduction (from 29.2% to 4.2%), acoustic panel material amortization, and dimensionless payback horizon (5.1 months)."
     }
@@ -40,57 +44,63 @@
   "foundational_papers": [
     {
       "id": 1,
-      "authors": "Savioja & Svensson",
-      "year": 2015,
-      "title": "Overview of geometrical room acoustic modeling techniques",
-      "venue": "The Journal of the Acoustical Society of America",
-      "doi": "https://doi.org/10.1121/1.4926438",
-      "lead": "Amogh Gupta (C034) & Meahaan Sharma (I066)"
-    },
-    {
-      "id": 2,
-      "authors": "Chandak et al.",
-      "year": 2008,
-      "title": "AD-Frustum: Adaptive Frustum Tracing for Interactive Sound Propagation",
-      "venue": "IEEE Transactions on Visualization and Computer Graphics",
-      "doi": "https://doi.org/10.1109/TVCG.2008.111",
-      "lead": "Amogh Gupta (C034)"
-    },
-    {
-      "id": 3,
+      "type": "seminal",
       "authors": "Schroeder",
       "year": 1965,
       "title": "New Method of Measuring Reverberation Time",
       "venue": "The Journal of the Acoustical Society of America",
       "doi": "https://doi.org/10.1121/1.1909343",
-      "lead": "Amogh Gupta (C034) & Rannbir Sachdeva (N087)"
+      "lead": "Amogh Gupta (C034)"
     },
     {
-      "id": 4,
-      "authors": "Vorlaender",
-      "year": 2008,
-      "title": "Auralization: Fundamentals of Acoustics, Modelling, Simulation, Algorithms and Acoustic Virtual Reality",
-      "venue": "Springer-Verlag Berlin Heidelberg",
-      "doi": "https://doi.org/10.1007/978-3-540-48830-9",
+      "id": 2,
+      "type": "seminal",
+      "authors": "Savioja & Svensson",
+      "year": 2015,
+      "title": "Overview of geometrical room acoustic modeling techniques",
+      "venue": "The Journal of the Acoustical Society of America",
+      "doi": "https://doi.org/10.1121/1.4926438",
       "lead": "Meahaan Sharma (I066)"
     },
     {
-      "id": 5,
-      "authors": "Bradley",
-      "year": 2011,
-      "title": "Review of objective room acoustics measures and future needs",
-      "venue": "Applied Acoustics",
-      "doi": "https://doi.org/10.1016/j.apacoust.2011.04.004",
+      "id": 3,
+      "type": "recent",
+      "authors": "Hold & Mckenzie",
+      "year": 2022,
+      "title": "Resynthesis of Spatial Room Impulse Response Tails With Anisotropic Multi-Slope Decays",
+      "venue": "Journal of the Audio Engineering Society",
+      "doi": "https://doi.org/10.17743/jaes.2022.0017",
+      "lead": "Amogh Gupta (C034) & Harshit Rai (N083)"
+    },
+    {
+      "id": 4,
+      "type": "recent",
+      "authors": "Mi & Kearney",
+      "year": 2022,
+      "title": "Impact Thresholds of Parameters of Binaural Room Impulse Responses (BRIRs) on Perceptual Reverberation",
+      "venue": "Applied Sciences",
+      "doi": "https://doi.org/10.3390/app12062823",
       "lead": "Harshit Rai (N083)"
     },
     {
+      "id": 5,
+      "type": "recent",
+      "authors": "Deppisch & Gari",
+      "year": 2023,
+      "title": "Direct and Residual Subspace Decomposition of Spatial Room Impulse Responses",
+      "venue": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
+      "doi": "https://doi.org/10.1109/taslp.2023.3240657",
+      "lead": "Meahaan Sharma (I066) & Rannbir Sachdeva (N087)"
+    },
+    {
       "id": 6,
+      "type": "recent",
       "authors": "Ratnarajah & Manocha",
       "year": 2024,
       "title": "Listen2Scene: Interactive material-aware binaural sound propagation for reconstructed 3D scenes",
       "venue": "IEEE Conference on Virtual Reality and 3D User Interfaces (VR)",
       "doi": "https://doi.org/10.1109/VR58804.2024.00048",
-      "lead": "Amogh Gupta (C034) & Harshit Rai (N083)"
+      "lead": "Rannbir Sachdeva (N087) & C034 Amogh Gupta"
     }
   ]
 }

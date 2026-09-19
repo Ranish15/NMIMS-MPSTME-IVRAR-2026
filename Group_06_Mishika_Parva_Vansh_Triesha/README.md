@@ -3,6 +3,8 @@
 ## Authorized Research Title
 > **"How can an AR visual-marker navigation system using ArUco and QR anchors optimize transit time and route-finding errors across multi-storey university buildings for first-year students?"**
 
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality - Institute Open Elective)
+
 ---
 
 ## Executive Abstract & Problem Scope
@@ -16,12 +18,12 @@ This project implements a hybrid **AR Visual-Marker Indoor Navigation System** i
 
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
-| 1 | `GarridoJurado2014` | Automatic generation and detection of highly reliable fiducial markers under occlusion | Pattern Recognition | 2014 | [10.1016/j.patcog.2014.01.005](https://doi.org/10.1016/j.patcog.2014.01.005) |
-| 2 | `Olson2011` | AprilTag: A robust and flexible visual fiducial system | IEEE ICRA | 2011 | [10.1109/ICRA.2011.5979561](https://doi.org/10.1109/ICRA.2011.5979561) |
-| 3 | `Qin2018` | VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator | IEEE Trans. Robotics | 2018 | [10.1109/TRO.2018.2853729](https://doi.org/10.1109/TRO.2018.2853729) |
-| 4 | `Mulloni2011` | Handheld augmented reality indoor navigation with activity-based instructions | ACM MobileHCI | 2011 | [10.1145/2037373.2037406](https://doi.org/10.1145/2037373.2037406) |
-| 5 | `Kato1999` | Marker tracking and HMD calibration for a video-based AR conferencing system | IEEE / ACM IWAR | 1999 | [10.1109/IWAR.1999.803809](https://doi.org/10.1109/IWAR.1999.803809) |
-| 6 | `Isikdag2013` | A BIM-Oriented Model for supporting indoor navigation requirements | Comput. Environ. Urban | 2013 | [10.1016/j.compenvurbsys.2013.05.001](https://doi.org/10.1016/j.compenvurbsys.2013.05.001) |
+| 1 | `Kato1999` | Marker tracking and HMD calibration for a video-based augmented reality conferencing system | IEEE / ACM IWAR | 1999 | [10.1109/IWAR.1999.803809](https://doi.org/10.1109/IWAR.1999.803809) |
+| 2 | `GarridoJurado2014` | Automatic generation and detection of highly reliable fiducial markers under occlusion | Pattern Recognition | 2014 | [10.1016/j.patcog.2014.01.005](https://doi.org/10.1016/j.patcog.2014.01.005) |
+| 3 | `Asmara2023` | Marker vs. Markerless: Usability Insights for Indoor Navigation with Handheld Augmented Reality Systems | 2023 IEEE ICTS | 2023 | [10.1109/icts58770.2023.10330861](https://doi.org/10.1109/icts58770.2023.10330861) |
+| 4 | `Hinderer2025` | Investigation of ArUco Marker Placement for Planar Indoor Localization | 2025 IEEE ICAR | 2025 | [10.1109/icar65334.2025.11338671](https://doi.org/10.1109/icar65334.2025.11338671) |
+| 5 | `Miyashita2025` | Hierarchical ArUco Marker Array for Coarse-to-Fine Localization in XR applications | 2025 IEEE AIxVR | 2025 | [10.1109/aixvr63409.2025.00040](https://doi.org/10.1109/aixvr63409.2025.00040) |
+| 6 | `Dhanasekar2025` | Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications | 1st Int. Conf. Human-Centric Computing | 2025 | [10.5220/0013886300004919](https://doi.org/10.5220/0013886300004919) |
 
 ---
 
@@ -29,12 +31,12 @@ This project implements a hybrid **AR Visual-Marker Indoor Navigation System** i
 
 ```
 ===================================================================================================
-Roll No   Student Name      Assigned Engineering Role                  Git Feature Branch
+Roll No   Student Name      Program                           Assigned Engineering Role             Git Feature Branch
 ===================================================================================================
-C136      Mishika Shah      Spatial Vision & AR Lead                   feat/c136-spatial-vision-ar-le
-C172      Parva Gaglani     XR Systems Architect                       feat/c172-xr-systems-architect
-C139      Vansh Panchal     Graph Algorithms & Navigation Specialist   feat/c139-graph-algorithms-nav
-C174      Triesha Shah      Human Factors & Usability Engineer         feat/c174-human-factors-usabil
+C136      Mishika Shah      B.Tech Computer Engg (Integrated) Computer Vision & ArUco Lead          feat/c136-spatial-vision-ar-le
+C172      Parva Gaglani     B.Tech Computer Engg (Integrated) XR Systems Architect & VIO Lead       feat/c172-xr-systems-architect
+C139      Vansh Panchal     B.Tech Computer Engg (Integrated) 3D Multi-Floor A* Graph Specialist    feat/c139-graph-algorithms-nav
+C174      Triesha Shah      B.Tech Computer Engg (Integrated) Human Factors & Usability Engineer    feat/c174-human-factors-usabil
 ===================================================================================================
 ```
 

@@ -102,7 +102,7 @@ boxes = [
     (3.8, 3.8, 2.5, 1.6, '#FFF3E0', '#E65100', 'Sensory Stress Engine\n- 85-95 dB Auditory Startle\n- Peripheral Glare Flashes\n- Shoot/Don\'t-Shoot Targets'),
     (7.1, 3.8, 2.4, 1.6, '#E8F5E9', '#2E7D32', 'Spatial Telemetry Engine\n- Reaction Latency (ms)\n- Signal Detection (d\', beta)\n- NASA-TLX & SAGAT Logs'),
     (2.0, 0.8, 3.0, 1.6, '#F3E5F5', '#7B1FA2', 'Cognitive Workload Analysis\n- Inoculation Efficacy Curve\n- Heart Rate & Stress Proxy\n- Error Rate Attenuation'),
-    (6.0, 0.8, 3.0, 1.6, '#ECEFF1', '#37474F', 'CSBS Technoeconomic Model\n- Live-Fire Ammo Savings\n- Shoot-House Hours Replaced\n- Amortization & Payback')
+    (6.0, 0.8, 3.0, 1.6, '#ECEFF1', '#37474F', 'Techno-Managerial Model\n- Live-Fire Ammo Savings\n- Shoot-House Hours Replaced\n- Amortization & Payback')
 ]
 
 for x, y, w, h, bg, border, label in boxes:

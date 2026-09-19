@@ -2,89 +2,106 @@
   "group_id": "IVRAR_GROUP_03",
   "folder_name": "Group_03_Yashika_Moksh_Bhavi_Preet",
   "batch": "Batch B2",
+  "domain": "Interactive VR Emergency Evacuation & Egress Bottleneck Simulation for Hostels",
   "authorized_title": "How can an interactive VR emergency evacuation simulator resolve egress bottlenecks and communication latency for university hostel wardens and student floor marshals during fire drills?",
   "members": [
     {
       "roll_no": "C068",
       "sap_id": "70322200006",
       "name": "Yashika Patil",
+      "degree_programme": "B.Tech (Comp. Engg.) (Integrated)",
       "role": "Spatial AI & Crowd Navigation Lead",
       "assigned_branch": "feat/c068-spatial-ai-crowd-nav",
-      "github_username": ""
+      "viva_focus": "Helbing Social Force interpersonal repulsion dynamics, NavMesh agent crowd steering, and smoke visibility speed damping."
     },
     {
       "roll_no": "C107",
       "sap_id": "70322200015",
       "name": "Moksh Shah",
+      "degree_programme": "B.Tech (Comp. Engg.) (Integrated)",
       "role": "XR Systems Architect",
       "assigned_branch": "feat/c107-xr-systems-architect",
-      "github_username": ""
+      "viva_focus": "Unity OpenXR multi-floor hostel architecture, volumetric smoke particle shaders, and doorway collision trigger volumes."
     },
     {
       "roll_no": "C078",
       "sap_id": "70322200047",
       "name": "Bhavi Doshi",
+      "degree_programme": "B.Tech (Comp. Engg.) (Integrated)",
       "role": "Human Factors & Usability Engineer",
       "assigned_branch": "feat/c078-human-factors-usabil",
-      "github_username": ""
+      "viva_focus": "NASA-TLX cognitive workload during crisis evacuation, multi-modal alarm perception, and evacuation route error tracking."
     },
     {
       "roll_no": "C067",
       "sap_id": "70322200211",
       "name": "Preet Shah",
-      "role": "Network & Coordination Specialist",
+      "degree_programme": "B.Tech (Comp. Engg.) (Integrated)",
+      "role": "Systems Performance & Network Lead",
       "assigned_branch": "feat/c067-network-coordination",
-      "github_username": ""
+      "viva_focus": "Real-time egress discharge flux logging (PPM), bottleneck clearance latency, and paired t-test statistical validation."
     }
   ],
   "foundational_papers": [
     {
-      "citation_key": "Helbing1995",
-      "title": "Social force model for pedestrian dynamics",
-      "authors": "D. Helbing, P. Molnar",
+      "id": 1,
+      "type": "seminal",
+      "authors": "Helbing & Molnar",
       "year": 1995,
-      "journal": "Physical Review E, vol. 51, no. 5, pp. 4282-4286",
-      "doi": "10.1103/PhysRevE.51.4282"
+      "title": "Social force model for pedestrian dynamics",
+      "venue": "Physical Review E",
+      "doi": "https://doi.org/10.1103/PhysRevE.51.4282",
+      "lead": "Yashika Patil (C068)"
     },
     {
-      "citation_key": "Helbing2000",
-      "title": "Simulating dynamical features of escape panic",
-      "authors": "D. Helbing, I. Farkas, T. Vicsek",
+      "id": 2,
+      "type": "seminal",
+      "authors": "Helbing, Farkas & Vicsek",
       "year": 2000,
-      "journal": "Nature, vol. 407, no. 6803, pp. 487-495",
-      "doi": "10.1038/35035023"
+      "title": "Simulating dynamical features of escape panic",
+      "venue": "Nature",
+      "doi": "https://doi.org/10.1038/35035023",
+      "lead": "Yashika Patil (C068) & Moksh Shah (C107)"
     },
     {
-      "citation_key": "Kobes2010",
-      "title": "Building safety and human behaviour in fire: A literature review for determine the influence of human behaviour on the risk to survive a fire",
-      "authors": "M. Kobes, I. Helsloot, B. de Vries, J. G. Post",
-      "year": 2010,
-      "journal": "Fire Safety Journal, vol. 45, no. 1, pp. 1-11",
-      "doi": "10.1016/j.firesaf.2009.08.005"
+      "id": 3,
+      "type": "recent",
+      "authors": "Lorusso & De Iuliis",
+      "year": 2022,
+      "title": "Fire Emergency Evacuation from a School Building Using an Evolutionary Virtual Reality Platform",
+      "venue": "Buildings",
+      "doi": "https://doi.org/10.3390/buildings12020223",
+      "lead": "Moksh Shah (C107)"
     },
     {
-      "citation_key": "Kinateder2014",
-      "title": "Virtual Reality for Fire Evacuation Research",
-      "authors": "M. Kinateder, E. Ronchi, D. Nilsson, M. Kobes, M. Muller, P. Pauli, A. Muhlberger",
-      "year": 2014,
-      "journal": "Annals of Computer Science and Information Systems, vol. 2, pp. 313-321",
-      "doi": "10.15439/2014F94"
+      "id": 4,
+      "type": "recent",
+      "authors": "Yuan & Chen",
+      "year": 2023,
+      "title": "Application of navigation grid corner point algorithm in virtual reality simulation images of indoor fire evacuation",
+      "venue": "Internet of Things",
+      "doi": "https://doi.org/10.1016/j.iot.2023.100716",
+      "lead": "Preet Shah (C067) & Yashika Patil (C068)"
     },
     {
-      "citation_key": "Feng2018",
-      "title": "Immersive virtual reality serious games for evacuation training and research: A systematic literature review",
-      "authors": "Z. Feng, V. A. Gonzalez, R. Amor, R. Lovreglio, G. Cabrera-Guerrero",
-      "year": 2018,
-      "journal": "Computers & Education, vol. 127, pp. 252-266",
-      "doi": "10.1016/j.compedu.2018.09.002"
+      "id": 5,
+      "type": "recent",
+      "authors": "Liu et al.",
+      "year": 2025,
+      "title": "Virtual reality for indoor emergency evacuation studies: Design, development, and implementation review",
+      "venue": "Safety Science",
+      "doi": "https://doi.org/10.1016/j.ssci.2024.106678",
+      "lead": "Bhavi Doshi (C078)"
     },
     {
-      "citation_key": "Sano2017",
-      "title": "A pedestrian merging flow model for stair evacuation",
-      "authors": "T. Sano, E. Ronchi, Y. Minegishi, D. Nilsson",
-      "year": 2017,
-      "journal": "Fire Safety Journal, vol. 89, pp. 77-89",
-      "doi": "10.1016/j.firesaf.2017.02.008"
+      "id": 6,
+      "type": "recent",
+      "authors": "Zeng & Rebelo",
+      "year": 2025,
+      "title": "Using virtual reality to explore the effect of multimodal alarms on human emergency evacuation behaviors",
+      "venue": "Virtual Reality",
+      "doi": "https://doi.org/10.1007/s10055-025-01141-0",
+      "lead": "Bhavi Doshi (C078) & Preet Shah (C067)"
     }
   ]
 }

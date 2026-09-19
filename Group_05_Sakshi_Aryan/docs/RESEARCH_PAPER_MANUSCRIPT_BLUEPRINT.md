@@ -3,6 +3,8 @@
 **Title:** Overcoming Physical Controller Barriers in Virtual Reality for Motor-Impaired Users via Voice-Driven Spatial NLP and Gaze Deictic Grounding  
 **Target Conferences:** IEEE VR / IEEE TVCG / ACM TACCESS  
 **Authors:** Sakshi Sharma (A057), Aryan Kanungo (I077)  
+**Programs:** B.Tech Information Technology (A057) & B.Tech Artificial Intelligence (I077)  
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality)
 
 ---
 
@@ -14,9 +16,9 @@ Standard 6-DoF handheld motion controllers impose severe accessibility barriers 
 ---
 
 ## Section I: Introduction & Problem Statement
-Virtual Reality (VR) environments offer transformative potential for education, workplace training, and rehabilitation. However, commercial VR input paradigms universally mandate continuous physical gripping, fine trigger manipulation, and steady spatial aiming of 6-DoF handheld controllers [4]. For users with motor disabilities (e.g., Parkinsonian tremors, spinal cord injuries), these requirements cause extreme physical fatigue, involuntary misclicks, and target abandonment [3], [4].
+Virtual Reality (VR) environments offer transformative potential for education, workplace training, and rehabilitation. However, commercial VR input paradigms universally mandate continuous physical gripping, fine trigger manipulation, and steady spatial aiming of 6-DoF handheld controllers [5]. For users with motor disabilities (e.g., Parkinsonian tremors, spinal cord injuries), these requirements cause extreme physical fatigue, involuntary misclicks, and target abandonment [5], [6].
 
-The **W3C WebXR Accessibility User Requirements (XAUR)** specify that spatial interfaces must support alternate hands-free interaction channels without penalizing latency. Grounded in **Ability-Based Design** [3] and the multimodal "Put-That-There" paradigm [1], this paper addresses:  
+The **W3C WebXR Accessibility User Requirements (XAUR)** specify that spatial interfaces must support alternate hands-free interaction channels without penalizing latency. Grounded in **Ability-Based Design** and the multimodal "Put-That-There" paradigm [1], this paper addresses:  
 *How can voice-driven spatial NLP commands in Unity VR reduce task completion latency and interaction failure rates for motor-impaired users facing physical controller barriers?*
 
 We hypothesize:
@@ -28,12 +30,12 @@ We hypothesize:
 ## Section II: Multimodal Spatial Architecture & Modeling
 
 ### A. Gaze Deictic Entity Grounding
-When a user fixates on a virtual entity, head/eye orientation defines a raycast vector $\mathbf{r}(t) = \mathbf{o}_{\text{hmd}} + t \cdot \mathbf{d}_{\text{gaze}}$. A conical volume of semi-angle $\theta = 4.5^{\circ}$ captures candidate targets [6]. A soft magnetic snapping threshold prioritizes the nearest salient object:
+When a user fixates on a virtual entity, head/eye orientation defines a raycast vector $\mathbf{r}(t) = \mathbf{o}_{\text{hmd}} + t \cdot \mathbf{d}_{\text{gaze}}$. A conical volume captures candidate targets [3]. A soft magnetic snapping threshold prioritizes the nearest salient object:
 
 $$\mathbf{p}_{\text{target}} = \arg\min_{j} \left\{ \frac{\|\mathbf{x}_j - \mathbf{r}(t)\|}{W_j} \right\}$$
 
 ### B. Speech-to-Intent Pipeline
-Continuous audio is processed by an on-device phoneme extraction module. A rule-based semantic grammar parses intent tuples $\langle \text{Action}, \text{Target}, \text{Destination} \rangle$. Acoustic confidence $C \ge 0.75$ triggers execution within $253 \pm 22$ ms, well beneath the W3C XAUR threshold of $350$ ms [5].
+Continuous audio is processed by an on-device phoneme extraction module [4]. A rule-based semantic grammar parses intent tuples $\langle \text{Action}, \text{Target}, \text{Destination} \rangle$. Acoustic confidence $C \ge 0.75$ triggers execution within $253 \pm 22$ ms, well beneath the W3C XAUR threshold of $350$ ms.
 
 ### C. Fitts' Law Shannon Formulation
 Target acquisition performance is evaluated via the ISO 9241-9 standard [2]:
@@ -85,7 +87,7 @@ Integrating voice-driven spatial NLP with gaze deictic grounding enables motor-i
 ## References
 - [1] R. A. Bolt, "'Put-that-there': Voice and gesture at the graphics interface," *ACM SIGGRAPH Comput. Graph.*, vol. 14, no. 3, pp. 262-270, 1980. DOI: 10.1145/800250.807503.
 - [2] I. S. MacKenzie, "Fitts' law as a research and design tool in human-computer interaction," *Hum.-Comput. Interact.*, vol. 7, no. 1, pp. 91-139, 1992. DOI: 10.1207/s15327051hci0701_3.
-- [3] J. O. Wobbrock, S. K. Kane, K. Z. Gajos, S. Harada, and J. Froehlich, "Ability-Based Design: Concept, Principles and Examples," *ACM Trans. Access. Comput.*, vol. 3, no. 3, pp. 1-27, 2011. DOI: 10.1145/1952383.1952384.
-- [4] M. E. Mott, J. C. Tang, S. K. Kane, E. Cutrell, and M. R. Morris, "Understanding the Accessibility of Virtual Reality for People with Limited Mobility," in *ACM ASSETS*, 2020, pp. 1-12. DOI: 10.1145/3373625.3416998.
-- [5] J. Adhikary and K. Vertanen, "Text Entry in Virtual Environments using Speech and a Midair Keyboard," *IEEE Trans. Visual. Comput. Graph.*, vol. 27, no. 5, pp. 2648-2658, 2021. DOI: 10.1109/TVCG.2021.3067776.
-- [6] Y. Yan et al., "ConeSpeech: Exploring Directional Speech Interaction for Multi-Person Remote Communication in Virtual Reality," *IEEE Trans. Visual. Comput. Graph.*, vol. 29, no. 5, pp. 2647-2657, 2023. DOI: 10.1109/TVCG.2023.3247085.
+- [3] Y. Yan, H. Liu, Y. Shi, J. Wang, R. Guo, Z. Li, X. Xu, C. Yu, Y. Wang, Y. Shi, and M. Billinghurst, "ConeSpeech: Exploring Directional Speech Interaction for Multi-Person Remote Communication in Virtual Reality," *IEEE Trans. Visual. Comput. Graph.*, vol. 29, no. 5, pp. 2647-2657, 2023. DOI: 10.1109/TVCG.2023.3247085.
+- [4] M. Zhang, J. Huang, Z. Chen, and X. Yang, "Tell Me Where To Go: Voice-Controlled Hands-Free Locomotion for Virtual Reality Systems," in *Proc. 2023 IEEE Conf. Virtual Reality and 3D User Interfaces (VR)*, 2023, pp. 1-10. DOI: 10.1109/vr55154.2023.00028.
+- [5] M. A. Kabir, S. R. Cooper, S. S. Sundar, and C. E. Stewart, "Multimodal Hands-Free VR For Wheelchair Users With Upper Limb Mobility Limitations: Leaning, Head-Gain, and Gaze Pointing," in *Proc. 2025 IEEE Conf. Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)*, 2025, pp. 1-6. DOI: 10.1109/vrw66409.2025.00032.
+- [6] A. S. R. Oliveira, L. B. M. Silva, and V. F. Lucena, "Beyond buttons: A user-centric approach to hands-free locomotion in Virtual Reality via voice commands," *Comput. Graph.*, vol. 128, p. 104318, 2025. DOI: 10.1016/j.cag.2025.104318.

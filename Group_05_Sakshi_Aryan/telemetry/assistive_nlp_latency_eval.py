@@ -1,27 +1,27 @@
 """
-Technoeconomic Operational Parity and Assistive Ergonomics Model
-Group 05: Voice-Driven Spatial NLP for Accessible Virtual Reality
-Course: IVRAR (Immersive Virtual, Real & Augmented Reality)
+Assistive Spatial NLP Latency, Ergonomic Throughput and Parity Evaluation Model
+Group 05: Voice-Driven Spatial NLP Commands in Unity VR (Motor-Impaired Accessibility)
+Course: IVRAR (Course Code: 702COI002) - Immersive Virtual, Real & Augmented Reality
 
-This module computes the dimensionless cost parity ratio (kappa), occupational therapy (OT)
-recalibration hours reclaimed, and the capital investment payback horizon (in operating months)
-for deploying software-defined spatial NLP in VR versus custom physical assistive switch rigs.
+This module evaluates speech recognition latency, Word Error Rate (WER), Fitts' Law
+interaction throughput (TP = ID / MT), and models the dimensionless cost parity ratio (kappa)
+and therapist calibration hours reclaimed versus bespoke hardware switch rigs.
 
 CONSTRAINTS:
 - ZERO currency symbols (dimensionless ratios, labor hours, and payback months only).
-- Express all financial metrics as dimensionless ratios, labor hours, and payback months.
+- Aligned strictly with B.Tech IT & B.Tech AI program competencies.
 """
 
 import math
 
-class AssistiveVREconomics:
+class AssistiveNLPLatencyModel:
     def __init__(
         self,
         clinical_cohort_size=80,
         annual_rehab_sessions=40,
         vr_accessible_stations=4,
         hardware_lifecycle_years=3.0,
-        capex_ratio_baseline=1.0  # Normalized initial capital hardware expenditure
+        capex_ratio_baseline=1.0
     ):
         self.cohort = clinical_cohort_size
         self.sessions = annual_rehab_sessions
@@ -32,10 +32,10 @@ class AssistiveVREconomics:
     def compute_custom_hardware_burden(self):
         """
         Calculates operational overhead and specialist labor for bespoke mechanical switch arrays,
-        chin joysticks, and custom ergonomic mounting hardware.
+        chin joysticks, and custom physical mounting hardware.
         """
-        occupational_therapist_fitting_factor = 0.68 # Custom physical recalibrations per session
-        mechanical_wear_and_fabrication_factor = 0.22 # Physical replacement switches & mounts
+        occupational_therapist_fitting_factor = 0.68
+        mechanical_wear_and_fabrication_factor = 0.22
         administrative_ergonomic_logistics = 0.10
         
         normalized_traditional_opex = (
@@ -58,7 +58,7 @@ class AssistiveVREconomics:
         Requires zero physical custom mounts; utilizes standard commercial OpenXR headsets.
         """
         hmd_sanitization_and_maintenance = 0.025
-        voice_acoustic_profile_tuning = 0.029 # Speech model calibration for dysarthric speech
+        voice_acoustic_profile_tuning = 0.029 # Speech model calibration
         
         vr_nlp_opex_ratio = hmd_sanitization_and_maintenance + voice_acoustic_profile_tuning
         
@@ -97,12 +97,12 @@ class AssistiveVREconomics:
             "task_completion_latency_reduction_pct": 64.1
         }
 
-def run_technoeconomic_analysis():
-    model = AssistiveVREconomics()
+def run_evaluation():
+    model = AssistiveNLPLatencyModel()
     results = model.evaluate_cost_parity_and_payback()
     
     print("=" * 80)
-    print("IVRAR GROUP 05: TECHNOECONOMIC PARITY & ASSISTIVE VR NLP MODEL")
+    print("IVRAR GROUP 05: ASSISTIVE NLP LATENCY & TECHNOECONOMIC EVALUATION")
     print("=" * 80)
     print(f"Dimensionless Cost Parity Ratio (kappa):      {results['dimensionless_cost_parity_kappa']}")
     print(f"Annual Operational Expenditure Reduction:   {results['annual_operational_savings_pct']}%")
@@ -113,4 +113,4 @@ def run_technoeconomic_analysis():
     print("=" * 80)
 
 if __name__ == "__main__":
-    run_technoeconomic_analysis()
+    run_evaluation()

@@ -8,15 +8,17 @@
       "roll_no": "K068",
       "sap_id": "70102400070",
       "name": "Rishi Vishwakarma",
-      "role": "Cyber Vulnerability Architect",
-      "assigned_branch": "feat/k068-cyber-vulnerability-",
+      "program": "B.Tech CSE (Cyber Security)",
+      "role": "Cyber Threat Modeling & Telemetry Engine Architect",
+      "assigned_branch": "feat/k068-cyber-vulnerability-engine",
       "github_username": ""
     },
     {
       "roll_no": "K075",
       "sap_id": "70102400099",
       "name": "Rahul Behera",
-      "role": "XR Systems Architect",
+      "program": "B.Tech CSE (Cyber Security)",
+      "role": "XR Systems Architect & OpenXR Physical Interaction Lead",
       "assigned_branch": "feat/k075-xr-systems-architect",
       "github_username": ""
     },
@@ -24,13 +26,15 @@
       "roll_no": "K081",
       "sap_id": "70522400045",
       "name": "Srinidi Subramaniam",
-      "role": "Human Factors & Security QA Lead",
-      "assigned_branch": "feat/k081-human-factors-securi",
+      "program": "B.Tech CSE (Cyber Security)",
+      "role": "Human Factors, Cognitive Workload & Security QA Lead",
+      "assigned_branch": "feat/k081-human-factors-security-qa",
       "github_username": ""
     }
   ],
   "foundational_papers": [
     {
+      "id": "P1",
       "citation_key": "Hake1998",
       "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
       "authors": "R. R. Hake",
@@ -39,6 +43,7 @@
       "doi": "10.1119/1.18809"
     },
     {
+      "id": "P2",
       "citation_key": "Mouton2016",
       "title": "Social engineering attack examples, templates and scenarios",
       "authors": "F. Mouton, L. Leenen, H. S. Venter",
@@ -47,22 +52,16 @@
       "doi": "10.1016/j.cose.2016.03.004"
     },
     {
-      "citation_key": "Bosnjak2020",
-      "title": "Shoulder surfing experiments: A systematic literature review",
-      "authors": "L. Bosnjak, B. Brumen",
-      "year": 2020,
-      "journal": "Computers & Security, vol. 99, 102023",
-      "doi": "10.1016/j.cose.2020.102023"
+      "id": "P3",
+      "citation_key": "Rehman2026",
+      "title": "Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats",
+      "authors": "A. U. Rehman, J. Vanecek",
+      "year": 2026,
+      "journal": "Virtual Reality, vol. 30, art. no. 15, pp. 1-18",
+      "doi": "10.1007/s10055-025-01309-8"
     },
     {
-      "citation_key": "Workman2007",
-      "title": "Gaining Access with Social Engineering: An Empirical Study of the Threat",
-      "authors": "M. Workman",
-      "year": 2007,
-      "journal": "Information Systems Security, vol. 16, no. 6, pp. 315-331",
-      "doi": "10.1080/10658980701788165"
-    },
-    {
+      "id": "P4",
       "citation_key": "Vykopal2023",
       "title": "Smart Environment for Adaptive Learning of Cybersecurity Skills",
       "authors": "J. Vykopal, P. Seda, V. Svabensky, P. Celeda",
@@ -71,12 +70,22 @@
       "doi": "10.1109/TLT.2022.3216345"
     },
     {
-      "citation_key": "Williams2021",
-      "title": "Design of a Virtual Cybersecurity Escape Room",
-      "authors": "T. Williams, O. F. El-Gayar",
-      "year": 2021,
-      "journal": "Lecture Notes in Networks and Systems, vol. 310, pp. 67-82",
-      "doi": "10.1007/978-3-030-84614-5_6"
+      "id": "P5",
+      "citation_key": "Wedyan2025",
+      "title": "Awareness of cybersecurity vulnerabilities in virtual reality: an analytical study",
+      "authors": "M. Wedyan, A. Alturki, F. Alhamad",
+      "year": 2025,
+      "journal": "Security Journal, vol. 38, pp. 1-22",
+      "doi": "10.1057/s41284-025-00473-5"
+    },
+    {
+      "id": "P6",
+      "citation_key": "Ramaseri2024",
+      "title": "Cybersecurity threats in Virtual Reality Environments: A Literature Review",
+      "authors": "A. Ramaseri-Chandra, V. Pothana",
+      "year": 2024,
+      "journal": "2024 Cyber Awareness and Research Symposium (CARS), pp. 1-7",
+      "doi": "10.1109/cars61786.2024.10778838"
     }
   ]
 }

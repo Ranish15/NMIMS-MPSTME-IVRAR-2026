@@ -45,7 +45,7 @@ $$\text{WWL} = \frac{1}{15} \sum_{i=1}^6 w_i \cdot R_i$$
 where $w_i \in [0, 5]$ are pairwise importance weights ($\sum w_i = 15$) and $R_i \in [0, 100]$ are raw ratings collected via an in-VR rating interface.
 
 ### 1.4 Technoeconomic Operational Parity & Capital Payback Horizon
-The CSBS business feasibility of replacing physical tactical shoothouses and live-fire munitions with high-fidelity VR stress inoculation is formulated via dimensionless cost parity $\kappa$:
+The techno-managerial business feasibility of replacing physical tactical shoothouses and live-fire munitions with high-fidelity VR stress inoculation is formulated via dimensionless cost parity $\kappa$:
 
 $$\kappa = \frac{\text{OpEx}_{\text{vr\_simulation}}}{\text{OpEx}_{\text{live\_fire\_ops}}} = \frac{C_{\text{hmd\_amortization}} + C_{\text{compute\_power}} + C_{\text{scenario\_authoring}}}{C_{\text{live\_munitions}} + C_{\text{facility\_lease}} + C_{\text{target\_reset\_labor}}}$$
 
@@ -67,7 +67,7 @@ N042 - Hriday Jain         Human Factors, Yerkes-Dodson & NASA-TLX         telem
                                                                            (Workload Rating Canvas & Protocol)
 N047 - Vedika Kaki         Spatial Telemetry & SDT Analytic Engine         Assets/Scripts/ReactionLatencyTelemetryLogger.cs
                                                                            (90 Hz CSV Logger, d' and Beta Extraction)
-N062 - Medha Mishra        CSBS Technoeconomics & Live-Fire Parity         telemetry/security_training_economics.py
+N062 - Medha Mishra        Techno-Managerial Economics & Live-Fire Parity  telemetry/sensory_stress_defense_roi.py
                                                                            (Munitions Parity & Payback Model)
 ===================================================================================================
 ```

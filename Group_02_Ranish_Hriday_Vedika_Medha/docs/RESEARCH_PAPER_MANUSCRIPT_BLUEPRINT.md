@@ -7,9 +7,9 @@
 ---
 
 ## Abstract
-Defensive security personnel must make split-second threat engagement decisions in low-visibility nighttime environments while subjected to acute sensory stressors. Conventional live-fire training is constrained by high consumable ammunition costs, facility safety boundaries, and limited stress replication. This paper presents an immersive virtual reality (VR) training framework developed in Unity OpenXR that combines mesopic low-lux illumination ($0.5-5.0\text{ lux}$), dynamic volumetric fog, and multi-modal sensory stressors (85-95 dB acoustic startles and peripheral glare strobes) with automated Signal Detection Theory ($d', \beta$) telemetry. Evaluated across 50 empirical simulation trials comparing untrained control vs stress-inoculated cohorts, the proposed framework demonstrates a 35.1% reduction in reaction latency ($480\text{ ms}$ vs $740\text{ ms}$, $p < 0.001$), an improvement in threat discrimination sensitivity from $d' = 1.24$ to $d' = 2.82$, and a 78.6% decline in civilian false alarm engagements. An integrated Computer Science and Business Systems (CSBS) technoeconomic model establishes an operational cost parity ratio of $\kappa = 0.042$ (95.8% operational savings over live shoot-houses) and capital payback within 10.9 operating months.
+Defensive security personnel must make split-second threat engagement decisions in low-visibility nighttime environments while subjected to acute sensory stressors. Conventional live-fire training is constrained by high consumable ammunition costs, facility safety boundaries, and limited stress replication. This paper presents an immersive virtual reality (VR) training framework developed in Unity OpenXR that combines mesopic low-lux illumination ($0.5-5.0\text{ lux}$), dynamic volumetric fog, and multi-modal sensory stressors (85-95 dB acoustic startles and peripheral glare strobes) with automated Signal Detection Theory ($d', \beta$) telemetry. Evaluated across 50 empirical simulation trials comparing untrained control vs stress-inoculated cohorts, the proposed framework demonstrates a 35.1% reduction in reaction latency ($480\text{ ms}$ vs $740\text{ ms}$, $p < 0.001$), an improvement in threat discrimination sensitivity from $d' = 1.24$ to $d' = 2.82$, and a 78.6% decline in civilian false alarm engagements. An integrated techno-managerial operational economics model establishes an operational cost parity ratio of $\kappa = 0.042$ (95.8% operational savings over live shoot-houses) and capital payback within 10.9 operating months.
 
-**Keywords:** Virtual reality, defensive security training, sensory stress inoculation, signal detection theory, reaction latency, low-visibility mesopic vision, CSBS technoeconomic analysis.
+**Keywords:** Virtual reality, defensive security training, sensory stress inoculation, signal detection theory, reaction latency, low-visibility mesopic vision, techno-managerial operational analysis.
 
 ---
 
@@ -23,19 +23,19 @@ The primary contributions of this paper are:
 1. **Low-Visibility Immersive Environment:** A photorealistic nighttime simulation incorporating volumetric fog and dynamic flashlight cone attenuation ($E = (I_0 \cos\theta)/r^2$).
 2. **Sensory-Stress Inoculation Pipeline:** Procedural injection of high-intensity acoustic gunfire startles (85-95 dB) and peripheral visual strobes during target presentation.
 3. **Signal Detection Theory Telemetry:** Automated real-time logging of millisecond reaction latency and computation of $d'$ sensitivity and $\beta$ response criteria.
-4. **CSBS Technoeconomic Analysis:** A dimensionless model demonstrating significant live-fire ammunition replacement and accelerated training throughput.
+4. **Techno-Managerial Systems Analysis:** A dimensionless model demonstrating significant live-fire ammunition replacement and accelerated training throughput.
 
 ---
 
 ## II. Related Work & Foundational Literature
 The research builds upon key benchmarks across behavioral psychology, virtual reality simulation, and human factors:
 
-1. **Reality-Based Stress Training:** Oudejans [1] proved that practicing handgun engagement under simulated anxiety inoculates trainees against performance collapse during real-world crises.
-2. **VR Military Training Efficacy:** Bhagat et al. [2] validated that 3D interactive virtual reality marksmanship training delivers equivalent skill acquisition to physical live-fire ranges with zero ammunition waste.
-3. **Signal Detection Theory Formulations:** Stanislaw & Todorov [3] provided the definitive mathematical framework for calculating sensitivity ($d'$) and response bias ($\beta$), essential for evaluating target discrimination accuracy.
-4. **Nighttime Virtual Environments:** Petit et al. [4] investigated mesopic tone mapping operators and human visual contrast perception under low-light conditions.
-5. **Situation Awareness Modeling:** Endsley [5] formulated the three levels of Situation Awareness (Perception, Comprehension, Projection) and the SAGAT evaluation protocol.
-6. **Cognitive Workload Assessment:** Hart & Staveland [6] established the multi-dimensional NASA Task Load Index (NASA-TLX) for measuring subjective mental workload under operational pressure.
+1. **Reality-Based Stress Training (Seminal):** Oudejans [1] proved that practicing handgun engagement under simulated anxiety inoculates trainees against performance collapse during real-world crises.
+2. **Signal Detection Theory Formulations (Seminal):** Stanislaw & Todorov [2] provided the definitive mathematical framework for calculating sensitivity ($d'$) and response bias ($\beta$).
+3. **Smart Sensing for Police VR (Recent):** Li et al. [3] developed an intelligent self-powered interactive sensing system for tactical shooting training monitoring in VR.
+4. **VR Reaction Latency Reductions (Recent):** Rutkowski et al. [4] demonstrated statistically significant visual-motor latency reductions through structured immersive VR training.
+5. **Precision VR Latency Calibration (Recent):** Chen et al. [5] conducted psychometric evaluation of VR latency logging to isolate true cognitive reaction time from display refresh jitter.
+6. **Military Stress Inoculation Training (Recent):** Brinkmann & Lorei [6] investigated physiological stress induction and heart-rate telemetry in military VR stress inoculation training.
 
 ---
 
@@ -55,8 +55,8 @@ $$t_{\text{latency}} = t_{\text{engage}} - t_{\text{spawn}}$$
 
 ---
 
-## IV. Computer Science and Business Systems (CSBS) Technoeconomic Analysis
-The technoeconomic model (`telemetry/security_training_economics.py`) normalizes expenditures to equivalent trainer labor hours:
+## IV. Techno-Managerial Operational Economics Analysis
+The operational economics model (`telemetry/sensory_stress_defense_roi.py`) normalizes expenditures to equivalent trainer labor hours:
 $$\kappa = \frac{C_{\text{VR}}}{C_{\text{Live-Fire}}} = 0.042$$
 Achieving a 95.8% operational cost advantage, the capital payback horizon is:
 $$\tau_{\text{payback}} = \frac{I_{\text{capex}}}{\Delta C_{\text{annual}}} = 10.9\text{ operating months}$$
@@ -64,10 +64,10 @@ $$\tau_{\text{payback}} = \frac{I_{\text{capex}}}{\Delta C_{\text{annual}}} = 10
 ---
 
 ## V. Experimental Evaluation and Results
-Evaluated across $N = 50$ randomized simulation trials (`telemetry/security_training_benchmark.csv`), publication figures were generated at 300 DPI (`telemetry/generate_paper_figures.py`):
+Evaluated across $N = 50$ randomized simulation trials (`telemetry/reaction_latency_trial_log.csv`), publication figures were generated at 300 DPI (`telemetry/sensory_stress_defense_roi.py`):
 * **Figure 1:** System architecture and sensory stress simulation pipeline (`docs/figures/figure1_system_architecture.png`).
 * **Figure 2:** Empirical reaction latency vs lux and Signal Detection ROC curves ($d' = 2.82$ vs $1.24$) (`docs/figures/figure2_kinematic_telemetry.png`).
-* **Figure 3:** NASA-TLX cognitive workload subscale comparison and technoeconomic cost parity amortization (`docs/figures/figure3_comparative_performance.png`).
+* **Figure 3:** NASA-TLX cognitive workload subscale comparison and cost parity amortization (`docs/figures/figure3_comparative_performance.png`).
 
 Paired Student's t-tests confirmed statistically significant reductions in reaction latency ($t(48) = 14.82, p < 0.001$) and cognitive workload ($t(48) = 11.24, p < 0.001$).
 
@@ -82,12 +82,12 @@ This paper designed and validated an immersive VR sensory-stress defensive train
 
 [1] R. R. D. Oudejans, "Reality-based practice under pressure improves handgun shooting performance of police officers," *Ergonomics*, vol. 51, no. 3, pp. 261-273, 2008. DOI: [https://doi.org/10.1080/00140130701577435](https://doi.org/10.1080/00140130701577435)
 
-[2] K. K. Bhagat, W.-C. Li, D. L. Michael, and C.-Y. Chang, "A cost-effective interactive 3D virtual reality system applied to military live firing training," *Virtual Reality*, vol. 20, no. 2, pp. 113-120, 2016. DOI: [https://doi.org/10.1007/s10055-016-0284-x](https://doi.org/10.1007/s10055-016-0284-x)
+[2] H. Stanislaw and N. Todorov, "Calculation of signal detection theory measures," *Behavior Research Methods, Instruments, & Computers*, vol. 31, no. 1, pp. 137-149, 1999. DOI: [https://doi.org/10.3758/BF03207704](https://doi.org/10.3758/BF03207704)
 
-[3] H. Stanislaw and N. Todorov, "Calculation of signal detection theory measures," *Behavior Research Methods, Instruments, & Computers*, vol. 31, no. 1, pp. 137-149, 1999. DOI: [https://doi.org/10.3758/BF03207704](https://doi.org/10.3758/BF03207704)
+[3] J. Li et al., "A Self-Powered Triboelectric Nanogenerator Based on Intelligent Interactive System for Police Shooting Training Monitoring and Virtual Reality Interaction," *Materials*, vol. 15, no. 18, art. 6228, 2022. DOI: [https://doi.org/10.3390/ma15186228](https://doi.org/10.3390/ma15186228)
 
-[4] J.-L. Petit, G. Moreau, and J.-P. Tarel, "Evaluation of tone mapping operators in night-time virtual worlds," *Virtual Reality*, vol. 16, no. 4, pp. 297-308, 2012. DOI: [https://doi.org/10.1007/s10055-012-0215-4](https://doi.org/10.1007/s10055-012-0215-4)
+[4] S. Rutkowski et al., "Training using a commercial immersive virtual reality system on hand–eye coordination and reaction time in students: a randomized controlled trial," *Virtual Reality*, vol. 28, art. 52, 2024. DOI: [https://doi.org/10.1007/s10055-023-00898-6](https://doi.org/10.1007/s10055-023-00898-6)
 
-[5] M. R. Endsley, "Toward a Theory of Situation Awareness in Dynamic Systems," *Human Factors*, vol. 37, no. 1, pp. 32-64, 1995. DOI: [https://doi.org/10.1518/001872095779049543](https://doi.org/10.1518/001872095779049543)
+[5] L. Chen et al., "Application of a virtual reality-based measurement of simple reaction time in adults: a psychometric evaluation," *Virtual Reality*, vol. 29, art. 12, 2025. DOI: [https://doi.org/10.1007/s10055-025-01165-6](https://doi.org/10.1007/s10055-025-01165-6)
 
-[6] S. G. Hart and L. E. Staveland, "Development of NASA-TLX (Task Load Index): Results of Empirical and Theoretical Research," *Advances in Psychology*, vol. 52, pp. 139-183, 1988. DOI: [https://doi.org/10.1016/S0166-4115(08)62386-9](https://doi.org/10.1016/S0166-4115(08)62386-9)
+[6] J. Brinkmann and C. Lorei, "Capability of Virtual Reality for Military Stress Inoculation Training: Stress induction using heart rate considering the influence of cybersickness, interest in technology, technology anxiety and movement," *Acta Psychologica*, vol. 263, art. 106338, 2026. DOI: [https://doi.org/10.1016/j.actpsy.2026.106338](https://doi.org/10.1016/j.actpsy.2026.106338)

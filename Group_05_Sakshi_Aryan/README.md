@@ -3,6 +3,8 @@
 ## Authorized Research Title
 > **"How can voice-driven spatial NLP commands in Unity VR reduce task completion latency and interaction failure rates for motor-impaired users facing physical controller barriers?"**
 
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality - Institute Open Elective)
+
 ---
 
 ## Executive Abstract & Problem Scope
@@ -18,10 +20,10 @@ According to the **W3C WebXR Accessibility User Requirements (XAUR)** and **ISO 
 |---|---|---|---|---|---|
 | 1 | `Bolt1980` | 'Put-that-there': Voice and gesture at the graphics interface | ACM SIGGRAPH Comput. Graph. | 1980 | [10.1145/800250.807503](https://doi.org/10.1145/800250.807503) |
 | 2 | `MacKenzie1992` | Fitts' law as a research and design tool in human-computer interaction | Human-Computer Interaction | 1992 | [10.1207/s15327051hci0701_3](https://doi.org/10.1207/s15327051hci0701_3) |
-| 3 | `Wobbrock2011` | Ability-Based Design: Concept, Principles and Examples | ACM Trans. Access. Comput. | 2011 | [10.1145/1952383.1952384](https://doi.org/10.1145/1952383.1952384) |
-| 4 | `Mott2020` | Understanding the Accessibility of Virtual Reality for People with Limited Mobility | ACM ASSETS | 2020 | [10.1145/3373625.3416998](https://doi.org/10.1145/3373625.3416998) |
-| 5 | `Adhikary2021` | Text Entry in Virtual Environments using Speech and a Midair Keyboard | IEEE Trans. Visual. Comput. Graph. | 2021 | [10.1109/TVCG.2021.3067776](https://doi.org/10.1109/TVCG.2021.3067776) |
-| 6 | `Yan2023` | ConeSpeech: Directional Speech Interaction in Virtual Reality | IEEE Trans. Visual. Comput. Graph. | 2023 | [10.1109/TVCG.2023.3247085](https://doi.org/10.1109/TVCG.2023.3247085) |
+| 3 | `Yan2023` | ConeSpeech: Exploring Directional Speech Interaction for Multi-Person Remote Communication in Virtual Reality | IEEE Trans. Visual. Comput. Graph. | 2023 | [10.1109/TVCG.2023.3247085](https://doi.org/10.1109/TVCG.2023.3247085) |
+| 4 | `Zhang2023` | Tell Me Where To Go: Voice-Controlled Hands-Free Locomotion for Virtual Reality Systems | 2023 IEEE Conf. Virtual Reality (VR) | 2023 | [10.1109/vr55154.2023.00028](https://doi.org/10.1109/vr55154.2023.00028) |
+| 5 | `Kabir2025` | Multimodal Hands-Free VR For Wheelchair Users With Upper Limb Mobility Limitations: Leaning, Head-Gain, and Gaze Pointing | 2025 IEEE Conf. VR Abstracts & Workshops (VRW) | 2025 | [10.1109/vrw66409.2025.00032](https://doi.org/10.1109/vrw66409.2025.00032) |
+| 6 | `Oliveira2025` | Beyond buttons: A user-centric approach to hands-free locomotion in Virtual Reality via voice commands | Computers & Graphics | 2025 | [10.1016/j.cag.2025.104318](https://doi.org/10.1016/j.cag.2025.104318) |
 
 ---
 
@@ -29,10 +31,10 @@ According to the **W3C WebXR Accessibility User Requirements (XAUR)** and **ISO 
 
 ```
 ===================================================================================================
-Roll No   Student Name      Assigned Engineering Role                  Git Feature Branch
+Roll No   Student Name      Program               Assigned Engineering Role             Git Feature Branch
 ===================================================================================================
-A057      Sakshi Sharma     XR Systems Architect                       feat/a057-xr-systems-architect
-I077      Aryan Kanungo     Spatial NLP & Accessibility Lead           feat/i077-spatial-nlp-accessib
+A057      Sakshi Sharma     B.Tech IT             XR Systems Architect & Gaze Lead      feat/a057-xr-systems-architect
+I077      Aryan Kanungo     B.Tech AI             Spatial NLP & Ergonomics Lead         feat/i077-spatial-nlp-accessib
 ===================================================================================================
 ```
 

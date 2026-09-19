@@ -10,34 +10,34 @@
 * **Interactive VR Environment:** Unity OpenXR immersive environment for residential home theater pre-visualization (`Assets/index.html` and `Assets/Scripts/`).
 * **Geometrical Acoustic Raycasting:** Real-time Monte Carlo acoustic raycasting simulating specular reflections and frequency-dependent boundary absorption (`Assets/Scripts/AcousticRaycaster.cs`).
 * **Reverberation & Sightline Telemetry:** Automated Schroeder backward integration logging octave-band RT60 ($T_{20}, T_{30}$) and vertical/horizontal sightline clearance (`Assets/Scripts/RT60TelemetryLogger.cs`).
-* **CSBS Technoeconomic Evaluation:** Dimensionless operational rework elimination model and contractor payback amortization analysis (`telemetry/av_integration_economics.py`).
+* **Techno-Managerial Systems Evaluation:** Dimensionless operational rework elimination model and contractor payback amortization analysis (`telemetry/acoustic_av_integration_roi.py`).
 * **Human Factors & Usability Benchmarking:** Standardized evaluation using Kennedy SSQ, NASA-TLX cognitive workload, and System Usability Scale (SUS) calculators (`telemetry/`).
 
 ---
 
 ## 2. Student Engineering Team Matrix
 
-| Roll No | SAP ID | Student Name | Technical Role | Assigned Git Branch | Core Viva Defense Area |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `I066` | `70412500015` | **Meahaan Sharma** | Lead XR Systems Architect | `feat/i066-xr-systems-architect` | Unity OpenXR rig configuration, room mesh collision bounds, interactive UI controls, and sightline clearance raycasting. |
-| `C034` | `70322200003` | **Amogh Gupta** | Spatial Acoustics & Audio Specialist | `feat/c034-spatial-acoustics-au` | Geometrical acoustic raycasting, frequency-dependent absorption modeling (Sabine/Eyring formulas), Schroeder backward integration for RT60, and CEDIA/CTA-RP22 curve matching. |
-| `N083` | `70472400056` | **Harshit Rai** | Human Factors & Usability Engineer | `feat/n083-human-factors-usabil` | Ergonomic sightline clearance calculations (vertical elevation < 15 deg, horizontal FOV 36-40 deg), NASA-TLX cognitive workload reduction, Kennedy SSQ cybersickness minimization, and SUS score evaluation. |
-| `N087` | `70472400098` | **Rannbir Sachdeva** | Technoeconomic Product Manager | `feat/n087-technoeconomic-produ` | AV integration workflow modeling, physical rework reduction (from 29.2% to 4.2%), acoustic panel material amortization, and dimensionless payback horizon (5.1 months). |
+| Roll No | SAP ID | Student Name | Degree Programme | Technical Role | Assigned Git Branch | Core Viva Defense Area |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `I066` | `70412500015` | **Meahaan Sharma** | MBA (Tech) (Info. Tech) | Lead XR Systems Architect | `feat/i066-xr-systems-architect` | Unity OpenXR rig configuration, room mesh collision bounds, interactive UI controls, and sightline clearance raycasting. |
+| `C034` | `70322200003` | **Amogh Gupta** | B.Tech (Comp. Engg.) (Integrated) | Spatial Acoustics & Audio Specialist | `feat/c034-spatial-acoustics-au` | Geometrical acoustic raycasting, frequency-dependent absorption modeling (Sabine/Eyring formulas), Schroeder backward integration for RT60, and CEDIA/CTA-RP22 curve matching. |
+| `N083` | `70472400056` | **Harshit Rai** | MBA (Tech) (Computer) | Human Factors & Usability Engineer | `feat/n083-human-factors-usabil` | Ergonomic sightline clearance calculations (vertical elevation < 15 deg, horizontal FOV 36-40 deg), NASA-TLX cognitive workload reduction, Kennedy SSQ cybersickness minimization, and SUS score evaluation. |
+| `N087` | `70472400098` | **Rannbir Sachdeva** | MBA (Tech) (Computer) | Techno-Managerial Product Manager | `feat/n087-technoeconomic-produ` | AV integration workflow modeling, physical rework reduction (from 29.2% to 4.2%), acoustic panel material amortization, and dimensionless payback horizon (5.1 months). |
 
 ---
 
-## 3. Foundational Literature Benchmarks (6 Verified Peer-Reviewed Papers)
+## 3. Foundational Literature Benchmarks (Strict 2:4 Ratio)
 
-The research project is theoretically anchored on six foundational peer-reviewed publications validated against global bibliographic databases (IEEE, ASA, Springer, Elsevier).
+The research project is theoretically anchored on six foundational peer-reviewed publications validated against global bibliographic databases (IEEE, ASA, Springer, JAES, MDPI).
 
-| # | Author (Year) | Paper Title | Venue / Indexing | Active DOI Link | Primary Extracted Formulation | Student Lead |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **Savioja & Svensson (2015)** | *Overview of geometrical room acoustic modeling techniques* | The Journal of the Acoustical Society of America | [10.1121/1.4926438](https://doi.org/10.1121/1.4926438) | `E_refl = E_inc * (1 - alpha_mat) * (1 - s)` | Amogh Gupta (C034) & Meahaan Sharma (I066) |
-| 2 | **Chandak et al. (2008)** | *AD-Frustum: Adaptive Frustum Tracing for Interactive Sound Propagation* | IEEE Transactions on Visualization and Computer Graphics | [10.1109/TVCG.2008.111](https://doi.org/10.1109/TVCG.2008.111) | `N_rays >= (4 * pi * d_max^2) / A_rec` | Amogh Gupta (C034) |
-| 3 | **Schroeder (1965)** | *New Method of Measuring Reverberation Time* | The Journal of the Acoustical Society of America | [10.1121/1.1909343](https://doi.org/10.1121/1.1909343) | `E(t) = \int_t^\infty [h(\tau)]^2 d\tau` | Amogh Gupta (C034) & Rannbir Sachdeva (N087) |
-| 4 | **Vorlaender (2008)** | *Auralization: Fundamentals of Acoustics, Modelling, Simulation, Algorithms and Acoustic Virtual Reality* | Springer-Verlag Berlin Heidelberg | [10.1007/978-3-540-48830-9](https://doi.org/10.1007/978-3-540-48830-9) | `BRIR(t) = \sum h_i(t - tau_i) * HRTF(theta_i, phi_i)` | Meahaan Sharma (I066) |
-| 5 | **Bradley (2011)** | *Review of objective room acoustics measures and future needs* | Applied Acoustics | [10.1016/j.apacoust.2011.04.004](https://doi.org/10.1016/j.apacoust.2011.04.004) | `RT60_target = 0.05 * (V / 100)^(1/3) +/- 0.05 s` | Harshit Rai (N083) |
-| 6 | **Ratnarajah & Manocha (2024)** | *Listen2Scene: Interactive material-aware binaural sound propagation for reconstructed 3D scenes* | IEEE Conference on Virtual Reality and 3D User Interfaces (VR) | [10.1109/VR58804.2024.00048](https://doi.org/10.1109/VR58804.2024.00048) | `L_p = 10 * log10(sum E_k / E_ref)` | Amogh Gupta (C034) & Harshit Rai (N083) |
+| # | Author (Year) | Type | Paper Title | Venue / Indexing | Active DOI Link | Primary Extracted Formulation | Student Lead |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Schroeder (1965)** | Seminal | *New Method of Measuring Reverberation Time* | The Journal of the Acoustical Society of America | [10.1121/1.1909343](https://doi.org/10.1121/1.1909343) | `E(t) = \int_t^\infty [h(\tau)]^2 d\tau` | Amogh Gupta (C034) |
+| 2 | **Savioja & Svensson (2015)** | Seminal | *Overview of geometrical room acoustic modeling techniques* | The Journal of the Acoustical Society of America | [10.1121/1.4926438](https://doi.org/10.1121/1.4926438) | `E_refl = E_inc * (1 - alpha_mat) * (1 - s)` | Meahaan Sharma (I066) |
+| 3 | **Hold & Mckenzie (2022)** | Recent | *Resynthesis of Spatial Room Impulse Response Tails With Anisotropic Multi-Slope Decays* | Journal of the Audio Engineering Society | [10.17743/jaes.2022.0017](https://doi.org/10.17743/jaes.2022.0017) | `E(t, \Omega) = E_0 \exp(-2\delta(\Omega) t)` | Amogh Gupta (C034) & Harshit Rai (N083) |
+| 4 | **Mi & Kearney (2022)** | Recent | *Impact Thresholds of Parameters of Binaural Room Impulse Responses (BRIRs) on Perceptual Reverberation* | Applied Sciences | [10.3390/app12062823](https://doi.org/10.3390/app12062823) | `JND_RT \approx 5%` | Harshit Rai (N083) |
+| 5 | **Deppisch & Gari (2023)** | Recent | *Direct and Residual Subspace Decomposition of Spatial Room Impulse Responses* | IEEE/ACM Transactions on Audio, Speech, and Language Processing | [10.1109/taslp.2023.3240657](https://doi.org/10.1109/taslp.2023.3240657) | `H(f) = U_s \Lambda_s V_s^H + U_r \Lambda_r V_r^H` | Meahaan Sharma (I066) & Rannbir Sachdeva (N087) |
+| 6 | **Ratnarajah & Manocha (2024)** | Recent | *Listen2Scene: Interactive material-aware binaural sound propagation for reconstructed 3D scenes* | IEEE Conference on Virtual Reality and 3D User Interfaces (VR) | [10.1109/VR58804.2024.00048](https://doi.org/10.1109/VR58804.2024.00048) | `L_p = 10 \log_{10}(\sum E_k / E_{ref})` | Rannbir Sachdeva (N087) & Amogh Gupta (C034) |
 
 For the exhaustive literature analysis, mathematical derivations, and viva defense questions, refer to:
 * [`docs/LITERATURE_REVIEW_AND_FOUNDATIONAL_PAPERS.md`](docs/LITERATURE_REVIEW_AND_FOUNDATIONAL_PAPERS.md)
@@ -69,7 +69,7 @@ For the exhaustive literature analysis, mathematical derivations, and viva defen
 `-- telemetry/
     |-- .gitkeep
     |-- acoustic_benchmark_data.csv                    <- Empirical benchmark trial dataset (N = 50 runs)
-    |-- av_integration_economics.py                    <- CSBS dimensionless technoeconomic model
+    |-- acoustic_av_integration_roi.py                 <- Techno-managerial dimensionless operational model
     |-- generate_paper_figures.py                      <- Standalone 300 DPI publication figure generator
     |-- kennedy_ssq_calculator.py                      <- Simulator sickness questionnaire evaluation tool
     |-- nasa_tlx_calculator.py                         <- Cognitive workload assessment tool
@@ -87,11 +87,11 @@ To ensure academic rigor and authentic student learning, this repository enforce
   * Interactive 3D scene architecture and Raycast hit detection framework (`Assets/`).
   * Telemetry toolchain and usability evaluation calculators (`telemetry/`).
   * Literature foundation, mathematical formulations, and conference paper blueprint (`docs/`).
-  * Dimensionless technoeconomic framework (`telemetry/av_integration_economics.py`).
+  * Dimensionless techno-managerial economic framework (`telemetry/acoustic_av_integration_roi.py`).
 * **Student Technical Deliverables (Required for Evaluation):**
   * Implement and calibrate the frequency-dependent absorption and Schroeder integration in `Assets/Scripts/AcousticRaycaster.cs` and `Assets/Scripts/RT60TelemetryLogger.cs` (completing all `# TODO [Student Roll / Name]` blocks).
   * Execute simulation trials across untreated, partially treated, and fully optimized home cinema configurations to collect empirical data in `telemetry/acoustic_benchmark_data.csv`.
-  * Re-run `telemetry/generate_paper_figures.py` with live experimental data to regenerate publication figures.
+  * Re-run `telemetry/acoustic_av_integration_roi.py` with live experimental data to regenerate publication figures.
   * Author the final 4-page IEEE conference paper in `docs/RESEARCH_PAPER_MANUSCRIPT_BLUEPRINT.md` and defend individual Git commits during the oral viva.
 
 ---
@@ -112,9 +112,6 @@ git checkout -b feat/i066-xr-systems-architect
 # Step 3: Run telemetry and evaluation unit tests
 python telemetry/test_evaluation_tools.py
 
-# Step 4: Verify 300 DPI publication figures
-python telemetry/generate_paper_figures.py
-
-# Step 5: Execute CSBS technoeconomic model
-python telemetry/av_integration_economics.py
+# Step 4: Verify 300 DPI publication figures and techno-managerial ROI model
+python telemetry/acoustic_av_integration_roi.py
 ```

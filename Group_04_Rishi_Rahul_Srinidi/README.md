@@ -3,6 +3,8 @@
 ## Authorized Research Title
 > **"To what extent can a VR cybersecurity escape room reduce credential leakage and unauthorized physical access errors among university students exposed to simulated social-engineering attacks?"**
 
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality - Institute Open Elective)
+
 ---
 
 ## Executive Abstract & Problem Scope
@@ -16,12 +18,12 @@ This project develops an immersive, gamified **VR Cybersecurity Escape Room** in
 
 | # | Citation Key | Full Canonical Title | Journal / Conference | Year | Verified DOI |
 |---|---|---|---|---|---|
-| 1 | `Hake1998` | Interactive-engagement versus traditional methods | American Journal of Physics | 1998 | [10.1119/1.18809](https://doi.org/10.1119/1.18809) |
+| 1 | `Hake1998` | Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses | American Journal of Physics | 1998 | [10.1119/1.18809](https://doi.org/10.1119/1.18809) |
 | 2 | `Mouton2016` | Social engineering attack examples, templates and scenarios | Computers & Security | 2016 | [10.1016/j.cose.2016.03.004](https://doi.org/10.1016/j.cose.2016.03.004) |
-| 3 | `Bosnjak2020` | Shoulder surfing experiments: A systematic literature review | Computers & Security | 2020 | [10.1016/j.cose.2020.102023](https://doi.org/10.1016/j.cose.2020.102023) |
-| 4 | `Workman2007` | Gaining Access with Social Engineering: An Empirical Study | Information Systems Security | 2007 | [10.1080/10658980701788165](https://doi.org/10.1080/10658980701788165) |
-| 5 | `Vykopal2023` | Smart Environment for Adaptive Learning of Cybersecurity Skills | IEEE Trans. Learn. Technol. | 2023 | [10.1109/TLT.2022.3216345](https://doi.org/10.1109/TLT.2022.3216345) |
-| 6 | `Williams2021` | Design of a Virtual Cybersecurity Escape Room | Lecture Notes in Networks | 2021 | [10.1007/978-3-030-84614-5_6](https://doi.org/10.1007/978-3-030-84614-5_6) |
+| 3 | `Rehman2026` | Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats | Virtual Reality | 2026 | [10.1007/s10055-025-01309-8](https://doi.org/10.1007/s10055-025-01309-8) |
+| 4 | `Vykopal2023` | Smart Environment for Adaptive Learning of Cybersecurity Skills | IEEE Transactions on Learning Technologies | 2023 | [10.1109/TLT.2022.3216345](https://doi.org/10.1109/TLT.2022.3216345) |
+| 5 | `Wedyan2025` | Awareness of cybersecurity vulnerabilities in virtual reality: an analytical study | Security Journal | 2025 | [10.1057/s41284-025-00473-5](https://doi.org/10.1057/s41284-025-00473-5) |
+| 6 | `Ramaseri2024` | Cybersecurity threats in Virtual Reality Environments: A Literature Review | 2024 Cyber Awareness and Research Symposium (CARS) | 2024 | [10.1109/cars61786.2024.10778838](https://doi.org/10.1109/cars61786.2024.10778838) |
 
 ---
 
@@ -29,11 +31,11 @@ This project develops an immersive, gamified **VR Cybersecurity Escape Room** in
 
 ```
 ===================================================================================================
-Roll No   Student Name          Assigned Engineering Role             Git Feature Branch
+Roll No   Student Name          Assigned Engineering Role                      Git Feature Branch
 ===================================================================================================
-K068      Rishi Vishwakarma     Cyber Vulnerability Architect         feat/k068-cyber-vulnerability-
-K075      Rahul Behera          XR Systems Architect                  feat/k075-xr-systems-architect
-K081      Srinidi Subramaniam   Human Factors & Security QA Lead      feat/k081-human-factors-securi
+K068      Rishi Vishwakarma     Cyber Threat Modeling & Telemetry Engine Arch  feat/k068-cyber-vulnerability-
+K075      Rahul Behera          XR Systems Architect & OpenXR Physics Lead     feat/k075-xr-systems-architect
+K081      Srinidi Subramaniam   Human Factors, Workload & Security QA Lead     feat/k081-human-factors-securi
 ===================================================================================================
 ```
 

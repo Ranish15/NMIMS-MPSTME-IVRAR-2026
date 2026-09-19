@@ -8,15 +8,17 @@
       "roll_no": "C136",
       "sap_id": "70322200040",
       "name": "Mishika Shah",
-      "role": "Spatial Vision & AR Lead",
-      "assigned_branch": "feat/c136-spatial-vision-ar-le",
+      "program": "B.Tech Computer Engineering (Integrated)",
+      "role": "Computer Vision & ArUco Pose Estimation Lead",
+      "assigned_branch": "feat/c136-spatial-vision-ar-lead",
       "github_username": ""
     },
     {
       "roll_no": "C172",
       "sap_id": "70322200086",
       "name": "Parva Gaglani",
-      "role": "XR Systems Architect",
+      "program": "B.Tech Computer Engineering (Integrated)",
+      "role": "XR Systems Architect & VIO Drift Calibration Lead",
       "assigned_branch": "feat/c172-xr-systems-architect",
       "github_username": ""
     },
@@ -24,7 +26,8 @@
       "roll_no": "C139",
       "sap_id": "70322200104",
       "name": "Vansh Panchal",
-      "role": "Graph Algorithms & Navigation Specialist",
+      "program": "B.Tech Computer Engineering (Integrated)",
+      "role": "3D Multi-Floor A* Graph & Pathfinding Specialist",
       "assigned_branch": "feat/c139-graph-algorithms-nav",
       "github_username": ""
     },
@@ -32,45 +35,15 @@
       "roll_no": "C174",
       "sap_id": "70322200143",
       "name": "Triesha Shah",
-      "role": "Human Factors & Usability Engineer",
-      "assigned_branch": "feat/c174-human-factors-usabil",
+      "program": "B.Tech Computer Engineering (Integrated)",
+      "role": "Human Factors, AR UI/UX & Telemetry Engineer",
+      "assigned_branch": "feat/c174-human-factors-usability",
       "github_username": ""
     }
   ],
   "foundational_papers": [
     {
-      "citation_key": "GarridoJurado2014",
-      "title": "Automatic generation and detection of highly reliable fiducial markers under occlusion",
-      "authors": "S. Garrido-Jurado, R. Munoz-Salinas, F. J. Madrid-Cuevas, M. J. Marin-Jimenez",
-      "year": 2014,
-      "journal": "Pattern Recognition, vol. 47, no. 6, pp. 2280-2292",
-      "doi": "10.1016/j.patcog.2014.01.005"
-    },
-    {
-      "citation_key": "Olson2011",
-      "title": "AprilTag: A robust and flexible visual fiducial system",
-      "authors": "E. Olson",
-      "year": 2011,
-      "journal": "IEEE International Conference on Robotics and Automation (ICRA), pp. 3400-3407",
-      "doi": "10.1109/ICRA.2011.5979561"
-    },
-    {
-      "citation_key": "Qin2018",
-      "title": "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator",
-      "authors": "T. Qin, P. Li, S. Shen",
-      "year": 2018,
-      "journal": "IEEE Transactions on Robotics, vol. 34, no. 4, pp. 1004-1020",
-      "doi": "10.1109/TRO.2018.2853729"
-    },
-    {
-      "citation_key": "Mulloni2011",
-      "title": "Handheld augmented reality indoor navigation with activity-based instructions",
-      "authors": "A. Mulloni, H. Seichter, D. Schmalstieg",
-      "year": 2011,
-      "journal": "ACM MobileHCI 2011, pp. 211-220",
-      "doi": "10.1145/2037373.2037406"
-    },
-    {
+      "id": "P1",
       "citation_key": "Kato1999",
       "title": "Marker tracking and HMD calibration for a video-based augmented reality conferencing system",
       "authors": "H. Kato, M. Billinghurst",
@@ -79,12 +52,49 @@
       "doi": "10.1109/IWAR.1999.803809"
     },
     {
-      "citation_key": "Isikdag2013",
-      "title": "A BIM-Oriented Model for supporting indoor navigation requirements",
-      "authors": "U. Isikdag, S. Zlatanova, J. Underwood",
-      "year": 2013,
-      "journal": "Computers, Environment and Urban Systems, vol. 41, pp. 112-123",
-      "doi": "10.1016/j.compenvurbsys.2013.05.001"
+      "id": "P2",
+      "citation_key": "GarridoJurado2014",
+      "title": "Automatic generation and detection of highly reliable fiducial markers under occlusion",
+      "authors": "S. Garrido-Jurado, R. Munoz-Salinas, F. J. Madrid-Cuevas, M. J. Marin-Jimenez",
+      "year": 2014,
+      "journal": "Pattern Recognition, vol. 47, no. 6, pp. 2280-2292",
+      "doi": "10.1016/j.patcog.2014.01.005"
+    },
+    {
+      "id": "P3",
+      "citation_key": "Asmara2023",
+      "title": "Marker vs. Markerless: Usability Insights for Indoor Navigation with Handheld Augmented Reality Systems",
+      "authors": "R. A. Asmara, H. Fabroyir",
+      "year": 2023,
+      "journal": "2023 14th International Conference on Information & Communication Technology and System (ICTS), pp. 1-6",
+      "doi": "10.1109/icts58770.2023.10330861"
+    },
+    {
+      "id": "P4",
+      "citation_key": "Hinderer2025",
+      "title": "Investigation of ArUco Marker Placement for Planar Indoor Localization",
+      "authors": "M. Hinderer, S. Scheffler, C. Yang",
+      "year": 2025,
+      "journal": "2025 IEEE International Conference on Advanced Robotics (ICAR), pp. 1-7",
+      "doi": "10.1109/icar65334.2025.11338671"
+    },
+    {
+      "id": "P5",
+      "citation_key": "Miyashita2025",
+      "title": "Hierarchical ArUco Marker Array for Coarse-to-Fine Localization in XR applications",
+      "authors": "T. Miyashita, K. Tabata, T. Ishikawa",
+      "year": 2025,
+      "journal": "2025 IEEE International Conference on Artificial Intelligence and eXtended and Virtual Reality (AIxVR), pp. 1-6",
+      "doi": "10.1109/aixvr63409.2025.00040"
+    },
+    {
+      "id": "P6",
+      "citation_key": "Dhanasekar2025",
+      "title": "Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications",
+      "authors": "S. Dhanasekar, M. Kiruthika",
+      "year": 2025,
+      "journal": "Proceedings of the 1st International Conference on Human-Centric Computing, pp. 1-8",
+      "doi": "10.5220/0013886300004919"
     }
   ]
 }

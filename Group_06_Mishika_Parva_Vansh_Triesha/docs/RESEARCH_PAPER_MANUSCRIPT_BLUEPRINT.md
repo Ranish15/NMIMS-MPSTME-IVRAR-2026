@@ -3,6 +3,8 @@
 **Title:** Eliminating Visual-Inertial Odometry Drift in Multi-Storey Indoor AR Navigation via Ground-Truth Optical Fiducials and 3D Topological Graphs  
 **Target Conferences:** IEEE ISMAR / IEEE TVCG / ACM MobileHCI  
 **Authors:** Mishika Shah (C136), Parva Gaglani (C172), Vansh Panchal (C139), Triesha Shah (C174)  
+**Program:** B.Tech Computer Engineering (Integrated)  
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality)
 
 ---
 
@@ -14,9 +16,9 @@ Indoor wayfinding in sprawling multi-storey university buildings presents a majo
 ---
 
 ## Section I: Introduction & Problem Statement
-Spatial orientation across complex, multi-story academic buildings with homogeneous corridors and distributed laboratories poses severe navigational difficulties for new students [4], [6]. GPS signals attenuate completely within reinforced concrete structures. Active indoor positioning infrastructures—such as Bluetooth Low Energy (BLE) beacon grids and Wi-Fi fingerprinting—demand high capital expenditure, frequent battery replacement, and ongoing RF site recalibration [3].
+Spatial orientation across complex, multi-story academic buildings with homogeneous corridors and distributed laboratories poses severe navigational difficulties for new students [3], [6]. GPS signals attenuate completely within reinforced concrete structures. Active indoor positioning infrastructures—such as Bluetooth Low Energy (BLE) beacon grids and Wi-Fi fingerprinting—demand high capital expenditure, frequent battery replacement, and ongoing RF site recalibration [4].
 
-While mobile AR provides intuitive in-situ visual guidance, monocular Visual-Inertial Odometry (VIO) suffers from dead-reckoning drift that accumulates rapidly over long featureless corridors [3]. Grounded in optical pose estimation [1], [5] and BIM spatial models [6], this study investigates:  
+While mobile AR provides intuitive in-situ visual guidance, monocular Visual-Inertial Odometry (VIO) suffers from dead-reckoning drift that accumulates rapidly over long featureless corridors [3]. Grounded in optical pose estimation [1], [2] and spatial fiducial arrays [4], [5], this study investigates:  
 *How can an AR visual-marker navigation system using ArUco and QR anchors optimize transit time and route-finding errors across multi-storey university buildings for first-year students?*
 
 We hypothesize:
@@ -28,22 +30,22 @@ We hypothesize:
 ## Section II: System Architecture & Algorithmic Modeling
 
 ### A. Perspective-n-Point (PnP) Optical Drift Reset
-When an ArUco marker is detected in the mobile video stream, its four 2D corner coordinates $\{\mathbf{u}_i\}_{i=1}^4$ are extracted with sub-pixel precision [1]. Given known physical marker dimensions $L = 0.18$ m and camera intrinsic matrix $\mathbf{K}$, the camera-to-marker pose $[\mathbf{R} | \mathbf{t}]$ is computed by minimizing reprojection error:
+When an ArUco marker is detected in the mobile video stream, its four 2D corner coordinates $\{\mathbf{u}_i\}_{i=1}^4$ are extracted with sub-pixel precision [2]. Given known physical marker dimensions $L = 0.18$ m and camera intrinsic matrix $\mathbf{K}$, the camera-to-marker pose $[\mathbf{R} | \mathbf{t}]$ is computed by minimizing reprojection error:
 
 $$\arg\min_{\mathbf{R}, \mathbf{t}} \sum_{i=1}^4 \left\| \mathbf{u}_i - \pi\left( \mathbf{K} (\mathbf{R} \mathbf{X}_i + \mathbf{t}) \right) \right\|^2$$
 
-where $\mathbf{X}_i$ are marker corner coordinates in object space and $\pi(\cdot)$ is the perspective projection operator. The global camera pose in the BIM coordinate frame is then recovered:
+where $\mathbf{X}_i$ are marker corner coordinates in object space and $\pi(\cdot)$ is the perspective projection operator [1]. The global camera pose in the BIM coordinate frame is then recovered:
 
 $$\mathbf{T}_{\text{world}}^{\text{camera}} = \mathbf{T}_{\text{world}}^{\text{marker}} \cdot (\mathbf{T}_{\text{camera}}^{\text{marker}})^{-1}$$
 
-This calculation instantly resets cumulative VIO translation and yaw drift to zero [3].
+This calculation instantly resets cumulative VIO translation and yaw drift to zero [4].
 
 ### B. Multi-Floor 3D Topological Graph Search
-The building layout is modeled as a directed graph $G = (V, E)$, where vertices $V$ represent corridor waypoints, room doors, stairwell portals, and elevator landings. Edges $E$ possess transition weights:
+The building layout is modeled as a directed graph $G = (V, E)$, where vertices $V$ represent corridor waypoints, room doors, stairwell portals, and elevator landings [6]. Edges $E$ possess transition weights:
 
 $$w(u, v) = d_{\text{euclidean}}(u, v) + \Delta h_{\text{floor}} \cdot W_{\text{vertical}}$$
 
-where $W_{\text{vertical}} = 15.0$ is an ergonomic penalty coefficient for stair climbing. Optimal routes are solved via $A^*$ search using 3D Euclidean distance as the admissible heuristic [6].
+where $W_{\text{vertical}} = 15.0$ is an ergonomic penalty coefficient for stair climbing. Optimal routes are solved via $A^*$ search using 3D Euclidean distance as the admissible heuristic [5].
 
 ---
 
@@ -88,9 +90,9 @@ The AR visual-marker navigation system resolves mobile VIO drift and eliminates 
 ---
 
 ## References
-- [1] S. Garrido-Jurado, R. Muñoz-Salinas, F. J. Madrid-Cuevas, and M. J. Marín-Jiménez, "Automatic generation and detection of highly reliable fiducial markers under occlusion," *Pattern Recognit.*, vol. 47, no. 6, pp. 2280-2292, 2014. DOI: 10.1016/j.patcog.2014.01.005.
-- [2] E. Olson, "AprilTag: A robust and flexible visual fiducial system," in *IEEE ICRA*, 2011, pp. 3400-3407. DOI: 10.1109/ICRA.2011.5979561.
-- [3] T. Qin, P. Li, and S. Shen, "VINS-Mono: A Robust and Versatile Monocular Visual-Inertial State Estimator," *IEEE Trans. Robot.*, vol. 34, no. 4, pp. 1004-1020, 2018. DOI: 10.1109/TRO.2018.2853729.
-- [4] A. Mulloni, H. Seichter, and D. Schmalstieg, "Handheld augmented reality indoor navigation with activity-based instructions," in *ACM MobileHCI*, 2011, pp. 211-220. DOI: 10.1145/2037373.2037406.
-- [5] H. Kato and M. Billinghurst, "Marker tracking and HMD calibration for a video-based augmented reality conferencing system," in *IEEE / ACM IWAR*, 1999, pp. 85-94. DOI: 10.1109/IWAR.1999.803809.
-- [6] U. Isikdag, S. Zlatanova, and J. Underwood, "A BIM-Oriented Model for supporting indoor navigation requirements," *Comput. Environ. Urban Syst.*, vol. 41, pp. 112-123, 2013. DOI: 10.1016/j.compenvurbsys.2013.05.001.
+- [1] H. Kato and M. Billinghurst, "Marker tracking and HMD calibration for a video-based augmented reality conferencing system," in *Proc. 2nd IEEE and ACM Int. Workshop on Augmented Reality (IWAR)*, 1999, pp. 85-94. DOI: 10.1109/IWAR.1999.803809.
+- [2] S. Garrido-Jurado, R. Muñoz-Salinas, F. J. Madrid-Cuevas, and M. J. Marín-Jiménez, "Automatic generation and detection of highly reliable fiducial markers under occlusion," *Pattern Recognit.*, vol. 47, no. 6, pp. 2280-2292, 2014. DOI: 10.1016/j.patcog.2014.01.005.
+- [3] R. A. Asmara and H. Fabroyir, "Marker vs. Markerless: Usability Insights for Indoor Navigation with Handheld Augmented Reality Systems," in *Proc. 2023 14th Int. Conf. on Information & Communication Technology and System (ICTS)*, 2023, pp. 1-6. DOI: 10.1109/icts58770.2023.10330861.
+- [4] M. Hinderer, S. Scheffler, and C. Yang, "Investigation of ArUco Marker Placement for Planar Indoor Localization," in *Proc. 2025 IEEE Int. Conf. on Advanced Robotics (ICAR)*, 2025, pp. 1-7. DOI: 10.1109/icar65334.2025.11338671.
+- [5] T. Miyashita, K. Tabata, and T. Ishikawa, "Hierarchical ArUco Marker Array for Coarse-to-Fine Localization in XR applications," in *Proc. 2025 IEEE Int. Conf. on Artificial Intelligence and eXtended and Virtual Reality (AIxVR)*, 2025, pp. 1-6. DOI: 10.1109/aixvr63409.2025.00040.
+- [6] S. Dhanasekar and M. Kiruthika, "Augmented Reality Indoor Navigation Using Unity and QR Code Localization for Cross-Platform Mobile Applications," in *Proc. 1st Int. Conf. on Human-Centric Computing*, 2025, pp. 1-8. DOI: 10.5220/0013886300004919.

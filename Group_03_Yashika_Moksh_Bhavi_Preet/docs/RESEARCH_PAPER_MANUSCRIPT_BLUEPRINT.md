@@ -88,7 +88,7 @@ The collaborative multi-user VR emergency evacuation simulator resolves hostel s
 ## References
 - [1] D. Helbing and P. Molnár, "Social force model for pedestrian dynamics," *Phys. Rev. E*, vol. 51, no. 5, pp. 4282-4286, 1995. DOI: 10.1103/PhysRevE.51.4282.
 - [2] D. Helbing, I. Farkas, and T. Vicsek, "Simulating dynamical features of escape panic," *Nature*, vol. 407, no. 6803, pp. 487-495, 2000. DOI: 10.1038/35035023.
-- [3] M. Kobes, I. Helsloot, B. de Vries, and J. G. Post, "Building safety and human behaviour in fire: A literature review," *Fire Saf. J.*, vol. 45, no. 1, pp. 1-11, 2010. DOI: 10.1016/j.firesaf.2009.08.005.
-- [4] M. Kinateder et al., "Virtual Reality for Fire Evacuation Research," *Ann. Comput. Sci. Inf. Syst.*, vol. 2, pp. 313-321, 2014. DOI: 10.15439/2014F94.
-- [5] Z. Feng, V. A. González, R. Amor, R. Lovreglio, and G. Cabrera-Guerrero, "Immersive virtual reality serious games for evacuation training," *Comput. Educ.*, vol. 127, pp. 252-266, 2018. DOI: 10.1016/j.compedu.2018.09.002.
-- [6] T. Sano, E. Ronchi, Y. Minegishi, and D. Nilsson, "A pedestrian merging flow model for stair evacuation," *Fire Saf. J.*, vol. 89, pp. 77-89, 2017. DOI: 10.1016/j.firesaf.2017.02.008.
+- [3] G. Lorusso and M. De Iuliis, "Fire Emergency Evacuation from a School Building Using an Evolutionary Virtual Reality Platform," *Buildings*, vol. 12, no. 2, art. 223, 2022. DOI: 10.3390/buildings12020223.
+- [4] J. Yuan and C. Chen, "Application of navigation grid corner point algorithm in virtual reality simulation images of indoor fire evacuation," *Internet of Things*, vol. 22, art. 100716, 2023. DOI: 10.1016/j.iot.2023.100716.
+- [5] X. Liu et al., "Virtual reality for indoor emergency evacuation studies: Design, development, and implementation review," *Safety Science*, vol. 182, art. 106678, 2025. DOI: 10.1016/j.ssci.2024.106678.
+- [6] L. Zeng and P. Rebelo, "Using virtual reality to explore the effect of multimodal alarms on human emergency evacuation behaviors," *Virtual Reality*, vol. 29, art. 42, 2025. DOI: 10.1007/s10055-025-01141-0.

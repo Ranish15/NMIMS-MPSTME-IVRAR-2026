@@ -3,6 +3,8 @@
 **Title:** Mitigating Social-Engineering Vulnerabilities and Physical Credential Leakage via an Immersive Virtual Reality Cybersecurity Escape Room  
 **Target Conferences:** IEEE VR / ACM VRST / IEEE Transactions on Learning Technologies  
 **Authors:** Rishi Vishwakarma (K068), Rahul Behera (K075), Srinidi Subramaniam (K081)  
+**Program:** B.Tech Computer Science and Engineering (Cyber Security)  
+**Course Code:** 702COI002 (Immersive Virtual, Real & Augmented Reality)
 
 ---
 
@@ -14,7 +16,7 @@ Human vulnerability to non-technical social-engineering exploits—specifically 
 ---
 
 ## Section I: Introduction & Problem Statement
-Physical and semantic social-engineering attacks bypass hardware firewalls and multi-factor cryptographic defenses by exploiting human cognitive biases and politeness norms [2], [4]. The **NIST SP 800-53** framework categorizes physical access control (PE-3) and security awareness training (AT-2) as essential institutional safeguards. Nevertheless, standard corporate training modalities—consisting primarily of passive slide presentations and annual compliance videos—achieve negligible behavioral modification [1], [5].
+Physical and semantic social-engineering attacks bypass hardware firewalls and multi-factor cryptographic defenses by exploiting human cognitive biases and politeness norms [2], [6]. The **NIST SP 800-53** framework categorizes physical access control (PE-3) and security awareness training (AT-2) as essential institutional safeguards. Nevertheless, standard corporate training modalities—consisting primarily of passive slide presentations and annual compliance videos—achieve negligible behavioral modification [1], [3].
 
 To evaluate immersive spatial computing as an intervention, this paper investigates:  
 *To what extent can a VR cybersecurity escape room reduce credential leakage and unauthorized physical access errors among university students exposed to simulated social-engineering attacks?*
@@ -31,7 +33,7 @@ We hypothesize:
 The virtual escape room environment models a 3-zone corporate facility:
 1. **Zone 1 (Reception Turnstiles):** Features RFID keycard scanning and proximity detection for tailgating NPC personas approaching within radius $r = 1.8$ m.
 2. **Zone 2 (Workstation Floor):** Presents rogue unlabelled USB drives on desks alongside sticky notes containing plaintext credentials.
-3. **Zone 3 (Server Room Vault):** Requires 2FA keypad entry with dynamic gaze-occlusion detection to counter shoulder-surfing adversary bots [3].
+3. **Zone 3 (Server Room Vault):** Requires 2FA keypad entry with dynamic gaze-occlusion detection to counter shoulder-surfing adversary bots [5].
 
 ### B. Pedagogical Model: Hake's Normalized Learning Gain
 Pre- and post-simulation diagnostic assessments evaluate security knowledge across 20 standardized questions. Efficacy is quantified via Hake's normalized gain [1]:
@@ -41,7 +43,7 @@ $$g = \frac{\text{Post} - \text{Pre}}{100 - \text{Pre}}$$
 ### C. Physical Vulnerability Detection Algorithms
 1. **Tailgating Intercept:** Triggered if the turnstile door remains open beyond $T_{\text{linger}} = 3.5$ s while an unbadged avatar is within proximity.
 2. **USB Baiting Infection:** Flagged when an unverified mass-storage device is inserted into an active workstation port rather than quarantined.
-3. **Shoulder-Surfing Exposure:** Calculated as the line-of-sight exposure duration between the adversary avatar's gaze vector and the unshielded keypad digits:
+3. **Shoulder-Surfing Exposure:** Calculated as the line-of-sight exposure duration between the adversary avatar's gaze vector and the unshielded keypad digits [5]:
    $$\Delta t_{\text{exposed}} = \int_{0}^{T_{\text{entry}}} \mathbb{I}(\mathbf{g}_{\text{adv}} \cdot \mathbf{n}_{\text{keypad}} > \cos(\theta_{\text{crit}})) \cdot (1 - O_{\text{shield}}) \, dt$$
 
 ---
@@ -89,7 +91,7 @@ The VR Cybersecurity Escape Room successfully demonstrates that experiential, sp
 ## References
 - [1] R. R. Hake, "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses," *Am. J. Phys.*, vol. 66, no. 1, pp. 64-74, 1998. DOI: 10.1119/1.18809.
 - [2] F. Mouton, L. Leenen, and H. S. Venter, "Social engineering attack examples, templates and scenarios," *Comput. Secur.*, vol. 59, pp. 186-209, 2016. DOI: 10.1016/j.cose.2016.03.004.
-- [3] L. Bošnjak and B. Brumen, "Shoulder surfing experiments: A systematic literature review," *Comput. Secur.*, vol. 99, p. 102023, 2020. DOI: 10.1016/j.cose.2020.102023.
-- [4] M. Workman, "Gaining Access with Social Engineering: An Empirical Study of the Threat," *Inf. Syst. Secur.*, vol. 16, no. 6, pp. 315-331, 2007. DOI: 10.1080/10658980701788165.
-- [5] J. Vykopal, P. Seda, V. Švábenský, and P. Čeleda, "Smart Environment for Adaptive Learning of Cybersecurity Skills," *IEEE Trans. Learn. Technol.*, vol. 16, no. 2, pp. 237-250, 2023. DOI: 10.1109/TLT.2022.3216345.
-- [6] T. Williams and O. F. El-Gayar, "Design of a Virtual Cybersecurity Escape Room," in *National Cyber Summit Research Track 2021*, LNNS, vol. 310, pp. 67-82, 2021. DOI: 10.1007/978-3-030-84614-5_6.
+- [3] A. U. Rehman and J. Vanecek, "Evaluating the impact of immersive virtual reality in cybersecurity education for user empowerment against cyber threats," *Virtual Real.*, vol. 30, art. no. 15, pp. 1-18, 2026. DOI: 10.1007/s10055-025-01309-8.
+- [4] J. Vykopal, P. Seda, V. Švábenský, and P. Čeleda, "Smart Environment for Adaptive Learning of Cybersecurity Skills," *IEEE Trans. Learn. Technol.*, vol. 16, no. 2, pp. 237-250, 2023. DOI: 10.1109/TLT.2022.3216345.
+- [5] M. Wedyan, A. Alturki, and F. Alhamad, "Awareness of cybersecurity vulnerabilities in virtual reality: an analytical study," *Secur. J.*, vol. 38, pp. 1-22, 2025. DOI: 10.1057/s41284-025-00473-5.
+- [6] A. Ramaseri-Chandra and V. Pothana, "Cybersecurity threats in Virtual Reality Environments: A Literature Review," in *Proc. 2024 Cyber Awareness and Research Symposium (CARS)*, 2024, pp. 1-7. DOI: 10.1109/cars61786.2024.10778838.
