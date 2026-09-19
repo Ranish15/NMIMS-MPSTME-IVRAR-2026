@@ -1,7 +1,8 @@
 # Academic & Industrial Engineering Standards Manual
 ## Introduction to Virtual Reality & Augmented Reality (IVRAR - 702COI002)
-**Course:** Open Elective, B.Tech Semester VII  
-**Governance Oversight:** Institutional Leadership & Academic Directorate  
+**Course:** Institute Open Elective, B.Tech Semester V  
+**Academic Year:** 2026–2027 (Semester V, Odd Semester)  
+**Department:** Department of Information Technology & Computer Engineering  
 **Pedagogical Framework:** Aalborg-UNESCO Problem-Based Learning (PBL) & CDIO  
 
 ---

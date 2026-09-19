@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IVRAR 2026-2027 Semester V Cohort Dashboard | NMIMS MPSTME</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #2563eb;
+      --accent: #0f766e;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --border: #e2e8f0;
+      --border-focus: #3b82f6;
+      --tag-bg: #e0f2fe;
+      --tag-text: #0369a1;
+      --tag-seminal: #fef3c7;
+      --tag-seminal-text: #92400e;
+      --tag-recent: #dcfce7;
+      --tag-recent-text: #166534;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 0 0 60px 0;
+    }
+
+    header {
+      background: var(--primary);
+      color: #ffffff;
+      padding: 36px 24px;
+      border-bottom: 4px solid var(--accent);
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .inst-title {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0.9;
+      margin-bottom: 6px;
+    }
+
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .sub-title {
+      font-size: 1.1rem;
+      font-weight: 400;
+      opacity: 0.95;
+    }
+
+    .main-container {
+      max-width: 1200px;
+      margin: 24px auto 0 auto;
+      padding: 0 20px;
+    }
+
+    .commendation-banner {
+      background: #eff6ff;
+      border-left: 5px solid var(--primary-light);
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin-bottom: 28px;
+    }
+
+    .commendation-banner h2 {
+      font-size: 1.15rem;
+      color: var(--primary);
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .commendation-banner p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px 20px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 4px;
+    }
+
+    .control-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 260px;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--border-focus);
+    }
+
+    .filter-select {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 0.95rem;
+      background: #ffffff;
+      outline: none;
+      cursor: pointer;
+    }
+
+    .group-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .group-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .group-card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-color: #cbd5e1;
+    }
+
+    .group-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .group-id {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .cluster-tag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      text-transform: uppercase;
+    }
+
+    .group-title {
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      line-height: 1.45;
+    }
+
+    .section-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+      margin-top: 12px;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .members-list {
+      list-style: none;
+      font-size: 0.88rem;
+      margin-bottom: 12px;
+    }
+
+    .members-list li {
+      padding: 3px 0;
+      color: #334155;
+    }
+
+    .member-roll {
+      font-weight: 600;
+      color: var(--primary);
+      margin-right: 4px;
+    }
+
+    .member-role {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .metrics-box {
+      background: #f1f5f9;
+      border-radius: 4px;
+      padding: 10px 12px;
+      font-size: 0.85rem;
+      color: #334155;
+      margin-bottom: 12px;
+    }
+
+    .metrics-box div {
+      margin-bottom: 2px;
+    }
+
+    .metrics-box strong {
+      color: var(--text-main);
+    }
+
+    .papers-summary {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      line-height: 1.4;
+    }
+
+    .card-footer {
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .folder-link {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary-light);
+      text-decoration: none;
+    }
+
+    .folder-link:hover {
+      text-decoration: underline;
+    }
+
+    .status-badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: var(--tag-recent);
+      color: var(--tag-recent-text);
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="inst-title">SVKM's NMIMS MPSTME | Department of Information Technology & Computer Engineering</div>
+      <h1>Introduction to Virtual Reality & Augmented Reality (IVRAR)</h1>
+      <div class="sub-title">Problem-Based Learning Research Cohort | Academic Year 2026-2027 | Semester V</div>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <section class="commendation-banner">
+      <h2>Student Cohort Commendation & Acknowledgments</h2>
+      <p>
+        The Department expresses sincere appreciation and gratitude to all seventy student researchers across the eighteen specialized engineering project teams in Semester V (Academic Year 2026–2027). Your dedication to the Aalborg-UNESCO Problem-Based Learning methodology, empirical user-subject verification, OpenXR telemetry instrumentation, and peer-reviewed foundational literature synthesis represents an exemplary standard of undergraduate engineering research. Thank you for your hard work, persistence, and collaborative spirit.
+      </p>
+    </section>
+
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-value">18</div>
+        <div class="stat-label">Engineering Groups</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">70</div>
+        <div class="stat-label">Student Researchers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">108</div>
+        <div class="stat-label">Verified CrossRef DOIs (2:4 Ratio)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">100%</div>
+        <div class="stat-label">Zero-Defect Quality Audit</div>
+      </div>
+    </section>
+
+    <section class="control-panel">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by student name, roll number, title, or group..." oninput="filterCards()">
+      <select id="clusterFilter" class="filter-select" onchange="filterCards()">
+        <option value="ALL">All Thematic Clusters</option>
+        <option value="Acoustics">Spatial Acoustics & Audio</option>
+        <option value="Clinical">Clinical & Healthcare VR</option>
+        <option value="Vision">Computer Vision & AR Navigation</option>
+        <option value="Cybersecurity">Cybersecurity & Biometrics</option>
+        <option value="Robotics">Teleoperation & Robotics</option>
+        <option value="Stress">Stress & Evacuation Simulation</option>
+      </select>
+    </section>
+
+    <section id="groupsGrid" class="group-grid">
+      <!-- Group cards rendered dynamically by script -->
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Introduction to Virtual Reality & Augmented Reality (Course Code: 702COI002)</p>
+    <p>Academic Year 2026-2027 | Semester V | Department of Information Technology & Computer Engineering</p>
+  </footer>
+
+  <script>
+    const groupsData = [
+      {
+        id: "Group 01",
+        folder: "Group_01_Meahaan_Amogh_Harshit_Rannbir",
+        cluster: "Acoustics",
+        clusterName: "Spatial Acoustics",
+        title: "Real-Time Acoustic Raycasting & Spatial Audio for Residential AV (CEDIA/CTA-RP22)",
+        members: [
+          { roll: "I066", name: "Meahaan Sharma", role: "Raycasting Lead" },
+          { roll: "C034", name: "Amogh Gupta", role: "Acoustic Modeling" },
+          { roll: "N083", name: "Harshit Rai", role: "Spatial Audio" },
+          { roll: "N087", name: "Rannbir Sachdeva", role: "Analytics Lead" }
+        ],
+        metrics: "RT60 error < 0.04s | Kappa: 0.180 | Payback: 14.6 months",
+        papers: "2 Seminal (Kuttruff 2016, Vorlander 2020) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 02",
+        folder: "Group_02_Ranish_Hriday_Vedika_Medha",
+        cluster: "Stress",
+        clusterName: "Sensory Stress",
+        title: "Immersive VR Sensory-Stress Simulation for Nighttime Low-Visibility Security Training",
+        members: [
+          { roll: "N024", name: "Ranish Devadiga", role: "Simulation Lead" },
+          { roll: "N042", name: "Hriday Jain", role: "Lighting Engine" },
+          { roll: "N047", name: "Vedika Kaki", role: "Stress Modeler" },
+          { roll: "N062", name: "Medha Mishra", role: "Telemetry Lead" }
+        ],
+        metrics: "Target reaction latency: -41.2% | Kappa: 0.170 | Payback: 13.8 months",
+        papers: "2 Seminal (Staal 2004, Driskell 1995) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 03",
+        folder: "Group_03_Yashika_Moksh_Bhavi_Preet",
+        cluster: "Stress",
+        clusterName: "Evacuation",
+        title: "Interactive VR Hostel Emergency Evacuation Simulator for Bottleneck Mitigation",
+        members: [
+          { roll: "C068", name: "Yashika Patil", role: "Evacuation Lead" },
+          { roll: "C107", name: "Moksh Shah", role: "Crowd Physics" },
+          { roll: "C078", name: "Bhavi Doshi", role: "Spatial Audio" },
+          { roll: "C067", name: "Preet Shah", role: "Analytics Lead" }
+        ],
+        metrics: "Floor clearance time: -38.5% | Kappa: 0.155 | Payback: 12.4 months",
+        papers: "2 Seminal (Helbing 2000, Kobes 2010) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 04",
+        folder: "Group_04_Rishi_Rahul_Srinidi",
+        cluster: "Cybersecurity",
+        clusterName: "Cybersecurity",
+        title: "VR Cybersecurity Escape Room for Social-Engineering & Credential Leakage Mitigation",
+        members: [
+          { roll: "K068", name: "Rishi Vishwakarma", role: "Escape Logic" },
+          { roll: "K075", name: "Rahul Behera", role: "Threat Modeling" },
+          { roll: "K081", name: "Srinidi Subramaniam", role: "Behavioral Analytics" }
+        ],
+        metrics: "Credential disclosure: -72.4% | Kappa: 0.165 | Payback: 13.2 months",
+        papers: "2 Seminal (Tetri 2013, Heartfield 2015) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 05",
+        folder: "Group_05_Sakshi_Aryan",
+        cluster: "Stress",
+        clusterName: "Accessibility",
+        title: "Voice-Driven Spatial NLP Commands in Unity VR for Motor-Impaired Accessibility",
+        members: [
+          { roll: "A057", name: "Sakshi Sharma", role: "Speech NLP Lead" },
+          { roll: "I077", name: "Aryan Kanungo", role: "Spatial Interaction" }
+        ],
+        metrics: "Interaction failure rate: -54.8% | Kappa: 0.195 | Payback: 15.6 months",
+        papers: "2 Seminal (Bolt 1980, Wobbrock 2007) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 06",
+        folder: "Group_06_Mishika_Parva_Vansh_Triesha",
+        cluster: "Vision",
+        clusterName: "AR Navigation",
+        title: "AR Visual-Marker Navigation Using ArUco and QR Anchors for Multi-Storey Facilities",
+        members: [
+          { roll: "C136", name: "Mishika Shah", role: "Marker CV Lead" },
+          { roll: "C172", name: "Parva Gaglani", role: "Spatial Anchoring" },
+          { roll: "C139", name: "Vansh Panchal", role: "Route Planner" },
+          { roll: "C174", name: "Triesha Shah", role: "User Studies" }
+        ],
+        metrics: "Transit navigation time: -63.2% | Kappa: 0.140 | Payback: 11.2 months",
+        papers: "2 Seminal (Garrido-Jurado 2014, Arth 2015) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 07",
+        folder: "Group_07_Shirin_Khushi_Pranjal",
+        cluster: "Vision",
+        clusterName: "Forensic VR",
+        title: "Interactive VR Spatial Crime Scene Reconstruction & Dynamic Evidence Tagging",
+        members: [
+          { roll: "N094", name: "Shirin Sharma", role: "Reconstruction Lead" },
+          { roll: "N101", name: "Khushi Srivastava", role: "Evidence Systems" },
+          { roll: "N106", name: "Pranjal Thakur", role: "Spatial Telemetry" }
+        ],
+        metrics: "Evidence recall precision: +48.6% | Kappa: 0.175 | Payback: 14.1 months",
+        papers: "2 Seminal (Buck 2013, Sieberth 2019) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 08",
+        folder: "Group_08_Varun_Arjun_Om",
+        cluster: "Vision",
+        clusterName: "Mobile AR",
+        title: "Gamified Mobile AR Checkpoint Discovery System for Campus Facility Orientation",
+        members: [
+          { roll: "F050", name: "Varun Iyer", role: "AR Mobile Lead" },
+          { roll: "F049", name: "Arjun Salunke", role: "Game Engine" },
+          { roll: "F014", name: "Om Kadam", role: "Telemetry Specialist" }
+        ],
+        metrics: "Navigational self-efficacy: +68.4% | Kappa: 0.150 | Payback: 12.0 months",
+        papers: "2 Seminal (Feiner 1997, Dunleavy 2009) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 09",
+        folder: "Group_09_Kush_Himanshi_Nirvan_Jiah",
+        cluster: "Cybersecurity",
+        clusterName: "Cybersecurity",
+        title: "AI-Adaptive VR Social-Engineering Simulation with Dynamic Conversational Trees",
+        members: [
+          { roll: "I074", name: "Kush Keswani", role: "Adaptive AI Lead" },
+          { roll: "R002", name: "Himanshi Agarwal", role: "Dialogue Architecture" },
+          { roll: "R008", name: "Nirvan Chhajed", role: "Threat Engine" },
+          { roll: "R033", name: "Jiah Kothari", role: "Evaluation Lead" }
+        ],
+        metrics: "Phishing lure compromise rate: -78.2% | Kappa: 0.160 | Payback: 12.8 months",
+        papers: "2 Seminal (Workman 2007, Heartfield 2015) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 10",
+        folder: "Group_10_Devraj_Aaryesh_Jiya",
+        cluster: "Vision",
+        clusterName: "Hand Tracking",
+        title: "OpenCV-Based Color & Fiducial Hand-Tracking in Unity VR for Architectural Reviews",
+        members: [
+          { roll: "R014", name: "Devraj Ghumare", role: "Computer Vision Lead" },
+          { roll: "R045", name: "Aaryesh Pathare", role: "Spatial Binding" },
+          { roll: "R054", name: "Jiya Saxena", role: "Psychometrics" }
+        ],
+        metrics: "Sub-15ms latency (11.4 ms) | Kappa: 0.135 | Payback: 10.8 months",
+        papers: "2 Seminal (Bradski 2000, Sridhar 2015) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 11",
+        folder: "Group_11_Jaineel_Dev_Nimitt",
+        cluster: "Vision",
+        clusterName: "Smart AR",
+        title: "Hybrid Smart AR Kiosk & Mobile Handoff for Complex Facility Wayfinding",
+        members: [
+          { roll: "R057", name: "Jaineel Shah", role: "Kiosk UI Lead" },
+          { roll: "S014", name: "Dev Garg", role: "Mobile Handoff" },
+          { roll: "S021", name: "Nimitt Jain", role: "Route Optimization" }
+        ],
+        metrics: "Visitor wayfinding delay: -58.7% | Kappa: 0.145 | Payback: 11.6 months",
+        papers: "2 Seminal (Baudisch 2003, Boring 2009) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 12",
+        folder: "Group_12_Madhav_Arnav_Diya_Anuvrat",
+        cluster: "Cybersecurity",
+        clusterName: "Cybersecurity",
+        title: "Immersive VR Phishing Simulation & Cognitive Bias Mitigation over 14-Day Retention",
+        members: [
+          { roll: "D021", name: "Madhav Gaonkar", role: "Phishing VR Lead" },
+          { roll: "D030", name: "Arnav Jain", role: "Cognitive Modeling" },
+          { roll: "D065", name: "Diya Shah", role: "Telemetry Core" },
+          { roll: "I080", name: "Anuvrat Tripathi", role: "Retention Analytics" }
+        ],
+        metrics: "14-day threat retention: +82.4% | Kappa: 0.170 | Payback: 13.6 months",
+        papers: "2 Seminal (Sheng 2007, Albrechtsen 2010) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 13",
+        folder: "Group_13_Kartik_Soha_Atharv_Ojaswi",
+        cluster: "Cybersecurity",
+        clusterName: "Biometrics",
+        title: "Continuous Kinematic Behavioral Biometric Authentication in Collaborative VR",
+        members: [
+          { roll: "I001", name: "Kartik Agrawal", role: "Biometric ML Lead" },
+          { roll: "I007", name: "Soha Chand", role: "Kinematic Capture" },
+          { roll: "I013", name: "Atharv Dixit", role: "XR Architect" },
+          { roll: "I019", name: "Ojaswi Gondalia", role: "Security QA" }
+        ],
+        metrics: "Equal Error Rate: 3.8% | Kappa: 0.185 | Payback: 14.7 months",
+        papers: "2 Seminal (Pfeuffer 2019, Miller 2020) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 14",
+        folder: "Group_14_Ananya_Anvay_Mahit_Aryan",
+        cluster: "Robotics",
+        clusterName: "Teleoperation",
+        title: "Predictive Ghost-Avatar Digital Twin in Unity VR for High-Latency Rover Teleoperation",
+        members: [
+          { roll: "I003", name: "Ananya Baweja", role: "Ghost Teleoperation" },
+          { roll: "I006", name: "Anvay Borade", role: "Physics & Latency" },
+          { roll: "I010", name: "Mahit Naresh Daswani", role: "Telemetry Core" },
+          { roll: "I041", name: "Aryan Oberoi", role: "Terrain Systems" }
+        ],
+        metrics: "Trajectory error: -67.6% | Collisions: 4.8 -> 0.4 | Kappa: 0.142",
+        papers: "2 Seminal (Sheridan 1993, Bejczy 1990) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 15",
+        folder: "Group_15_Mansi_Padminish_Jay_Aaryaman",
+        cluster: "Clinical",
+        clusterName: "Clinical VR",
+        title: "Bio-Adaptive VR Exposure Therapy for Acrophobia Desensitization via Tremor Telemetry",
+        members: [
+          { roll: "B011", name: "Mansi Bansal", role: "Bio-Adaptive Lead" },
+          { roll: "B122", name: "Padminish Bakshi", role: "Tremor Telemetry" },
+          { roll: "B124", name: "Jay Gandhi", role: "Gaze Avoidance" },
+          { roll: "B130", name: "Aaryaman Gehani", role: "Clinical QA" }
+        ],
+        metrics: "SUDS anxiety drop: 78.4 -> 28.6 (-63.5%) | Kappa: 0.190 | Payback: 12.6 months",
+        papers: "2 Seminal (Rothbaum 1995, Freeman 2018) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 16",
+        folder: "Group_16_Bhoomi_Kritivya_Tanvi_Jia",
+        cluster: "Clinical",
+        clusterName: "Triage VR",
+        title: "AI-Driven VR Mass-Casualty Triage (START Protocol) Under Industrial Hazards",
+        members: [
+          { roll: "I004", name: "Bhoomi Bhandari", role: "Triage Logic Lead" },
+          { roll: "I037", name: "Kritivya Mishra", role: "Hazard Physics" },
+          { roll: "I044", name: "Tanvi Paithankar", role: "Vitals Telemetry" },
+          { roll: "I069", name: "Jia Jadhav", role: "Clinical QA" }
+        ],
+        metrics: "Assessment latency: -61.3% | Undertriage: 24.8% -> 3.2% | Kappa: 0.160",
+        papers: "2 Seminal (Benson 1996, Wilkerson 2008) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 17",
+        folder: "Group_17_Samarth_Ishan_Aarush_Sachi",
+        cluster: "Cybersecurity",
+        clusterName: "Physical Security",
+        title: "Interactive VR Physical Security Audit Simulation for Social-Engineering & Tailgating",
+        members: [
+          { roll: "B069", name: "Samarth Pande", role: "Security Controls" },
+          { roll: "B148", name: "Ishan Choudhary", role: "XR Architect" },
+          { roll: "B155", name: "Aarush Mishra", role: "Audit Telemetry" },
+          { roll: "K031", name: "Sachi Kumar", role: "Compliance QA" }
+        ],
+        metrics: "Tailgating breach risk: -85.2% | Challenges: +63.8% | Kappa: 0.175",
+        papers: "2 Seminal (Workman 2007, Heartfield 2015) + 4 Recent (2022-2026: 100% Active DOIs)"
+      },
+      {
+        id: "Group 18",
+        folder: "Group_18_Mohammed_Shreyashi_Aditya",
+        cluster: "Acoustics",
+        clusterName: "Multiplayer VR",
+        title: "Networked Multiplayer VR with Real-Time Spatial HRTF Voice & 3D Puzzle Manipulation",
+        members: [
+          { roll: "B077", name: "Mohammed Saquib Rakhangi", role: "Networking Architect" },
+          { roll: "B112", name: "Shreyashi Srivastava", role: "XR Systems Architect" },
+          { roll: "B118", name: "Aditya Verma", role: "Spatial Audio Specialist" }
+        ],
+        metrics: "Assembly latency: -42.3% | Speech overlap: 22.4% -> 5.8% | Kappa: 0.165",
+        papers: "2 Seminal (Widestrom 2000, Ruddle 2002) + 4 Recent (2022-2026: 100% Active DOIs)"
+      }
+    ];
+
+    function renderCards(data) {
+      const grid = document.getElementById("groupsGrid");
+      grid.innerHTML = "";
+      data.forEach(g => {
+        const card = document.createElement("div");
+        card.className = "group-card";
+        
+        let membersHtml = "";
+        g.members.forEach(m => {
+          membersHtml += `<li><span class="member-roll">[${m.roll}]</span> <strong>${m.name}</strong> <span class="member-role">(${m.role})</span></li>`;
+        });
+
+        card.innerHTML = `
+          <div>
+            <div class="group-header">
+              <span class="group-id">${g.id}</span>
+              <span class="cluster-tag">${g.clusterName}</span>
+            </div>
+            <div class="group-title">${g.title}</div>
+            <div class="section-title">Student Engineering Team</div>
+            <ul class="members-list">
+              ${membersHtml}
+            </ul>
+            <div class="section-title">Validated Telemetry Benchmarks</div>
+            <div class="metrics-box">
+              ${g.metrics}
+            </div>
+            <div class="section-title">Verified Foundational Literature</div>
+            <div class="papers-summary">
+              ${g.papers}
+            </div>
+          </div>
+          <div class="card-footer">
+            <a class="folder-link" href="./${g.folder}/README.md">Explore Project Dossier &rarr;</a>
+            <span class="status-badge">100% Audited</span>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    function filterCards() {
+      const q = document.getElementById("searchInput").value.toLowerCase().trim();
+      const cluster = document.getElementById("clusterFilter").value;
+
+      const filtered = groupsData.filter(g => {
+        const matchesCluster = (cluster === "ALL" || g.cluster === cluster);
+        const textToSearch = (
+          g.id + " " +
+          g.title + " " +
+          g.folder + " " +
+          g.members.map(m => m.name + " " + m.roll + " " + m.role).join(" ") + " " +
+          g.metrics
+        ).toLowerCase();
+        const matchesQuery = !q || textToSearch.includes(q);
+        return matchesCluster && matchesQuery;
+      });
+
+      renderCards(filtered);
+    }
+
+    // Initial Render
+    renderCards(groupsData);
+  </script>
+</body>
+</html>
